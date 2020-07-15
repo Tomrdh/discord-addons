@@ -1,18 +1,19 @@
 /**
-
- * @name TextArea Max Height Modifier
- * @author lonl5445
- * @version ersion (download) 0.0.1
- * @description Allows you to modifiy the max height for the textarea. Modify the maxHeight in the theme file.
- * @source https://github.com/YTGamer/bdthemes
- * @website https://discord.me/nn1080
-
+ * @name TextAreaMaxHeightModifier
+ * @author TomRdh
+ * @version 0.0.2
+ * @description Allows you to modifiy the max height for the textarea. Modify the MaxHeight in the theme file.
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/TextAreaMaxHeightModifier.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
 */
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/TextAreaMaxHeightModifier.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/TextAreaMaxHeightModifier.css);
 
 :root {
-    --maxHeight: 500px; /* Change the max height (in px, em, etc… or unset) of the textarea here! (theme default: 500px) */
+    /* Settings */
+    --maxHeight: 500px; /* Max height of the textarea here - Theme default: 500px */
 
-    --version001_tamhm: none; /* Please do not modifiy this or you'll always see the update notice */
+    /* Version */
+    --version001_tamhm: none; /* Please do not modifiy this */
 }
