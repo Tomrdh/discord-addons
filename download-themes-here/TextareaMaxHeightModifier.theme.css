@@ -1,5 +1,5 @@
 /**
- * @name TextAreaMaxHeightModifier
+ * @name TextareaMaxHeightModifier
  * @author TomRdh
  * @version 0.0.2
  * @description Allows you to modifiy the max height for the textarea. Modify the MaxHeight in the theme file.
@@ -8,7 +8,7 @@
  * @authorId 703638166162112516
 */
 
-@import url(https://tomrdh.github.io/discord-addons/nifn/TextAreaMaxHeightModifier.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/TextareaMaxHeightModifier.css);
 
 :root {
     /* Settings */
