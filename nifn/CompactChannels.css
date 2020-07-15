@@ -98,7 +98,7 @@
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "This version of CompactChannels is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    content: "I'm sorry, but CompactChannels is outdated! Please download again the theme by clicking Source." !important;
     display: var(--version004_cc, block) !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
