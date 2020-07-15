@@ -10,7 +10,7 @@ Welcome to this repository! Download my BBD themes in the [download-themes-here]
 
 # Note
 
-`Tomrdh/discord-addons` is generated from `YTGamer/bdthemes` to continue updating these themes. YTGamer/bdthemes is now discontinued.
+`Tomrdh/discord-addons` is generated from `YTGamer/bdthemes` to continue updating these themes. `YTGamer/bdthemes` is now discontinued.
 
 # If you don't know…
 
