@@ -1,15 +1,14 @@
 /**
-
- * @name Compact channels
- * @author lonl5445
- * @version ersion (download) 0.0.4
+ * @name CompactChannels
+ * @author TomRdh
+ * @version 0.0.4
  * @description Compact channellist and memberlist  — Customizable in the theme file (or use Settings if you have the ThemeSettings plugin)
- * @source https://github.com/YTGamer/bdthemes
- * @website https://discord.me/nn1080
-
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/CompactChannels.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
 */
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/CompactChannels.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/CompactChannels.css);
 
 :root {
 /*  Channels                                                                                                                          */
@@ -21,9 +20,9 @@
     --mSizeOnHover  :   240px   ;   /* Memberlist size on hover (in px, em, etc…)                      Default: 240px Disable: 240px  */
 
 /*  Transitions                                                                                                                       */
-    --time          :   300ms   ;   /* Transition time (in s or ms)                                    Default: 300ms                 */
+    --time          :   200ms   ;   /* Transition time (in s or ms)                                    Default: 200ms                 */
     --delayIn       :   100ms   ;   /* Transition delay before resizing by --xSizeOnHover (in s or ms) Default: 100ms                 */
-    --delayOut      :   350ms   ;   /* Transition delay before resizing by --xSize (in s or ms)        Default: 350ms                 */
+    --delayOut      :   300ms   ;   /* Transition delay before resizing by --xSize (in s or ms)        Default: 300ms                 */
 
     
 /*  Update                                                                                                                            */
