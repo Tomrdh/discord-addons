@@ -1,6 +1,10 @@
-# bdthemes
+# This repo is not ready yet.
 
-Welcome to this repository! Download my BBD themes in the [download-themes-here](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here) folder. The [nifn](https://github.com/Tomrdh/discord-addons/tree/master/nifn) folder (**n**o **i**dea **f**or **n**ame… loul) contains all config files. For more information, [read the wiki](https://github.com/Tomrdh/discord-addons/wiki/BDthemes---Home).
+Please wait until this message disappears and you'll be able to use these files.
+
+# Discord Addons
+
+Welcome to this repository! Download my BBD themes in the [download-themes-here](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here) folder. The [nifn](https://github.com/Tomrdh/discord-addons/tree/master/nifn) folder (**n**o **i**dea **f**or **n**ame… loul) contains all config files. For more information, [read the wiki](https://github.com/Tomrdh/discord-addons/wiki).
 
 # Links
 
