@@ -1,5 +1,5 @@
 .info-1VyQPT:after {
-    content: "Discord AMOLED Optimized build 167" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    content: "AMOLED Dark Optimized build 168" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
     font-size: 12px !important;
     color: var(--text-muted) !important;
     display: inline !important;
@@ -36,7 +36,7 @@
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "This version of Discord AMOLED Optimized is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    content: "I'm sorry, but AmoledDarkThemeOptimized is outdated! Please download again the theme by clicking Source." !important;
     display: var(--version004_dao, block) !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
