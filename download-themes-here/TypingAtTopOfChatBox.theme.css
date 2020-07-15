@@ -1,13 +1,14 @@
 /**
- * @name Typing at top of chat box
- * @author lonl5445
- * @version ersion (download) 0.0.1
+ * @name TypingAtTopOfChatBox
+ * @author TomRdh
+ * @version 0.0.1
  * @description Moves the "someone is typing…", the slowmode, the BFRedux tools and the char counter at the top of the chat box (textarea) and moves the chat box at the bottom.
- * @source https://github.com/YTGamer/bdthemes
- * @website https://discord.me/nn1080
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/TypingAtTopOfChatBox.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
 */
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/TypingAtTopOfChatBox.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/TypingAtTopOfChatBox.css);
 
 :root {
     --version001_tatocb: none;
