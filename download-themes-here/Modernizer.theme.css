@@ -1,19 +1,18 @@
 /**
-
  * @name Modernizer
- * @author lonl5445
- * @version 0.0.4 (ALPHA)
- * @description Changes the style of some elements, by changing the border radiuses, categories names and others.
- * @source https://github.com/YTGamer/bdthemes
- * @website https://discord.me/nn1080
-
+ * @author TomRdh
+ * @version 0.0.5 (ALPHA)
+ * @description Changes the style of some elements, by modifying border radiuses, categories names and other things.
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/Modernizer.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
 */
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/Modernizer.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/Modernizer.css);
 
 :root {
-	--borderRadius: 25px; /* Default: 25px */
-	--borderWidth: 3px; /* Default: 3px */
+    --borderRadius: 25px; /* Border radius for some elements - Default: 25px */
+    --borderWidth: 3px; /* Border widith for some elements - Default: 3px */
 
-	--version004-alpha_m: none; /* please do not change, it's used to hide the update notice */
+    --version004-alpha_m: none; /* Please do not change */
 }
