@@ -1,5 +1,5 @@
 /*
- * Diep.io Dark Neon Theme by lonl5445
+ * Diep.io Dark Neon Theme by TomRdh
  * How to use it?
  * Open diep.io and open the console using the Home button (or the "top-left arrow key")
  * Paste the code just below
