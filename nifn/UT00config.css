@@ -1,61 +1,57 @@
-/*	Padding (to fix ITC)									start	*/
+/*    Padding (to fix ITC)                                    start      */
 .username-1A8OIy, .username-lm8y6T, .name-uJV0GL, .title-29uC1r, .member-3-YXUe {
-	padding-right: 3px;
+    padding-right: 3px;
 }
-/*	Padding (to fix ITC)									end		*/
+/*    Padding (to fix ITC)                                    end        */
 
-/*	UT91 cfg												start	*/
+/*    UT91 cfg                                                start      */
 .messageContent-2qWWxC {
-	text-align: var(--alignMessages);
+    text-align: var(--alignMessages);
 }
 
 .header-23xsNx, .fontSize16Padding-3Wk7zP {
-	text-align: var(--alignNicknames);
+    text-align: var(--alignNicknames);
 }
 
 .compact-T3H92H .contents-2mQqc9 {
-	text-align: var(--alignCompactMode);
+    text-align: var(--alignCompactMode);
 }
 
 .fontSize16Padding-3Wk7zP {
-	text-align: var(--typeBox);
+    text-align: var(--typeBox);
 }
-/*	UT91 cfg												end		*/
+/*    UT91 cfg                                                end        */
 
-/*	UT92 cfg												start	*/
+/*    UT92 cfg                                                start      */
 .avatar-1BDn8e {
-	width: var(--chatAvatarSize) !important;
-	height: var(--chatAvatarSize) !important;
+    width: var(--chatAvatarSize) !important;
+    height: var(--chatAvatarSize) !important;
 }
-/*	UT92 cfg												end		*/
+/*    UT92 cfg                                                end        */
 
-/*	UT93 cfg												start	*/
+/*    UT93 cfg                                                start      */
 /* names (channels (+ voice counter plugin), memberlist, dms and topic) */
 .name-3_Dsmg, .name-uJV0GL, .title-29uC1r, .topic-TCb_qw, .nicknames-1XK4Zt, .akaBadge-1M-1Gw, .voiceCounter {
-	font-size: var(--textSize) !important;
+    font-size: var(--textSize) !important;
 }
 
 /* fix voice counter plugin position */
 .voiceCounter {
-	top: var(--textSize) !important;
+    top: var(--textSize) !important;
 }
 
 /* user status and bot tags */
 .activityText-yGKsKm, .activityText-OW8WYb, .botTagRegular-2HEhHi, .botTag-2WPJ74 {
-	font-size: calc(var(--textSize) / 1.3);
+    font-size: calc(var(--textSize) / 1.3);
 }
 
 /* categories and servername */
 .headerText-1-AnT0, .container-2ax-kl, .name-3YKhmS {
-	font-size: var(--categorySize);
+    font-size: var(--categorySize);
 }
 
 /* member count plugin */
 #MemberCount {
     padding-bottom: var(--categorySize);
 }
-/*	UT93 cfg												end		*/
-/*
-UT00_AllUTilities build 4
-Indent mode: Spaces, Indent size: 4
-*/
+/*    UT93 cfg                                                end        */
