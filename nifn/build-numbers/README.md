@@ -3,7 +3,7 @@
 ```diff
  |—————————————————————————————————————————————————————————————————————|
  | THEME NAME                  | INITIALS    | B.NUMBER | STATUS       |
- |—————————————————————————————+—————————————+———————————+—————————————|
+ |—————————————————————————————+—————————————+——————————+——————————————|
 +| AlwaysDisplayChannelButtons | ADCB        |        5 | UPDATED      |
 +| AmoledDarkTheme             | DA,ADT      |      268 | UPDATED      |
 +| AmoledDarkThemeOptimized    | DAO,ADTO    |      169 | UPDATED      |
