@@ -2,7 +2,7 @@
  * @name UT All UTilities
  * @author TomRdh
  * @version 0.0.2
- * @description Combines all my Minor utilities () for your UI. Fully customizable in the theme file. If this theme doesn't work anymore, try to reinstall the theme on GitHub by clicking on Source.
+ * @description Combines all my Minor utilities for your UI. Fully customizable in the theme file. If this theme doesn't work anymore, try to reinstall the theme on GitHub by clicking on Source.
  * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/UT00_AllUTilities.theme.css
  * @invite Hx24Fdn
  * @authorId 703638166162112516
@@ -90,20 +90,20 @@ UT93 Resize texts on lists (vars)
 
 /*    UT91 Align messages and nicknames on chat                          */
 :root {
-    --alignMessages:    left;                           /* Available variables: left, center, right, justify and var(--useAnyVariable)                    */
-    --alignNicknames:    left;                          /* Same available variables, but for nicknames                                                    */
+    --alignMessages:       left;                        /* Available variables: left, center, right, justify and var(--useAnyVariable)                    */
+    --alignNicknames:      left;                        /* Same available variables, but for nicknames                                                    */
     --alignCompactMode:    var(--alignMessages);        /* If you're using compact mode, change this variable. It will change nicknames AND messages.    */
-    --typeBox:            var(--alignMessages);         /* Where you type and send messages to your friends                                                */
+    --typeBox:             var(--alignMessages);        /* Where you type and send messages to your friends                                                */
 }
 
 /*    UT92 Avatar resize on chat (AKA: profile picture | pp  | pfp)     */
 /* Note: If you have enabled any theme/plugin that customizes the avatar, it might not work. */
 :root {
-    --chatAvatarSize:    47px;                          /* Change the avatar display size on chat here. Discord default: 40px. Theme default: 47px        */
+    --chatAvatarSize:      47px;                        /* Change the avatar display size on chat here. Discord default: 40px. Theme default: 47px        */
 }
 
 /*    UT93 Resize texts on lists                                         */
 :root {
-    --textSize:            13px;                        /* Discord Default: 16px. Theme default: 13px. */
-    --categorySize:        15px;                        /* Discord Default: 12px. Theme default: 15px. */
+    --textSize:            13px;                        /* TextSize for Channels - Discord Default: 16px - Theme default: 13px */
+    --categorySize:        15px;                        /* TextSize for Categories - Discord Default: 12px - Theme default: 15px */
 }
