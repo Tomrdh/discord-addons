@@ -1,10 +1,11 @@
 /**
- * @name Blur Email on Settings
- * @author lonl5445
- * @version ersion (download) 0.0.2
- * @description This mini-theme allows you to hide your email adress if you missed to enable Streamer Mode. But please, do not miss to enable Streamer Mode before to go live on any platform.
- * @source https://github.com/YTGamer/bdthemes
- * @website https://discord.me/nn1080
+ * @name BlurEmail
+ * @author TomRdh
+ * @version 0.0.2
+ * @description This mini-theme allows you to hide your email adress when you enter in User Settings if you forgot to enable Streamer Mode. But please, do not forget to enable Streamer Mode before to go live on any platform.
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/BlurEmail.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
 */
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/BlurEmail.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/BlurEmail.css);
