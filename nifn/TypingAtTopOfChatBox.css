@@ -28,7 +28,7 @@
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "This version of Typing at top of chat box is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    content: "I'm sorry, but TypingAtTopOfChatBox is outdated! Please download again the theme by clicking Source." !important;
     display: var(--version001_tatocb, block) !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
@@ -59,7 +59,3 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     z-index: 101 !important;
     pointer-events: none !important;
 }
-
-/*
-Typing at top of chat box build 1
-*/
