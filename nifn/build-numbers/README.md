@@ -12,7 +12,7 @@
 +| ContextMenusOldStyle        | CMOS,COS    |        4 | UPDATED      |
 +| CompactChannels             | CC          |        7 | UPDATED      |
 +| CustomFontForDiscord        | CF,CFFD     |        5 | UPDATED      |
- | Modernizer                  | M           |       19 | ALPHA        |
+!| Modernizer                  | M           |       19 | ALPHA        |
 -| RemoveNitroTab              | RMNT,RNT    |        2 | MAY NOT WORK |
 +| ServerlistAtBottom          | SLAB,SAB    |        5 | UPDATED      |
 +| TextAreaMaxHeightModifier   | TAMHM,TMHM  |        2 | UPDATED      |
