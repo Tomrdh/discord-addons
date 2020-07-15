@@ -5,8 +5,8 @@
  | THEME NAME                  | INITIALS    | B.NUMBER | STATUS       |
  |—————————————————————————————+—————————————+———————————+—————————————|
 +| AlwaysDisplayChannelButtons | ADCB        |        5 | UPDATED      |
-+| AmoledDarkTheme             | DA,ADT      |      267 | UPDATED      |
-+| AmoledDarkThemeOptimized    | DAO,ADTO    |      168 | UPDATED      |
++| AmoledDarkTheme             | DA,ADT      |      268 | UPDATED      |
++| AmoledDarkThemeOptimized    | DAO,ADTO    |      169 | UPDATED      |
 +| BBDLightThemeFixer          | BBDLTF,BLTF |        3 | UPDATED      |
 +| BlurEmail                   | BE          |        3 | UPDATED      |
 +| ContextMenusOldStyle        | CMOS,COS    |        4 | UPDATED      |
@@ -27,6 +27,11 @@
 (since 2020-07-15)
 
 ## 2020-07-15
+
+### AmoledDarkTheme, AmoledDarkThemeOptimized
+
+- ADT: build 268 - Edited DevTags and added HelperTag
+- ADTO: build 169 - Edited DevTags and added HelperTag
 
 ### Repository update
 
