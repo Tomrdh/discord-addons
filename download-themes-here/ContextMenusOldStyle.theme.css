@@ -1,15 +1,14 @@
 /**
-
- * @name ContextMenus Old Style
- * @author lonl5445
- * @version ersion (download) 0.0.1
- * @description Made for people who don't like the new style for contextmenus. This will not broke any plugin, only some colors will be modified.
- * @source https://github.com/YTGamer/bdthemes
- * @website https://discord.me/nn1080
-
+ * @name ContextMenusOldStyle
+ * @author TomRdh
+ * @version 0.0.1
+ * @description ContextMenus Old Style is made for people who don't like the new style for ContextMenus. This will not broke any plugin like the old version of Discord, only some colors will be modified.
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/ContextMenusOldStyle.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
 */
 
-@import url(https://ytgamer.github.io/bdthemes/nifn/CmOldStyle.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/CmOldStyle.css);
 
 :root {
     --version001_cmos: none;
