@@ -1,0 +1,31 @@
+/**
+
+ * @name Compact channels
+ * @author lonl5445
+ * @version ersion (download) 0.0.4
+ * @description Compact channellist and memberlist  — Customizable in the theme file (or use Settings if you have the ThemeSettings plugin)
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/CompactChannels.css);
+
+:root {
+/*  Channels                                                                                                                          */
+    --cSize         :   190px   ;   /* Channels list size (in px, em, etc…)                            Default: 190px                 */
+    --cSizeOnHover  :   240px   ;   /* Channels list size on hover (in px, em, etc…)                   Default: 240px                 */
+
+/*  Memberlist                                                                                                                        */
+    --mSize         :   240px   ;   /* Memberlist size (in px, em, etc…)                               Default: 60px  Disable: 240px  */
+    --mSizeOnHover  :   240px   ;   /* Memberlist size on hover (in px, em, etc…)                      Default: 240px Disable: 240px  */
+
+/*  Transitions                                                                                                                       */
+    --time          :   300ms   ;   /* Transition time (in s or ms)                                    Default: 300ms                 */
+    --delayIn       :   100ms   ;   /* Transition delay before resizing by --xSizeOnHover (in s or ms) Default: 100ms                 */
+    --delayOut      :   350ms   ;   /* Transition delay before resizing by --xSize (in s or ms)        Default: 350ms                 */
+
+    
+/*  Update                                                                                                                            */
+    --version004_cc :   none    ;   /* Do not change pliz                                              Default: none                  */
+}

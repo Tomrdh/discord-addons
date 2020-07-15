@@ -1,0 +1,68 @@
+.theme-dark .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
+.theme-dark .colorDefault-2K3EoJ.focused-3afm-j,
+.theme-dark .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.theme-dark .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j
+{
+    background: #36393f40;
+    background-color: #36393f40;
+    color: #b9bbbe;
+}
+
+.theme-light .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
+.theme-light .colorDefault-2K3EoJ.focused-3afm-j,
+.theme-light .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.theme-light .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j
+{
+    background: #36393f20;
+    background-color: #36393f20;
+    color: #4f5660;
+}
+
+#message-actions-delete.focused-3afm-j, /* delete message */
+.item-1tOPte.da-item.labelContainer-1BLJti.da-labelContainer.colorDanger-2qLCe1.colorDefault-2K3EoJ.da-colorDanger.da-colorDefault.focused-3afm-j, /* leave server */
+.item-1tOPte.labelContainer-1BLJti.colorDanger-2qLCe1.colorDefault-2K3EoJ.focused-3afm-j /* leave server on browser */
+{
+    color: #f44b4b;
+    background: #f0474730;
+    background-color: #f0474730;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "This version of ContextMenus Old Style is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version001_cmos, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
+}
+
+/*
+ContextMenus Old Style build 3
+
+Indent mode: Spaces
+Indent size: 4
+*/

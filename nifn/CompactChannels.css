@@ -1,0 +1,135 @@
+/* Channels */
+#app-mount .sidebar-2K8pFh {
+    width: var(--cSize);
+    transition: var(--time);
+    transition-delay: var(--delayOut);
+}
+
+#app-mount .sidebar-2K8pFh:hover {
+    width: var(--cSizeOnHover);
+    transition: var(--time);
+    transition-delay: var(--delayIn);
+}
+
+.text-2e2ZyG /* new unreads text */
+{
+    text-align: center;
+}
+
+.channel-2QD9_O /* dms */
+{
+    max-width: unset !important;
+}
+
+.bannerImage-1jOskm /* serverbanner */
+{
+    width: var(--cSize);
+    transition: var(--time);
+    transition-delay: var(--delayOut);
+}
+
+.sidebar-2K8pFh:hover .bannerImage-1jOskm /* serverbanner */
+{
+    width: var(--cSizeOnHover);
+    transition: var(--time);
+    transition-delay: var(--delayIn);
+}
+
+/* Memberlist */
+.membersWrap-2h-GB4 {
+    width: var(--mSize);
+    position: relative;
+    min-width: unset;
+    max-width: unset;
+    transition: all var(--time) ease;
+    transition-delay: var(--delayOut);
+}
+
+.membersWrap-2h-GB4 .scrollerWrap-2lJEkd {
+    width: var(--mSize);
+}
+
+.membersWrap-2h-GB4:hover {
+    width: var(--mSizeOnHover);
+    transition: all var(--time) ease;
+    transition-delay: var(--delayIn);
+}
+
+#dv-mount {
+    width: var(--mSize);
+    transition: all var(--time) ease;
+    transition-delay: var(--delayOut);
+}
+
+.membersWrap-2h-GB4:hover #dv-mount {
+    width: var(--mSizeOnHover);
+    transition: all var(--time) ease;
+    transition-delay: var(--delayIn);
+}
+
+.scroller-2FKFPG.da-scroller.members-1998pB.da-members {
+    max-width: unset;
+    min-width: unset;
+    width: var(--mSize) + 18px;
+    transition-delay: calc(var(--delayOut) + var(--time));
+}
+
+.scroller-2FKFPG.da-scroller.members-1998pB.da-members:hover {
+    width: var(--mSizeOnHover);
+    transition-delay: var(--delayIn);
+}
+
+.member-3-YXUe {
+    max-width: unset;
+    min-width: unset;
+    width: calc(var(--mSizeOnHover) - 18px);
+}
+
+.membersGroup-v9BXpm {
+    width: var(--mSize);
+    transition: all var(--time) ease;
+    transition-delay: var(--delayOut);
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+    width: var(--mSizeOnHover);
+    transition: all var(--time) ease;
+    transition-delay: var(--delayIn);
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "This version of CompactChannels is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version004_cc, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
+}
+
+/*
+Compact channels build 6
+*/

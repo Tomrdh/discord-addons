@@ -1,0 +1,19 @@
+/**
+ * @name Serverlist at bottom
+ * @author lonl5445
+ * @version ersion (download) 0.0.2
+ * @description Moves the serverlist at the bottom, like Guilded. Customization available in the theme file!
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/SlAtBottom.css);
+
+:root {
+    /* Custom Settings */
+    --serverSize: 40px; /* Change the size of the ServerIcons and ServerFolders. Theme default: 40px - Discord default: 48px */
+    --serverSpacing: 10px; /* Spacing between servers and folders. Default: 10px */
+
+    /* Version */
+    --version002_slab: none; /* Do not change… */
+}

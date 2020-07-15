@@ -1,0 +1,65 @@
+.base-gE7OpD {
+    bottom: unset;
+    top: -25px;
+}
+
+.charCounter-7fw40k {
+    bottom: unset;
+    top: -22px;
+}
+
+#bfredux {
+    top: -15px !important;
+}
+
+.bf-toolbar:before, .bf-toolbar::before {
+    background: transparent !important;
+}
+
+.form-2fGMdU {
+    margin-top: unset !important;
+    padding-top: 0px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.channelTextArea-rNsIhG {
+    margin-bottom: 8px;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "This version of Typing at top of chat box is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version001_tatocb, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
+}
+
+/*
+Typing at top of chat box build 1
+*/

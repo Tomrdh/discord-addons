@@ -1,0 +1,13 @@
+/*
+BlurEmail build 2
+*/
+
+.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):not(.inputWrapper-31_8H8) {
+	filter: blur(5px) !important;
+	transition: 100ms !important;
+}
+
+.userSettingsAccount-2eMFVR>div>div>div>div:nth-child(2)>div:nth-child(2)>div:nth-child(2):hover:not(.inputWrapper-31_8H8) {
+	filter: blur(0px) !important;
+	transition: 1000ms !important;
+}

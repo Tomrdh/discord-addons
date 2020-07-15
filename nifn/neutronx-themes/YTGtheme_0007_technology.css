@@ -1,0 +1,38 @@
+@import url("https://codedotspectra.github.io/themes/neutron/importCSS/xcore.css");
+@import url('https://codedotspectra.github.io/themes/mini-themes/statusRounded.css');
+@import url('https://fonts.googleapis.com/css?family=Lucida Console');
+:root {
+--bgImage: url(https://media.discordapp.net/attachments/644206156415238221/648159271636434965/orig_529237.jpg);
+--HomeButtonImg: url('https://media.discordapp.net/attachments/512352189616750603/636170532261462038/discord-512.png');
+--brightness: 0.4;
+--customFont: 'Lucida Console';
+--PrimaryColor01: #00ffff;
+--PrimaryColorRGBA: rgba(0,255,255,.15);
+--PrimaryColor02: #0000ff;
+--RoleTitleColor: #33ffff;
+--UserPlayingTextColor: #00ff00;
+--NTBackgroundColor01: #000042;
+--NTBackgroundColor02: #00003A;
+--NTBackgroundColor03: #000030;
+--NTBackgroundColor04: #000024;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT:after {
+	content: "technology 3.0.0 by YTGamer 3000" !important;
+	font-size: 12px !important;
+	color: var(--text-muted) !important;
+	cursor: pointer !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: text !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+}

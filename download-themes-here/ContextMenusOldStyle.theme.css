@@ -1,0 +1,16 @@
+/**
+
+ * @name ContextMenus Old Style
+ * @author lonl5445
+ * @version ersion (download) 0.0.1
+ * @description Made for people who don't like the new style for contextmenus. This will not broke any plugin, only some colors will be modified.
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/CmOldStyle.css);
+
+:root {
+    --version001_cmos: none;
+}

@@ -1,0 +1,16 @@
+/*
+CustomFont build 4
+*/
+
+:root {
+	--cf: var(--customFont);
+	--cbcf: var(--codeBlocksCustomFont);
+}
+
+::-webkit-input-placeholder, body, button, input, select, textarea, * {
+	font-family: var(--cf);
+}
+
+code, .markup-2BOw-j code.inline, .codeBlockText-9TnoxQ, .codeLine-14BKbG, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
+	font-family: var(--cbcf);
+}

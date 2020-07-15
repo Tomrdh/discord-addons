@@ -1,0 +1,14 @@
+/**
+ * @name BBD Light Theme Fixer
+ * @author lonl5445
+ * @version ersion (download) 0.0.1
+ * @description If you are using light theme with BandagedBD v0.3, this theme is useful to fix dark-optimized classes. Tip: You can enable it using dark theme, it will do nothing until you switch to light theme.
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/BBDLightThemeFixer.css);
+
+:root {
+    --version001_bbdltf: none; /* Do not edit this plz */
+}

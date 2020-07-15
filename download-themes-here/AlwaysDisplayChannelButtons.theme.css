@@ -1,0 +1,16 @@
+/**
+
+ * @name Always display channel buttons
+ * @author lonl5445
+ * @version ersion (download) 0.0.1
+ * @description Allows you to view what buttons you have without hovering on a channel.
+ * @source https://github.com/YTGamer/bdthemes
+ * @website https://discord.me/nn1080
+
+*/
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/AlwaysDisplayChannelButtons.css);
+
+:root {
+    --version001_adcb: none; /* Do not change… */
+}

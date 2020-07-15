@@ -1,0 +1,69 @@
+.info-1VyQPT:after {
+    content: "Discord AMOLED Optimized build 167" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    font-size: 12px !important;
+    color: var(--text-muted) !important;
+    display: inline !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+    cursor: text !important;
+    visibility: visible !important;
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: 1px !important;
+    right: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    text-transform: none !important;
+}
+
+.theme-dark {
+    --background-dark-primary: black !important;
+    --background-dark-secondary: black !important;
+    --background-dark-tertiary: black !important;
+    --background-primary: var(--background-dark-primary) !important;
+    --background-secondary: var(--background-dark-secondary) !important;
+    --background-tertiary: var(--background-dark-tertiary) !important;
+    --background-mobile-header: #2f3136 !important;
+    --background-modifier-hover: rgba(var(--greyaccentcolor),0.16) !important;
+    --background-modifier-active: rgba(var(--greyaccentcolor),0.24) !important;
+    --background-modifier-selected: rgba(var(--greyaccentcolor),0.32) !important;
+    --background-modifier-accent: rgba(255,255,255,0.06) !important;
+    --greyaccentcolor: 66,71,77;
+}
+:root {
+    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62,130,229) !important;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "This version of Discord AMOLED Optimized is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version004_dao, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
+}

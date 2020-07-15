@@ -1,0 +1,283 @@
+.theme-dark ::-webkit-input-placeholder, .theme-dark body,
+.theme-dark button, .theme-dark input, .theme-dark select, .theme-dark textarea,
+.theme-dark *                                                                       /* darktheme txt shadow */
+{
+    text-shadow: 2px 2px 4px #000000fa !important;
+}
+
+.theme-light ::-webkit-input-placeholder, .theme-light body,
+.theme-light button, .theme-light input, .theme-light select, .theme-light textarea,
+.theme-light *                                                                      /* lighttheme txt shadow */
+{
+    text-shadow: 2px 2px 4px #00000025 !important;
+}
+
+.authBox-hW6HRx,                                                                    /* login */
+.bd-toast,                                                                          /* bd toasts */
+.input-cIJ7To,                                                                      /* textinput */
+.mention,                                                                           /* mentions */
+span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                         /* mentions you */
+.modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU,   /* channel selected */
+.wrapper-1ucjTd:hover .content-3at_AU,                                              /* channel hover */
+.full-motion .scale-3iLZhb.didRender-33z1u8,                                        /* popouts */
+#app-mount .cozyMessage-3V1Y8y,                                                     /* messages cozy */
+.wrapper-2aW0bm,                                                                    /* message buttons */
+.reaction-1hd86g,                                                                   /* message reaction */
+.wrapper-35wsBm,                                                                    /* message invites */
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R9,                                       /* message spoilers hidden */
+#app-mount .spoilerText-3p6IlD,                                                     /* message spoilers revelated */
+.scrollableContainer-2NUZem,                                                        /* messagebox */
+.channelTextArea-rNsIhG,                                                            /* messagebox2 */
+.markup-2BOw-j code.inline,                                                         /* codelines */
+.markup-2BOw-j code, .markup-2BOw-j pre,                                            /* codeblocks */
+#app-mount .embedFull-2tM8--,                                                       /* embeds */
+.wrapper-39oAo3,                                                                    /* followtogetupdatesbox */
+.layout-2DM8Md,                                                                     /* home/dm tabs */
+.searchBarComponent-32dTOx .searchBar-6Kv8R2,                                       /* search indms */
+.searchBar-3dMhjb,                                                                  /* search inserver */
+.xenoLib-notification-content,                                                      /* xenolib notification */
+.bf-toolbar::before, .bf-toolbar:before, .bf-toolbar,                               /* bf-toolbar */
+.bf-toolbar .format, .bf-toolbar .format:hover,                                     /* bf-toolbar buttons */
+.item-26Dhrx,                                                                       /* settings item */
+.rem-2m9HGf.botTag-2WPJ74,                                                          /* bottags messages */
+.px-10SIf7.botTag-2WPJ74,                                                           /* bottags memberlist */
+.webhookRow-20TsIQ,                                                                 /* webhooks list */
+#app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z,                        /* tooltips */
+.toast, .bd-toast,                                                                  /* toasts */
+.wrapper-2ZbzR9.theme-light, .wrapper-2ZbzR9.theme-dark,                            /* popups 1-1 */
+.theme-light .modal-yWgWj-, .theme-dark .modal-yWgWj-,                              /* popups 1-2 */
+.inner-1ilYF7,                                                                      /* popups 1-3 */
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,              /* popups 2-1 */
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),                            /* popups 2-2 */
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ,                             /* popups 2-3 */
+.styleFixed-sX-yHV, .styleFlexible-wGDiIL,                                          /* popups 2-4 */
+.contextMenu-HLZMGh,                                                                /* contextmenus */
+.submenu-2-ysNh,                                                                    /* contextmenus submenus */
+.item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j,                                    /* status 1-1 */
+.item-1tOPte.colorDefault-2K3EoJ,                                                   /* status 1-2 */
+.card-2j1p1_,                                                                       /* permissions sync */
+.theme-dark .elevationHigh-1PneE4,                                                  /* permissions unsaved */
+.userInfoViewing-16kqK3,                                                            /* settings account */
+.ctaBar-2UsjF2,                                                                     /* serverboost */
+#app-mount #bd-settings-sidebar .ui-tab-bar-item,                                   /* settings bd-tab */
+.side-8zPYf6 .item-PXvHYJ,                                                          /* settings logout */
+.button-38aScr,                                                                     /* settings button */
+#app-mount .container-1nZlH6,                                                       /* settings shortcuts */
+.bd-addon-list .bd-card-footer button,                                              /* settings bd pluginsettingsbutton */
+#bd-settingspane-container .ui-switch-item,                                         /* settings bd themes/plugins */
+.bd-search-wrapper,                                                                 /* settings bd themes/plugins search */
+.activeNavItemPrimary-CRWnj6,                                                       /* discorddevelopers activetab */
+.cardImagePlaceholder-1fUGhL,                                                       /* discorddevelopers background */
+.cardLink-2yxLqu,                                                                   /* discorddevelopers applications */
+.cardImage-1XRTvy,                                                                  /* discorddevelopers applications pfp */
+.cardImagePlaceholder-1fUGhL,                                                       /* discorddevelopers applications pfp placeholder */
+.Select-control                                                                     /* discorddevelopers sortby */
+{
+    border-radius: var(--borderRadius);                                             /* radius */
+}
+.mentioned-xhSam7,                                                                  /* mentions: role + you */
+.wrapper-3WhCwL.da-wrapper,                                                         /* mentioned mention */
+.wrapper-2aW0bm:before,                                                             /* message buttons */
+.themed-OHr7kt.item-PXvHYJ,                                                         /* friendlist tabs */
+#bd-settingspane-container .bd-pfbtn,                                               /* settings bd header */
+.wrapper-3aJbIC,                                                                    /* discorddevelopers newsletter */
+.cardOptionTile-zyQcuf                                                              /* discorddevelopers short/long */
+{
+    border-radius: var(--borderRadius) !important;                                  /* radius please */
+}
+
+.input-cIJ7To                                                                       /* textinput */
+{
+    border-width: 2px;
+}
+.imageWrapper-2p5ogY                                                                /* message images */
+{
+    border-radius: var(--borderRadius);
+}
+.item-3T2z1R:first-child                                                            /* permissions left */
+{
+    border-top-left-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+}
+.item-3T2z1R:last-child                                                             /* permissions right */
+{
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+}
+.headerText-1-AnT0, .container-2ax-kl {                                             /* categories */
+    text-transform: none;
+}
+
+.xenoLib-notification-loadbar-user {                                                /* xenolib-notifications loadbar */
+    animation: fade-loadbar-animation 1.5s ease-out infinite;
+    position: unset;
+}
+.cozy-3raOZG .header-23xsNx:after {                                                 /* message header */
+    display: none;                                                                  /* hide */
+}
+.mention                                                                            /* mentions */
+{
+    padding: 0 3px;
+    border: solid;
+    border-width: 2px;
+    box-sizing: border-box;
+}
+.roleColor-rz2vM0 .name-uJV0GL                                                      /* memberlist nickname */
+{
+    margin-right: 10px;                                                             /* shadowcut fix */
+}
+.message-2qnXI6.da-message.mentioned-xhSam7.da-mentioned {                          /* mentioned */
+    background-color: rgba(249, 166, 26, 0.3) !important;
+    border-color: rgba(0, 1, 3, 0.3) !important;
+}
+.message-2qnXI6.da-message.mentioned-xhSam7.da-mentioned:before {                   /* mention bar at left */
+    display: none !important;
+}
+.markup-2BOw-j code.inline,                                                         /* codelines */
+.markup-2BOw-j code                                                                 /* codeblocks */
+{
+/*  border: solid;
+    border-width: 0;
+    border-color: rgba(0, 1, 3, 0.3);  */
+}
+.markup-2BOw-j pre                                                                  /* codeblocks pre */
+{
+    background: transparent;
+    border: transparent;
+    border-width: 0;
+}
+#app-mount .cozyMessage-3V1Y8y                                                      /* messages cozy */
+{
+    border: solid;
+    border-color: rgba(0, 1, 3, 0);
+    background-color: #7289da00;
+}
+.scrollableContainer-2NUZem                                                         /* messagebox */
+{
+    border: solid;
+    border-color: rgba(0, 1, 3, 0.3);
+    background-color: #7289da12;
+}
+.blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6                               /* quotes */
+{
+    border-radius: var(--borderRadius);
+    background-color: #7892da;
+    width: 4px;
+    min-width: 4px;
+    max-width: 4px;
+}
+#app-mount .embedFull-2tM8--                                                        /* embeds */
+{
+    border: solid;
+    border-width: 3px;
+}
+
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,              /* popups 2-1 */
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),                            /* popups 2-2 */
+.item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j                                     /* status 1-1 */
+{
+    transition: 0ms;
+}
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ,                             /* popups 2-3 */
+.item-1tOPte.colorDefault-2K3EoJ,                                                   /* status 1-2 */
+.status-1AY8sU                                                                      /* status 2-1 */
+{
+    transition: 0ms;
+    transition-delay: 0ms;
+}
+.wrapper-2aW0bm :first-child                                                        /* message buttons firstbutton */
+{
+    border-top-left-radius: var(--borderRadius);
+    border-bottom-left-radius: var(--borderRadius);
+}
+.wrapper-2aW0bm :last-child                                                         /* message buttons lasttbutton */
+{
+    border-top-right-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+}
+
+.channelHistoryButtons                                                              /* channelhistory buttons */
+{
+    top: unset !important;
+    left: unset !important;
+    right: 137px !important;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-1za-n7.titleBar-AC4pGV.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3 > div.wordmark-2iDDfm:after {
+    transition: 200ms;
+    transition-delay: 7s;
+    content: none !important;
+    display: none !important;
+    position: unset !important;
+    top: -999999999999px !important;
+    left: unset !important;
+    bottom: unset !important;
+    right: unset !important;
+    opacity: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    visibility: none !important;
+    transform: unset !important;
+    animation: unset !important;
+}
+
+#app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z                         /* tooltips */
+{
+    padding: 5px;
+    max-width: unset !important;
+}
+
+.tooltipPointer-3ZfirK                                                              /* tooltips pointer */
+{
+    display: none;
+}
+
+.footer-3rDWdC                                                                      /* confirmationbox footer */
+{
+    border-bottom-left-radius: var(--borderRadius);
+    border-bottom-right-radius: var(--borderRadius);
+}
+
+.messageContent-2qWWxC {
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "This version of Modernizer is outdated. Please redownload the newest version from: https://github.com/YTGamer/bdthemes (or by clicking Source)" !important;
+    display: var(--version004-alpha_m, block) !important;
+    background-color: #3e82e5 !important;
+    box-shadow: 0 0px 30px 0 #3e82e5 !important;
+    color: #fff !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
+}
+
+/*
+Modernizer build 18
+*/

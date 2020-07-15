@@ -1,0 +1,67 @@
+/*
+PASTE THIS IN YOUR BASICBACKGROUND FILE
+
+@import url(https://ytgamer.github.io/bdthemes/other/BasicBackgroundEnhancer.css);
+
+PASTE THIS IN YOUR BASICBACKGROUND FILE
+*/
+
+#app-mount .cozyMessage-3V1Y8y,
+.content-1o0f9g,
+.scrollableContainer-2NUZem {
+    border-color: rgba(var(--accentcolor),var(--messagetransparency)) !important;
+    background: rgba(var(--accentcolor),calc(var(--messagetransparency)/1.5)) !important;
+}
+
+.message-2qnXI6.da-message.mentioned-xhSam7.da-mentioned {
+    background: #00000000 !important;
+}
+
+/* Dev Tags */
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after,
+div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > span[class*="name"]:after {
+    margin-left: .48em !important;
+    top: -.225em !important;
+    position: relative !important;
+    font-size: .625em !important;
+    font-weight: bold !important;
+    padding: .09em .4em !important;
+    border-radius: var(--borderRadius, .1875rem) !important;
+    vertical-align: baseline !important;
+    flex-shrink: 0 !important;
+    text-transform: uppercase !important;
+    background-color: rgb(var(--bd-blue)) !important;
+    color: #fff !important;
+    pointer-events: none !important;
+    user-select: none !important;
+    text-decoration: none !important;
+    cursor: text !important;
+}
+
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after {
+    content: "Enhancer Dev" !important;
+}
+
+div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > span[class*="name"]:after {
+    content: "Original Dev" !important;
+}
+
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"],
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],
+div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > span[class*="name"],
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover,
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover,
+div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > span[class*="name"]:hover {
+    font-weight: bold !important;
+    color: rgb(var(--bd-blue)) !important;
+}
+
+:root {
+    --bd-blue: var(--accentcolor, 62,130,229) !important;
+}
+
+/*
+Note that this is unofficial, I know that BasicBackground is NOT my theme, I created this just to enhance this theme and to add compatibility with Modernizer.
+*/

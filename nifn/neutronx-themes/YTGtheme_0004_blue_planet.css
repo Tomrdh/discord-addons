@@ -1,0 +1,47 @@
+@import url("https://raw.githack.com/codedotspectra/themes/master/neutron/importCSS/xcore.css");
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+:root {
+--bgImage: url('https://media.discordapp.net/attachments/512352189616750603/632297264668475402/globe-bg.jpg');
+--HomeButtonImg: url('https://media.discordapp.net/attachments/512352189616750603/636170532261462038/discord-512.png');
+--brightness: 0.3;
+--customFont: 'Russo One';
+--PrimaryColor01: #4856ff;
+--PrimaryColorRGBA: rgba(72,86,255,.15);
+--PrimaryColor02: #11dbff;
+--links: #9d62ff;
+--ChatTextColor: #d5ffff;
+--RoleTitleColor: #0080ff;
+--UserPlayingTextColor: #298000;
+--ChannelsSelectedTextColor: #ffffff;
+--ChannelsDefaultTextColor: hsla(0, 100%, 100%, .6);
+--ChannelsDarkTextColor: hsla(0, 100%, 100%, .2);
+--NTBackgroundColor01: #0000ff;
+--NTBackgroundColor02: #0000ce;
+--NTBackgroundColor03: #000098;
+--NTBackgroundColor04: #000062;
+--HSL-size: 45px;
+--HSL-size: 45px;
+--HSL-spacing: 20px;
+--HSL-roundness: 20%;
+--HSL-roundnessHover: 10%;}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT:after {
+	content: "blue_planet 2.0.0 by YTGamer 3000" !important;
+	font-size: 12px !important;
+	color: var(--text-muted) !important;
+	cursor: pointer !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: text !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+}

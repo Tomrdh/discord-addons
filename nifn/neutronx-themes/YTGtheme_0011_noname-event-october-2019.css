@@ -1,0 +1,43 @@
+//META{"name":"YTGtheme_0011_noname-event-october-2019","description":"Use it for No Name 1080 (and other servers if you want)","author":"YTGamer 3000","version":"11.2"}*//
+@import url("https://codedotspectra.github.io/themes/neutron/importCSS/xcore.css");
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+:root {
+--bgImage: url('https://media.discordapp.net/attachments/512352189616750603/635469249472626719/unknown.png');
+--HomeButtonImg: url('https://media.discordapp.net/attachments/512352189616750603/636170532261462038/discord-512.png');
+--brightness: 0;
+--customFont: 'VT323';
+--PrimaryColor01: #008018;
+--PrimaryColorRGBA: rgba(0,128,64,.15);
+--PrimaryColor02: #80ff00;
+--links: #ffff00;
+--ChatTextColor: #00ff40;
+--RoleTitleColor: #80ffff;
+--UserPlayingTextColor: #00ff00;
+--ChannelsDefaultTextColor: #00ff40;
+--ChannelsSelectedTextColor: #59ffae;
+--ChannelsDarkTextColor: #006015;
+--HSL-size: 45px;
+--HSL-spacing: 10px;
+--HSL-roundness: 20%;
+--HSL-roundnessHover: 10%;}
+
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y > div.scroller-2FKFPG.sidebarRegionScroller-3MXcoP > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT:after {
+	content: "noname-event-october-2019 2.0.0 by YTGamer 3000" !important;
+	font-size: 12px !important;
+	color: var(--text-muted) !important;
+	cursor: pointer !important;
+	display: inline !important;
+	opacity: 1 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	cursor: text !important;
+	visibility: visible !important;
+	position: relative !important;
+	top: unset !important;
+	left: unset !important;
+	bottom: unset !important;
+	right: unset !important;
+	transform: unset !important;
+	animation: unset !important;
+}

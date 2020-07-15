@@ -1,0 +1,17 @@
+/* This is not a BetterDiscord theme, but a code for Browser! */
+
+@import url(https://ytgamer.github.io/bdthemes/nifn/other/CustomFontForEverywhere_Setup.css);
+
+:root {
+    --customFont:           sans-serif;    /* Choose the font here. Case sensitive? No. */
+    --codeCustomFont:       monospace;    /* Use a different font for code lines/blocks/etc… Pro tip: If you want to use the same font as the normal font, use: var(--customFont) */
+    
+    --rememberFonts:        sans-serif;    /* Remember your normal fonts here */
+    --rememberCodeFonts:    monospace;    /* Remember your code fonts here */
+}
+
+/*
+
+More help: https://github.com/YTGamer/docs/blob/master/help/CustomFont.md
+
+*/
