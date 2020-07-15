@@ -1154,9 +1154,10 @@
     background-color: var(--background-primary);
 }
 
-div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after {
-    margin-left: .48em !important;
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Myself */
+div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Cr3pp Offici3l */
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* Myself */
+    margin-left: 1.1em !important;
     top: -.225em !important;
     position: relative !important;
     font-size: .625em !important;
@@ -1165,7 +1166,6 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     border-radius: var(--borderRadius, .1875rem) !important;
     vertical-align: baseline !important;
     flex-shrink: 0 !important;
-    content: "Theme Dev" !important;
     text-transform: uppercase !important;
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
@@ -1175,18 +1175,21 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     cursor: text !important;
 }
 
-div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"],
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],
-div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover,
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover {
-    font-weight: bold !important;
-    color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Myself */
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* Myself */
+    content: "Theme Dev" !important;
 }
 
-div[id*="members"] img[src*="453591095536779274"] ~ span[class*="name"],
-div[id*="members"] img[src*="703638166162112516"] ~ span[class*="name"],
-div[id*="members"] img[src*="453591095536779274"] ~ span[class*="name"]:hover,
-div[id*="members"] img[src*="703638166162112516"] ~ span[class*="name"]:hover {
+div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after { /* Cr3pp Offici3l */
+    content: "Helper" !important;
+}
+
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"],       /* Myself */
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],       /* Myself */
+div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"],       /* Cr3pp Offici3l */
+div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover,
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover,
+div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
 }
