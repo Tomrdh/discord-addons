@@ -41,11 +41,11 @@ div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > spa
 
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after {
-    content: "Enhancer Dev" !important;
+    content: "BBE Dev" !important;
 }
 
 div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > span[class*="name"]:after {
-    content: "Original Dev" !important;
+    content: "BB Dev" !important;
 }
 
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"],
@@ -63,5 +63,6 @@ div[class*="message"] img[src*="278543574059057154"] ~ h2[class^="header"] > spa
 }
 
 /*
-Note that this is unofficial, I know that BasicBackground is NOT my theme, I created this just to enhance this theme and to add compatibility with Modernizer.
-*/
+ * Please read the BasicBackgroundEnhancer README here:
+ * https://github.com/Tomrdh/discord-addons/blob/master/other/BasicBackgroundEnhancer_README.md
+ */
