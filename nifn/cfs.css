@@ -1,7 +1,3 @@
-/*
-CustomFont build 4
-*/
-
 :root {
 	--cf: var(--customFont);
 	--cbcf: var(--codeBlocksCustomFont);
