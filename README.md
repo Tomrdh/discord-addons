@@ -1,12 +1,11 @@
 # bdthemes
 
-Welcome to this repository! Download my BBD themes in the [download-themes-here](https://github.com/YTGamer/bdthemes/tree/master/download-themes-here) folder. The [nifn](https://github.com/YTGamer/bdthemes/tree/master/nifn) folder (**n**o **i**dea **f**or **n**ame… loul) contains all config files. For more information, [read the wiki](https://github.com/YTGamer/bdthemes/wiki/BDthemes---Home).
+Welcome to this repository! Download my BBD themes in the [download-themes-here](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here) folder. The [nifn](https://github.com/Tomrdh/discord-addons/tree/master/nifn) folder (**n**o **i**dea **f**or **n**ame… loul) contains all config files. For more information, [read the wiki](https://github.com/Tomrdh/discord-addons/wiki/BDthemes---Home).
 
 # Links
 
-- [Support server and changelogs (No Name 1080)](https://discord.me/nn1080)
-- [YTGamer/docs repository](https://github.com/YTGamer/docs)
-- [License](https://github.com/YTGamer/docs/blob/master/LICENSE.md)
+- [Support server and changelogs](https://discord.gg/Hx24Fdn)
+- [License](https://github.com/Tomrdh/discord-addons/blob/master/LICENSE.md)
 
 # Note
 
