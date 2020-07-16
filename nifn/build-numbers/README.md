@@ -20,6 +20,7 @@
 -| UT00_AllUtilities           | UT00AU      |        5 | NEEDS UPDATE |
 -| BasicBackgroundEnhancer     | BBE         | null     | NEEDS UPDATE |
 +| CustomFontForBrowser        | CF,CFFB     | null     | UPDATED      |
++| YouTubeBlurEmails           | YTBE        | null     | UPDATED      |
  |—————————————————————————————————————————————————————————————————————|
 ```
 
