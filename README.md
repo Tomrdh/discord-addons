@@ -6,7 +6,7 @@ Welcome to this repository! Download my BBD themes in the [download-themes-here]
 
 # Links
 
-- [Support server](https://discord.gg/Hx24Fdn)
+- [Support server](https://discord.gg/v7ECsqT)
 - [License](https://github.com/Tomrdh/discord-addons/blob/master/LICENSE.md)
 
 # Note
