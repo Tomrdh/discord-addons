@@ -7,10 +7,12 @@
 +| AlwaysDisplayChannelButtons | ADCB        |        5 | UPDATED      |
 +| AmoledDarkTheme             | DA,ADT      |      268 | UPDATED      |
 +| AmoledDarkThemeOptimized    | DAO,ADTO    |      169 | UPDATED      |
+-| BasicBackgroundEnhancer     | BBE         |        6 | NEEDS UPDATE |
 +| BBDLightThemeFixer          | BBDLTF,BLTF |        3 | UPDATED      |
 +| BlurEmail                   | BE          |        3 | UPDATED      |
 +| ContextMenusOldStyle        | CMOS,COS    |        4 | UPDATED      |
 +| CompactChannels             | CC          |        7 | UPDATED      |
++| CustomFontForBrowser        | CF,CFFB     |       32 | UPDATED      |
 +| CustomFontForDiscord        | CF,CFFD     |        5 | UPDATED      |
 !| Modernizer                  | M           |       20 | ALPHA        |
 -| RemoveNitroTab              | RMNT,RNT    |        2 | MAY NOT WORK |
@@ -18,15 +20,20 @@
 +| TextAreaMaxHeightModifier   | TAMHM,TMHM  |        2 | UPDATED      |
 +| TypingAtTopOfChatBox        | TATOCB      |        2 | UPDATED      |
 -| UT00_AllUtilities           | UT00AU      |        5 | NEEDS UPDATE |
--| BasicBackgroundEnhancer     | BBE         | null     | NEEDS UPDATE |
-+| CustomFontForBrowser        | CF,CFFB     | null     | UPDATED      |
-+| YouTubeBlurEmails           | YTBE        | null     | UPDATED      |
++| YouTubeBlurEmails           | YTBE        |        3 | UPDATED      |
  |—————————————————————————————————————————————————————————————————————|
 ```
 
 # Changelogs
 
 (since 2020-07-15)
+
+## 2020-07-17
+
+### CustomFontForBrowser
+
+- CFFB:31 - Fix link not working
+- CFFB:32 - Trying to fix codezones on GitHub
 
 ## 2020-07-16
 
