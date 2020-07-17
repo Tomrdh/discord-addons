@@ -1,6 +1,6 @@
 /* This is not a BetterDiscord theme, but a code for Browser! */
 
-@import url(https://tomrdh.github.io/discord-addons/nifn/other/CustomFontForBrowser_Setup.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/other/CustomFontForBrowser.css);
 
 :root {
     --customFont:           sans-serif;    /* Choose the font here. Case sensitive? No. */
