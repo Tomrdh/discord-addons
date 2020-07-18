@@ -12,7 +12,7 @@
 +| BlurEmail                   | BE          |        3 | UPDATED      |
 +| ContextMenusOldStyle        | CMOS,COS    |        4 | UPDATED      |
 +| CompactChannels             | CC          |        7 | UPDATED      |
-+| CustomFontForBrowser        | CF,CFFB     |       32 | UPDATED      |
++| CustomFontForBrowser        | CF,CFFB     |       33 | UPDATED      |
 +| CustomFontForDiscord        | CF,CFFD     |        5 | UPDATED      |
 !| Modernizer                  | M           |       21 | ALPHA        |
 -| RemoveNitroTab              | RMNT,RNT    |        2 | MAY NOT WORK |
@@ -30,6 +30,7 @@
 
 ## 2020-07-18
 
+- CFFB:33 - Add .highlight pre
 - ADT:269 - Selected private channel background uses accentcolor
 - ADTO:170 - Selected private channel background uses accentcolor
 - M:21 - Disabled some code (border for mentions, padding for messages)
