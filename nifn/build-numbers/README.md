@@ -5,8 +5,8 @@
  | THEME NAME                  | INITIALS    | B.NUMBER | STATUS       |
  |—————————————————————————————+—————————————+——————————+——————————————|
 +| AlwaysDisplayChannelButtons | ADCB        |        5 | UPDATED      |
-+| AmoledDarkTheme             | DA,ADT      |      268 | UPDATED      |
-+| AmoledDarkThemeOptimized    | DAO,ADTO    |      169 | UPDATED      |
++| AmoledDarkTheme             | DA,ADT      |      269 | UPDATED      |
++| AmoledDarkThemeOptimized    | DAO,ADTO    |      170 | UPDATED      |
 -| BasicBackgroundEnhancer     | BBE         |        6 | NEEDS UPDATE |
 +| BBDLightThemeFixer          | BBDLTF,BLTF |        3 | UPDATED      |
 +| BlurEmail                   | BE          |        3 | UPDATED      |
@@ -30,6 +30,8 @@
 
 ## 2020-07-18
 
+- ADT:269 - Selected private channel background uses accentcolor
+- ADTO:170 - Selected private channel background uses accentcolor
 - M:21 - Disabled some code (border for mentions, padding for messages)
 
 ## 2020-07-17
