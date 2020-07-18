@@ -14,7 +14,7 @@
 +| CompactChannels             | CC          |        7 | UPDATED      |
 +| CustomFontForBrowser        | CF,CFFB     |       32 | UPDATED      |
 +| CustomFontForDiscord        | CF,CFFD     |        5 | UPDATED      |
-!| Modernizer                  | M           |       20 | ALPHA        |
+!| Modernizer                  | M           |       21 | ALPHA        |
 -| RemoveNitroTab              | RMNT,RNT    |        2 | MAY NOT WORK |
 +| ServerlistAtBottom          | SLAB,SAB    |        6 | UPDATED      |
 +| TextAreaMaxHeightModifier   | TAMHM,TMHM  |        2 | UPDATED      |
@@ -27,6 +27,10 @@
 # Changelogs
 
 (since 2020-07-15)
+
+## 2020-07-18
+
+- M:21 - Disabled some code (border for mentions, padding for messages)
 
 ## 2020-07-17
 
