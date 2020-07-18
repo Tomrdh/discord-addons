@@ -117,13 +117,13 @@ span.mention.wrapper-3WhCwL.da-wrapper.mention.interactive,                     
 .cozy-3raOZG .header-23xsNx:after {                                                 /* message header */
     display: none;                                                                  /* hide */
 }
-.mention                                                                            /* mentions */
+/* .mention
 {
     padding: 0 3px;
     border: solid;
     border-width: 2px;
     box-sizing: border-box;
-}
+} */
 .roleColor-rz2vM0 .name-uJV0GL                                                      /* memberlist nickname */
 {
     margin-right: 10px;                                                             /* shadowcut fix */
@@ -241,10 +241,10 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.typeWindows-
     border-bottom-right-radius: var(--borderRadius);
 }
 
-.messageContent-2qWWxC {
+/*.messageContent-2qWWxC {
     padding-top: 0;
     padding-bottom: 2px;
-}
+} */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "I'm sorry, but Modernizer is outdated! Please download again the theme by clicking Source." !important;
