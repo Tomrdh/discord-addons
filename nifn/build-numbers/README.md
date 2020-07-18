@@ -34,24 +34,15 @@
 
 ## 2020-07-17
 
-### CustomFontForBrowser
-
 - CFFB:31 - Fix link not working
 - CFFB:32 - Trying to fix codezones on GitHub
 
 ## 2020-07-16
 
-### Modernizer
-
 - M:20 - Add radius for "channel private search"
-
-### ServerlistAtBottom
-
 - SAB:6 - Supports private channels
 
 ## 2020-07-15
-
-### AmoledDarkTheme, AmoledDarkThemeOptimized
 
 - ADT:268 - Edited DevTags and added HelperTag
 - ADTO:169 - Edited DevTags and added HelperTag
