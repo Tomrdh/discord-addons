@@ -1,5 +1,5 @@
 .info-1VyQPT:after {
-    content: "AMOLED Dark Theme build 270" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    content: "AMOLED Dark Theme build 271" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
     font-size: 12px !important;
     color: var(--text-muted) !important;
     display: inline !important;
@@ -21,11 +21,11 @@
     --background-dark-primary: black !important;
     --background-dark-secondary: #18191d !important;
     --background-dark-tertiary: #131417 !important;
-    --background-dark-4th: #212226;
+    --background-dark-4th: #202225;
     --background-primary: var(--background-dark-primary) !important;
     --background-secondary: var(--background-dark-secondary) !important;
     --background-tertiary: var(--background-dark-tertiary) !important;
-    --background-mobile-header: #212226 !important;
+    --background-mobile-header: #202225 !important;
     --background-modifier-hover: rgba(var(--greyaccentcolor),0.16) !important;
     --background-modifier-active: rgba(var(--greyaccentcolor),0.24) !important;
     --background-modifier-selected: rgba(var(--greyaccentcolor),0.32) !important;
