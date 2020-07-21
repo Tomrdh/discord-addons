@@ -5,8 +5,8 @@
  | THEME NAME                  | INITIALS    | B.NUMBER | STATUS       |
  |—————————————————————————————+—————————————+——————————+——————————————|
 +| AlwaysDisplayChannelButtons | ADCB        |        5 | UPDATED      |
-+| AmoledDarkTheme             | DA,ADT      |      269 | UPDATED      |
-+| AmoledDarkThemeOptimized    | DAO,ADTO    |      170 | UPDATED      |
++| AmoledDarkTheme             | DA,ADT      |      271 | UPDATED      |
++| AmoledDarkThemeOptimized    | DAO,ADTO    |      171 | UPDATED      |
 -| BasicBackgroundEnhancer     | BBE         |        6 | NEEDS UPDATE |
 +| BBDLightThemeFixer          | BBDLTF,BLTF |        3 | UPDATED      |
 +| BlurEmail                   | BE          |        3 | UPDATED      |
@@ -27,6 +27,12 @@
 # Changelogs
 
 (since 2020-07-15)
+
+## 2020-07-21
+
+- ADT:271 - Change #212226 to #202225
+- ADT:270 - Fix userpopouts
+- ADTO:171 - Fix userpopouts
 
 ## 2020-07-18
 
