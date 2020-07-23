@@ -1,5 +1,5 @@
 .info-1VyQPT:after {
-    content: "AMOLED Dark Theme build 272" !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    content: var(--adt-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
     font-size: 12px !important;
     color: var(--text-muted) !important;
     display: inline !important;
@@ -30,6 +30,7 @@
     --background-modifier-active: rgba(var(--greyaccentcolor),0.24) !important;
     --background-modifier-selected: rgba(var(--greyaccentcolor),0.32) !important;
     --background-modifier-accent: rgba(255,255,255,0.06) !important;
+    --deprecated-store-bg: var(--background-dark-primary) !important;
     --greyaccentcolor: 66,71,77;
 }
 :root {
