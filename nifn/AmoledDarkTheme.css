@@ -48,6 +48,10 @@
     background-color: transparent !important;
 }
 
+.theme-dark .scroller-1JpcIc::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
 /* .theme-dark .scroller-2FKFPG::-webkit-scrollbar {
     width: 12px !important;
     height: 10px !important;
@@ -1413,6 +1417,13 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
     background-color: var(--background-secondary) !important;
 }
 
+.theme-dark .whyYouMightLikeIt-2zZIIj,
+.theme-dark .bodySection-jqkkIP,
+.theme-dark .row-1bU71H
+{
+    background-color: var(--background-dark-secondary);
+}
+
 /* Discord Developers */
 .theme-dark .scrollerWrapper-2xG8VZ {
     background-color: var(--background-dark-secondary);
@@ -1446,15 +1457,8 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
     color: var(--interactive-active);
 }
 
-/* Discord Invite/Login */
-/* .theme-dark .fallbackImage-31Sk4m {
-    background: none;
+/* Build Numbers */
+:root {
+    --adt-info: "AmoledDarkTheme 273";
+    --adto-info: "AmoledDarkThemeOptmized 173";
 }
-
-.theme-dark .leftSplit-1qOwnR {
-    background: url(https://cdn.discordapp.com/attachments/702611641530843186/721819495404011621/dark-background.jpeg);
-    background-size: cover;
-}
-.theme-dark .scrollbarGhost-2F9Zj2 {
-    background: transparent;
-} /* /* Maybe for a future update */
