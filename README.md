@@ -1,4 +1,4 @@
-# [Discord Addons](https://tomrdh.github.io/discord-addons)
+# [Discord Addons](https://tomrdh.github.io/da-website/main)
 
 ![Theme.png](https://cdn.discordapp.com/attachments/696044749228081285/733007180500041820/unknown.png)
 
