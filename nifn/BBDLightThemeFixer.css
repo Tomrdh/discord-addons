@@ -1,52 +1,6 @@
-.theme-light #bd-settings-sidebar .ui-tab-bar-header {
-    color: var(--channels-default);
-}
-
-.theme-light .bd-select .bd-select-options {
-    color: var(--text-normal);
-    background-color: var(--background-primary);
-}
-.theme-light .bd-search, .theme-light .bd-label, .theme-light .bd-select-value, .theme-light #bd-settings-sidebar .ui-tab-bar-item, .theme-light #bd-settings-sidebar .ui-tab-bar-item:hover {
-    color: var(--text-normal);
-}
-
-.theme-light .bd-search-wrapper>svg, .theme-light .bd-select-arrow {
-    fill: var(--text-muted);
-}
-
-.theme-light .bd-search-wrapper {
-    color: var(--text-muted);
-    background-color: var(--background-tertiary);
-}
-
-.theme-light .bd-icon {
-    fill: var(--text-normal);
-}
-
-.theme-light .plugin-input-group .button-collapse {
-    border-radius: 6px;
-    background-color: var(--text-muted);
-}
-
-.theme-light .bd-select .bd-select-option:hover, .theme-light .bd-select .bd-select-option.selected {
-    background-color: var(--background-tertiary);
-}
-
-.theme-light .bd-select .bd-select-options {
-    border-color: var(--background-tertiary);
-}
-
-.theme-light #EditUploadsEditButton span {
-    color: var(--text-muted);
-}
-
-.theme-light #bd-settings-sidebar .ui-tab-bar-item:hover.selected {
-    color: #fff;
-}
-
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "I'm sorry, but BBDLightThemeFixer is outdated! Please download again the theme by clicking Source." !important;
-    display: var(--version001_bbdltf, block) !important;
+    content: "I'm sorry, but BBDLightThemeFixer is outdated! Please delete this theme and download the new BetterDiscordLightThemeFixer on Tomrdh/discord-addons." !important;
+    display: block !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
     color: #fff !important;
