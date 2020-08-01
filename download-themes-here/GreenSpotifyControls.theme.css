@@ -18,6 +18,8 @@
     --dark-white-color-1:              #ffffff   ; /* White color, used for default buttons and title.                                  Default: #ffffff   */
     --dark-white-color-2:              #ffffffa2 ; /* Second white color, used for subtitle. The last two digits indicates the opacity. Default: #ffffffa2 */
     --dark-timeline-hover:             #35ed86   ; /* Hover the timeline to see this color, if enabled.                                 Default: #35ed86   */
+    --dark-timeline-empty-zone:        #0000003d ; /* Timeline empty zone color.                                                        Default: #0000003d */
+    --dark-button-hover-background:    #00000050 ; /* Button background when you hover on it.                                           Default: #00000050 */
 
     /* Light theme */
     --light-controls-background-color: #35ed86   ; /* General background using Light Theme.                                             Default: #35ed86   */
@@ -25,4 +27,9 @@
     --light-black-color-1:             #000000   ; /* Black color, used for default buttons and title.                                  Default: #000000   */
     --light-black-color-2:             #000000a2 ; /* Second black color, used for subtitle. The last two digits indicates the opacity. Default: #000000a2 */
     --light-timeline-hover:            #ffffff   ; /* Hover the timeline to see this color, if enabled.                                 Default: #ffffff   */
+    --light-timeline-empty-zone:       #0000003d ; /* Timeline empty zone color.                                                        Default: #0000003d */
+    --light-button-hover-background:   #0000003d ; /* Button background when you hover on it.                                           Default: #0000003d */
+
+    /* Update */
+    --version002_gsc:                  none      ; /* Do not change this please.                                                        Default: none      */
 }

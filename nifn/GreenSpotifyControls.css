@@ -4,13 +4,13 @@
 }
 .theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div,
 .theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div {
-	color: var(--dark-white-color-1, #ffffff);
+    color: var(--dark-white-color-1, #ffffff);
 }
 .theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
-	background-color: var(--dark-timeline-hover, #35ed86)
+    background-color: var(--dark-timeline-hover, #35ed86)
 }
 .theme-dark .grabber-7sd5f5 {
-	background: var(--dark-white-color-1, #ffffff);
+    background: var(--dark-white-color-1, #ffffff);
 }
 .theme-dark .container-6sXIoE {
     background-color: var(--dark-controls-background-color, #1c9a48);
@@ -31,9 +31,16 @@
     color: var(--dark-active-buttons, #35ed86) !important;
 }
 .theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button,
-.theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button
-{
+.theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button {
     color: var(--dark-white-color-1, #ffffff);
+}
+.theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover,
+.theme-dark #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover {
+    background-color: var(--dark-button-hover-background, #00000050);
+}
+
+.theme-dark .bar-g2ZMIm {
+    background-color: var(--dark-timeline-empty-zone, #0000003d);
 }
 
 /* Light theme */
@@ -42,13 +49,13 @@
 }
 .theme-light #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div,
 .theme-light #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div {
-	color: var(--light-black-color-1, #000000);
+    color: var(--light-black-color-1, #000000);
 }
 .theme-light .timeline-UWmgAx:hover .barFill-Dhkah7 {
-	background-color: var(--light-timeline-hover, #ffffff)
+    background-color: var(--light-timeline-hover, #ffffff)
 }
 .theme-light .grabber-7sd5f5 {
-	background: var(--light-black-color-1, #000000);
+    background: var(--light-black-color-1, #000000);
 }
 .theme-light .container-6sXIoE {
     background-color: var(--light-controls-background-color, #35ed86);
@@ -72,12 +79,54 @@
 {
     color: var(--light-black-color-1, #000000);
 }
+.theme-light #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover,
+.theme-light #app-mount > div.app-1q1i1E.da-app > div > div.layers-3iHuyZ.da-layers.layers-3q14ss.da-layers > div > div > div > div > div.sidebar-2K8pFh.da-sidebar > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.da-flex.da-flex.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover {
+    background-color: var(--light-button-hover-background, #0000003d);
+}
 
-/* Light and dark themes */
+.theme-light .bar-g2ZMIm {
+    background-color: var(--light-timeline-empty-zone, #0000003d);
+}
+
+/* Both */
 #app-mount .barText-lmqc5O {
     font-weight: 500;
 }
 
 #app-mount .activityPanel-28dQGo {
     border-bottom: none;
+}
+
+/* Updates */
+html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+    content: "Great news, GreenSpotifyControls v0.0.2 has new features! Please download the newest version by clicking on Source." !important;
+    display: var(--version002_gsc, block) !important;
+    background-color: var(--dark-controls-background-color, #1c9a48) !important;
+    box-shadow: 0 0px 30px 0 var(--dark-controls-background-color, #1c9a48) !important;
+    color: var(--dark-white-color-1, #ffffff) !important;
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    height: 36px !important;
+    line-height: 36px !important;
+    opacity: 1 !important;
+    padding-left: 4px !important;
+    padding-right: 28px !important;
+    position: relative !important;
+    text-align: center !important;
+    visibility: unset !important;
+    white-space: pre !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    z-index: 101 !important;
+    pointer-events: none !important;
 }
