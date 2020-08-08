@@ -158,7 +158,7 @@ html.platform-osx #app-mount .base-3dtUhz {
 .unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
     width: calc(var(--server-size) + 21px);
 }
-.content-3at_AU, .layout-2DM8Md {
+.content-3at_AU, .privateChannels-1nO12o .layout-2DM8Md {
     margin-left: 0 !important;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;

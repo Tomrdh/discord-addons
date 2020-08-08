@@ -12,10 +12,6 @@
     top: -15px !important;
 }
 
-.bf-toolbar:before, .bf-toolbar::before {
-    background: transparent !important;
-}
-
 .form-2fGMdU {
     margin-top: unset !important;
     padding-top: 0px !important;
