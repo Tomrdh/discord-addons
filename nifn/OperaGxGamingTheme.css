@@ -1354,15 +1354,15 @@ body,
     border-radius: 0;
 }
 /* DateViewer */
-#dv-mount {
-    background: transparent !important;
-}
 #dv-main {
     border-top-color: rgb(var(--accent-color-1)) !important;
 }
 /* MemberCount */
 #app-mount #MemberCount {
     background: transparent;
+}
+#MemberCount {
+    padding-bottom: 24px !important;
 }
 #app-mount #EditUploadsEditButton span {
     color: rgb(var(--accent-color-1)) !important;
@@ -1550,6 +1550,11 @@ body,
     -webkit-box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
+/* DateViewer */
+#dv-mount {
+    border-left: solid 1px rgb(var(--accent-color-1));
+    border-right: solid 1px rgb(var(--accent-color-1));
+}
 
 /*~~ 10. Blur and transparency ~~*/
 /* Top bar */
@@ -1586,6 +1591,10 @@ body,
 .members-1998pB {
     background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
     backdrop-filter: blur(var(--memberlist-background-blur));
+}
+#dv-mount {
+    background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency)) !important;
+    backdrop-filter: blur(var(--memberlist-background-blur)) !important;
 }
 
 /*~~ 11. Settings ~~*/
