@@ -1331,7 +1331,7 @@ body,
 /* BD Toasts */
 .bd-toast {
     background: rgb(var(--dark-background-color));
-    border-radius: 0;
+    border-radius: 0 !important;
     border: solid 1px rgb(var(--accent-color-1));
     box-shadow: none;
     font-weight: 500;

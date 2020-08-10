@@ -67,14 +67,14 @@
     transition-delay: var(--delayIn);
 }
 
-.scroller-2FKFPG.da-scroller.members-1998pB.da-members {
+.scroller-2FKFPG.members-1998pB {
     max-width: unset;
     min-width: unset;
     width: var(--mSize) + 18px;
     transition-delay: calc(var(--delayOut) + var(--time));
 }
 
-.scroller-2FKFPG.da-scroller.members-1998pB.da-members:hover {
+.scroller-2FKFPG.members-1998pB:hover {
     width: var(--mSizeOnHover);
     transition-delay: var(--delayIn);
 }
