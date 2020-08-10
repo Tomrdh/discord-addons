@@ -1241,21 +1241,17 @@ body,
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     opacity: 0.3;
 }
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+    background: transparent;
+}
 .folder-21wGz3 {
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
     opacity: 1 !important;
 }
-.focusFill-3Y4YuU, .focusStroke-1ApElc {
+.focusFill-3Y4YuU,
+.focusStroke-1ApElc {
     fill: rgb(var(--darker-background-color));
-}
-.lowerLeftBadge-zr4T_9,
-.upperLeftBadge-e35IpL {
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(var(--darker-background-color));
-    border-radius: 60px;
-    top: -1px;
-    left: -1px;
 }
 .numberBadge-2s8kKX {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
@@ -1299,6 +1295,9 @@ body,
 #app-mount .authBox-hW6HRx {
     background: rgb(var(--dark-background-color));
     border-radius: 0;
+}
+.rightSplit-2US0xy {
+    opacity: 0;
 }
 /* Connecting screen */
 .container-16j22k {
