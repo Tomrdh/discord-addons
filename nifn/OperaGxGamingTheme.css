@@ -1241,16 +1241,14 @@ body,
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     opacity: 0.3;
 }
-.expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
-.expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb, .expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
     background: transparent;
 }
 .folder-21wGz3 {
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
     opacity: 1 !important;
 }
-.focusFill-3Y4YuU,
-.focusStroke-1ApElc {
+.focusFill-3Y4YuU, .focusStroke-1ApElc {
     fill: rgb(var(--darker-background-color));
 }
 .numberBadge-2s8kKX {
@@ -1792,6 +1790,9 @@ body,
 .css-1kft5vg-option {
     background-color: rgb(var(--darker-background-color));
 }
+.css-1ao1kba-placeholder {
+    color: #bbb;
+}
 #app-mount .css-19bqh2r {
     fill: #eee;
 }
@@ -1809,6 +1810,15 @@ body,
 .selected-mKYnfr.option-n0icdO {
     background: linear-gradient(315deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
     border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .addGamePopout-2RY8Ju {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .elevationBorderHigh-2WYJ09 {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 .wrapper-3jrx9n {
     border-color: rgb(var(--accent-color-1));
