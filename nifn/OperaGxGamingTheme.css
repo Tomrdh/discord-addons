@@ -349,7 +349,7 @@ body,
     box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 0;
 }
-/* ChannelTextArea */
+/* ChannelTextArea (chatbox) */
 .channelTextArea-rNsIhG,
 .channelTextArea-3bF57p,
 .channelTextAreaUpload-3t7EIx {
@@ -407,6 +407,9 @@ body,
 .channelTextAreaUpload-3t7EIx.focused-PMHa7m .sprite-2iCowe { /* emoji btn focused */
     filter: grayscale(0%) !important;
     opacity: 1;
+}
+#app-mount .markup-2BOw-j.slateTextArea-1Mkdgw {
+    font-weight: 400 !important;
 }
 /* Embeds */
 .embedFull-2tM8-- {
@@ -540,6 +543,27 @@ body,
 }
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
     color: rgb(var(--accent-color-1));
+}
+/* Reactionlist */
+#app-mount .container-1If-HZ,
+#app-mount .reactors-Blmlhw {
+    background-color: rgb(var(--darker-background-color));
+}
+#app-mount .scroller-1-nKid {
+    background-color: rgb(var(--dark-background-color));
+}
+#app-mount .reactorDefault-1IUqMZ {
+    -webkit-box-shadow: inset 0 -1px 0 rgb(var(--accent-color-1));
+    box-shadow: inset 0 -1px 0 rgb(var(--accent-color-1));
+}
+.reactionDefault-GBA58K,
+.reactionSelected-1pqISm {
+    border-radius: 0;
+    border: solid 1px transparent;
+}
+.reactionSelected-1pqISm {
+    border-color: rgb(var(--accent-color-1));
+    background-color: rgb(var(--darker-background-color)) !important;
 }
 /* Cooldown */
 #app-mount .base-gE7OpD .cooldownWrapper-3joyFc {
@@ -850,11 +874,11 @@ body,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous {
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
-    background-image: url(/assets/0fce6d7622d8173fcee0397634bff5b5.svg);
+    background-image: url(https://discord.com/assets/0fce6d7622d8173fcee0397634bff5b5.svg);
 }
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--next:hover,
 #app-mount .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous:hover {
-    background-image: url(/assets/7619529e87dad31fd2ae83d9b9583e49.svg);
+    background-image: url(https://discord.com/assets/7619529e87dad31fd2ae83d9b9583e49.svg);
 }
 /* Search Results in Chat */
 .searchResultsWrap-3-pOjs {
@@ -1127,7 +1151,6 @@ body,
     width: 45px;
     height: 32px;
     color: rgb(var(--accent-color-1));
-    transition: 200ms;
     cursor: default;
 }
 .winButtonClose-1HsbF-:hover {
@@ -1353,6 +1376,15 @@ body,
     background: rgb(var(--darker-background-color));
     border-radius: 0;
 }
+/* Channel History */
+.channelHistoryButtons .btn {
+    color: rgb(var(--accent-color-1));
+    margin-top: 4px;
+}
+.channelHistoryButtons .btn:hover {
+    color: rgb(var(--accent-color-1)) !important;
+    background: rgba(255, 255, 255, 0.3);
+}
 /* DateViewer */
 #dv-main {
     border-top-color: rgb(var(--accent-color-1)) !important;
@@ -1429,13 +1461,13 @@ body,
     background: none;
 }
 #app-mount .image-1GzsFd {
-    background-image: url(/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg) !important;
+    background-image: url(https://discord.com/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg) !important;
 }
 #app-mount .userSettingsSecurityImage-21pI_Q {
-    background-image: url(/assets/cdea41ede63f61153e4a3c0531fa3873.svg) !important;
+    background-image: url(https://discord.com/assets/cdea41ede63f61153e4a3c0531fa3873.svg) !important;
 }
 #app-mount .emptyStateImage-2MrSNs {
-    background: url(/assets/131dcaaa628405e6d0ebee7708111c7a.svg) !important;
+    background: url(https://discord.com/assets/131dcaaa628405e6d0ebee7708111c7a.svg) !important;
 }
 #app-mount #bd-settingspane-container h2.ui-form-title,
 #app-mount #bd-settingspane-container .ui-switch-item h3 {
@@ -1873,7 +1905,7 @@ body,
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
 }
 #app-mount .lock-2Nag5p {
-    background-image: url(/assets/959a1978f7be567071a1354a98b46ecd.svg) !important;
+    background-image: url(https://discord.com/assets/959a1978f7be567071a1354a98b46ecd.svg) !important;
 }
 .upsellContent-1JlpHe {
 	border-radius: 0;
