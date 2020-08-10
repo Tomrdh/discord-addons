@@ -723,6 +723,10 @@ body,
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     color: #fff;
 }
+.botTagRegular-2HEhHi[style*="background"] {
+    background: currentColor;
+    color: #fff;
+}
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     color: #fff;
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
