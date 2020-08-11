@@ -85,7 +85,7 @@
     font-family: var(--cf);
 }
 code, .markup-2BOw-j code.inline, .codeBlockText-9TnoxQ, .codeLine-14BKbG, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
-	font-family: var(--cbcf);
+    font-family: var(--cbcf);
 }
 
 /*~~ 5. Background ~~*/
@@ -1356,7 +1356,7 @@ body,
 .optionContainer-15srkc {
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
-	animation: both-blinking 450ms infinite;
+    animation: both-blinking 450ms infinite;
 }
 /* Loading Cubes */
 .wanderingCubesItem-WPXqao {
@@ -1384,6 +1384,89 @@ body,
 .channelHistoryButtons .btn:hover {
     color: rgb(var(--accent-color-1)) !important;
     background: rgba(255, 255, 255, 0.3);
+}
+/* ChannelTabs */
+.channelTabs-name {
+    width: 123px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.channelTabs-tab {
+    display: inline-block;
+    margin: 2px 0;
+    margin-left: -1px;
+    font-size: 12px;
+    width: 150px;
+    position: relative;
+    background: none;
+    border: solid 1px rgb(var(--accent-color-1));
+    padding: 6px;
+    border-radius: 0;
+    color: var(--interactive-normal);
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+    cursor: default;
+}
+.channelTabs-tab:first-child {
+    margin-left: 2px !important;
+}
+.channelTabs-tabContainer {
+    height: 33px;
+    background: var(--background-primary);
+    z-index: 1;
+}
+.channelTabs-tab:not(.channelTabs-selected):hover {
+    background: rgba(var(--accent-color-1), 0.3);
+    cursor: default;
+    color: var(--interactive-hover);
+}
+.channelTabs-selected {
+    background: rgb(var(--darker-background-color));
+    color: var(--interactive-active);
+}
+.channelTabs-close {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 11px;
+    font-size: 20px;
+    background: none;
+    color: #ddd;
+    cursor: default;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.channelTabs-selected .channelTabs-close {
+    background: none;
+}
+.channelTabs-close:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+.channelTabs-selected .channelTabs-close:hover {
+    background: rgba(var(--accent-color-1), 0.3);
+}
+.channelTabs-newTab {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 3px;
+    width: 22px;
+    height: 21px;
+    text-align: center;
+    background: none;
+    font-weight: 100;
+    font-size: 18px;
+    cursor: default;
+    color: rgb(var(--accent-color-1));
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.channelTabs-newTab:hover {
+    background: rgba(var(--accent-color-1), 0.3);
 }
 /* DateViewer */
 #dv-main {
@@ -1920,9 +2003,9 @@ body,
     background-image: url(https://discord.com/assets/959a1978f7be567071a1354a98b46ecd.svg) !important;
 }
 .upsellContent-1JlpHe {
-	border-radius: 0;
-	border: solid 1px rgb(var(--accent-color-1));
-	background: linear-gradient(315deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    background: linear-gradient(315deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
 }
 
 /*~~ 12. Text selection ~~*/
