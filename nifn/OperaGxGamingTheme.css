@@ -957,13 +957,10 @@ body,
     color: rgba(var(--accent-color-1), 0.9);
     font-weight: 900;
     font-size: var(--categorySize, 15px);
-    text-transform: unset;
+    text-transform: var(--category-name-transform, unset);
 }
 .collapsed-4WdoJ7 .name-IbjUBS {
     color: rgba(var(--accent-color-1), 0.6);
-    font-weight: 900;
-    font-size: var(--categorySize, 15px);
-    text-transform: unset;
 }
 .name-IbjUBS:hover {
     color: rgba(var(--accent-color-1), 1);
@@ -975,7 +972,7 @@ body,
     color: rgb(var(--accent-color-1));
     font-weight: 900;
     font-size: var(--categorySize, 15px);
-    text-transform: unset;
+    text-transform: var(--category-name-transform, unset);
 }
 .icon-22AiRD.privateChannelRecipientsInviteButtonIcon-3A3uTc {
     color: rgb(var(--accent-color-1));
@@ -996,6 +993,7 @@ body,
     color: #eee;
     font-weight: 300;
     font-size: var(--textSize, 13px);
+    text-transform: var(--channel-name-transform, capitalize);
 }
 .containerDefault-1ZnADq:hover .content-3at_AU {
     border-left: solid rgb(var(--accent-color-2)) 2px;
@@ -1156,6 +1154,7 @@ body,
     height: 32px;
     color: rgb(var(--accent-color-1));
     cursor: default;
+    transition: 200ms cubic-bezier(0, 0, 0.19, 0.97);
 }
 .winButtonClose-1HsbF-:hover {
     background-color: rgb(255, 0, 0);
