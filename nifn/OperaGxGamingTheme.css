@@ -2077,14 +2077,14 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
 
 /*~~ 17. Update notice ~~*/
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "I'm sorry, but OperaGxGamingTheme is outdated! Please download again the theme by clicking Source." !important;
-    display: var(--version001_oggt, block) !important;
+    content: "I'm sorry, but OperaGxGamingTheme is broken or outdated! Please download again the theme by clicking Source." !important;
+    display: var(--version003_oggt, block) !important;
     box-shadow: none !important;
     background-color: rgb(var(--dark-background-color)) !important;
     color: #fff !important;
     flex-grow: 0 !important;
     flex-shrink: 0 !important;
-    font-size: 16px !important;
+    font-size: 14px !important;
     font-weight: 500 !important;
     height: 36px !important;
     line-height: 36px !important;
