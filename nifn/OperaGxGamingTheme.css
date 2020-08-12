@@ -1480,9 +1480,6 @@ body,
 #app-mount #MemberCount {
     background: transparent;
 }
-#MemberCount {
-    padding-bottom: 24px !important;
-}
 #app-mount #EditUploadsEditButton span {
     color: rgb(var(--accent-color-1)) !important;
 }
