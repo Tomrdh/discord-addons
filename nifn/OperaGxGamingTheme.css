@@ -1626,10 +1626,7 @@ body,
 }
 .animatedContainer-1pJv5C {
     border-left: solid 1px rgb(var(--accent-color-1));
-    max-height: 47px;
-}
-.listContent-2_qb-y > div:first-child {
-    max-height: 0;
+    z-index: 2;
 }
 /* Panels */
 .panels-j1Uci_ {
