@@ -1568,6 +1568,17 @@ body,
 #app-mount .topic-TCb_qw {
     font-weight: 400;
 }
+#app-mount .gameName-1RiWHm {
+    color: #fff;
+    font-weight: 600;
+}
+#app-mount ::placeholder,
+#app-mount ::-webkit-input-placeholder,
+#app-mount input,
+#app-mount select,
+#app-mount textarea {
+    font-weight: 400;
+}
 
 /*~~ 9. Draw Lines ~~*/
 /* Channels sidebar */
@@ -1874,11 +1885,17 @@ body,
     border-color: rgb(var(--accent-color-1));
     animation: accent-blinking 450ms infinite;
     box-shadow: none;
+    border-radius: 0;
 }
 .css-12o7ek3-option,
 .css-qgio2y-option,
 .css-1kft5vg-option {
     background-color: rgb(var(--darker-background-color));
+}
+.css-12o7ek3-option:active,
+.css-qgio2y-option:active,
+.css-1kft5vg-option:active {
+    background-color: #000;
 }
 .css-1ao1kba-placeholder {
     color: #bbb;
@@ -1966,7 +1983,8 @@ body,
     border-radius: 0;
     color: #72767d;
 }
-#app-mount .headerClickable-2IVFo9, .theme-light .headerDefault-1wrJcN {
+#app-mount .headerClickable-2IVFo9,
+#app-mount .headerDefault-1wrJcN {
     background-color: rgb(var(--dark-background-color));
 }
 #app-mount .headerExpanded-CUEwZ5 {
