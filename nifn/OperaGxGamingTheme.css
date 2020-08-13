@@ -1347,8 +1347,13 @@ body,
 #app-mount .bd-addon-list .bd-card-footer {
     color: #eee;
 }
+#app-mount .bd-addon-list .bd-card-footer
 #app-mount .bd-addon-button > svg {
     fill: #eee !important;
+}
+#app-mount .bd-addon-list .bd-card-footer,
+#app-mount .bd-addon-list .bda-header {
+    border-color: rgb(var(--accent-color-1));
 }
 .noticeInfo-3_iTE1 {
     background-color: rgb(var(--darker-background-color));
@@ -1363,7 +1368,7 @@ body,
     border: solid 1px rgb(var(--accent-color-1));
     animation: both-blinking 450ms infinite;
 }
-/* Loading Cubes */
+/* Loading Squares */
 .wanderingCubesItem-WPXqao {
     background-color: rgb(var(--accent-color-1));
 }
