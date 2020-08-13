@@ -1853,7 +1853,9 @@ body,
 .css-1a8reka-control,
 .css-1a8reka-control:hover,
 .css-oc2jo8-control,
-.css-oc2jo8-control:hover {
+.css-oc2jo8-control:hover,
+.css-hygzao-control,
+.css-hygzao-control:hover {
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
 }
