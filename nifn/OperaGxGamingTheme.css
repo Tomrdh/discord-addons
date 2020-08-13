@@ -510,6 +510,10 @@ body,
     box-shadow: none;
     height: 40px;
 }
+.full-motion .wrapper-2aW0bm:hover {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
 .separator-42rNt0 {
     background-color: rgba(var(--accent-color-1), 0.3);
 }
