@@ -1592,7 +1592,6 @@ body,
 }
 /* Header */
 .title-3qD0b-,
-.header-2o-2hj,
 .searchBar-6Kv8R2,
 .container-1r6BKw {
     border-bottom: solid 1px rgb(var(--accent-color-1));
@@ -1610,6 +1609,10 @@ body,
 .container-36W3SS {
     border-left: solid 1px rgb(var(--accent-color-1));
     /*border-right: solid 1px rgb(var(--accent-color-1));*/
+}
+.scroller-2wx7Hm {
+    border-top: solid 1px rgb(var(--accent-color-1));
+    opacity: 1;
 }
 /* Center */
 .chatContent-a9vAAp,
@@ -1636,13 +1639,17 @@ body,
     border-left: solid 1px rgb(var(--accent-color-1));
     border-right: solid 1px rgb(var(--accent-color-1));
 }
-/* Fix banner */
+/* Servername and Banner */
+.header-2o-2hj {
+    margin-bottom: -1px;
+}
 .header-2o-2hj,
 .title-3qD0b- {
     border-left: solid 1px rgb(var(--accent-color-1));
 }
 .animatedContainer-1pJv5C {
     border-left: solid 1px rgb(var(--accent-color-1));
+    border-bottom: solid 1px rgb(var(--accent-color-1));
     z-index: 2;
 }
 /* Panels */

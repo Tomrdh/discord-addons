@@ -24,6 +24,9 @@
     margin-bottom: 23px;
     padding-bottom: 0;
 }
+.jumpToPresentBar-9P20AM:active {
+    margin-bottom: 21px;
+}
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "I'm sorry, but TypingAtTopOfChatBox is outdated! Please download again the theme by clicking Source." !important;
