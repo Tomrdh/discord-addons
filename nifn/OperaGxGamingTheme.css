@@ -1504,6 +1504,7 @@ code.inline {
     border-radius: 0 !important;
     color: var(--interactive-normal) !important;
     transition: width 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color, width !important;
     cursor: default !important;
     height: 15px !important;
 }
@@ -1543,6 +1544,7 @@ code.inline {
     color: #ddd !important;
     cursor: default !important;
     transition: width 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color, width !important;
 }
 .channelTabs-selected .channelTabs-close {
     background: none !important;
@@ -1567,7 +1569,8 @@ code.inline {
     font-size: 22px !important;
     cursor: default !important;
     color: rgb(var(--accent-color-1)) !important;
-    transition: width 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color, width !important;
     top: 6px !important;
 }
 .channelTabs-newTab:hover {
