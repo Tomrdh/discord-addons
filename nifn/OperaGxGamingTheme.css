@@ -1043,6 +1043,7 @@ code.inline {
 .modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: rgb(var(--dark-background-color));
     border-left: solid rgb(var(--accent-color-1)) 2px;
+    animation: none;
 }
 .modeSelected-1zApJ_ .name-3_Dsmg,
 .title-29uC1r {
