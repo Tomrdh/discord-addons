@@ -1484,11 +1484,6 @@ code.inline {
 }
 /* ChannelTabs */
 .channelTabs-name {
-    width: 123px !important;
-    display: inline-block !important;
-    overflow: hidden !important;
-    white-space: nowrap !important;
-    text-overflow: ellipsis !important;
     text-transform: var(--channel-name-transform) !important;
 }
 .channelTabs-tab {
@@ -1504,7 +1499,6 @@ code.inline {
     transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
     cursor: default !important;
     height: 15px !important;
-    top: 2px !important;
 }
 .channelTabs-tab:first-child {
     margin-left: 2px !important;
