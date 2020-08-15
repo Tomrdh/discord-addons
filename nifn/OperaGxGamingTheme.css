@@ -737,6 +737,13 @@ code.inline {
 /* Library Game Download/Update */
 .gameUpdates-2GPqBU {
     background-color: transparent;
+    border-left: solid 1px rgb(var(--accent-color-1));
+}
+.progressBar-3zryPV,
+.small-1CUeBa,
+.xsmall-3czJwD,
+.progress-5tMCVk {
+    border-radius: 0;
 }
 .scroller-1IIF0A {
     background: transparent;
