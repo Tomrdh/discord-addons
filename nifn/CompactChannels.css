@@ -54,12 +54,12 @@
     transition-delay: var(--delayIn);
 }
 #dv-mount { /* DateViewer */
-    width: var(--mSize);
+    width: var(--mSize) !important;
     transition: width var(--time) ease;
     transition-delay: var(--delayOut);
 }
 .membersWrap-2h-GB4:hover #dv-mount {
-    width: var(--mSizeOnHover);
+    width: var(--mSizeOnHover) !important;
     transition: width var(--time) ease;
     transition-delay: var(--delayIn);
 }
