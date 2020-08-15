@@ -1,37 +1,29 @@
 /* Channels */
 #app-mount .sidebar-2K8pFh {
     width: var(--cSize);
-    transition: var(--time);
+    transition: width var(--time);
     transition-delay: var(--delayOut);
 }
-
 #app-mount .sidebar-2K8pFh:hover {
     width: var(--cSizeOnHover);
-    transition: var(--time);
+    transition: width var(--time);
     transition-delay: var(--delayIn);
 }
-
-.text-2e2ZyG /* new unreads text */
-{
+.text-2e2ZyG { /* new unreads text */
     text-align: center;
 }
-
-.channel-2QD9_O /* dms */
-{
+.channel-2QD9_O { /* dms */
     max-width: unset !important;
 }
-
-.bannerImage-1jOskm /* serverbanner */
-{
+.bannerImage-1jOskm { /* serverbanner */
     width: var(--cSize);
-    transition: var(--time);
+    transition: width var(--time);
     transition-delay: var(--delayOut);
 }
 
-.sidebar-2K8pFh:hover .bannerImage-1jOskm /* serverbanner */
-{
+.sidebar-2K8pFh:hover .bannerImage-1jOskm { /* serverbanner */
     width: var(--cSizeOnHover);
-    transition: var(--time);
+    transition: width var(--time);
     transition-delay: var(--delayIn);
 }
 
@@ -41,59 +33,59 @@
     position: relative;
     min-width: unset;
     max-width: unset;
-    transition: all var(--time) ease;
+    transition: width var(--time) ease;
     transition-delay: var(--delayOut);
 }
-
+.members-1998pB {
+    width: var(--mSize);
+    transition: width var(--time);
+    transition-delay: var(--delayOut);
+}
+.membersWrap-2h-GB4:hover .members-1998pB {
+    width: var(--mSizeOnHover);
+    transition-delay: var(--delayIn);
+}
 .membersWrap-2h-GB4 .scrollerWrap-2lJEkd {
     width: var(--mSize);
 }
-
 .membersWrap-2h-GB4:hover {
     width: var(--mSizeOnHover);
-    transition: all var(--time) ease;
+    transition: width var(--time) ease;
     transition-delay: var(--delayIn);
 }
-
-#dv-mount {
+#dv-mount { /* DateViewer */
     width: var(--mSize);
-    transition: all var(--time) ease;
+    transition: width var(--time) ease;
     transition-delay: var(--delayOut);
 }
-
 .membersWrap-2h-GB4:hover #dv-mount {
     width: var(--mSizeOnHover);
-    transition: all var(--time) ease;
+    transition: width var(--time) ease;
     transition-delay: var(--delayIn);
 }
-
 .scroller-2FKFPG.members-1998pB {
     max-width: unset;
     min-width: unset;
     width: var(--mSize) + 18px;
     transition-delay: calc(var(--delayOut) + var(--time));
 }
-
 .scroller-2FKFPG.members-1998pB:hover {
     width: var(--mSizeOnHover);
     transition-delay: var(--delayIn);
 }
-
 .member-3-YXUe {
     max-width: unset;
     min-width: unset;
     width: calc(var(--mSizeOnHover) - 18px);
 }
-
 .membersGroup-v9BXpm {
     width: var(--mSize);
-    transition: all var(--time) ease;
+    transition: width var(--time) ease;
     transition-delay: var(--delayOut);
 }
-
 .membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
     width: var(--mSizeOnHover);
-    transition: all var(--time) ease;
+    transition: width var(--time) ease;
     transition-delay: var(--delayIn);
 }
 
