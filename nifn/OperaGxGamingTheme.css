@@ -6,6 +6,9 @@
     4.  Font
     5.  Background
     6.  AccentColors and modifiers
+        6.1.  General Recolor
+        6.2.  General
+        6.3.  Public Servers
     7.  Plugin Compatibility
     8.  Theme light fixer
     9.  Draw Lines
@@ -138,7 +141,7 @@ body,
 }
 
 /*~~ 6. AccentColors and Modifiers ~~*/
-/* General recolor */
+/*-- 6.1. General recolor --*/
 [style^="color: rgba(114, 137, 218, 1)"], /* Blurple */
 [style*=" color: rgba(114, 137, 218, 1)"],
 [style^="color: rgb(114, 137, 218)"],
@@ -290,6 +293,7 @@ body,
 [fill="#7289DA"] {
     fill: rgb(var(--accent-color-1)) !important;
 }
+/*-- 6.2. General --*/
 /* UserProfile */
 .root-SR8cQa {
     border: solid 1px rgb(var(--accent-color-1));
@@ -679,6 +683,9 @@ body,
     border-color: rgb(var(--accent-color-1));
     animation: accent-blinking 450ms infinite;
 }
+code.inline {
+    border-radius: 0 !important;
+}
 /* Quiet card */
 .emptyCard-1RJw8n {
     border: solid rgb(var(--dark-background-color)) 1px;
@@ -935,6 +942,7 @@ body,
 /* DMs */
 .channel-2QD9_O {
     margin-left: 2px;
+    max-width: unset;
 }
 .privateChannels-1nO12o .layout-2DM8Md {
     border-radius: 0;
@@ -1398,6 +1406,65 @@ body,
 .wanderingCubesItem-WPXqao:last-child {
     background-color: rgb(var(--accent-color-2));
 }
+/*-- 6.3. Public Servers --*/
+/* Public button */
+#bd-pub-button {
+    border-radius: 0;
+    background-color: rgb(var(--darker-background-color));
+    color: #eeeb;
+    border: solid 1px rgb(var(--accent-color-1));
+    text-transform: capitalize;
+    height: 22px;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+#bd-pub-button:hover {
+    color: #fffc;
+    background-color: rgb(var(--dark-background-color));
+    border-color: rgb(var(--accent-color-2));
+}
+#bd-pub-li {
+    height: 22px;
+    margin-bottom: 8px;
+}
+/* Public list */
+.bd-server-card.bd-server-card-pinned:after {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
+#pubslayer button {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    border-radius: 0;
+}
+.bd-server-name {
+    color: rgb(var(--accent-color-1));
+    text-transform: unset;
+    font-size: 15px;
+    font-weight: 900;
+}
+.bd-server-description-container {
+    color: #b9bbbe;
+    border-top: solid 1px rgb(var(--accent-color-1));
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+    margin-top: 5px;
+    font-size: 13px;
+}
+#pubslayer input {
+    color: #f6f6f7;
+    background-color: rgba(var(--darker-background-color), 0.7);
+    border: solid 1px rgb(var(--darker-background-color));
+    border-radius: 0;
+    transition: background-color .15s ease,border .15s ease;
+}
+#pubslayer input:hover {
+    background-color: rgba(var(--darker-background-color), 0.8);
+    border-color: rgb(var(--accent-color-2));
+}
+#pubslayer input:focus {
+    background-color: rgba(var(--darker-background-color), 1);
+    border-color: rgb(var(--accent-color-1));
+}
 
 /*~~ 7. Plugin Compatibility ~~*/
 /* BetterFormattingRedux */
@@ -1582,11 +1649,11 @@ body,
 #app-mount .emptyStateImage-2MrSNs {
     background: url(https://discord.com/assets/131dcaaa628405e6d0ebee7708111c7a.svg) !important;
 }
-#app-mount #bd-settingspane-container h2.ui-form-title,
-#app-mount #bd-settingspane-container .ui-switch-item h3 {
+#app-mount h2.ui-form-title,
+#app-mount .ui-switch-item h3 {
     color: var(--header-primary);
 }
-#app-mount #bd-settingspane-container .ui-switch-item .style-description {
+#app-mount .ui-switch-item .style-description {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 300;
 }
@@ -1794,10 +1861,10 @@ body,
 .bd-switch-checked {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
-#app-mount #bd-settings-sidebar .ui-tab-bar-item {
+#app-mount .ui-tab-bar-item {
     color: #b9bbbe;
 }
-#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected,
+#app-mount .ui-tab-bar-item.selected,
 .item-PXvHYJ.selected-3s45Ha {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     color: #fff
@@ -1807,7 +1874,7 @@ body,
     color: #b9bbbe;
 }
 .separator-gCa7yv,
-#app-mount #bd-settings-sidebar .ui-tab-bar-separator {
+#app-mount .ui-tab-bar-separator {
     background-color: rgb(var(--accent-color-1));
 }
 .divider-3573oO {
@@ -2141,22 +2208,36 @@ body,
 }
 
 /*~~ 15. GX ~~*/
-/* Logo and ServerBackground */
+/* ServerBackground */
 .childWrapper-anI2G9 {
-    /*content: url(https://tomrdh.github.io/da-website/ico/Opera_GX.svg);*/ /* this shit, idk how it works */
     background-color: #00000000;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-    /*content: url(https://tomrdh.github.io/da-website/ico/Opera_GX.svg);*/ /* same */
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     background-color: #00000000;
 }
-/*.homeIcon-tEMBK1 {
-    
-}*/
-/*.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9:hover > svg {
-    fill: #fff !important;
-}*/ /* same /*
+.wordmark-2iDDfm:after {
+	color: white !important;
+	display: block !important;
+	position: absolute !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	width: 55px !important;
+	max-height: unset !important;
+	min-height: unset !important;
+	height: 16px !important;
+	margin: 0 !important;
+	padding: 3px 9px 3px !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 0.6 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: unset !important;
+	content: "GX" !important;
+}
 
 /*~~ 16. DevTags ~~*/
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Cr3pp Offici3l */
