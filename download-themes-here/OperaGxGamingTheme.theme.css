@@ -1,7 +1,7 @@
 /**
  * @name OperaGxGamingTheme
  * @author TomRdh
- * @version 0.0.3
+ * @version 0.0.4
  * @description Opera GX Gaming Theme! A (transparent) theme with the same backgrounds and colors as the defaults of Opera GX. Customizable in the theme file like others theme generators.
  * @website https://tomrdh.github.io/da-website/main
  * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/OperaGxGamingTheme.theme.css
@@ -52,6 +52,14 @@
     --memberlist-transparency:        0                              ;/* Default: 0                                         - Transparency for member list. Between 0 and 1.                                                                                                                                                            */
     --memberlist-transparency-color:  var(--dark-background-color)   ;/* Default: var(--dark-background-color)              - RGB color used for transparency if it's lower than 1.                                                                                                                                                     */
 
+/*  Advanced-Transparency-Settings                                                                                                                                                                                                                                                                                                      */
+    --chatbox-transparency:           1                              ;/* Default: 1                                         - Background transparency for the chat box when not focused.                                                                                                                                                */
+    --chatbox-focused-transparency:   1                              ;/* Default: 1                                         - Background transparency for the chat box when focused.                                                                                                                                                    */
+
+    --channeltabs-bg-transparency:    1                              ;/* Default: 1                                         - Variable for the ChannelTabs plugin style. Background transparency for the container.                                                                                                                     */
+    --channeltabs-tab-bg-transparency:1                              ;/* Default: 1                                         - Variable for the ChannelTabs plugin style. Background transparency for all tabs.                                                                                                                          */
+
+
 /*  /!\ Update-setting (DO NOT MODIFY OR REMOVE) /!\                                                                                                                                                                                                                                                                                    */
-    --version003_oggt: none; /* Do not modify or remove this variable! */
+    --version004_oggt: none; /* Do not modify or remove this variable! */
 }

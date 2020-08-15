@@ -29,7 +29,7 @@
     --opera-gx-bg-2: url(https://media.discordapp.net/attachments/692868820301512724/711737175359750215/opera-wallpaper.jpg);
 
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 0 (pre-release, waiting for feedbacks)";
+    --ogx-info: "Opera GX Gaming Theme 0 (pre-release, solving issues)";
 }
 #app-mount {
     /* Colors */
@@ -365,7 +365,7 @@ body,
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem,
 .channelTextArea-3bF57p .scrollableContainer-2NUZem,
 .channelTextAreaUpload-3t7EIx .scrollableContainer-2NUZem {
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--chatbox-transparency));
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 0;
@@ -373,7 +373,7 @@ body,
 .channelTextArea-rNsIhG.focused-PMHa7m .scrollableContainer-2NUZem,
 .channelTextArea-3bF57p.focused-PMHa7m .scrollableContainer-2NUZem,
 .channelTextAreaUpload-3t7EIx.focused-PMHa7m .scrollableContainer-2NUZem {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--chatbox-focused-transparency));
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -579,14 +579,30 @@ body,
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
 }
+/* Messages loading */
+.wrapper-1F5TKx,
+.wrapper-3vR61M {
+    background: transparent;
+}
+.wrapper-1F5TKx[style*="margin-top"] {
+    border-top: solid 1px rgba(var(--accent-color-1), 0.3);
+}
+.attachment-2p5mHK,
+.avatar-2daVqv,
+.blob-2w7iIK {
+    opacity: 0.3 !important;
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
 /* New messages */
-.newMessagesBar-mujexs {
+.newMessagesBar-mujexs,
+.newMessagesBar-265mhP {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     border-radius: 0;
 }
 .hasDivider-20M1le {
     border: none;
 }
+/* Messages */
 .groupStart-23k01U {
     border-top: solid rgb(var(--accent-color-1)) 1px;
 }
@@ -665,7 +681,7 @@ body,
 }
 /* Quiet card */
 .emptyCard-1RJw8n {
-    border: solid rgb(var(--accent-color-1)) 1px;
+    border: solid rgb(var(--dark-background-color)) 1px;
     background-color: rgb(var(--darker-background-color));
     border-radius: 0;
 }
@@ -917,6 +933,9 @@ body,
     animation: accent-blinking 450ms infinite;
 }
 /* DMs */
+.channel-2QD9_O {
+    margin-left: 2px;
+}
 .privateChannels-1nO12o .layout-2DM8Md {
     border-radius: 0;
 }
@@ -989,6 +1008,7 @@ body,
 }
 .content-3at_AU {
     border-radius: 0;
+    margin-left: 3px;
 }
 .addButton-1BORro {
     color: rgba(var(--accent-color-1), 0.9);
@@ -1424,7 +1444,7 @@ body,
 }
 .channelTabs-tabContainer {
     height: 33px !important;
-    background: var(--background-primary) !important;
+    background: rgba(var(--dark-background-color), var(--channeltabs-bg-transparency)) !important;
     z-index: 1 !important;
     border: solid 1px rgb(var(--accent-color-1)) !important;
     border-top: none !important;
@@ -1435,7 +1455,7 @@ body,
     color: var(--interactive-hover) !important;
 }
 .channelTabs-selected {
-    background: rgb(var(--darker-background-color)) !important;
+    background: rgba(var(--darker-background-color), var(--channeltabs-tab-bg-transparency)) !important;
     color: var(--interactive-active) !important;
 }
 .channelTabs-close {
@@ -2061,10 +2081,12 @@ body,
 }
 .scroller-2wx7Hm::-webkit-scrollbar,
 .scroller-2FKFPG::-webkit-scrollbar,
+.scroller-2LSbBU::-webkit-scrollbar,
 .scroller-1JbKMe::-webkit-scrollbar {
     border-left: solid 1px rgb(var(--accent-color-1)) !important;
 }
-#app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar {
+#app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
+#app-mount .scrollerWrap-2lJEkd .scroller-2LSbBU::-webkit-scrollbar {
     width: 9px !important;
     border-radius: 0 !important;
     border-bottom: solid 1px rgb(var(--accent-color-1)) !important;
@@ -2082,10 +2104,15 @@ body,
     background: transparent !important;
     border-radius: 0 !important;
 }
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece,
+.scrollerWrap-2lJEkd .scroller-2LSbBU::-webkit-scrollbar-track-piece {
     background: transparent !important;
     border: none !important;
     border-radius: 0 !important;
+}
+.scroller-2LSbBU::-webkit-scrollbar,
+.scroller-2FKFPG::-webkit-scrollbar {
+    border-bottom: solid 1px rgb(var(--accent-color-1));
 }
 ::-webkit-scrollbar-thumb, .da-scroller::-webkit-scrollbar-thumb {
     background: linear-gradient(rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
@@ -2195,7 +2222,7 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
 /*~~ 17. Update notice ~~*/
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "I'm sorry, but OperaGxGamingTheme is broken or outdated! Please download again the theme by clicking Source." !important;
-    display: var(--version003_oggt, block) !important;
+    display: var(--version004_oggt, block) !important;
     box-shadow: none !important;
     background-color: rgb(var(--dark-background-color)) !important;
     color: #fff !important;
