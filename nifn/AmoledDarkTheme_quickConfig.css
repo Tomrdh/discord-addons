@@ -24,6 +24,7 @@
     --background-dark-4th: #202225;
     --background-primary: var(--background-dark-primary) !important;
     --background-secondary: var(--background-dark-secondary) !important;
+    --background-secondary-alt: var(--background-dark-secondary) !important;
     --background-tertiary: var(--background-dark-tertiary) !important;
     --background-mobile-header: #202225 !important;
     --background-modifier-hover: rgba(var(--greyaccentcolor),0.16) !important;
