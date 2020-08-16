@@ -1884,7 +1884,7 @@ code.inline {
 }
 .separator-gCa7yv,
 #app-mount .ui-tab-bar-separator {
-    background-color: rgb(var(--accent-color-1));
+    background-color: rgb(var(--accent-color-1)) !important;
 }
 .divider-3573oO {
     border-top-color: rgb(var(--accent-color-1));
