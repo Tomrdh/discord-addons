@@ -19,8 +19,10 @@
     14. ElementHider
     15. GX (not full ready)
     16. DevTags
-    17. Update notice
-    18. Infos
+    17. Discord Developers and Others
+        17.1. Discord Developers
+    18. Update notice
+    19. Infos
 */
 /*~~ 1. Imports ~~*/
 @import url(tomrdh.github.io/da-website/fonts/Chakra%20Petch%20Regular%20400.ttf);
@@ -85,10 +87,10 @@
     --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
 ::-webkit-input-placeholder, body, button, input, select, textarea, * {
-    font-family: var(--cf);
+    font-family: var(--cf) !important;
 }
 code, .markup-2BOw-j code.inline, .codeBlockText-9TnoxQ, .codeLine-14BKbG, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
-    font-family: var(--cbcf);
+    font-family: var(--cbcf) !important;
 }
 
 /*~~ 5. Background ~~*/
@@ -2156,12 +2158,10 @@ code.inline {
     border-radius: 0 !important;
 }
 .scroller-2wx7Hm::-webkit-scrollbar,
-.scroller-2FKFPG::-webkit-scrollbar,
 .scroller-2LSbBU::-webkit-scrollbar,
 .scroller-1JbKMe::-webkit-scrollbar {
     border-left: solid 1px rgb(var(--accent-color-1)) !important;
 }
-#app-mount .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar,
 #app-mount .scrollerWrap-2lJEkd .scroller-2LSbBU::-webkit-scrollbar {
     width: 9px !important;
     border-radius: 0 !important;
@@ -2180,14 +2180,12 @@ code.inline {
     background: transparent !important;
     border-radius: 0 !important;
 }
-.scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track-piece,
 .scrollerWrap-2lJEkd .scroller-2LSbBU::-webkit-scrollbar-track-piece {
     background: transparent !important;
     border: none !important;
     border-radius: 0 !important;
 }
-.scroller-2LSbBU::-webkit-scrollbar,
-.scroller-2FKFPG::-webkit-scrollbar {
+.scroller-2LSbBU::-webkit-scrollbar, {
     border-bottom: solid 1px rgb(var(--accent-color-1));
 }
 ::-webkit-scrollbar-thumb, .da-scroller::-webkit-scrollbar-thumb {
@@ -2309,7 +2307,51 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
     color: rgb(var(--accent-color-1)) !important;
 }
 
-/*~~ 17. Update notice ~~*/
+/*~~ 17. Discord Developers and Others ~~*/
+/*-- 17.1. Discord Developers --*/
+.wrapper-36iaZw {
+    background: rgb(var(--dark-background-color));
+}
+.contentWrapper-3RaMY1 {
+	background: rgb(var(--darker-background-color));
+}
+.wrapper-s6oI1N {
+    background-color: rgb(var(--dark-background-color));
+}
+.navItem-2a0SMo {
+    border-radius: 0;
+}
+.activeNavItemPrimary-CRWnj6,
+.activeNavItemPrimary-CRWnj6:hover {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
+}
+.filledBrand-pyfKOu {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    background: rgb(var(--darker-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.filledBrand-pyfKOu:hover {
+    background: rgb(var(--dark-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.Select.Select .Select-control {
+    background-color: rgb(var(--darker-background-color));
+    border: solid 1px rgb(var(--accent-color-1)) !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 200ms;
+    transition-property: background-color, border-color;
+}
+.Select.Select .Select-control:hover {
+    background-color: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-2)) !important;
+}
+
+/*~~ 18. Update notice ~~*/
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "I'm sorry, but OperaGxGamingTheme is broken or outdated! Please download again the theme by clicking Source." !important;
     display: var(--version004_oggt, block) !important;
@@ -2346,7 +2388,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     animation: both-blinking 450ms infinite !important;
 }
 
-/*~~ 18. Infos ~~*/
+/*~~ 19. Infos ~~*/
 .info-1VyQPT:after {
     content: var(--ogx-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl + R to reload Discord. */
     font-size: 12px !important;
