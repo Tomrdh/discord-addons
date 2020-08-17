@@ -3,64 +3,10 @@
     color: white;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
-    background-color: var(--background-primary) !important;
-    border: 4px solid var(--background-primary) !important;
+.theme-dark ::-webkit-scrollbar-track {
+    background: transparent !important;
+    border: none !important;
 }
-
-.theme-dark .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .scroller-2FKFPG::-webkit-scrollbar-track {
-    background-clip: padding-box !important;
-}
-
-.theme-dark .scroller-2FKFPG .systemPad-3UxEGl::-webkit-scrollbar-thumb,
-.theme-dark .scroller-2FKFPG .systemPad-3UxEGl::-webkit-scrollbar-track {
-    background-clip: padding-box !important;
-}
-
-.theme-dark .scrollerThemed-2oenus .scroller-2FKFPG::-webkit-scrollbar-track,
-.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-track {
-    background-color: transparent !important;
-    border-color: transparent !important;
-}
-
-.theme-dark .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .scroller-2FKFPG::-webkit-scrollbar-track {
-    background-clip: padding-box !important;
-}
-
-.theme-dark .scrollerThemed-2oenus .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: rgb(var(--greyaccentcolor)) !important;
-    border-color: transparent !important;
-}
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: rgb(var(--greyaccentcolor)) !important;
-    border-color: rgb(var(--greyaccentcolor)) !important;
-}
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar {
-    width: 15px !important;
-    height: 15px !important;
-}
-
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    border-color: transparent !important;
-}
-
-.theme-dark .scroller-2FKFPG::-webkit-scrollbar-corner {
-    background-color: transparent !important;
-}
-
-.theme-dark .scroller-1JpcIc::-webkit-scrollbar-track {
-    background-color: transparent;
-}
-
-/* .theme-dark .scroller-2FKFPG::-webkit-scrollbar {
-    width: 12px !important;
-    height: 10px !important;
-} */
     
 .theme-dark .videoBackground-3AY_fu,
 .theme-dark .videoBackgroundTransition-3wpOSl {
