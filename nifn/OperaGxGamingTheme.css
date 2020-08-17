@@ -29,7 +29,7 @@
 
 /*~~ 2. Vars ~~*/
 :root {
-    /* All backgrounds */
+    /* Background variables */
     --opera-gx-bg-1: url(https://media.discordapp.net/attachments/692868820301512724/711739374714355792/opera-wallpaper1.jpg);
     --opera-gx-bg-2: url(https://media.discordapp.net/attachments/692868820301512724/711737175359750215/opera-wallpaper.jpg);
 
@@ -128,11 +128,11 @@ body,
     background: transparent;
 }
 #app-mount {
-    background: var(--background-link);
+    background: var(--background);
     background-size: cover;
 }
 .preview-2nSL_2 {
-    background: var(--background-link);
+    background: var(--background);
     background-size: cover;
     border: solid 1px rgb(var(--dark-background-color));
     border-radius: 0;
@@ -348,7 +348,7 @@ body,
     -webkit-box-shadow: inset 0 1px 0 rgb(var(--accent-color-1));
 }
 #app-mount .message-2qRu38 {
-    background: var(--background-link);
+    background: var(--background);
     backdrop-filter: blur(var(--chat-background-blur));
     background-size: cover;
     -webkit-box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
@@ -1345,7 +1345,7 @@ code.inline {
 }
 /* Connecting screen */
 .container-16j22k {
-    background: var(--background-link);
+    background: var(--background);
     background-size: cover;
 }
 /*.withFrame-haYltI, .typeWindows-1za-n7 {
@@ -1516,7 +1516,7 @@ code.inline {
 }
 .channelTabs-tabContainer {
     height: 33px !important;
-    background: rgba(var(--dark-background-color), var(--channeltabs-bg-transparency)) !important;
+    background: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
     z-index: 1 !important;
     border: solid 1px rgb(var(--accent-color-1)) !important;
     border-top: none !important;
@@ -2353,8 +2353,8 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
 
 /*~~ 18. Update notice ~~*/
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "I'm sorry, but OperaGxGamingTheme is broken or outdated! Please download again the theme by clicking Source." !important;
-    display: var(--version004_oggt, block) !important;
+    content: "I'm sorry, but OperaGxGamingTheme is broken and/or outdated! Please download again the theme by clicking Source." !important;
+    display: var(--version005_oggt, block) !important;
     box-shadow: none !important;
     background-color: rgb(var(--dark-background-color)) !important;
     color: #fff !important;
