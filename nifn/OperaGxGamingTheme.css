@@ -468,6 +468,9 @@ body,
     border: solid rgb(var(--accent-color-1)) 1px;
     border-radius: 0;
 }
+.disabledButtonWrapper-3wH6-b {
+    background: rgba(var(--darker-background-color), 0.5);
+}
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
     background: rgb(var(--dark-background-color));
