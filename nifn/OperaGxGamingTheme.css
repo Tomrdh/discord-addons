@@ -313,6 +313,12 @@ body,
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
 }
+.assetsLargeImage-eYwpTX {
+    border-radius: 0;
+}
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border-top-color: rgb(var(--accent-color-1));
+}
 /* UserPopouts */
 #app-mount .userPopout-3XzG_A {
     border-radius: 0;
@@ -468,8 +474,8 @@ body,
     border: solid rgb(var(--accent-color-1)) 1px;
     border-radius: 0;
 }
-.disabledButtonWrapper-3wH6-b {
-    background: rgba(var(--darker-background-color), 0.5);
+.lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled {
+    background: rgb(var(--darker-background-color));
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
@@ -2254,7 +2260,7 @@ code.inline {
 	visibility: visible !important;
 	transform: unset !important;
 	animation: unset !important;
-	content: "GX" !important;
+	/*content: none !important;*/
 }
 
 /*~~ 16. DevTags ~~*/
@@ -2277,37 +2283,30 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     text-decoration: none !important;
     cursor: text !important;
 }
-
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
     content: "Theme Dev" !important;
     font-weight: 600 !important;
 }
-
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after { /* Cr3pp Offici3l */
     content: "Helper" !important;
     font-weight: 600 !important;
 }
-
 div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"]:after { /* Api */
     content: "The meme guy" !important;
     font-weight: 600 !important;
 }
-
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* TomRdh */
     content: "Theme Dev: Theme Creator and Updater, ask me for support" !important;
     font-weight: 900 !important;
 }
-
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* Cr3pp Offici3l */
     content: "Helper: Serveradmin, sent some announcements" !important;
     font-weight: 900 !important;
 }
-
 div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* Api */
     content: "YO THE AP'S, I HOPE YOU'RE ALL FINE!!!" !important;
     font-weight: 900 !important;
 }
-
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],        /* TomRdh */
 div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"],        /* Api */
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"],        /* Cr3pp Offici3l */
