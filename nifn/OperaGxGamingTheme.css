@@ -1495,6 +1495,7 @@ code.inline {
 /* ChannelTabs */
 .channelTabs-name {
     text-transform: var(--channel-name-transform) !important;
+    line-height: 16px;
 }
 .channelTabs-tab {
     display: inline-block !important;
@@ -1531,6 +1532,10 @@ code.inline {
     color: var(--interactive-active) !important;
     border-color: rgb(var(--accent-color-1)) !important;
     z-index: 1;
+}
+.channelTabs-tabIcon {
+    top: 4px;
+    height: 20px !important;
 }
 .channelTabs-close {
     display: inline-block !important;
@@ -2200,6 +2205,9 @@ code.inline {
 .scroller-3BxosC::-webkit-scrollbar-track {
     background-color: rgb(var(--darker-background-color)) !important;
     border-radius: 0 !important;
+}
+.scroller-2LSbBU::-webkit-scrollbar {
+    border-bottom: solid 1px rgb(var(--accent-color-1)) !important;
 }
 
 /*~~ 14. ElementHider ~~*/
