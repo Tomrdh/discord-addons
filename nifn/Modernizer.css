@@ -1,4 +1,3 @@
-/* The code of Modernizer is now in BasicBackgroundEnhancer */
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
     content: "Successfully killed Modernizer. Now reinstall BasicBackgroundEnhancer (if you have it) and delete Modernizer." !important;
     display: block !important;
