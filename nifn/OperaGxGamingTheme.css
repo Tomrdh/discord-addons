@@ -9,6 +9,7 @@
         6.1.  General Recolor
         6.2.  General
         6.3.  Public Servers
+        6.4.  Voice Channels
     7.  Plugin Compatibility
     8.  Theme light fixer
     9.  Draw Lines
@@ -1484,6 +1485,25 @@ code.inline {
     background-color: rgba(var(--darker-background-color), 1);
     border-color: rgb(var(--accent-color-1));
 }
+/*-- 6.4. Voice Channels --*/
+.videoGridWrapper-2BDlMX {
+    background: transparent;
+    backdrop-filter: blur(var(--chat-background-blur));
+}
+.wrapper-2qzCYF {
+    background-color: transparent;
+}
+.root-217Brm {
+    background: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.tile-2naSqK {
+    background-color: rgb(var(--darker-background-color));
+}
+.button-3HqqDX {
+    background-color: rgb(var(--dark-background-color));
+}
 
 /*~~ 7. Plugin Compatibility ~~*/
 /* BetterFormattingRedux */
@@ -1746,6 +1766,10 @@ code.inline {
 .content-MLh4nU {
     border-left: solid 1px rgb(var(--accent-color-1));
 }
+.root-217Brm {
+    border-left: solid 1px rgb(var(--accent-color-1));
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
 /* Memberlist */
 .members-1998pB {
     border-left: solid 1px rgb(var(--accent-color-1));
@@ -1773,6 +1797,9 @@ code.inline {
 }
 .container-6sXIoE {
     border-bottom: none;
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
+.container-1giJp5 {
     border-top: solid 1px rgb(var(--accent-color-1));
 }
 .panel-24C3ux {
