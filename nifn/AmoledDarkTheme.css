@@ -1439,6 +1439,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     margin-left: .25rem;
     position: relative;
     top: 0.1rem;
+    border-radius: 0.1875rem;
 }
 
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after { /* YTGamer */
