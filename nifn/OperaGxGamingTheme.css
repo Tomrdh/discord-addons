@@ -1997,12 +1997,12 @@ code.inline {
     top: 50%;
 }
 .volumeSlider-sR5g00 .grabber-3mFHz2 {
-    height: 12px;
+    height: 12px !important;
     width: 12px;
     top: -4px;
     margin-left: -7px;
-    margin-top: 3px;
-    border-radius: 0;
+    margin-top: 3px !important;
+    border-radius: 0 !important;
 }
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
     background-color: rgb(var(--dark-background-color));
