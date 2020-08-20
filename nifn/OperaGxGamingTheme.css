@@ -2385,7 +2385,7 @@ code.inline {
     border: none !important;
     border-radius: 0 !important;
 }
-.scroller-2LSbBU::-webkit-scrollbar, {
+.scroller-2LSbBU::-webkit-scrollbar {
     border-bottom: solid 1px rgb(var(--accent-color-1));
 }
 ::-webkit-scrollbar-thumb, .da-scroller::-webkit-scrollbar-thumb {
