@@ -436,6 +436,10 @@ body,
     background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     animation: animated-background 14.7s infinite;
 }
+.badges-XRnWAp .topSectionPlaying-1J5E4n {
+    background: none !important;
+    animation: none !important;
+}
 .discriminator[style*="114, 137, 218"] {
     color: rgb(114, 137, 218) !important;
 }
