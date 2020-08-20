@@ -1118,17 +1118,26 @@ code.inline {
     -webkit-box-shadow: none;
     max-height: calc(100vh - 52px);
     border-radius: 0;
+    transition: 200ms;
+    transition-property: background-color, opacity;
+}
+.colorDefault-2K3EoJ {
+    color: #fff;
+    font-weight: 300;
 }
 .colorDefault-2K3EoJ.focused-3afm-j { /* selection/hover */
-    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    background-color: rgba(var(--accent-color-1), 0.6);
     border-radius: 0;
+}
+.colorDefault-2K3EoJ.focused-3afm-j .arrow-gKvcEx {
+    color: black;
 }
 .item-1tOPte,
 .item-1tOPte:hover {
     cursor: default;
 }
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { /* selecting */
-    background: linear-gradient(315deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    background-color: rgba(var(--accent-color-1), 0.6);
 }
 .labelContainer-1BLJti, .scroller-3BxosC {
     padding: 0;
@@ -1528,37 +1537,43 @@ code.inline {
 /* ChannelTabs */
 .channelTabs-name {
     text-transform: var(--channel-name-transform) !important;
-    line-height: 16px;
+    line-height: 18px;
 }
 .channelTabs-tab {
     display: inline-block !important;
-    margin: 2px 0 !important;
+    margin: 0 !important;
     margin-left: -1px !important;
     font-size: 12px !important;
     background: none !important;
-    border: solid 1px rgb(var(--darker-background-color)) !important;
     padding: 6px !important;
-    border-radius: 0 !important;
+    border-radius: 0 0 0 !important;
     color: var(--interactive-normal) !important;
     transition: width 200ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color, width !important;
     cursor: default !important;
-    height: 15px !important;
-}
-.channelTabs-tab:first-child {
-    margin-left: 2px !important;
-}
-.channelTabs-tabContainer {
-    height: 33px !important;
-    background: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
-    z-index: 1 !important;
-    border: solid 1px rgb(var(--accent-color-1)) !important;
-    border-top: none !important;
+    height: 17px !important;
+    border: solid 1px transparent !important;
+    border-bottom: none !important;
+    top: -1px;
+    border-right-color: #fff2 !important;
 }
 .channelTabs-tab:not(.channelTabs-selected):hover {
     background: rgba(var(--accent-color-1), 0.3) !important;
     cursor: default !important;
     color: var(--interactive-hover) !important;
+}
+.channelTabs-selected {
+    border-color: rgb(var(--darker-background-color)) !important;
+}
+.channelTabs-tab:first-child {
+    margin-left: 0px !important;
+}
+.channelTabs-tabContainer {
+    height: 29px !important;
+    background: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
+    z-index: 1 !important;
+    border: solid 1px rgb(var(--accent-color-1)) !important;
+    border-top: none !important;
 }
 .channelTabs-selected {
     background: rgba(var(--darker-background-color), var(--channeltabs-tab-bg-transparency)) !important;
@@ -1567,14 +1582,14 @@ code.inline {
     z-index: 1;
 }
 .channelTabs-tabIcon {
-    top: 4px;
+    top: 5px;
     height: 20px !important;
 }
 .channelTabs-close {
     display: inline-block !important;
     position: absolute !important;
     right: 5px !important;
-    top: 7px !important;
+    top: 8px !important;
     width: 14px !important;
     height: 14px !important;
     border-radius: 3px !important;
@@ -1612,7 +1627,7 @@ code.inline {
     color: rgb(var(--accent-color-1)) !important;
     transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color, width !important;
-    top: 6px !important;
+    top: 4px !important;
 }
 .channelTabs-newTab:hover {
     background: rgba(var(--accent-color-1), 0.3) !important;
