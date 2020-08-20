@@ -58,6 +58,7 @@
     --background-floating: rgb(var(--darker-background-color)) !important;
     --bd-blue: rgb(var(--accent-color-1)) !important;
     --blurple: rgb(var(--accent-color-1)) !important;
+    --deprecated-quickswitcher-input-background: rgb(var(--darker-background-color)) !important;
 }
 
 /*~~ 3. Keyframes (animations) ~~*/
@@ -957,6 +958,36 @@ code.inline {
     background: rgb(var(--dark-background-color));
     border: solid rgb(var(--accent-color-1)) 1px;
     animation: accent-blinking 450ms infinite;
+}
+/* Search anything */
+#app-mount .input-2VB9rf {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    color: var(--text-normal);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: rgb(var(--dark-background-color));
+    animation: accent-blinking 450ms infinite;
+}
+.quickswitcher-3JagVE {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+    animation: accent-blinking 450ms infinite;
+    background-color: rgb(var(--darker-background-color));
+}
+.result-oB0z-- {
+    border: solid 1px transparent;
+    border-radius: 0;
+}
+.resultFocused-3aIoYe {
+    border-color: rgb(var(--accent-color-1));
+    animation: accent-blinking 450ms infinite;
+    background: rgb(var(--dark-background-color));
+}
+.scroller-zPkAnE {
+    background: transparent;
 }
 /* DMs */
 .channel-2QD9_O {
