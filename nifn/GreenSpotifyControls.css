@@ -1,31 +1,31 @@
 /* Dark theme */
 .theme-dark .barFill-Dhkah7 {
-    background-color: var(--dark-white-color-1, #ffffff);
+    background-color: var(--dark-white-color-1, #fff);
 }
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div,
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div {
-    color: var(--dark-white-color-1, #ffffff);
+    color: var(--dark-white-color-1, #fff);
 }
 .theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
     background-color: var(--dark-timeline-hover, #35ed86);
 }
 .theme-dark .grabber-7sd5f5 {
-    background: var(--dark-white-color-1, #ffffff);
+    background: var(--dark-white-color-1, #fff);
 }
 .theme-dark .container-6sXIoE {
     background-color: var(--dark-controls-background-color, #1c9a48);
-    color: var(--dark-white-color-1, #ffffff);
+    color: var(--dark-white-color-1, #fff);
 }
 .theme-dark .song-tIdBpF {
     font-weight: 600;
-    color: var(--dark-white-color-1, #ffffff);
+    color: var(--dark-white-color-1, #fff);
 }
 .theme-dark .interpret-F93iqP {
     font-weight: 500;
     color: var(--dark-white-color-2, #ffffffa2);
 }
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button {
-    color: var(--dark-white-color-1, #ffffff);
+    color: var(--dark-white-color-1, #fff);
 }
 .theme-dark .container-6sXIoE .button-14-BFJ.active-6TsW-_ {
     color: var(--dark-active-buttons, #35ed86) !important;
@@ -34,7 +34,7 @@
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button,
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0 > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button,
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button {
-    color: var(--dark-white-color-1, #ffffff);
+    color: var(--dark-white-color-1, #fff);
 }
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover,
 .theme-dark #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover,
@@ -49,40 +49,41 @@
 
 /* Light theme */
 .theme-light .barFill-Dhkah7 {
-    background-color: var(--light-black-color-1, #000000);
+    background-color: var(--light-black-color-1, #000);
 }
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div,
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.withTimeline-824fT_ > div.timeline-UWmgAx > div.barText-lmqc5O > div {
-    color: var(--light-black-color-1, #000000);
+    color: var(--light-black-color-1, #000);
 }
 .theme-light .timeline-UWmgAx:hover .barFill-Dhkah7 {
-    background-color: var(--light-timeline-hover, #ffffff);
+    background-color: var(--light-timeline-hover, #fff);
 }
 .theme-light .grabber-7sd5f5 {
-    background: var(--light-black-color-1, #000000);
+    background: var(--light-black-color-1, #000);
 }
 .theme-light .container-6sXIoE {
     background-color: var(--light-controls-background-color, #35ed86);
+    color: var(--light-dark-color-1, #000);
 }
 .theme-light .song-tIdBpF {
     font-weight: 700;
-    color: var(--light-black-color-1, #000000);
+    color: var(--light-black-color-1, #000);
 }
 .theme-light .interpret-F93iqP {
     font-weight: 600;
     color: var(--light-black-color-2, #000000a2);
 }
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button {
-    color: var(--light-black-color-1, #000000);
+    color: var(--light-black-color-1, #000);
 }
 .theme-light .container-6sXIoE .button-14-BFJ.active-6TsW-_ {
-    color: var(--light-active-buttons, #ffffff) !important;
+    color: var(--light-active-buttons, #fff) !important;
 }
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button,
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button,
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0 > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button,
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE > div > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button {
-    color: var(--light-black-color-1, #000000);
+    color: var(--light-black-color-1, #000);
 }
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.maximized-vv2Wr0.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover,
 .theme-light #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.sidebar-2K8pFh > section > div.container-6sXIoE.withTimeline-824fT_ > div.inner-WRV6k5 > div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6 > button:hover
@@ -99,9 +100,14 @@
 #app-mount .barText-lmqc5O {
     font-weight: 500;
 }
-
 #app-mount .activityPanel-28dQGo {
     border-bottom: none;
+}
+#app-mount .container-6sXIoE {
+    border-top: none !important;
+}
+#app-mount .container-6sXIoE ~ .container-3baos1 {
+    border-top: none !important;
 }
 
 /* Updates */
@@ -110,7 +116,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     display: var(--version002_gsc, block) !important;
     background-color: var(--dark-controls-background-color, #1c9a48) !important;
     box-shadow: 0 0px 30px 0 var(--dark-controls-background-color, #1c9a48) !important;
-    color: var(--dark-white-color-1, #ffffff) !important;
+    color: var(--dark-white-color-1, #fff) !important;
     flex-grow: 0 !important;
     flex-shrink: 0 !important;
     font-size: 16px !important;
