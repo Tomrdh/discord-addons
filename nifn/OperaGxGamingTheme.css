@@ -82,6 +82,109 @@
     50% {border-color: rgb(var(--accent-color-2)); background-color: rgb(var(--dark-background-color));}
     100%{border-color: rgb(var(--accent-color-1)); background-color: rgb(var(--darker-background-color));}
 }
+@keyframes animated-background { /* animation: animated-background 14.7s infinite; */
+    0%   {background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    1%   {background: linear-gradient(123deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    2%   {background: linear-gradient(127deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    3%   {background: linear-gradient(130deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    4%   {background: linear-gradient(134deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    5%   {background: linear-gradient(138deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    6%   {background: linear-gradient(141deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    7%   {background: linear-gradient(145deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    8%   {background: linear-gradient(148deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    9%   {background: linear-gradient(152deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    10%  {background: linear-gradient(156deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    11%  {background: linear-gradient(159deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    12%  {background: linear-gradient(163deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    13%  {background: linear-gradient(166deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    14%  {background: linear-gradient(170deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    15%  {background: linear-gradient(174deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    16%  {background: linear-gradient(177deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    17%  {background: linear-gradient(181deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    18%  {background: linear-gradient(184deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    19%  {background: linear-gradient(188deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    20%  {background: linear-gradient(192deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    21%  {background: linear-gradient(195deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    22%  {background: linear-gradient(199deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    23%  {background: linear-gradient(202deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    24%  {background: linear-gradient(206deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    25%  {background: linear-gradient(210deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    26%  {background: linear-gradient(213deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    27%  {background: linear-gradient(217deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    28%  {background: linear-gradient(220deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    29%  {background: linear-gradient(224deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    30%  {background: linear-gradient(228deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    31%  {background: linear-gradient(231deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    32%  {background: linear-gradient(235deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    33%  {background: linear-gradient(238deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    34%  {background: linear-gradient(242deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    35%  {background: linear-gradient(246deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    36%  {background: linear-gradient(249deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    37%  {background: linear-gradient(253deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    38%  {background: linear-gradient(256deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    39%  {background: linear-gradient(260deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    40%  {background: linear-gradient(264deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    41%  {background: linear-gradient(267deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    42%  {background: linear-gradient(271deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    43%  {background: linear-gradient(274deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    44%  {background: linear-gradient(278deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    45%  {background: linear-gradient(282deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    46%  {background: linear-gradient(285deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    47%  {background: linear-gradient(289deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    48%  {background: linear-gradient(292deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    49%  {background: linear-gradient(296deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    50%  {background: linear-gradient(300deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    51%  {background: linear-gradient(303deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    52%  {background: linear-gradient(307deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    53%  {background: linear-gradient(310deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    54%  {background: linear-gradient(314deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    55%  {background: linear-gradient(318deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    56%  {background: linear-gradient(321deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    57%  {background: linear-gradient(325deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    58%  {background: linear-gradient(328deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    59%  {background: linear-gradient(332deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    60%  {background: linear-gradient(336deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    61%  {background: linear-gradient(339deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    62%  {background: linear-gradient(343deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    63%  {background: linear-gradient(346deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    64%  {background: linear-gradient(350deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    65%  {background: linear-gradient(354deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    66%  {background: linear-gradient(357deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    67%  {background: linear-gradient(1deg,   rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    68%  {background: linear-gradient(4deg,   rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    69%  {background: linear-gradient(8deg,   rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    70%  {background: linear-gradient(12deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    71%  {background: linear-gradient(15deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    72%  {background: linear-gradient(19deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    73%  {background: linear-gradient(22deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    74%  {background: linear-gradient(26deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    75%  {background: linear-gradient(30deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    76%  {background: linear-gradient(33deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    77%  {background: linear-gradient(37deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    78%  {background: linear-gradient(40deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    79%  {background: linear-gradient(44deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    80%  {background: linear-gradient(48deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    81%  {background: linear-gradient(51deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    82%  {background: linear-gradient(55deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    83%  {background: linear-gradient(58deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    84%  {background: linear-gradient(62deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    85%  {background: linear-gradient(66deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    86%  {background: linear-gradient(69deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    87%  {background: linear-gradient(73deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    88%  {background: linear-gradient(76deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    89%  {background: linear-gradient(80deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    90%  {background: linear-gradient(84deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    91%  {background: linear-gradient(87deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    92%  {background: linear-gradient(91deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    93%  {background: linear-gradient(94deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    94%  {background: linear-gradient(98deg,  rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    95%  {background: linear-gradient(102deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    96%  {background: linear-gradient(105deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    97%  {background: linear-gradient(109deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    98%  {background: linear-gradient(112deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    99%  {background: linear-gradient(116deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+    100% {background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+}
 
 /*~~ 4. Font ~~*/
 :root {
@@ -328,8 +431,10 @@ body,
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgb(var(--accent-color-1));
     max-height: calc(100vh - 52px);
 }
-.headerPlaying-j0WQBV {
-    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n {
+    background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    animation: animated-background 14.7s infinite;
 }
 .discriminator[style*="114, 137, 218"] {
     color: rgb(114, 137, 218) !important;
@@ -341,6 +446,10 @@ body,
 #app-mount .footer-1fjuF6 {
     background-color: rgb(var(--darker-background-color));
     color: #ffffffcc;
+}
+#app-mount .headerNormal-T_seeN .headerName-fajvi9,
+#app-mount .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881 {
+    color: #ffffff;
 }
 /* Popouts */
 #app-mount .root-1gCeng {
@@ -1152,7 +1261,7 @@ code.inline {
     transition: 200ms;
     transition-property: background-color, opacity;
 }
-.colorDefault-2K3EoJ {
+.colorDefault-2K3EoJ:not(.colorBrand-ROmMP1, .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS) {
     color: #fff;
     font-weight: 300;
 }
