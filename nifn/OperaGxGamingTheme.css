@@ -2126,6 +2126,9 @@ code.inline {
 .input-cIJ7To:focus {
     border-color: rgb(var(--accent-color-1));
 }
+.input-cIJ7To.disabled-2BKQFm {
+    border-color: rgb(0, 0, 0, 0.2);
+}
 #app-mount .bar-2Qqk5Z {
     background: rgb(var(--dark-background-color));
     border-radius: 0;
@@ -2346,6 +2349,16 @@ code.inline {
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
     background: linear-gradient(315deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
+}
+#app-mount .card-3_CqkU,
+#app-mount .iconMask-30Tvqs {
+    background-color: var(--background-primary);
+}
+#app-mount .card-3_CqkU {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
 }
 
 /*~~ 12. Text selection ~~*/
