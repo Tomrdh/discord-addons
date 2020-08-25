@@ -1416,7 +1416,6 @@
 
 /* DevTags */
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,  /* YTGamer */
-div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Cr3pp Offici3l */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
@@ -1452,23 +1451,16 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     font-weight: 600 !important;
 }
 
-div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after { /* Cr3pp Offici3l */
-    content: "Helper" !important;
-    font-weight: 600 !important;
-}
-
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"],        /* YTGamer */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],        /* TomRdh */
-div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"],        /* Cr3pp Offici3l */
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover,
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover,
-div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:hover {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
 }
 
 /* Build Numbers */
 :root {
-    --adt-info: "AmoledDarkTheme 277";
-    --adto-info: "AmoledDarkThemeOptmized 177";
+    --adt-info: "AmoledDarkTheme 278";
+    --adto-info: "AmoledDarkThemeOptmized 178";
 }
