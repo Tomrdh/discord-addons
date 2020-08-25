@@ -1417,7 +1417,6 @@
 /* DevTags */
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after,  /* YTGamer */
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Cr3pp Offici3l */
-div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"]:after,  /* Api */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
@@ -1436,19 +1435,20 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     height: 0.9375rem;
     padding: 0 0.275rem;
     margin-top: 0.075em;
-    margin-left: .25rem;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
     position: relative;
     top: 0.1rem;
     border-radius: 0.1875rem;
 }
 
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:after { /* YTGamer */
-    content: "Theme Dev" !important;
+    content: "Theme Dev #1" !important;
     font-weight: 600 !important;
 }
 
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
-    content: "Theme Dev" !important;
+    content: "Theme Dev #2" !important;
     font-weight: 600 !important;
 }
 
@@ -1457,38 +1457,11 @@ div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > spa
     font-weight: 600 !important;
 }
 
-div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"]:after { /* Api */
-    content: "The meme guy" !important;
-    font-weight: 600 !important;
-}
-
-div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* YTGamer */
-    content: "Theme Dev #1: Theme Creator, say thanks!" !important;
-    font-weight: 900 !important;
-}
-
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* TomRdh */
-    content: "Theme Dev #2: Theme Updater, ask me for support" !important;
-    font-weight: 900 !important;
-}
-
-div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* Cr3pp Offici3l */
-    content: "Helper: Serveradmin, sent some announcements" !important;
-    font-weight: 900 !important;
-}
-
-div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"]:hover:after { /* Api */
-    content: "YO THE AP'S, I HOPE YOU'RE ALL FINE!!!" !important;
-    font-weight: 900 !important;
-}
-
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"],        /* YTGamer */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],        /* TomRdh */
-div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"],        /* Api */
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"],        /* Cr3pp Offici3l */
 div[class*="message"] img[src*="453591095536779274"] ~ h2[class^="header"] > span[class*="name"]:hover,
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover,
-div[class*="message"] img[src*="389848247063281664"] ~ h2[class^="header"] > span[class*="name"]:hover,
 div[class*="message"] img[src*="463846495553060873"] ~ h2[class^="header"] > span[class*="name"]:hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
