@@ -2223,7 +2223,7 @@ code.inline {
 .wrapper-3jrx9n {
     background-color: rgb(var(--darker-background-color));
 }
-.sizeSmall-2cSMqn {
+.sizeSmall-2cSMqn:not(.button-38aScr) {
     border-radius: 1.5px;
     clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
 }
