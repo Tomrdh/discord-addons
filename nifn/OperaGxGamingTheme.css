@@ -2220,17 +2220,21 @@ code.inline {
 #app-mount .css-19bqh2r:hover {
     fill: #fff;
 }
+.wrapper-3jrx9n {
+    background-color: rgb(var(--darker-background-color));
+}
+.sizeSmall-2cSMqn {
+    border-radius: 1.5px;
+    clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+}
 .option-n0icdO {
     background: rgb(var(--dark-background-color));
-    border-radius: 0;
+    border-radius: 1.5px;
+    clip-path: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px);
 }
-.option-n0icdO:hover {
-    border: solid 1px rgb(var(--accent-color-1));
-    background: rgb(var(--dark-background-color));
-}
+.option-n0icdO:hover,
 .selected-mKYnfr.option-n0icdO {
-    background: linear-gradient(315deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
-    border: solid 1px rgb(var(--accent-color-1));
+    background: rgb(var(--accent-color-1));
 }
 #app-mount .addGamePopout-2RY8Ju {
     background-color: rgb(var(--dark-background-color));
