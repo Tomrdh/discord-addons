@@ -934,7 +934,7 @@
 }
 
 .theme-dark .separator-XqIyoz {
-    background-color: var(--background-tertiary);
+    background-color: var(--background-secondary);
 }
 
 .theme-dark #MemberCount {
@@ -1372,6 +1372,10 @@
     background-color: var(--background-dark-secondary);
 }
 
+.theme-dark .inset-3sAvek {
+    background-color: var(--background-primary);
+}
+
 /* Discord Developers */
 .theme-dark .scrollerWrapper-2xG8VZ {
     background-color: var(--background-dark-secondary);
@@ -1461,6 +1465,6 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 
 /* Build Numbers */
 :root {
-    --adt-info: "AmoledDarkTheme 278";
-    --adto-info: "AmoledDarkThemeOptmized 178";
+    --adt-info: "AmoledDarkTheme 279";
+    --adto-info: "AmoledDarkThemeOptmized 179";
 }
