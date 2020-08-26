@@ -836,7 +836,9 @@ code.inline {
 }
 #app-mount .inset-3sAvek:hover {
     background: rgb(var(--dark-background-color));
-    animation: accent-blinking 450ms infinite;
+}
+#app-mount .separator-XqIyoz {
+    background-color: rgb(var(--accent-color-1));
 }
 /* Friends Action buttons */
 .actionButton-uPB8Fs {
