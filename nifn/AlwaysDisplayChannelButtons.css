@@ -1,4 +1,8 @@
-.iconItem-1-bXkn, .linkChannels, .closeButton-2GCmT5, .userLimit-64AFxe {
+.iconItem-1-bXkn,
+.linkChannels,
+.closeButton-2GCmT5,
+.userLimit-64AFxe,
+.unpinButton-z3-UVO {
     display: flex !important;
     opacity: 1 !important;
     visibility: visible !important;
@@ -40,4 +44,3 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     z-index: 101 !important;
     pointer-events: none !important;
 }
-
