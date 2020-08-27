@@ -1585,6 +1585,14 @@ code.inline {
 .wanderingCubesItem-WPXqao:last-child {
     background-color: rgb(var(--accent-color-2));
 }
+#app-mount .content-s2SEQO ol,
+#app-mount .content-s2SEQO p,
+#app-mount .content-s2SEQO ul li {
+    color: #b9bbbe;
+}
+#app-mount .content-s2SEQO ul li:before {
+    background-color: #fff;
+}
 /*-- 6.3. Public Servers --*/
 /* Public button */
 #bd-pub-button {
