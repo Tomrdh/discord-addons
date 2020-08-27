@@ -1122,18 +1122,19 @@ code.inline {
 }
 .privateChannels-1nO12o .layout-2DM8Md {
     border-radius: 0;
+    border-left: solid 2px transparent;
 }
 .privateChannels-1nO12o .selected-aXhQR6 .layout-2DM8Md {
     background: rgb(var(--dark-background-color));
-    border-left: solid 2px rgb(var(--accent-color-1));
+    border-left-color: rgb(var(--accent-color-1));
 }
 .privateChannels-1nO12o .clickable-1JJAn8:hover .layout-2DM8Md {
-    border-left: solid rgb(var(--accent-color-2)) 2px;
+    border-left-color: rgb(var(--accent-color-2));
     background: rgb(var(--darker-background-color));
     animation: both-blinking 450ms infinite;
 }
 .privateChannels-1nO12o .highlighted-1gWxXa.container-2Pjhx- .layout-2DM8Md {
-    border-left: solid 2px #fff;
+    border-left-color: #fff;
     background: rgb(var(--darker-background-color));
     border-radius: 0;
     font-style: italic;
@@ -1186,13 +1187,12 @@ code.inline {
 }
 /* Channels */
 .wrapper-1ucjTd {
-    padding-top: 0;
-    padding-bottom: 0;
     height: 34px;
 }
 .content-3at_AU {
     border-radius: 0;
     margin-left: 3px;
+    border-left: solid 2px transparent;
 }
 .addButton-1BORro {
     color: rgba(var(--accent-color-1), 0.9);
@@ -2469,26 +2469,26 @@ code.inline {
     background-color: #00000000;
 }
 .wordmark-2iDDfm:after {
-	color: white !important;
-	display: block !important;
-	position: absolute !important;
-	max-width: unset !important;
-	min-width: unset !important;
-	width: 55px !important;
-	max-height: unset !important;
-	min-height: unset !important;
-	height: 16px !important;
-	margin: 0 !important;
-	padding: 3px 9px 3px !important;
-	top: 0 !important;
-	left: 0 !important;
-	bottom: unset !important;
-	right: unset !important;
-	opacity: 0.6 !important;
-	visibility: visible !important;
-	transform: unset !important;
-	animation: unset !important;
-	/*content: none !important;*/
+    color: white !important;
+    display: block !important;
+    position: absolute !important;
+    max-width: unset !important;
+    min-width: unset !important;
+    width: 55px !important;
+    max-height: unset !important;
+    min-height: unset !important;
+    height: 16px !important;
+    margin: 0 !important;
+    padding: 3px 9px 3px !important;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: unset !important;
+    right: unset !important;
+    opacity: 0.6 !important;
+    visibility: visible !important;
+    transform: unset !important;
+    animation: unset !important;
+    /*content: none !important;*/
 }
 
 /*~~ 16. DevTags ~~*/
@@ -2533,7 +2533,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     background: rgb(var(--dark-background-color));
 }
 .contentWrapper-3RaMY1 {
-	background: rgb(var(--darker-background-color));
+    background: rgb(var(--darker-background-color));
 }
 .wrapper-s6oI1N {
     background-color: rgb(var(--dark-background-color));
