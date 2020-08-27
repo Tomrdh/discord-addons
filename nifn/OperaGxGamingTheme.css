@@ -2411,6 +2411,20 @@ code.inline {
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
 }
+.item-3T2z1R {
+    border-radius: 0 !important;
+}
+#app-mount .denySelected-1mh2mZ {
+    background: #f22;
+    border-color: #f22;
+}
+#app-mount .passthroughSelected-1Eq0Kl {
+    background: rgb(var(--dark-background-color));
+}
+#app-mount .allowSelected-25S_i5 {
+    border-color: #4a4;
+    background: #4a4;
+}
 
 /*~~ 12. Text selection ~~*/
 ::selection {
