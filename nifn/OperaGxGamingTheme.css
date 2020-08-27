@@ -624,6 +624,8 @@ body,
 .mentioned-xhSam7:before {
     background-color: rgb(var(--accent-color-1));
     width: 3px;
+    -webkit-box-shadow: 0 0 30px 5px rgb(var(--accent-color-1)) !important;
+    box-shadow: 0 0 30px 5px rgb(var(--accent-color-1)) !important;
 }
 .mentioned-xhSam7 {
     background-color: rgba(var(--accent-color-1), 0.15);
@@ -645,14 +647,22 @@ body,
     -webkit-box-shadow: none;
 }
 .separator-42rNt0 {
-    background-color: rgba(var(--accent-color-1), 0.3);
+    display: none;
+}
+.button-1ZiXG9.disabled-1RZyKz,
+.button-1ZiXG9.disabled-1RZyKz:active,
+.button-1ZiXG9.disabled-1RZyKz:hover {
+    opacity: 1;
+    color: #b9bbbe80;
+    border-bottom-color: rgba(var(--accent-color-1), 0.5);
+    border-top-color: rgba(var(--accent-color-1), 0.5);
 }
 .button-1ZiXG9:first-child,
 .button-1ZiXG9:last-child {
     border-radius: 0;
 }
 .button-1ZiXG9 {
-    padding: 8px;
+    padding: 8px !important;
     border-left: solid 1px rgb(var(--accent-color-1));
     border-bottom: solid 1px rgb(var(--accent-color-1));
     border-top: solid 1px rgb(var(--accent-color-1));
@@ -672,7 +682,7 @@ body,
     padding: 0;
 }
 .message-2qnXI6 {
-    padding-right: 128px !important;
+    padding-right: 170px !important;
 }
 
 /* Reactions */
@@ -2038,7 +2048,8 @@ code.inline {
     backdrop-filter: blur(var(--serverlist-background-blur));
 }
 /* Channels and DMs */
-.scroller-2wx7Hm, .scroller-1JbKMe,
+.scroller-2wx7Hm,
+.scroller-1JbKMe,
 .container-36W3SS,
 .panels-j1Uci_ {
     background-color: rgba(var(--channels-transparency-color), var(--channels-transparency));
