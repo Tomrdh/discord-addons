@@ -191,10 +191,25 @@
     --cf: var(--customFont, --custom-font, Chakra Petch, Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
     --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
-::-webkit-input-placeholder, body, button, input, select, textarea, * {
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea,
+* {
     font-family: var(--cf) !important;
 }
-code, .markup-2BOw-j code.inline, .codeBlockText-9TnoxQ, .codeLine-14BKbG, .after_inlineCode-1KfVgj, .before_inlineCode-1G9rTK, .inlineCode-2ngu6Y {
+span[class*="hljs"],
+span[class*="hljs"] span,
+.codeLine-14BKbG span span span,
+code,
+.markup-2BOw-j code.inline,
+.codeBlockText-9TnoxQ,
+.codeLine-14BKbG,
+.after_inlineCode-1KfVgj,
+.before_inlineCode-1G9rTK,
+.inlineCode-2ngu6Y span {
     font-family: var(--cbcf) !important;
 }
 
@@ -832,6 +847,10 @@ body,
 }
 code.inline {
     border-radius: 0 !important;
+}
+.codeBlockLang-O_f4hr {
+    color: rgb(var(--accent-color-1));
+    font-weight: 900;
 }
 /* Quiet card */
 .emptyCard-1RJw8n {
