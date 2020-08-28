@@ -34,7 +34,7 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .guildsError-b7zR5H,
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .placeholderMask-3K9THS {
     width: var(--server-size);
-    height: var(--server-size);
+    max-height: var(--server-size);
 }
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ [role=group] {
     height: auto !important;
