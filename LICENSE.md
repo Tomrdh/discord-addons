@@ -1,11 +1,28 @@
-# Discord Addons by [TomRdh](https://github.com/Tomrdh) is [Unlicensed](https://unlicense.org)
+# Discord Addons by [TomRdh](https://github.com/Tomrdh) License
 
-*This is free and unencumbered software released into the public domain.*
+*"This is a simple, short, and easily understandable license." - TomRdh*
 
-*Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.*
+## Personal usage
 
-*In jurisdictions that recognize copyright laws, the author or authors of this software dedicate any and all copyright interest in the software to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this software under copyright law.*
+…And ONLY for personal usage, you are free to use, copy, modify or share from official sources this project as you want without risks and/or punishments.
 
-***THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.***
+## Public usage
 
-*For more information, please refer to [unlicense.org](https://unlicense.org).*
+You don't have the rights to publish, submit, sell, or distribute a copy of this project without my special permission. [Ask me in my Discord server.](https://discord.gg/v7ECsqT)
+
+## Responsibility
+
+I am not responsible of any kind of modifications (like customizations or custom CSS), any share of this project from unofficial sources or anything that is not realized by me.
+
+## List of "Official Sources"
+
+Links starting with:
+
+- `tomrdh.github.io` See: [Website](https://tomrdh.github.io/da-website/main)
+- `github.com/Tomrdh` See: [Profile](https://github.com/Tomrdh), [DA Repository](https://github.com/Tomrdh/discord-addons)
+
+## Other
+
+This is my first own license. It can be updated later at any moment. [You can also suggest me some improvements in my Discord server.](https://discord.gg/v7ECsqT)
+
+I created this "license" myself specially for Discord Addons and you shouldn't copy and/or modify it for any other project.
