@@ -1,6 +1,12 @@
-/* Reverso Context - Show Blurred Examples
- * Use this code only on the following domain: context.reverso.net 
-*/
+/*
+ * Reverso Context - Show Blurred Examples
+ * 
+ * This style allows you to show all blurred examples in Reverso Context without logging in to an account.
+ * WARNING: To avoid unwanted results, use this code only on the following domain:
+ * context.reverso.net
+ *
+ * Thanks for using my stuff!
+ */
 
 #examples-content .example.blocked, #examples-content .example.blocked .text {
     filter: none !important;
