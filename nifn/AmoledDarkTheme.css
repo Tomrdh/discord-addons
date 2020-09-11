@@ -1375,6 +1375,9 @@
 .theme-dark .inset-3sAvek {
     background-color: var(--background-primary);
 }
+.theme-dark .nowPlayingColumn-2sl4cE {
+    background-color: var(--background-tertiary);
+}
 
 /* Discord Developers */
 .theme-dark .scrollerWrapper-2xG8VZ {
@@ -1465,6 +1468,6 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 
 /* Build Numbers */
 :root {
-    --adt-info: "AmoledDarkTheme 279";
-    --adto-info: "AmoledDarkThemeOptmized 179";
+    --adt-info: "AmoledDarkTheme 280";
+    --adto-info: "AmoledDarkThemeOptmized 180";
 }
