@@ -1154,56 +1154,6 @@
     background-color: black;
 }
 
-.theme-light .layer-3QrUeG:first-of-type::before  {
-    content: "Light theme has issues with AmoledDarkTheme. Please switch to dark theme in User Settings -> Appearance -> Dark." !important;
-    background-color: #ef0e0e !important;
-    box-shadow: 0 0px 30px 0 #ef0e0e !important;
-    color: white !important;
-    flex-grow: 0 !important;
-    flex-shrink: 0 !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    height: 36px !important;
-    line-height: 36px !important;
-    opacity: 1 !important;
-    padding-left: 4px !important;
-    padding-right: 28px !important;
-    position: relative !important;
-    text-align: center !important;
-    visibility: unset !important;
-    white-space: pre !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: unset !important;
-    right: unset !important;
-    max-width: unset !important;
-    min-width: unset !important;
-    max-height: unset !important;
-    min-height: unset !important;
-    transform: unset !important;
-    animation: unset !important;
-    z-index: 101 !important;
-    cursor: text !important;
-    pointer-events: none !important;
-    display: none !important; /* not required now */
-}
-
-/* .theme-light .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:first-of-type,
-.theme-light .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr .item-26Dhrx:first-of-type {
-    background-color: #ef0e0e;
-    border-color: #630706;
-    box-shadow: 0 0px 30px 0 #630706;
-} */ /* not required now */
-
-/* .theme-dark .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr .cardPrimaryEditable-3KtE4g:last-child,
-.theme-dark .preview-2nSL_2.cardPrimaryOutline-29Ujqw + .marginTop40-i-78cZ .radioGroup-1GBvlr .item-26Dhrx:last-child {
-    display: none;
-} */ /* not required now */
-
-/* .theme-dark #user-settings-cog-Appearance--theme > .theme-dark div.label-22pbtT:nth-child(1) {
-    color: #ff0000;
-} */ /* not required now */
-
 .theme-dark .container-1r6BKw.themed-ANHk51 {
     background-color: var(--background-tertiary) !important;
 }
@@ -1375,8 +1325,13 @@
 .theme-dark .inset-3sAvek {
     background-color: var(--background-primary);
 }
+
 .theme-dark .nowPlayingColumn-2sl4cE {
     background-color: var(--background-tertiary);
+}
+
+#app-mount .wrapper-1-Fsb8 {
+    background: none;
 }
 
 /* Discord Developers */
@@ -1468,6 +1423,6 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 
 /* Build Numbers */
 :root {
-    --adt-info: "AmoledDarkTheme 280";
-    --adto-info: "AmoledDarkThemeOptmized 180";
+    --adt-info: "AmoledDarkTheme 281";
+    --adto-info: "AmoledDarkThemeOptmized 181";
 }
