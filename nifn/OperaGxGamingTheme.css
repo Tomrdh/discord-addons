@@ -3068,24 +3068,29 @@ code.inline {
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
 }
-.valueUnchecked-2lU_20:after {
+.valueUnchecked-2lU_20:after,
+.bd-switch:after {
     -webkit-transform: translate3d(0, -1px, 0);
     transform: translate3d(0, -1px, 0);
 }
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
+.bd-switch-checked.bd-switch:after {
     -webkit-transform: translate3d(16px, -1.5px, 0);
     transform: translate3d(16px, -1.5px, 0);
 }
 .valueUnchecked-2lU_20:after,
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after {
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
+.bd-switch:after {
     background-color: rgb(217, 215, 218);
 }
 .valueUnchecked-2lU_20,
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr {
+.valueChecked-m-4IJZ.sizeDefault-2YlOZr,
+.bd-switch {
     transition: 500ms;
     transition-property: background-color, border-color;
 }
-.valueUnchecked-2lU_20 {
+.valueUnchecked-2lU_20,
+.bd-switch {
     background-color: rgb(var(--darker-background-color));
     border: solid 1px rgb(var(--dark-background-color));
 }
@@ -3110,12 +3115,6 @@ code.inline {
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
     background: rgb(var(--dark-background-color));
-}
-.bd-switch {
-    background: linear-gradient(315deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
-}
-.bd-switch-checked {
-    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
 #app-mount .card-FDVird:before {
     background-color: rgb(var(--dark-background-color));
