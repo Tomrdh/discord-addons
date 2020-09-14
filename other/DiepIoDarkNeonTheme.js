@@ -1,13 +1,3 @@
-/*
- * Diep.io Dark Neon Theme by TomRdh
- * How to use it?
- * Open diep.io and open the console using the Home button (or the "top-left arrow key")
- * Paste the code just below
- * And enjoy!
- * Note 1: If you leave/reload the game, you must paste the code again.
- * Note 2: This theme also allows you to view the FPS counter and the exact value of the health of an user.
- * Note 3: Do not copy this comment.
- */
 ren_stroke_soft_color_intensity -10;
 ren_background_color 0;
 ren_border_color 16711680;
