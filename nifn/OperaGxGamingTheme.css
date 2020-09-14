@@ -1932,6 +1932,9 @@ code.inline {
     font-weight: 400;
     content: "In Appearance Settings, set Group Spacing to 0 or 4px to hide lines between messages.";
 }
+.tip-2cgoli .keybind-2jbzrT {
+    display: none;
+}
 /* Icon buttons */
 .button-14-BFJ.enabled-2cQ-u7:hover {
     border-radius: 0;
