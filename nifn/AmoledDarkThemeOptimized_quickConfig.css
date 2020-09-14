@@ -30,7 +30,7 @@
     --background-modifier-active: rgba(var(--greyaccentcolor),0.24) !important;
     --background-modifier-selected: rgba(var(--greyaccentcolor),0.32) !important;
     --background-modifier-accent: rgba(255,255,255,0.06) !important;
-    --greyaccentcolor: 66,71,77;
+    --greyaccentcolor: 51,51,51;
 }
 :root {
     --betterdiscord-v3-blue-rgb: var(--accentcolor, 62,130,229) !important;
