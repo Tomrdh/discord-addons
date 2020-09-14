@@ -1910,17 +1910,27 @@ code.inline {
 }*/
 .tipTitle-GL9qAt {
     color: rgb(var(--accent-color-1));
-    font-size: 17px;
+    font-size: 0;
     font-weight: 900;
     text-transform: none;
 }
 .tipTitle-GL9qAt:after {
-    content: "?";
+    color: rgb(var(--accent-color-1));
+    font-size: 17px;
+    font-weight: 900;
+    text-transform: none;
+    content: "Did you know?";
 }
 .tip-2cgoli {
     color: rgb(var(--fullwhite-font));
+    font-size: 0;
+    font-weight: 400;
+}
+.tip-2cgoli:after {
+    color: rgb(var(--fullwhite-font));
     font-size: 14px;
     font-weight: 400;
+    content: "In Appearance Settings, set Group Spacing to 0 or 4px to hide lines between messages.";
 }
 /* Icon buttons */
 .button-14-BFJ.enabled-2cQ-u7:hover {
