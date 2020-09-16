@@ -1723,7 +1723,7 @@ code.inline {
 #app-mount .closeButton-1tv5uR > svg > path {
     fill: rgb(var(--normal-font));
 }
-/* Keybind */
+/* Keybinds */
 #app-mount .keybind-KpFkfr {
     color: rgb(var(--muted-font));
 }
@@ -1731,9 +1731,30 @@ code.inline {
     color: rgb(var(--fullwhite-font));
     -webkit-box-shadow: inset 0 -4px 0 rgb(var(--dark-background-color), 0.4);
     box-shadow: inset 0 -4px 0 rgb(var(--dark-background-color), 0.4);
-    border: 1px solid rgba(var(--accent-color-1), 1);
+    border: 1px solid rgba(var(--dark-background-color), 1);
     border-radius: 0;
     background-color: rgba(var(--accent-color-1), 1);
+}
+.keybindShortcut-1BD6Z1 g {
+    fill: rgb(var(--fullwhite-font));
+}
+/* Keyboard Combos Ctrl + / */
+#app-mount .keyboardShortcutsModal-3piNz7 {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .modalTitle-37O4n6 {
+    color: rgb(var(--fullwhite-font));
+    font-weight: 600;
+}
+#app-mount .modalSubtitle-1Pj5nv {
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+    color: var(--text-normal);
+}
+.theme-light .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2 {
+    color: rgb(var(--normal-font));
+    font-weight: 500;
 }
 /* Servers */
 .item-2hkk8m {
