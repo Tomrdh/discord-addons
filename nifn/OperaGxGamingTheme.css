@@ -38,7 +38,7 @@
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
 
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 1 (FULL RELEASE!!!)";
+    --ogx-info: "Opera GX Gaming Theme 2 (FULL RELEASE!!!)";
 }
 #app-mount {
     /* Colors */
@@ -1752,7 +1752,7 @@ code.inline {
     border-bottom: solid 1px rgb(var(--accent-color-1));
     color: var(--text-normal);
 }
-.theme-light .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2 {
+#app-mount .keyboardShortcutList-13cQ-8 .keybindGroup--6Qp-w .keybindDescription-2RDbC2 {
     color: rgb(var(--normal-font));
     font-weight: 500;
 }
