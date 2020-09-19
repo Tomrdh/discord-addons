@@ -23,6 +23,7 @@
     16. DevTags
     17. Discord Developers and Others
         17.1. Discord Developers
+        17.2. Widgets
     18. Update notice
     19. Infos
 */
@@ -3425,6 +3426,37 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 .Select.Select .Select-control:hover {
     background-color: rgb(var(--dark-background-color));
     border: solid 1px rgb(var(--accent-color-2)) !important;
+}
+/*-- 17.2. Widgets --*/
+.widget-szj0pM {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    color: rgb(var(--fullwhite-font));
+}
+.widgetHeader-2Hz_Ln {
+    background: var(--background);
+    background-size: cover;
+    background-position: center;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.widgetBody-1YvOmj {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+    background-color: rgb(var(--darker-background-color));
+}
+.widgetMember-s-bqOZ .widgetMemberName-1s0T0o {
+    color: rgb(var(--normal-font));
+}
+.widgetMembersOnline-314YF1 {
+    color: rgb(var(--accent-color-1));
+    font-weight: 700;
+    text-transform: none;
+}
+.widgetFooter-1l6LHW {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-color: rgb(var(--dark-background-color));
 }
 
 /*~~ 18. Update notice ~~*/
