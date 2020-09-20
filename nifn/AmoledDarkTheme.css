@@ -1330,8 +1330,12 @@
     background-color: var(--background-tertiary);
 }
 
-#app-mount .wrapper-1-Fsb8 {
+.theme-dark .wrapper-1-Fsb8 {
     background: none;
+}
+
+.theme-dark .bf-toolbar::before {
+    background: var(--background-secondary) !important;
 }
 
 /* Discord Developers */
@@ -1423,6 +1427,6 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 
 /* Build Numbers */
 :root {
-    --adt-info: "AmoledDarkTheme 281";
-    --adto-info: "AmoledDarkThemeOptmized 182";
+    --adt-info: "AmoledDarkTheme 282";
+    --adto-info: "AmoledDarkThemeOptmized 183";
 }
