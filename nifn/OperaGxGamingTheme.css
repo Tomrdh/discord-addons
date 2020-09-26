@@ -28,7 +28,7 @@
     19. Infos
 */
 /*~~ 1. Imports ~~*/
-@import url(https://tomrdh.github.io/da-website/fonts/Chakra%20Petch%20Regular%20400.ttf);
+/* Currently nothing */
 
 /*~~ 2. Vars ~~*/
 :root {
@@ -203,8 +203,12 @@
 }
 
 /*~~ 4. Font ~~*/
+@font-face {
+    src: url(https://tomrdh.github.io/da-website/fonts/Chakra%20Petch%20Regular%20400.ttf);
+    font-family: "Chakra Petch";
+}
 :root {
-    --cf: var(--customFont, --custom-font, Chakra Petch, Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
+    --cf: var(--customFont, --custom-font, "Chakra Petch", Chakra Petch, Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
     --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
 ::-webkit-input-placeholder,
