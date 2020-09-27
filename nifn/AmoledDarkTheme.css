@@ -1338,6 +1338,10 @@
     background: var(--background-secondary) !important;
 }
 
+.theme-dark .channelTabs-favContainer {
+    background-color: var(--background-secondary);
+}
+
 /* Discord Developers */
 .theme-dark .scrollerWrapper-2xG8VZ {
     background-color: var(--background-dark-secondary);
@@ -1427,6 +1431,6 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
 
 /* Build Numbers */
 :root {
-    --adt-info: "AmoledDarkTheme 282";
-    --adto-info: "AmoledDarkThemeOptmized 183";
+    --adt-info: "AmoledDarkTheme 283";
+    --adto-info: "AmoledDarkThemeOptmized 184";
 }
