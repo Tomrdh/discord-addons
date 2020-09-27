@@ -40,7 +40,7 @@
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
 
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 5";
+    --ogx-info: "Opera GX Gaming Theme 6";
 }
 #app-mount {
     /* Colors */
@@ -2486,7 +2486,8 @@ code.inline {
     background: rgba(255, 255, 255, 0.3);
 }
 /* ChannelTabs */
-.channelTabs-name {
+.channelTabs-name,
+.channelTabs-tabName {
     text-transform: var(--channel-name-transform) !important;
     line-height: 18px;
 }
@@ -2499,8 +2500,8 @@ code.inline {
     padding: 6px !important;
     border-radius: 0 0 0 !important;
     color: var(--interactive-normal) !important;
-    transition: width 200ms cubic-bezier(0, 0, 0.35, 1) !important;
-    transition-property: background-color, width !important;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color !important;
     cursor: default !important;
     height: 17px !important;
     border: solid 1px transparent !important;
@@ -2534,7 +2535,8 @@ code.inline {
     top: 5px;
     height: 20px !important;
 }
-.channelTabs-close {
+.channelTabs-close,
+.channelTabs-closeTab {
     display: inline-block !important;
     position: absolute !important;
     right: 5px !important;
@@ -2548,16 +2550,19 @@ code.inline {
     background: none !important;
     color: rgb(var(--normal-font)) !important;
     cursor: default !important;
-    transition: width 200ms cubic-bezier(0, 0, 0.35, 1) !important;
-    transition-property: background-color, width !important;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color !important;
 }
-.channelTabs-selected .channelTabs-close {
+.channelTabs-selected .channelTabs-close,
+.channelTabs-selected .channelTabs-closeTab {
     background: none !important;
 }
-.channelTabs-close:hover {
+.channelTabs-close:hover,
+.channelTabs-closeTab:hover {
     background: rgba(0, 0, 0, 0.3) !important;
 }
-.channelTabs-selected .channelTabs-close:hover {
+.channelTabs-selected .channelTabs-close:hover,
+.channelTabs-selected .channelTabs-closeTab:hover {
     background: rgba(var(--accent-color-1), 0.3) !important;
 }
 .channelTabs-newTab {
@@ -2575,11 +2580,27 @@ code.inline {
     cursor: default !important;
     color: rgb(var(--accent-color-1)) !important;
     transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
-    transition-property: background-color, width !important;
+    transition-property: background-color !important;
     top: 4px !important;
 }
 .channelTabs-newTab:hover {
     background: rgba(var(--accent-color-1), 0.3) !important;
+}
+.channelTabs-favContainer {
+    border: solid 1px rgb(var(--accent-color-1)) !important;
+    border-top: none !important;
+    background-color: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
+    backdrop-filter: blur(var(--header-background-blur)) !important;
+}
+.channelTabs-fav {
+    transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color !important;
+    border-radius: 0;
+}
+.channelTabs-fav:hover {
+    background-color: rgba(120, 124, 128, 0.3) !important;
+    transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color !important;
 }
 /* DateViewer */
 #dv-main {
