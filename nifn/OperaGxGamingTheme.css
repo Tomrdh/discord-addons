@@ -33,14 +33,27 @@
 
 /*~~ 2. Vars ~~*/
 :root {
+    /* Theme build number */
+    --ogx-info: "Opera GX Gaming Theme 7";
+
     /* Background variables */
-    --opera-gx-bg-1: url(https://media.discordapp.net/attachments/692868820301512724/711739374714355792/opera-wallpaper1.jpg);
-    --opera-gx-bg-2: url(https://media.discordapp.net/attachments/692868820301512724/711737175359750215/opera-wallpaper.jpg);
+    --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
+    --opera-gx-bg-2: url(https://cdn.discordapp.com/attachments/702611641530843186/759781824011436062/02.jpg);
+    --opera-gx-bg-3: url(https://cdn.discordapp.com/attachments/702611641530843186/759781832610152488/03.jpg);
+    --opera-gx-bg-4: url(https://cdn.discordapp.com/attachments/702611641530843186/759781844698529812/04.jpg);
+    --opera-gx-bg-5: url(https://cdn.discordapp.com/attachments/702611641530843186/759781861533810738/05.jpg);
+    --opera-gx-bg-6: url(https://cdn.discordapp.com/attachments/702611641530843186/759781877858566144/06.jpg);
+    --opera-gx-bg-7: url(https://cdn.discordapp.com/attachments/702611641530843186/759781895608205382/07.jpg);
+    --opera-gx-bg-8: url(https://cdn.discordapp.com/attachments/702611641530843186/759781906232377364/08.jpg);
+    --opera-gx-bg-9: url(https://cdn.discordapp.com/attachments/702611641530843186/759781919369592873/09.jpg);
+    --opera-gx-bg-10: url(https://cdn.discordapp.com/attachments/702611641530843186/759781931730075648/10.jpg);
+    --opera-gx-bg-11: url(https://cdn.discordapp.com/attachments/702611641530843186/759781946187841576/11.jpg);
+    --opera-gx-bg-12: url(https://cdn.discordapp.com/attachments/702611641530843186/759781959513407518/12.jpg);
+    --opera-gx-bg-13: url(https://cdn.discordapp.com/attachments/702611641530843186/759781973543092234/13.jpg);
+    --opera-gx-bg-14: url(https://cdn.discordapp.com/attachments/702611641530843186/759781993486876682/14.jpg);
+    --opera-gx-bg-15: url(https://cdn.discordapp.com/attachments/702611641530843186/759782008204689428/15.jpg);
 
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
-
-    /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 6";
 }
 #app-mount {
     /* Colors */
@@ -101,6 +114,14 @@
     0%  {border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)); background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));}
     50% {border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency)); background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));}
     100%{border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)); background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));}
+}
+@keyframes channeltabs-tabOpen {
+    0%  {width: 0;}
+    100%{width: var(--channelTabs-tabWidth);}
+}
+@keyframes channeltabs-tabClose {
+    0%  {width: var(--channelTabs-tabWidth)}
+    100%{width: 0;}
 }
 @keyframes animated-background { /* animation: animated-background 14.7s infinite; */
     0%   {background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
@@ -212,7 +233,7 @@
     font-family: "Chakra Petch";
 }
 :root {
-    --cf: var(--customFont, --custom-font, "Chakra Petch", Chakra Petch, Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
+    --cf: var(--customFont, --custom-font, Chakra Petch, "Chakra Petch", Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
     --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
 ::-webkit-input-placeholder,
@@ -1082,8 +1103,8 @@ code.inline {
     animation: accent-blinking-with-transparency 450ms infinite;
 }
 /* Library and Game Download/Update */
-.gameIcon-gg34Dz {
-    border-radius: 0;
+.gameIcon-gg34Dz[style*="background-image"] {
+    border-radius: 2px;
     clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
 }
 .rowWrapperActive-2L7i9f .playButton-1fMNjH {
@@ -2028,6 +2049,42 @@ code.inline {
 #app-mount .date-1k6kG2 {
     color: rgb(var(--muted-font))
 }
+/* Discord Gift */
+#app-mount .embedHorizontal-WknQ2-,
+#app-mount .embedVertical-W5-T0m {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-radius: 0;
+    border: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
+    transition: none;
+    transition-delay: none;
+}
+#app-mount .embedHorizontal-WknQ2-:hover,
+#app-mount .embedVertical-W5-T0m:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-radius: 0;
+    border-color: rgb(var(--accent-color-1));
+    transition: none;
+    transition-delay: none;
+    animation: accent-blinking 450ms infinite;
+}
+#app-mount .description-1RsfgZ {
+    color: rgb(var(--normal-hover-font));
+}
+#app-mount .tagline-2nvxi0 {
+    color: rgb(var(--normal-font));
+}
+/* View As Roles Notice */
+.notice-1tZwqv {
+    background-color: rgb(var(--dark-background-color));
+    color: rgb(var(--normal-hover-font));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    border-top: none;
+}
+.noticeText-28B2fH {
+    font-weight: 500;
+}
+
 /*-- 6.3. Public Servers --*/
 /* Public button */
 #bd-pub-button {
@@ -2590,7 +2647,7 @@ code.inline {
     border: solid 1px rgb(var(--accent-color-1)) !important;
     border-top: none !important;
     background-color: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
-    backdrop-filter: blur(var(--header-background-blur)) !important;
+    backdrop-filter: blur(var(--channeltabs-background-blur)) !important;
 }
 .channelTabs-fav {
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
@@ -2605,6 +2662,15 @@ code.inline {
 /* DateViewer */
 #dv-main {
     border-top-color: rgb(var(--accent-color-1)) !important;
+}
+/* GoogleTranslateOption */
+#app-mount .css-1px1g2v-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+    animation: accent-blinking 450ms infinite;
 }
 /* MemberCount */
 #app-mount #MemberCount {
@@ -2718,6 +2784,14 @@ code.inline {
 }
 
 /*~~ 9. Draw Lines ~~*/
+/* Serverlist */
+.scroller-2TZvBN {
+    border: solid 1px rgba(var(--accent-color-1), var(--lines-transparency));
+    padding-right: 1px;
+    margin-right: -1px;
+    padding-top: 1px;
+    margin-top: -1px;
+}
 /* Channels sidebar */
 #app-mount .sidebar-2K8pFh {
     border-radius: 0;
@@ -2727,6 +2801,7 @@ code.inline {
 .searchBar-6Kv8R2,
 .container-1r6BKw {
     border-bottom: solid 1px rgba(var(--accent-color-1), var(--lines-transparency));
+    border-right: solid 1px rgba(var(--accent-color-1), var(--lines-transparency));
     box-shadow: none;
 }
 /* Searchbar */
