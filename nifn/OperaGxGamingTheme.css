@@ -2463,6 +2463,9 @@ code.inline {
 #app-mount pre code[class~=tex i]:before {
     content: "</> TeX";
 }
+#app-mount pre code[class~=latex i]:before {
+    content: "</> LaTeX";
+}
 #app-mount pre code[class~=kotlin i]:before {
     content: "</> Kotlin";
 }
