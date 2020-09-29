@@ -34,7 +34,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 8";
+    --ogx-info: "Opera GX Gaming Theme 9";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -1193,8 +1193,8 @@ code.inline {
     border-radius: 0;
 }
 #app-mount .botTag-2WPJ74 {
-    border-radius: 0;
-    clip-path: polygon(0.325rem 0, 100% 0, 100% calc(100% - 0.325rem), calc(100% - 0.325rem) 100%, 0 100%, 0 0.325rem);
+    border-radius: 1px;
+    clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem);
 }
 /* Tooltips */
 #app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z {
@@ -1689,21 +1689,33 @@ code.inline {
     border-bottom: solid 1px rgb(var(--accent-color-1));
     margin-right: 0;
 }
-/* AutocompleteMenu */
+/* AutocompleteMenus */
 #app-mount .autocomplete-1vrmpx {
     background-color: rgb(var(--darker-background-color));
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
     animation: accent-blinking 450ms infinite;
 }
+.base-1pYU8j {
+    border: solid 1px transparent;
+    border-radius: 0;
+}
+.selectorSelected-1_M1WV.base-1pYU8j,
+.selected-1Tbx07.base-1pYU8j {
+    border-radius: 0;
+    border-color: rgb(var(--accent-color-1));
+    animation: accent-blinking 450ms infinite;
+}
 #app-mount .divider-23swzi,
-#app-mount .selectorSelected-1_M1WV {
+#app-mount .selectorSelected-1_M1WV,
+#app-mount .selected-1Tbx07 {
     background-color: rgb(var(--dark-background-color));
 }
 #app-mount .content-Qb0rXO {
-    color: rgb(var(--muted-font));
+    color: rgb(var(--normal-font));
 }
-#app-mount .selectorSelected-1_M1WV .content-Qb0rXO {
+#app-mount .selectorSelected-1_M1WV .content-Qb0rXO,
+#app-mount .selected-1Tbx07 .content-Qb0rXO {
     color: rgb(var(--fullwhite-font));
 }
 #app-mount .description-11DmNu,
@@ -1713,7 +1725,8 @@ code.inline {
 .icon-3ZzoN7 polygon {
     fill: rgb(var(--normal-font)) !important;
 }
-.selectorSelected-1_M1WV .icon-3ZzoN7 polygon {
+.selectorSelected-1_M1WV .icon-3ZzoN7 polygon,
+.selected-1Tbx07 .icon-3ZzoN7 polygon {
     fill: rgb(var(--fullwhite-font)) !important;
 }
 #app-mount .contentTitle-2tG_sM {
@@ -2245,7 +2258,7 @@ code.inline {
 }
 #app-mount pre code[class~=diff i]:before {
     content: "</> Difference (diff)";
-    --cb-accent-color: rgb(34, 120, 250);
+    --cb-accent-color: rgb(152, 193, 255);
 }
 #app-mount pre code[class~=cs i]:before,
 #app-mount pre code[class~=csharp i]:before {
@@ -2253,7 +2266,7 @@ code.inline {
     --cb-accent-color: rgb(34, 120, 250);
 }
 #app-mount pre code[class~=ini i]:before {
-    content: "</> Initialization File (ini)";
+    content: "</> Initialization (ini)";
 }
 #app-mount pre code[class~=autohotkey i]:before,
 #app-mount pre code[class~=ahk i]:before {
@@ -2388,6 +2401,7 @@ code.inline {
 }
 #app-mount pre code[class~=cpp i]:before {
     content: "</> C++ (cpp)";
+    --cb-accent-color: rgb(34, 120, 250);
 }
 #app-mount pre code[class~=hbs i]:before,
 #app-mount pre code[class~=handlebars i]:before {
@@ -2410,6 +2424,7 @@ code.inline {
 }
 #app-mount pre code[class~=c i]:before {
     content: "</> C";
+    --cb-accent-color: rgb(34, 120, 250);
 }
 #app-mount pre code[class~=k i]:before {
     content: "</> K";
@@ -2441,10 +2456,12 @@ code.inline {
     content: "</> Structured Text (st)";
 }
 #app-mount pre code[class~=txt i]:before,
-#app-mount pre code[class~=tex i]:before,
 #app-mount pre code[class~=text i]:before {
     content: "<…> Plain Text (txt)";
     --cb-accent-color: rgba(191, 192, 193);
+}
+#app-mount pre code[class~=tex i]:before {
+    content: "</> TeX";
 }
 #app-mount pre code[class~=kotlin i]:before {
     content: "</> Kotlin";
@@ -3534,7 +3551,8 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     margin-right: 0.25rem;
     position: relative;
     top: 0.1rem;
-    clip-path: polygon(0.325rem 0, 100% 0, 100% calc(100% - 0.325rem), calc(100% - 0.325rem) 100%, 0 100%, 0 0.325rem);
+    border-radius: 1px;
+    clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem);
 }
 
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
