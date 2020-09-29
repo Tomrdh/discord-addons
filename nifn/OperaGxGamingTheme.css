@@ -113,7 +113,7 @@
     50% {border-color: rgb(var(--accent-color-2)); background-color: rgb(var(--dark-background-color));}
     100%{border-color: rgb(var(--accent-color-1)); background-color: rgb(var(--darker-background-color));}
 }
-@keyframes both-blinking-with-transparency { /* animation: both-blinking 450ms infinite; */
+@keyframes both-blinking-with-transparency { /* animation: both-blinking-with-transparency 450ms infinite; */
     0%  {border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)); background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));}
     50% {border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency)); background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));}
     100%{border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)); background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));}
@@ -2067,6 +2067,17 @@ code.inline {
     color: rgb(var(--fullwhite-font));
     animation: both-blinking 450ms infinite !important;
 }
+/* BD Plugin Update Notice */
+.noticeWrapper-8z511t {
+    /* nothing */
+}
+.colorInfo-2URYW5 {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--fullwhite-font));
+    border: solid 1px rgb(var(--accent-color-1));
+    margin-top: -1px;
+    animation: both-blinking-with-transparency 450ms infinite !important;
+}
 /* Server Welcomer Options */
 .optionContainer-15srkc {
     border-radius: 0;
@@ -2877,7 +2888,7 @@ code.inline {
     border-right: solid 1px var(--line-color);
     box-shadow: none;
 }
-.channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
+.channelNotice-1-XFjC {
     border-top: solid 1px var(--line-color);
 }
 /* Searchbar */
