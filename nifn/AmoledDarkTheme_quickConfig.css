@@ -1,5 +1,5 @@
 .info-1VyQPT:after {
-    content: var(--adt-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl+R to reload Discord. */
+    content: var(--adt-info) !important;
     font-size: 12px !important;
     color: var(--text-muted) !important;
     display: inline !important;
@@ -18,28 +18,34 @@
 }
 
 .theme-dark {
-    --background-dark-primary: black !important;
-    --background-dark-secondary: #18191d !important;
-    --background-dark-tertiary: #131417 !important;
+    --background-dark-primary: black;
+    --background-dark-secondary: #18191d;
+    --background-dark-tertiary: #131417;
     --background-dark-4th: #202225;
+
     --background-primary: var(--background-dark-primary) !important;
     --background-secondary: var(--background-dark-secondary) !important;
     --background-secondary-alt: var(--background-dark-tertiary) !important;
     --background-tertiary: var(--background-dark-tertiary) !important;
-    --background-mobile-header: #202225 !important;
-    --background-modifier-hover: rgba(var(--greyaccentcolor),0.16) !important;
-    --background-modifier-active: rgba(var(--greyaccentcolor),0.24) !important;
-    --background-modifier-selected: rgba(var(--greyaccentcolor),0.32) !important;
-    --background-modifier-accent: rgba(255,255,255,0.06) !important;
+    --background-mobile-header: var(--background-dark-4th) !important;
+    --background-modifier-hover: rgba(var(--greyaccentcolor), 0.16) !important;
+    --background-modifier-active: rgba(var(--greyaccentcolor), 0.24) !important;
+    --background-modifier-selected: rgba(var(--greyaccentcolor), 0.32) !important;
+    --background-modifier-accent: rgba(255, 255, 255, 0.06) !important;
     --deprecated-store-bg: var(--background-dark-primary) !important;
-    --greyaccentcolor: 66,71,77;
+
+    --greyaccentcolor: 66, 71, 77;
+    --bg-1: var(--background-dark-primary); /* Black */
+    --bg-2: var(--background-dark-tertiary); /* Darker */
+    --bg-3: var(--background-dark-secondary) ; /* Dark */
+    --bg-4: var(--background-dark-4th); /* Dark-Grey */
 }
 :root {
-    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62,130,229) !important;
+    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62, 130, 229) !important;
 }
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "I'm sorry, but AmoledDarkTheme is outdated! Please download again the theme by clicking Source." !important;
+    content: "AmoledDarkTheme is broken and/or outdated! Please download again the theme by clicking Source." !important;
     display: var(--version004_da, block) !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
