@@ -34,7 +34,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 9";
+    --ogx-info: "Opera GX Gaming Theme 10";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -259,7 +259,8 @@ code,
 .before_inlineCode-1G9rTK,
 .inlineCode-2ngu6Y span,
 .durationTimeDisplay-jww5fr,
-.durationTimeSeparator-2_xpJ7 {
+.durationTimeSeparator-2_xpJ7,
+.powercord-codeblock-table td {
     font-family: var(--cbcf) !important;
 }
 
@@ -2608,6 +2609,9 @@ code.inline {
 #app-mount pre code[class~=asm i]:before,
 #app-mount pre code[class~=assembly i]:before {
     content: "</> Assembly (asm)";
+}
+.powercord-codeblock-lang {
+    display: none;
 }
 
 /*~~ 7. Plugin Compatibility ~~*/
