@@ -1,10 +1,10 @@
 /*
-    WARNING: YOU MAY NOT SHARE A COPY OF THIS PROJECT WITHOUT MY PERMISSION. ASK ME IN MY DISCORD SERVER. ORIGINAL IDEA BY YTGAMER, REWRITTEN BY TOMRDH.
-    THIS FILE MUST BE USED WITH ANOTHER ONE (AND ONLY ONE):
+    WARNING: THIS FILE MUST BE USED WITH ANOTHER ONE (AND ONLY ONE):
     "AmoledDarkTheme_quickConfig.css" for ADT
     OR
     "AmoledDarkThemeOptimized_quickConfig.css" for ADTO
     Check the "nifn" folder in the repo.
+    Original idea by YTGamer. Rewritten by TomRdh.
 
     MAP
     1. Imports
@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 284";
-    --adto-info: "AmoledDarkThemeOptmized 185";
+    --adt-info: "AmoledDarkTheme 285";
+    --adto-info: "AmoledDarkThemeOptmized 186";
 }
 
 /*~~ 3. Modifiers ~~*/
@@ -88,7 +88,11 @@
 .theme-dark .root-1gCeng,
 .theme-dark #dv-mount,
 .theme-dark .peopleColumn-29fq28,
-.theme-dark .footer-2gL1pp
+.theme-dark .footer-2gL1pp,
+.theme-dark .theme-light .input--jS-j2,
+.theme-dark .wrapper-3D2qGf,
+.theme-dark .noChannel-Z1DQK7,
+.theme-dark .modal-yWgWj-
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -113,7 +117,6 @@
 .theme-dark .everyonePopout-nEbJY3,
 .theme-dark .keybindShortcut-1BD6Z1 span,
 .theme-dark .dim-1l4L4y span,
-.theme-dark .item-3T2z1R,
 .theme-dark .searchBox-3Y2Vi7,
 .theme-dark .css-ncjuf0-control,
 .theme-dark .css-1rckt42-menu,
@@ -162,7 +165,6 @@
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
 .theme-dark .container-2x5lvQ .header-2C89wJ,
 .theme-dark .popout-2sKjHu,
-.theme-dark .footer-3mqk7D,
 .theme-dark .footer-3rDWdC,
 .theme-dark .autocompleteArrow-Zxoy9H,
 .theme-dark .autocompleteHeaderBackground-30T70q,
@@ -213,7 +215,11 @@
 .theme-dark .titleBar-AC4pGV,
 .theme-dark .titleBar-AC4pGV:after,
 .theme-dark .channelTabs-favContainer,
-.theme-dark .wrapper-2aW0bm
+.theme-dark .wrapper-2aW0bm,
+.theme-dark .bg-h5JY_x,
+.theme-dark .container-UC8Ug1,
+.theme-dark .wrapper-3D2qGf:hover,
+.theme-dark .uploadModal-2ifh8j
 {
     background: var(--bg-3) !important;
     background-color: var(--bg-3) !important;
@@ -226,14 +232,17 @@
 .theme-dark .expandedFolderBackground-2sPsd-:hover,
 .theme-dark .folder-21wGz3,
 .theme-dark .folder-21wGz3:hover,
-.theme-dark .input-cIJ7To
+.theme-dark .input-cIJ7To,
+.theme-dark .inset-3sAvek,
+.theme-dark .footer-3mqk7D
 {
     background: var(--bg-4);
     background-color: var(--bg-4);
 }
 .theme-dark .guildsDiscover-oiBX_l,
 .theme-dark .channelTextArea-rNsIhG,
-.theme-dark .scrollableContainer-2NUZem
+.theme-dark .scrollableContainer-2NUZem,
+.theme-dark .theme-light .container-UC8Ug1:hover
 {
     background: var(--bg-4) !important;
     background-color: var(--bg-4) !important;
@@ -244,7 +253,14 @@
 }
 .theme-dark .popout-2sKjHu,
 .theme-dark .uploadModal-2ifh8j {
-    border-color: var(--background-dark-4th);
+    border-color: var(--bg-4);
+}
+.theme-dark .footer-3mqk7D {
+    -webkit-box-shadow: inset 0 1px 0 var(--bg-4);
+    box-shadow: inset 0 1px 0 var(--bg-4);
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    border-radius: 0 0 10px 10px;
 }
 .theme-dark .css-1rckt42-menu { 
     border-color: black;
@@ -312,9 +328,42 @@
     color: #fff;
     background-color: #43b581;
 }
-.titleBar-AC4pGV {
+.theme-dark .theme-light .titleBar-AC4pGV {
     margin-top: 0;
     padding-top: 4px;
+}
+.theme-dark .theme-light .colorHeaderPrimary-26Jzh- {
+    color: #fff;
+    font-weight: 600;
+}
+.theme-dark .theme-light .colorHeaderSecondary-3Sp3Ft {
+    color: #b9bbbe
+}
+.theme-dark .theme-light .colorStandard-2KCXvj {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .input-cIJ7To {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .root-1gCeng {
+    -webkit-box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.theme-dark .theme-light .sampleLink-2NLvZg {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .footer-2gL1pp {
+    -webkit-box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6);
+    box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6);
+}
+.theme-dark .theme-light .close-hZ94c6 {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .close-hZ94c6 {
+    color: #eee;
+}
+.theme-dark .option-96V44q:after {
+    background: linear-gradient(90deg, hsla(0,0%,100%,0), var(--bg-3));
 }
 
 /*~~ 4. Scrollbars ~~*/
@@ -348,12 +397,10 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > spa
     top: 0.1rem;
     border-radius: 0.1875rem;
 }
-
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after {
     content: "Theme Dev" !important;
     font-weight: 600 !important;
 }
-
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover {
     font-weight: bold !important;
