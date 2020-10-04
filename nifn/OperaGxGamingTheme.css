@@ -34,7 +34,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 10";
+    --ogx-info: "Opera GX Gaming Theme 11";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -2732,7 +2732,7 @@ code.inline {
     background: rgba(var(--accent-color-1), 0.3) !important;
 }
 .channelTabs-favContainer {
-    border: solid 1px rgb(var(--accent-color-1)) !important;
+    border: solid 1px var(--line-color) !important;
     border-top: none !important;
     background-color: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
     backdrop-filter: blur(var(--channeltabs-background-blur)) !important;
