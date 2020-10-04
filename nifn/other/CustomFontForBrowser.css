@@ -39,7 +39,6 @@ option,
 yt-formatted-string,
 paper-item,
 paper-item-body,
-pre,
 ::-webkit-input-placeholder,
 button,
 input,
@@ -77,6 +76,7 @@ code.inline,
 [class*="code"],
 [class*="code"] span,
 [class*="code"] div,
-[class*="mono"] {
+[class*="mono"],
+pre {
     font-family: var(--codeCustomFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, monospace !important;
 }
