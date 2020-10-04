@@ -21,16 +21,16 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 286";
-    --adto-info: "AmoledDarkThemeOptmized 187";
+    --adt-info: "AmoledDarkTheme 287";
+    --adto-info: "AmoledDarkThemeOptmized 188";
 }
 .theme-dark {
     /* Default Variables Modifier */
-    --background-primary: var(--background-dark-primary) !important;
-    --background-secondary: var(--background-dark-secondary) !important;
-    --background-secondary-alt: var(--background-dark-tertiary) !important;
-    --background-tertiary: var(--background-dark-tertiary) !important;
-    --background-mobile-header: var(--background-dark-4th) !important;
+    --background-primary: var(--bg-1) !important;
+    --background-secondary: var(--bg-3) !important;
+    --background-secondary-alt: var(--bg-2) !important;
+    --background-tertiary: var(--bg-2) !important;
+    --background-mobile-header: var(--bg-4) !important;
     --background-modifier-hover: rgba(var(--greyaccentcolor), 0.16) !important;
     --background-modifier-active: rgba(var(--greyaccentcolor), 0.24) !important;
     --background-modifier-selected: rgba(var(--greyaccentcolor), 0.32) !important;
@@ -39,7 +39,8 @@
     --background-floating: var(--bg-3) !important;
     --background-mobile-primary: var(--bg-4) !important;
     --background-mobile-secondary: var(--bg-2) !important;
-    --deprecated-store-bg: var(--background-dark-primary) !important;
+    --deprecated-store-bg: var(--bg-1) !important;
+    --deprecated-quickswitcher-input-background: var(--bg-4);
 }
 
 /*~~ 3. Modifiers ~~*/
@@ -109,7 +110,9 @@
 .theme-dark .theme-light .input--jS-j2,
 .theme-dark .wrapper-3D2qGf,
 .theme-dark .noChannel-Z1DQK7,
-.theme-dark .modal-yWgWj-
+.theme-dark .modal-yWgWj-,
+.theme-dark .pageWrapper-1PgVDX,
+.theme-dark .autocomplete-1vrmpx
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -148,7 +151,8 @@
 .theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
 .theme-dark .container-PNkimc,
 .theme-dark .nowPlayingColumn-2sl4cE,
-.theme-dark #bd-pub-button
+.theme-dark #bd-pub-button,
+.theme-dark .sidebar-2K8pFh
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -249,7 +253,9 @@
 .theme-dark .folder-21wGz3:hover,
 .theme-dark .input-cIJ7To,
 .theme-dark .inset-3sAvek,
-.theme-dark .footer-3mqk7D
+.theme-dark .footer-3mqk7D,
+.theme-dark .searchBox-2_mAlO,
+.theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO
 {
     background: var(--bg-4);
     background-color: var(--bg-4);
@@ -321,7 +327,7 @@
 }
 .theme-dark .wrapper-1Pbe6Z {
     background: transparent;
-    border: solid var(--background-dark-4th) 1px;
+    border: solid var(--bg-4) 1px;
 }
 .theme-dark .modeSelected-1zApJ_ .content-3at_AU,
 .theme-dark .modeSelected-1zApJ_:hover .content-3at_AU {
@@ -337,7 +343,7 @@
     color: var(--interactive-active);
 }
 .theme-dark #bd-pub-button {
-    background-color: var(--background-dark-tertiary);
+    background-color: var(--bg-2);
 }
 .theme-dark .circleIconButton-jET_ig.selected-ugP_am {
     color: #fff;
@@ -378,7 +384,22 @@
     color: #eee;
 }
 .theme-dark .option-96V44q:after {
-    background: linear-gradient(90deg, hsla(0,0%,100%,0), var(--bg-3));
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), var(--bg-3));
+}
+.theme-dark .unread-1xRYoj {
+    background-color: #4f545c;
+}
+.theme-dark .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+    color: #ccc;
+}
+.theme-dark .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1 {
+    color: #b9bbbe;
+}
+.theme-dark .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1:hover {
+    color: #fff;
+}
+.theme-dark .selected-1Tbx07 {
+    background-color: #36393f80;
 }
 
 /*~~ 4. Scrollbars ~~*/
