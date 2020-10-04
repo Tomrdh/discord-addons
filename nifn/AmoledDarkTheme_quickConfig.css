@@ -19,20 +19,9 @@
 
 .theme-dark {
     --background-dark-primary: black;
-    --background-dark-secondary: #18191d;
+    --background-dark-secondary: #18191c;
     --background-dark-tertiary: #131417;
     --background-dark-4th: #202225;
-
-    --background-primary: var(--background-dark-primary) !important;
-    --background-secondary: var(--background-dark-secondary) !important;
-    --background-secondary-alt: var(--background-dark-tertiary) !important;
-    --background-tertiary: var(--background-dark-tertiary) !important;
-    --background-mobile-header: var(--background-dark-4th) !important;
-    --background-modifier-hover: rgba(var(--greyaccentcolor), 0.16) !important;
-    --background-modifier-active: rgba(var(--greyaccentcolor), 0.24) !important;
-    --background-modifier-selected: rgba(var(--greyaccentcolor), 0.32) !important;
-    --background-modifier-accent: rgba(255, 255, 255, 0.06) !important;
-    --deprecated-store-bg: var(--background-dark-primary) !important;
 
     --greyaccentcolor: 66, 71, 77;
     --bg-1: var(--background-dark-primary); /* Black */

@@ -21,8 +21,25 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 285";
-    --adto-info: "AmoledDarkThemeOptmized 186";
+    --adt-info: "AmoledDarkTheme 286";
+    --adto-info: "AmoledDarkThemeOptmized 187";
+}
+.theme-dark {
+    /* Default Variables Modifier */
+    --background-primary: var(--background-dark-primary) !important;
+    --background-secondary: var(--background-dark-secondary) !important;
+    --background-secondary-alt: var(--background-dark-tertiary) !important;
+    --background-tertiary: var(--background-dark-tertiary) !important;
+    --background-mobile-header: var(--background-dark-4th) !important;
+    --background-modifier-hover: rgba(var(--greyaccentcolor), 0.16) !important;
+    --background-modifier-active: rgba(var(--greyaccentcolor), 0.24) !important;
+    --background-modifier-selected: rgba(var(--greyaccentcolor), 0.32) !important;
+    --background-modifier-accent: rgba(255, 255, 255, 0.06) !important;
+    --background-accent: var(--bg-4) !important;
+    --background-floating: var(--bg-3) !important;
+    --background-mobile-primary: var(--bg-4) !important;
+    --background-mobile-secondary: var(--bg-2) !important;
+    --deprecated-store-bg: var(--background-dark-primary) !important;
 }
 
 /*~~ 3. Modifiers ~~*/
@@ -212,8 +229,6 @@
 .theme-dark .bf-toolbar::before,
 .theme-dark .wrapper-1Rf91z,
 .theme-dark .scroller-2TZvBN,
-.theme-dark .titleBar-AC4pGV,
-.theme-dark .titleBar-AC4pGV:after,
 .theme-dark .channelTabs-favContainer,
 .theme-dark .wrapper-2aW0bm,
 .theme-dark .bg-h5JY_x,
