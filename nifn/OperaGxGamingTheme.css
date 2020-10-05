@@ -34,7 +34,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 12";
+    --ogx-info: "Opera GX Gaming Theme 13";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -735,7 +735,7 @@ body,
 #app-mount .wrapper-1-Fsb8 {
     background: none;
 }
-/* Buttons */
+/* Looks */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookOutlined-3sRXeN,
@@ -757,6 +757,9 @@ body,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
     background: rgb(var(--darker-background-color));
     border: solid rgb(var(--dark-background-color)) 1px;
+}
+.lookBlank-3eh9lL {
+    color: rgb(var(--fullwhite-font));
 }
 /* SVG buttons */
 .clickable-3rdHwn .icon-22AiRD {
@@ -1488,9 +1491,9 @@ code.inline {
     color: rgb(var(--accent-color-1));
 }
 /* Channels */
-.content-3YMskv {
+/*.content-3YMskv {
     height: auto !important;
-}
+}*/ /* bruh free shit code here */
 .wrapper-1ucjTd {
     height: 34px;
 }
@@ -2750,9 +2753,17 @@ code.inline {
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
 }
+/* CreationDate, JoinedAtDate, LastMessageDate */
+.date-YN6TCS div {
+    color: rgb(var(--fullwhite-font));
+}
 /* DateViewer */
 #dv-main {
     border-top-color: rgb(var(--accent-color-1)) !important;
+}
+/* FriendNotifications and ServerCounter */
+.scroller-2TZvBN .label-2wRs_g {
+    margin-right: 6px;
 }
 /* GoogleTranslateOption */
 #app-mount .css-1px1g2v-menu {
@@ -2802,6 +2813,7 @@ code.inline {
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
+    color: rgb(var(--fullwhite-font));
 }
 .xenoLib-notification-loadbar {
     bottom: 1px;
@@ -2889,10 +2901,10 @@ code.inline {
 }
 /* Header */
 .title-3qD0b-,
-.searchBar-6Kv8R2,
 .container-1r6BKw {
     border-bottom: solid 1px var(--line-color);
     border-right: solid 1px var(--line-color);
+    border-left: solid 1px var(--line-color);
     box-shadow: none;
 }
 .channelNotice-1-XFjC {
@@ -3057,10 +3069,12 @@ code.inline {
 }
 
 /*~~ 11. Settings ~~*/
-#app-mount #bd-settings-sidebar .ui-tab-bar-item,
-#app-mount #bd-settings-sidebar .ui-tab-bar-item:hover.selected {
+#app-mount #bd-settings-sidebar .ui-tab-bar-item {
     color: rgb(var(--normal-font)) !important;
     font-weight: 400;
+}
+#app-mount #bd-settings-sidebar .ui-tab-bar-item.selected {
+    color: rgb(var(--fullwhite-font)) !important;
 }
 .item-PXvHYJ {
     font-weight: 400;
@@ -3459,7 +3473,8 @@ code.inline {
 }
 .scroller-2wx7Hm::-webkit-scrollbar,
 .scroller-2LSbBU::-webkit-scrollbar,
-.scroller-1JbKMe::-webkit-scrollbar {
+.scroller-1JbKMe::-webkit-scrollbar,
+.scroller-2TZvBN::-webkit-scrollbar {
     border-left: solid 1px var(--line-color) !important;
 }
 #app-mount .scrollerWrap-2lJEkd .scroller-2LSbBU::-webkit-scrollbar {
@@ -3468,10 +3483,13 @@ code.inline {
     border-bottom: solid 1px var(--line-color) !important;
 }
 .scroller-2TZvBN::-webkit-scrollbar {
-    width: 0 !important;
-}
-.scroller-2TZvBN:hover::-webkit-scrollbar {
     width: 6px !important;
+}
+.scroller-2TZvBN::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+.scroller-2TZvBN:hover::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
 }
 .hasBanner-14PPlG .scroller-2wx7Hm::-webkit-scrollbar {
     border-left-color: transparent !important;
