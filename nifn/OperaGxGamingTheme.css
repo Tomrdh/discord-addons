@@ -722,6 +722,9 @@ body,
     border-right: solid 1px rgb(var(--accent-color-1));
     border-top: solid 1px rgb(var(--accent-color-1));
 }
+.autocomplete-1vrmpx .list-donH_Z {
+    border-top: none;
+}
 .emojiItem-14v6tW {
     border: solid 1px transparent;
     border-radius: 0;
@@ -1741,6 +1744,9 @@ code.inline {
     font-weight: 700;
     font-size: 16px;
     text-transform: capitalize;
+}
+#app-mount .contentTitle-2tG_sM strong {
+    color: rgb(var(--fullwhite-font));
 }
 /* Update cloud */
 #app-mount .cloud-31LAb8 {
