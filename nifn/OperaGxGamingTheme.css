@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 14 beta";
+    --ogx-info: "Opera GX Gaming Theme 14";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -513,9 +513,10 @@ body,
 .app-focused .topSectionPlaying-1J5E4n {
     animation: animated-background 14.7s infinite;
 }
-
 .badges-XRnWAp .topSectionPlaying-1J5E4n {
     background: none !important;
+}
+.app-focused .badges-XRnWAp .topSectionPlaying-1J5E4n {
     animation: none !important;
 }
 .discriminator[style*="114, 137, 218"] {
@@ -1576,6 +1577,9 @@ code.inline {
 .modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-left: solid rgb(var(--accent-color-1)) 2px;
+}
+.app-focused .modeSelected-1zApJ_ .content-3at_AU,
+.app-focused .modeSelected-1zApJ_:hover .content-3at_AU {
     animation: none;
 }
 .modeSelected-1zApJ_ .name-3_Dsmg,
@@ -1840,9 +1844,13 @@ code.inline {
 .winButton-iRh8-Z {
     width: 45px;
     height: 31px;
-    color: rgb(var(--accent-color-1));
     cursor: default;
     transition: 200ms cubic-bezier(0, 0, 0.19, 0.97);
+    transition-property: background-color;
+    color: rgb(var(--accent-color-2));
+}
+.app-focused .winButton-iRh8-Z {
+    color: rgb(var(--accent-color-1));
 }
 .winButtonClose-1HsbF-:hover {
     background-color: rgb(255, 0, 0);
@@ -1851,19 +1859,22 @@ code.inline {
     background-color: rgba(200, 200, 200, 0.4);
     color: rgb(var(--accent-color-1));
 }
-/* Windows top bar */
+/* Windows top bar/titlebar */
 .withFrame-haYltI {
-    height: 27px;
     border-bottom: solid 1px var(--line-color);
-    background-color: rgb(var(--top-bar-color));
+    height: 27px;
     margin-top: 0;
     padding-top: 4px;
+    background-color: rgb(var(--top-bar-color));
 }
 /* Discord watermark */
 .wordmarkWindows-1v0lYD {
     padding: 8px 9px 3px;
 }
 .wordmarkWindows-1v0lYD > svg > path {
+    fill: rgb(var(--accent-color-2));
+}
+.app-focused .wordmarkWindows-1v0lYD > svg > path {
     fill: rgb(var(--accent-color-1));
 }
 /* Close button */
