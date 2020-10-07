@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 15";
+    --ogx-info: "Opera GX Gaming Theme 16";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -1148,7 +1148,7 @@ code.inline {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 #app-mount .separator-XqIyoz {
-    background-color: rgb(var(--accent-color-1));
+    background-color: var(--line-color);
 }
 /* Friendlist */
 .actionButton-uPB8Fs {
@@ -1504,6 +1504,7 @@ code.inline {
 .membersGroup-v9BXpm,
 .privateChannelsHeaderContainer-3NB1K1 {
     border-top: solid 1px var(--line-color);
+    margin-left: 6px;
 }
 .membersGroup-v9BXpm {
     margin: 12px 4px 0 8px;
@@ -1541,6 +1542,8 @@ code.inline {
     font-weight: 900;
     font-size: var(--categorySize, 15px);
     text-transform: var(--category-name-transform, unset);
+    margin-right: 0;
+    margin-left: 8px;
 }
 .icon-22AiRD.privateChannelRecipientsInviteButtonIcon-3A3uTc {
     color: rgb(var(--accent-color-1));
@@ -2784,10 +2787,11 @@ code.inline {
     background: rgba(var(--darker-background-color), var(--channeltabs-tab-bg-transparency)) !important;
     color: var(--interactive-active) !important;
     border-color: var(--line-color) !important;
-    z-index: 1;
+    border-top-color: transparent !important;
+    z-index: 1 !important;
 }
 .channelTabs-tabIcon {
-    top: 5px;
+    top: 5px !important;
     height: 20px !important;
 }
 .channelTabs-close,
@@ -2867,7 +2871,7 @@ code.inline {
 }
 /* FriendNotifications and ServerCounter */
 .scroller-2TZvBN .label-2wRs_g {
-    margin-right: 6px;
+    font-size: 9px;
 }
 /* GoogleTranslateOption */
 #app-mount .css-1px1g2v-menu {
@@ -3592,16 +3596,16 @@ code.inline {
     height: 6px !important;
     border-radius: 0 !important;
 }
-.scroller-2wx7Hm::-webkit-scrollbar,
+/*.scroller-2wx7Hm::-webkit-scrollbar,
 .scroller-2LSbBU::-webkit-scrollbar,
 .scroller-1JbKMe::-webkit-scrollbar,
 .scroller-2TZvBN::-webkit-scrollbar {
     border-left: solid 1px var(--line-color) !important;
-}
+}*/
 #app-mount .scrollerWrap-2lJEkd .scroller-2LSbBU::-webkit-scrollbar {
     width: 9px !important;
     border-radius: 0 !important;
-    border-bottom: solid 1px var(--line-color) !important;
+    /*border-bottom: solid 1px var(--line-color) !important;*/
 }
 .scroller-2TZvBN::-webkit-scrollbar {
     width: 6px !important;
@@ -3624,9 +3628,9 @@ code.inline {
     border: none !important;
     border-radius: 0 !important;
 }
-.scroller-2LSbBU::-webkit-scrollbar {
+/*.scroller-2LSbBU::-webkit-scrollbar {
     border-bottom: solid 1px var(--line-color);
-}
+}*/
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
     border: none !important;
@@ -3640,9 +3644,9 @@ code.inline {
     background-color: rgb(var(--darker-background-color)) !important;
     border-radius: 0 !important;
 }
-.scroller-2LSbBU::-webkit-scrollbar {
+/*.scroller-2LSbBU::-webkit-scrollbar {
     border-bottom: solid 1px var(--line-color) !important;
-}
+}*/
 
 /*~~ 14. ElementHider ~~*/
 .children-19S4PO:after,
