@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 287";
-    --adto-info: "AmoledDarkThemeOptmized 188";
+    --adt-info: "AmoledDarkTheme 288";
+    --adto-info: "AmoledDarkThemeOptmized 189";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -409,36 +409,36 @@
 }
 
 /*~~ 5. DevTags ~~*/
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:after {
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
-    font-size: 0.625rem;
-    text-transform: uppercase;
-    vertical-align: top;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    text-indent: 0;
-    height: 0.9375rem;
-    padding: 0 0.275rem;
-    margin-top: 0.075em;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    position: relative;
-    top: 0.1rem;
-    border-radius: 0.1875rem;
+    font-size: 0.625rem !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    vertical-align: top !important;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    text-indent: 0 !important;
+    height: 0.9375rem !important;
+    padding: 0 0.275rem !important;
+    margin-top: 0.075em !important;
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
+    position: relative !important;
+    top: 0.1rem !important;
+    border-radius: 0.1875rem !important;
 }
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:after {
     content: "Theme Dev" !important;
-    font-weight: 600 !important;
 }
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"],
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
 }
