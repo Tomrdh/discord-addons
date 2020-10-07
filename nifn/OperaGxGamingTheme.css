@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 14";
+    --ogx-info: "Opera GX Gaming Theme 15";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -3165,6 +3165,9 @@ code.inline {
     background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
     backdrop-filter: blur(var(--chat-background-blur));
 }
+#app-mount .title-2BxgL2 {
+    color: rgb(var(--muted-font));
+}
 /* Memberlist */
 .members-1998pB {
     background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
@@ -3686,42 +3689,44 @@ code.inline {
 }
 
 /*~~ 16. DevTags ~~*/
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
+/* Chat: Cozy */
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:after {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
     color: rgb(255, 255, 255) !important;
-    font-size: 0.625rem;
-    text-transform: uppercase;
-    vertical-align: top;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    text-indent: 0;
-    height: 0.9375rem;
-    padding: 0 0.275rem;
-    margin-top: 0.075em;
-    margin-left: 0.25rem;
-    margin-right: 0.25rem;
-    position: relative;
-    top: 0.1rem;
-    border-radius: 1px;
-    clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem);
+    font-size: 0.625rem !important;
+    font-weight: normal !important;
+    text-transform: uppercase !important;
+    vertical-align: top !important;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    text-indent: 0 !important;
+    height: 0.9375rem !important;
+    padding: 0 0.275rem !important;
+    margin-top: 0.075em !important;
+    margin-left: 0.25rem !important;
+    margin-right: 0.25rem !important;
+    position: relative !important;
+    top: 0.1rem !important;
+    border-radius: 1px !important;
+    clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem) !important;
 }
-
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:after { /* TomRdh */
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:after {
     content: "Theme Dev" !important;
-    font-weight: 600 !important;
 }
-
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"],        /* TomRdh */
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] > span[class*="name"]:hover {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"],
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:hover {
     font-weight: bold !important;
     color: rgb(var(--accent-color-1)) !important;
 }
+/* Chat: Compact */
+/* Canceled because this mode has too many bugs with a lot of plugins.
+   If you are reading this, I have a question… In Compact Mode, are normal tags before or after the nickname? Tysm if you answer. */
 
 /*~~ 17. Discord Developers and Others ~~*/
 /*-- 17.1. Discord Developers --*/
