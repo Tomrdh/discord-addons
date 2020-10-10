@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 16";
+    --ogx-info: "Opera GX Gaming Theme 17";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -3001,8 +3001,6 @@ code.inline {
 /* Serverlist */
 .scroller-2TZvBN {
     border: solid 1px var(--line-color);
-    padding-right: 1px;
-    margin-right: -1px;
     padding-top: 1px;
     margin-top: -1px;
 }
@@ -3021,6 +3019,9 @@ code.inline {
 .channelNotice-1-XFjC {
     border-top: solid 1px var(--line-color);
 }
+.divider-3FBTu8 {
+    background: var(--line-color);
+}
 /* Searchbar */
 .searchBar-6Kv8R2 {
     height: 47px;
@@ -3028,12 +3029,6 @@ code.inline {
     border-bottom: solid 1px var(--line-color);
 }
 /* Channels */
-.scroller-2wx7Hm,
-.scroller-1JbKMe,
-.container-36W3SS {
-    border-left: solid 1px var(--line-color);
-    /*border-right: solid 1px var(--line-color);*/
-}
 .scroller-2wx7Hm {
     border-top: solid 1px var(--line-color);
     opacity: 1;
@@ -3042,6 +3037,9 @@ code.inline {
 .chatContent-a9vAAp,
 .searchResultsWrap-3-pOjs {
     border-left: solid 1px var(--line-color);
+}
+.chatContent-a9vAAp {
+    border-right: solid 1px var(--line-color);
 }
 .content-98HsJk {
     border-bottom: solid 1px var(--line-color);
@@ -3068,19 +3066,14 @@ code.inline {
 }
 /* Memberlist */
 .members-1998pB {
-    border-left: solid 1px var(--line-color);
     border-right: solid 1px var(--line-color);
 }
 /* Servername and Banner */
 .header-2o-2hj {
     margin-bottom: -1px;
 }
-.header-2o-2hj,
-.title-3qD0b- {
-    border-left: solid 1px var(--line-color);
-}
 .animatedContainer-1pJv5C {
-    border-left: solid 1px var(--line-color);
+    margin-left: 1px;
     border-bottom: solid 1px var(--line-color);
     z-index: 2;
 }
@@ -3089,9 +3082,9 @@ code.inline {
     color: rgb(var(--fullwhite-font));
 }
 /* Panels */
-.panels-j1Uci_ {
+/*.panels-j1Uci_ {
     border-left: solid 1px var(--line-color);
-}
+}*/
 .container-3baos1 {
     border-top: solid 1px var(--line-color);
 }
@@ -3258,7 +3251,7 @@ code.inline {
 }
 .separator-gCa7yv,
 #app-mount .ui-tab-bar-separator {
-    background-color: rgb(var(--accent-color-1)) !important;
+    background-color: var(--line-color) !important;
 }
 .divider-3573oO {
     border-top-color: rgb(var(--accent-color-1));
