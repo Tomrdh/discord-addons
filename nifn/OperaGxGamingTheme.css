@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 17";
+    --ogx-info: "Opera GX Gaming Theme 18";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -1693,6 +1693,25 @@ code.inline {
 .memberGroupsPlaceholder-3mwPub {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
+.members-1998pB .layout-2DM8Md {
+    border-radius: 0;
+    border: solid 1px transparent;
+    height: 43px;
+    padding: 0 6px;
+    margin-top: -1px;
+}
+.members-1998pB .clickable-1JJAn8:hover .layout-2DM8Md {
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
+    border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
+    cursor: default;
+}
+.container-2Pjhx- {
+    padding: 0;
+}
+.member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
 /* Contextmenus */
 .menu-3sdvDG {
     background: transparent;
@@ -3127,6 +3146,11 @@ code.inline {
     border-left: solid 1px var(--line-color);
     border-right: solid 1px var(--line-color);
 }
+/* Settings */
+.standardSidebarView-3F1I7i {
+    border: solid 1px var(--line-color);
+    border-top: none;
+}
 
 /*~~ 10. Blur and transparency ~~*/
 /* Top bar */
@@ -3209,8 +3233,8 @@ code.inline {
 }
 .scroller-305q3I {
     background: none;
-    border-left: solid 1px rgb(var(--accent-color-1));
-    border-right: solid 1px rgb(var(--accent-color-1));
+    border-left: solid 1px var(--line-color);
+    border-right: solid 1px var(--line-color);
 }
 .item-26Dhrx[style*="background"] { /* selected */
     background-color: rgb(var(--accent-color-1)) !important;
@@ -3254,7 +3278,7 @@ code.inline {
     background-color: var(--line-color) !important;
 }
 .divider-3573oO {
-    border-top-color: rgb(var(--accent-color-1));
+    border-top-color: var(--line-color);
 }
 .bd-button,
 .bd-addon-list .bd-card-footer button {
@@ -3570,6 +3594,45 @@ code.inline {
 }
 .developerPortalCtaWrapper-2XNafh {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+#app-mount .popoutList-T9CKZQ {
+    background: rgb(var(--dark-background-color));
+}
+#app-mount .elevationBorderLow-2qgTRQ {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.popoutList-T9CKZQ {
+    border-radius: 0;
+    padding: 10px 0 0 0;
+}
+.popoutListInput-1l9TUI {
+    margin: 0 10px;
+    width: auto;
+}
+.popoutList-T9CKZQ .marginBottom8-AtZOdT {
+    margin-bottom: 0;
+}
+.selectableItem-1MP3MQ {
+    border-radius: 0;
+    height: 34px;
+    margin: 2px 0 2px 0;
+}
+.selectableItem-1MP3MQ:hover {
+    background-color: rgb(var(--darker-background-color)) !important;
+}
+.selectableItem-1MP3MQ.selected-31soGA:hover {
+    background-color: rgb(var(--accent-color-1)) !important;
+}
+#app-mount .container-VSDcQc .input-1ppKdn {
+    color: rgb(var(--fullwhite-font));
+}
+#app-mount .empty-3hoe1g .noResultsHeader-pqW4H- {
+    color: rgb(var(--normal-font));
+}
+#app-mount .empty-3hoe1g .noResultsHeader-pqW4H- ~ p {
+    color: rgb(var(--muted-font));
 }
 
 /*~~ 12. Text selection ~~*/
