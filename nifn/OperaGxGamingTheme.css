@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 18";
+    --ogx-info: "Opera GX Gaming Theme 19";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -315,7 +315,7 @@ body,
     border-radius: 0;
 }
 .preview-2nSL_2:hover {
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 .app-focused .preview-2nSL_2:hover {
     animation: accent-blinking 450ms infinite;
@@ -595,7 +595,7 @@ body,
     border-radius: 0;
 }
 .container-VSDcQc {
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 .app-focused .container-VSDcQc {
     animation: accent-blinking 450ms infinite;
@@ -605,9 +605,9 @@ body,
 }
 .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
     background-color: var(--background-modifier-selected);
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
-.row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
+.app-focused .row-rrHHJU.selected-1pIgLL .rowInner-1vvRiF {
     animation: accent-blinking 450ms infinite;
 }
 .rowInner-1vvRiF {
@@ -717,9 +717,9 @@ body,
 }
 .embedFull-2tM8--:hover {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgb(var(--accent-color-1)) !important;
+    border-color: rgb(var(--accent-color-2)) !important;
 }
-.embedFull-2tM8--:hover {
+.app-focused .embedFull-2tM8--:hover {
     animation: accent-blinking 450ms infinite;
 }
 /* Emoji picker, GIF picker */
@@ -749,7 +749,7 @@ body,
     padding: 1px;
 }
 .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
     background-color: rgb(var(--darker-background-color));
 }
 .app-focused .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
@@ -951,7 +951,7 @@ body,
 }
 .wrapper-35wsBm:hover {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
 .app-focused .wrapper-35wsBm:hover {
     animation: accent-blinking 450ms infinite;
@@ -967,9 +967,9 @@ body,
 }
 #app-mount .invite-18yqGF:hover {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
-#app-mount .invite-18yqGF:hover {
+.app-focused #app-mount .invite-18yqGF:hover {
     animation: accent-blinking 450ms infinite;
 }
 .coverImageWrapper-22d5LB {
@@ -1107,7 +1107,7 @@ body,
 }
 .markup-2BOw-j code:hover {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
 .app-focused .markup-2BOw-j code:hover {
     animation: accent-blinking 450ms infinite;
@@ -1176,8 +1176,14 @@ code.inline {
     border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
     margin: 0 9px 0 19px;
 }
-.peopleListItem-2nzedh.active-rhSpJJ,
+.peopleListItem-2nzedh.active-rhSpJJ {
+    border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
 .peopleListItem-2nzedh:hover {
+    border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
+}
+.app-focused .peopleListItem-2nzedh.active-rhSpJJ,
+.app-focused .peopleListItem-2nzedh:hover {
     animation: accent-blinking-with-transparency 450ms infinite;
 }
 /* Library and Game Download/Update */
@@ -1263,7 +1269,7 @@ code.inline {
 .jumpButton-JkYoYK:hover {
     background: rgb(var(--dark-background-color));
     border-radius: 0;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 .app-focused .jumpButton-JkYoYK:hover {
     animation: accent-blinking 450ms infinite;
@@ -1279,7 +1285,7 @@ code.inline {
 .focused-31_ccS .searchBar-3dMhjb,
 .open-6_Y_aH .searchBar-3dMhjb {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
 .app-focused .searchBar-3dMhjb:hover,
 .app-focused .focused-31_ccS .searchBar-3dMhjb,
@@ -1426,15 +1432,15 @@ code.inline {
 }
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border: solid rgb(var(--accent-color-1)) 1px;
+    border: solid rgb(var(--accent-color-2)) 1px;
 }
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
+.app-focused .searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
     animation: accent-blinking 450ms infinite;
 }
 /* Search anything */
 #app-mount .input-2VB9rf {
     border-radius: 0;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
     color: var(--text-normal);
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1447,10 +1453,10 @@ code.inline {
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
     background-color: rgb(var(--darker-background-color));
 }
-.quickswitcher-3JagVE {
+.app-focused .quickswitcher-3JagVE {
     animation: accent-blinking 450ms infinite;
 }
 .result-oB0z-- {
@@ -1458,7 +1464,7 @@ code.inline {
     border-radius: 0;
 }
 .resultFocused-3aIoYe {
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
     background: rgb(var(--dark-background-color));
 }
 .app-focused .resultFocused-3aIoYe {
@@ -1653,7 +1659,7 @@ code.inline {
 /* Announcement channels */
 .bumpBox-1r5p3c {
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
-    border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+    border: solid 1px rgba(var(--accent-color-2), var(--other-highlighted-transparency));
     border-radius: 0;
 }
 .app-focused .bumpBox-1r5p3c {
@@ -1771,7 +1777,7 @@ code.inline {
 }
 .button-F9qN4n:hover {
     border-radius: 0;
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
     margin: -1px;
 }
 .app-focused .button-F9qN4n:hover {
@@ -1786,7 +1792,7 @@ code.inline {
 #app-mount .autocomplete-1vrmpx {
     background-color: rgb(var(--darker-background-color));
     border-radius: 0;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 .app-focused #app-mount .autocomplete-1vrmpx {
     animation: accent-blinking 450ms infinite;
@@ -1798,7 +1804,7 @@ code.inline {
 .selectorSelected-1_M1WV.base-1pYU8j,
 .selected-1Tbx07.base-1pYU8j {
     border-radius: 0;
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
 .app-focused .selectorSelected-1_M1WV.base-1pYU8j,
 .app-focused .selected-1Tbx07.base-1pYU8j {
@@ -1844,7 +1850,7 @@ code.inline {
 .noticeStreamerMode-2TSQpg {
     border-radius: 0;
     background-color: rgb(var(--darker-background-color));
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
     border-top: none;
 }
 .app-focused .noticeStreamerMode-2TSQpg {
@@ -1852,7 +1858,7 @@ code.inline {
 }
 #app-mount .button-1MICoQ {
     background-color: rgb(var(--darker-background-color));
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
     border-radius: 0;
 }
 .app-focused #app-mount .button-1MICoQ {
@@ -2051,7 +2057,7 @@ code.inline {
 }
 .attachment-33OFj0:hover {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
 .app-focused .attachment-33OFj0:hover {
     animation: accent-blinking 450ms infinite;
@@ -2079,7 +2085,7 @@ code.inline {
     border-radius: 0;
 }
 .mediaBarWrapper-3D7r67 {
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 .app-focused .mediaBarWrapper-3D7r67 {
     animation: accent-blinking 450ms infinite;
@@ -2167,7 +2173,7 @@ code.inline {
     border: solid 1px rgb(var(--accent-color-1));
     box-shadow: none;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: rgb(var(--fullwhite-font));
 }
 #app-mount .bd-addon-list .bda-header,
 #app-mount .bd-addon-list .bda-description,
@@ -2184,7 +2190,7 @@ code.inline {
 }
 .noticeInfo-3_iTE1 {
     background-color: rgb(var(--darker-background-color));
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
     border-top: none;
     color: rgb(var(--fullwhite-font));
 }
@@ -2198,7 +2204,7 @@ code.inline {
 .colorInfo-2URYW5 {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     color: rgb(var(--fullwhite-font));
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
     margin-top: -1px;
 }
 .app-focused .colorInfo-2URYW5 {
@@ -2207,7 +2213,7 @@ code.inline {
 /* Server Welcomer Options */
 .optionContainer-15srkc {
     border-radius: 0;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 .app-focused .optionContainer-15srkc {
     animation: both-blinking 450ms infinite;
@@ -2247,7 +2253,7 @@ code.inline {
 #app-mount .embedVertical-W5-T0m:hover {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-radius: 0;
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
     transition: none;
     transition-delay: none;
 }
@@ -3508,13 +3514,13 @@ code.inline {
 }
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:hover {
     background-color: rgb(var(--dark-background-color));
-    border-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-2));
 }
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
     background-color: rgb(var(--dark-background-color));
     border-color: rgb(var(--accent-color-1));
 }
-#app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
+.app-focused #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
     animation: accent-blinking 450ms infinite;
 }
 #app-mount .auditLog-3jNbM6 {
