@@ -1,82 +1,234 @@
 /* Custom Font for Browser */
-
-article,
-footer,
-blockquote,
-tr td,
-h1 span,
-h2 span,
-h3 span,
-h4 span,
-h5 span,
-h6 span,
-li span,
-p span,
-font span,
-div span,
-text,
-font,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div,
-strong,
-em,
-mark,
-ul,
-ol,
-li,
-a,
-a div,
-figure,
-figcaption,
-select,
-option,
-yt-formatted-string,
-paper-item,
-paper-item-body,
-::-webkit-input-placeholder,
-button,
-input,
-.input,
-select,
-textarea,
-.textarea,
-.tout-content,
-.above-footer .tout-content,
-q,
+:root {
+    --cf: var(--customFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, sans-serif, serif !important;
+    --cbcf: var(--codeCustomFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, monospace !important;
+}
+/* I'm using copy/paste to force changing the font on some elements using !important and prevents CF to modify the font. */
+/* NORMAL FONT */
+article {
+    font-family: var(--cf) !important;
+}
+footer {
+    font-family: var(--cf) !important;
+}
+blockquote {
+    font-family: var(--cf) !important;
+}
+tr td {
+    font-family: var(--cf) !important;
+}
+h1 span {
+    font-family: var(--cf) !important;
+}
+h2 span {
+    font-family: var(--cf) !important;
+}
+h3 span {
+    font-family: var(--cf) !important;
+}
+h4 span {
+    font-family: var(--cf) !important;
+}
+h5 span {
+    font-family: var(--cf) !important;
+}
+h6 span {
+    font-family: var(--cf) !important;
+}
+li span {
+    font-family: var(--cf) !important;
+}
+p span {
+    font-family: var(--cf) !important;
+}
+font span {
+    font-family: var(--cf) !important;
+}
+div span {
+    font-family: var(--cf) !important;
+}
+text {
+    font-family: var(--cf) !important;
+}
+font {
+    font-family: var(--cf) !important;
+}
+p {
+    font-family: var(--cf) !important;
+}
+h1 {
+    font-family: var(--cf) !important;
+}
+h2 {
+    font-family: var(--cf) !important;
+}
+h3 {
+    font-family: var(--cf) !important;
+}
+h4 {
+    font-family: var(--cf) !important;
+}
+h5 {
+    font-family: var(--cf) !important;
+}
+h6 {
+    font-family: var(--cf) !important;
+}
+div {
+    font-family: var(--cf) !important;
+}
+strong {
+    font-family: var(--cf) !important;
+}
+em {
+    font-family: var(--cf) !important;
+}
+mark {
+    font-family: var(--cf) !important;
+}
+ul {
+    font-family: var(--cf) !important;
+}
+ol {
+    font-family: var(--cf) !important;
+}
+li {
+    font-family: var(--cf) !important;
+}
+a {
+    font-family: var(--cf) !important;
+}
+a div {
+    font-family: var(--cf) !important;
+}
+figure {
+    font-family: var(--cf) !important;
+}
+figcaption {
+    font-family: var(--cf) !important;
+}
+select {
+    font-family: var(--cf) !important;
+}
+option {
+    font-family: var(--cf) !important;
+}
+yt-formatted-string {
+    font-family: var(--cf) !important;
+}
+paper-item {
+    font-family: var(--cf) !important;
+}
+paper-item-body {
+    font-family: var(--cf) !important;
+}
+::-webkit-input-placeholder {
+    font-family: var(--cf) !important;
+}
+button {
+    font-family: var(--cf) !important;
+}
+input {
+    font-family: var(--cf) !important;
+}
+.input {
+    font-family: var(--cf) !important;
+}
+select {
+    font-family: var(--cf) !important;
+}
+textarea {
+    font-family: var(--cf) !important;
+}
+.textarea {
+    font-family: var(--cf) !important;
+}
+.tout-content {
+    font-family: var(--cf) !important;
+}
+.above-footer .tout-content {
+    font-family: var(--cf) !important;
+}
+q {
+    font-family: var(--cf) !important;
+}
 legend {
-    font-family: var(--customFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, sans-serif, serif !important;
+    font-family: var(--cf) !important;
 }
 
-.highlight pre,
-pre span,
-.blob-code-inner,
-.blob-code-inner > *,
-.CodeMirror pre > span,
-.CodeMirror-linenumber,
-code,
-code p,
-td,
-td span,
-monospace,
-.markup-2BOw-j
-code.inline,
-.codeBlockText-9TnoxQ,
-.codeLine-14BKbG,
-.after_inlineCode-1KfVgj,
-.before_inlineCode-1G9rTK,
-.inlineCode-2ngu6Y,
-.CodeMirror-code,
-[class*="hljs"],
-[class*="code"],
-[class*="code"] span,
-[class*="code"] div,
-[class*="mono"],
+/* MONOSPACE CUSTOM FONT */
+.highlight pre {
+    font-family: var(--cbcf) !important;
+}
+pre span {
+    font-family: var(--cbcf) !important;
+}
+.blob-code-inner {
+    font-family: var(--cbcf) !important;
+}
+.blob-code-inner > * {
+    font-family: var(--cbcf) !important;
+}
+.CodeMirror pre > span {
+    font-family: var(--cbcf) !important;
+}
+.CodeMirror-linenumber {
+    font-family: var(--cbcf) !important;
+}
+code {
+    font-family: var(--cbcf) !important;
+}
+code p {
+    font-family: var(--cbcf) !important;
+}
+td {
+    font-family: var(--cbcf) !important;
+}
+td span {
+    font-family: var(--cbcf) !important;
+}
+monospace {
+    font-family: var(--cbcf) !important;
+}
+.markup-2BOw-j {
+    font-family: var(--cbcf) !important;
+}
+code.inline {
+    font-family: var(--cbcf) !important;
+}
+.codeBlockText-9TnoxQ {
+    font-family: var(--cbcf) !important;
+}
+.codeLine-14BKbG {
+    font-family: var(--cbcf) !important;
+}
+.after_inlineCode-1KfVgj {
+    font-family: var(--cbcf) !important;
+}
+.before_inlineCode-1G9rTK {
+    font-family: var(--cbcf) !important;
+}
+.inlineCode-2ngu6Y {
+    font-family: var(--cbcf) !important;
+}
+.CodeMirror-code {
+    font-family: var(--cbcf) !important;
+}
+[class*="hljs"] {
+    font-family: var(--cbcf) !important;
+}
+[class*="code"] {
+    font-family: var(--cbcf) !important;
+}
+[class*="code"] span {
+    font-family: var(--cbcf) !important;
+}
+[class*="code"] div {
+    font-family: var(--cbcf) !important;
+}
+[class*="mono"] {
+    font-family: var(--cbcf) !important;
+}
 pre {
-    font-family: var(--codeCustomFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, monospace !important;
+    font-family: var(--cbcf) !important;
 }
