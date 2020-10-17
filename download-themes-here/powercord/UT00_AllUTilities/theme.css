@@ -1,0 +1,110 @@
+/**
+ * @name UT All UTilities
+ * @author TomRdh
+ * @version 0.0.2
+ * @description Combines all my Minor utilities for your UI. Fully customizable in the theme file. If this theme doesn't work anymore, try to reinstall the theme on GitHub by clicking on Source.
+ * @website https://tomrdh.github.io/da-website/main
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/UT00_AllUTilities.theme.css
+ * @invite v7ECsqT
+ * @authorId 703638166162112516
+*/
+
+@import url(https://tomrdh.github.io/discord-addons/nifn/UT00config.css);
+
+/*
+
+Before editing this file, please read:
+https://github.com/Tomrdh/discord-addons/wiki/How-to-use-UT00_AllUTilities
+Thank you.
+
+Stylish map:
+
+UT11 Nicknames on chat (BIU)
+UT20 Messages on chat (BIU)
+UT30 Channel or DM name on top (BIU)
+UT40 Nicknames on member list (BIU)
+UT50 Channel names on channel list (BIU)
+UT60 User Names on DM list (BIU)
+UT70 Timestamps on chat (BIU)
+UT80 Categories on lists (BIU)
+UT91 Align messages and nicknames on chat (vars)
+UT92 Avatar resize on chat (vars)
+UT93 Resize texts on lists (vars)
+
+*/
+
+/*    UT11 Nicknames on chat                                             */
+.username-1A8OIy, .username-lm8y6T {
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT20 Messages on chat                                              */
+.messageContent-2qWWxC {
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT30 Channel or DM name on top                                     */
+.title-29uC1r {
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT40 Nicknames on member list                                      */
+.member-3-YXUe .name-uJV0GL, .username-lm8y6T {
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT50 Channel names on channel list                                 */
+.name-3_Dsmg {
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT60 User Names on DM list                                         */
+.name-uJV0GL {
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT70 Timestamps on chat                                            */
+.timestamp-3ZCmNB {
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    text-decoration: underline;
+}
+
+/*    UT80 Categories on lists                                           */
+.headerText-1-AnT0, .container-2ax-kl {
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+}
+
+/*    UT91 Align messages and nicknames on chat                          */
+:root {
+    --alignMessages:       left;                        /* Available variables: left, center, right, justify and var(--useAnyVariable)                    */
+    --alignNicknames:      left;                        /* Same available variables, but for nicknames                                                    */
+    --alignCompactMode:    var(--alignMessages);        /* If you're using compact mode, change this variable. It will change nicknames AND messages.    */
+    --typeBox:             var(--alignMessages);        /* Where you type and send messages to your friends                                                */
+}
+
+/*    UT92 Avatar resize on chat (AKA: profile picture | pp  | pfp)     */
+/* Note: If you have enabled any theme/plugin that customizes the avatar, it might not work. */
+:root {
+    --chatAvatarSize:      47px;                        /* Change the avatar display size on chat here. Discord default: 40px. Theme default: 47px        */
+}
+
+/*    UT93 Resize texts on lists                                         */
+:root {
+    --textSize:            13px;                        /* TextSize for Channels - Discord Default: 16px - Theme default: 13px */
+    --categorySize:        15px;                        /* TextSize for Categories - Discord Default: 12px - Theme default: 15px */
+}

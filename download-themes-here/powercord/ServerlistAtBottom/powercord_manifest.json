@@ -1,0 +1,8 @@
+{
+    "name": "ServerlistAtBottom",
+    "description": "Moves the serverlist at the bottom, like Guilded. Customization available in the theme file!",
+    "version": "0.0.3",
+    "author": "TomRdh#5571",
+    "theme": "theme.css",
+    "license": "unknown"
+}

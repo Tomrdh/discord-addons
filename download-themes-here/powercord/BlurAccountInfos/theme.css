@@ -1,0 +1,31 @@
+/**
+ * @name BlurAccountInfos
+ * @author TomRdh
+ * @version 0.0.3
+ * @description This mini-theme allows you to hide your email adress and other things in your Account Card when you enter in Discord's User Settings without enabling Streamer Mode. But never forget to enable Streamer Mode before streaming or recording on any platform. This theme has also some settings in the theme file.
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/BlurEmail.theme.css
+ * @invite Hx24Fdn
+ * @authorId 703638166162112516
+*/
+
+@import url(https://tomrdh.github.io/discord-addons/nifn/BlurAccountInfos.css);
+
+/* Pro tip: Do not let your cursor on the Account Info card. */
+
+:root { /* Theme has now settings! */
+
+/*  Blur Amount Settigs                                                                                                                                                             */
+    --blur-amount           :   5px     ;/*  Default: 5px    - Default blur amout. Use length units like px. If you are not sure what you are doing, leave it as default.           */
+    --blur-amount-on-hover  :   0       ;/*  Default: 0      - Blur amount when you hover on a sensitive information. If you're not sure what you're doing, leave it as default.    */
+    
+/*  Transition Settings                                                                                                                                                             */
+    --fade-in               :   700ms   ;/*  Default: 700ms  - Fade transition time when the cursor starts hovering on the blurred text.                                            */
+    --fade-out              :   150ms   ;/*  Default: 150ms  - Fade transition time when the cursor stops hovering on the blurred text. Should be shorter than fade-in.             */
+    
+/*  Delay Settings                                                                                                                                                                  */
+    --fade-in-delay         :   300ms   ;/*  Default: 300ms  - Delay before starting fade-in.                                                                                       */
+    --fade-out-delay        :   150ms   ;/*  Default: 150ms  - Delay before starting fade-out.                                                                                      */
+    
+/*  Update Settings                                                                                                                                                                 */
+    --version-003_bai: none; /* Do not touch to this! Or you'll see a notice that tells you that your file is broken!                                                               */
+}

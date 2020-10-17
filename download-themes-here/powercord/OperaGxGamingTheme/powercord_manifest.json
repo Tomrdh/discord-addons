@@ -1,0 +1,8 @@
+{
+    "name": "OperaGxGamingTheme",
+    "description": "Opera GX Gaming Theme! A (transparent) gaming theme inspired by Opera GX. Very customizable in the theme file.",
+    "version": "0.0.6",
+    "author": "TomRdh#5571",
+    "theme": "theme.css",
+    "license": "unknown"
+}

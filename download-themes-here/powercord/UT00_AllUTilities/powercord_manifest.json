@@ -1,0 +1,8 @@
+{
+    "name": "UT All UTilities",
+    "description": "Combines all my Minor utilities for your UI. Fully customizable in the theme.css file.",
+    "version": "0.0.2",
+    "author": "TomRdh#5571",
+    "theme": "theme.css",
+    "license": "unknown"
+}
