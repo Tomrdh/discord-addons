@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 288";
-    --adto-info: "AmoledDarkThemeOptmized 189";
+    --adt-info: "AmoledDarkTheme 289";
+    --adto-info: "AmoledDarkThemeOptmized 190";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -40,7 +40,7 @@
     --background-mobile-primary: var(--bg-4) !important;
     --background-mobile-secondary: var(--bg-2) !important;
     --deprecated-store-bg: var(--bg-1) !important;
-    --deprecated-quickswitcher-input-background: var(--bg-4);
+    --deprecated-quickswitcher-input-background: var(--bg-4) !important;
 }
 
 /*~~ 3. Modifiers ~~*/
@@ -400,6 +400,12 @@
 }
 .theme-dark .selected-1Tbx07 {
     background-color: #36393f80;
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    border-color: var(--bg-4);
+}
+.regionSelectName-2-2FWh {
+    color: var(--text-muted);
 }
 
 /*~~ 4. Scrollbars ~~*/
