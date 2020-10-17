@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 19";
+    --ogx-info: "Opera GX Gaming Theme 20";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -1484,10 +1484,6 @@ code.inline {
     border-left: solid 2px transparent;
     cursor: default;
 }
-.privateChannels-1nO12o .selected-aXhQR6 .layout-2DM8Md {
-    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-left-color: rgb(var(--accent-color-1));
-}
 .privateChannels-1nO12o .clickable-1JJAn8:hover .layout-2DM8Md {
     border-left-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
     background: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
@@ -1497,10 +1493,14 @@ code.inline {
     animation: both-blinking-with-transparency 450ms infinite;
 }
 .privateChannels-1nO12o .highlighted-1gWxXa.container-2Pjhx- .layout-2DM8Md {
-    border-left-color: rgb(var(--fullwhite-font));
     background: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    border-left-color: rgb(var(--fullwhite-font));
     border-radius: 0;
     font-style: italic;
+}
+.privateChannels-1nO12o .selected-aXhQR6 .layout-2DM8Md {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency)) !important;
+    border-left-color: rgb(var(--accent-color-1)) !important;
 }
 /* Categories */
 .containerDefault-3GGEv_,
