@@ -1,6 +1,23 @@
+.userSettingsAccount-3wUMIP .viewBody-1l56Sd,
+.fieldList-21DyL8 .field-1HUseB span,
+.details-2fkb7l .colorHeaderSecondary-3Sp3Ft
+{
+    filter: blur(var(--blur-amount)) !important;
+    transition: var(--fade-out) !important;
+    transition-delay: var(--fade-out-delay) !important;
+}
+.userSettingsAccount-3wUMIP .viewBody-1l56Sd:hover,
+.fieldList-21DyL8 .field-1HUseB span:hover,
+.details-2fkb7l .colorHeaderSecondary-3Sp3Ft:hover
+{
+    filter: blur(var(--blur-amount-on-hover)) !important;
+    transition: var(--fade-in) !important;
+    transition-delay: var(--fade-in-delay) !important;
+}
+
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "BlurEmail is no longer supported and was killed. Instead, you can download BlurAccountInfos which has latest updates, download it in the Discord Addons by TomRdh website." !important;
-    display: block !important;
+    content: "BlurAccountInfos is broken or outdated! Redownload the file in tomrdh.github.io/da-website/themes or by clicking on Website." !important;
+    display: var(--version-003_bai, block) !important;
     background-color: #3e82e5 !important;
     box-shadow: 0 0px 30px 0 #3e82e5 !important;
     color: #fff !important;
