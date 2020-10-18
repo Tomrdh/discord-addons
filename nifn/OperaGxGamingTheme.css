@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --oggt-info: "Opera GX Gaming Theme 22";
+    --oggt-info: "Opera GX Gaming Theme 23";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -2906,14 +2906,14 @@ code.inline {
     font-size: 9px;
 }
 /* GoogleTranslateOption */
-#app-mount .css-1px1g2v-menu {
+#app-mount .select-2TCrqx [class*="-menu"] {
     -webkit-box-shadow: none;
     box-shadow: none;
     background: rgb(var(--dark-background-color));
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
 }
-.app-focused #app-mount .css-1px1g2v-menu {
+.app-focused #app-mount .select-2TCrqx [class*="-menu"] {
     animation: accent-blinking 450ms infinite;
 }
 
@@ -3399,57 +3399,42 @@ code.inline {
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
 }
-.css-1k00wn6-singleValue,
-.css-6nrxdk-singleValue,
-.css-ddw2o3-option,
-.css-1kft5vg-option,
-.css-qgio2y-option {
-    color: rgb(246, 246, 247);
+.select-2TCrqx [class*="-singleValue"],
+.select-2TCrqx [class*="-option"] {
+    color: rgb(var(--fullwhite-font));
 }
-.css-1a8reka-control,
-.css-1a8reka-control:hover,
-.css-oc2jo8-control,
-.css-oc2jo8-control:hover,
-.css-hygzao-control,
-.css-hygzao-control:hover {
+.select-2TCrqx [class*="-option"]:hover {
+    background-color: rgb(var(--dark-background-color));
+}
+.select-2TCrqx [class*="-control"],
+.select-2TCrqx [class*="-control"]:hover {
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
 }
-.css-1a8reka-control:hover {
+.select-2TCrqx [class*="-control"]:hover {
     border-color: rgb(var(--accent-color-2));
     background-color: rgb(var(--dark-background-color));
 }
-.css-2yldzf-control,
-.css-1qm8c5n-control {
+.select-2TCrqx [class*="-control"] {
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
 }
-.app-focused .css-2yldzf-control,
-.app-focused .css-1qm8c5n-control {
-    animation: accent-blinking 450ms infinite;
-}
-.css-n57xjs-menu,
-.css-1s13zip-menu {
+.select-2TCrqx [class*="-menu"] {
     background-color: rgb(var(--dark-background-color));
     border-color: rgb(var(--accent-color-1));
     box-shadow: none;
     border-radius: 0;
 }
-.app-focused .css-n57xjs-menu,
-.app-focused .css-1s13zip-menu {
+.select-2TCrqx [class*="-menu"] {
     animation: accent-blinking 450ms infinite;
 }
-.css-12o7ek3-option,
-.css-qgio2y-option,
-.css-1kft5vg-option {
+.select-2TCrqx [class*="-option"] {
     background-color: rgb(var(--darker-background-color));
 }
-.css-12o7ek3-option:active,
-.css-qgio2y-option:active,
-.css-1kft5vg-option:active {
+.select-2TCrqx [class*="-option"]:active {
     background-color: #000;
 }
-.css-1ao1kba-placeholder {
+.select-2TCrqx [class*="-placeholder"] {
     color: rgb(var(--muted-font));
 }
 #app-mount .css-19bqh2r {
