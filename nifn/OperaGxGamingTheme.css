@@ -1,8 +1,8 @@
 /*
     NOTES
-    A "line" should always use var(--line-color)
-    The animation default values are in keyframes
-    If an animation is used, always set default properties and use a separate selector and add .app-focused at the start to improve performance
+    A "line" should always use var(--line-color).
+    The animation default values are in keyframes.
+    If an animation is used, always set default properties and use a separate selector and add .app-focused at the start to improve performance.
 
     MAP
     1.  Imports
@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 21";
+    --oggt-info: "Opera GX Gaming Theme 22";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -1874,7 +1874,7 @@ code.inline {
     height: 31px;
     cursor: default;
     transition: 200ms cubic-bezier(0, 0, 0.19, 0.97);
-    transition-property: background-color;
+    transition-property: background-color, color;
     color: rgb(var(--accent-color-2));
 }
 .app-focused .winButton-iRh8-Z {
@@ -1882,9 +1882,10 @@ code.inline {
 }
 .winButtonClose-1HsbF-:hover {
     background-color: rgb(255, 0, 0);
+    color: #fff;
 }
 .winButtonMinMax-PBQ2gm:hover {
-    background-color: rgba(200, 200, 200, 0.4);
+    background-color: rgba(200, 200, 200, 0.35);
     color: rgb(var(--accent-color-1));
 }
 /* Windows top bar/titlebar */
@@ -2880,9 +2881,15 @@ code.inline {
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
     border-radius: 0;
+    margin-left: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.channelTabs-fav:first-child {
+    margin-left: 8px;
 }
 .channelTabs-fav:hover {
-    background-color: rgba(120, 124, 128, 0.3) !important;
+    background-color: rgba(111, 125, 138, 0.3) !important;
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
 }
@@ -3029,6 +3036,10 @@ code.inline {
     padding-top: 1px;
     margin-top: -1px;
 }
+.platform-web .scroller-2TZvBN {
+    border-left: none;
+    border-bottom: none;
+}
 /* Channels sidebar */
 #app-mount .sidebar-2K8pFh {
     border-radius: 0;
@@ -3041,6 +3052,10 @@ code.inline {
     border-left: solid 1px var(--line-color);
     box-shadow: none;
 }
+.platform-web .title-3qD0b-,
+.platform-web .container-1r6BKw {
+    border-right: none;
+}
 .channelNotice-1-XFjC {
     border-top: solid 1px var(--line-color);
 }
@@ -3050,7 +3065,6 @@ code.inline {
 /* Searchbar */
 .searchBar-6Kv8R2 {
     height: 47px;
-    border-left: solid 1px var(--line-color);
     border-bottom: solid 1px var(--line-color);
 }
 /* Channels */
@@ -3066,8 +3080,14 @@ code.inline {
 .chatContent-a9vAAp {
     border-right: solid 1px var(--line-color);
 }
+.platform-web .chatContent-a9vAAp {
+    border-right: none;
+}
 .content-98HsJk {
     border-bottom: solid 1px var(--line-color);
+}
+.platform-web .content-98HsJk {
+    border-bottom: none;
 }
 .tabBody-3YRQ8W,
 .nowPlayingColumn-2sl4cE,
@@ -3077,6 +3097,9 @@ code.inline {
 .tabBody-3YRQ8W,
 .scroller-1IIF0A {
     border-right: solid 1px var(--line-color);
+}
+.platform-web .tabBody-3YRQ8W {
+    border-right: none;
 }
 .content-MLh4nU {
     border-left: solid 1px var(--line-color);
@@ -3089,9 +3112,16 @@ code.inline {
     border-left: solid 1px var(--line-color);
     border-right: solid 1px var(--line-color);
 }
+.platform-web .noChannel-Z1DQK7 {
+    border-right: none;
+}
 /* Memberlist */
 .members-1998pB {
     border-right: solid 1px var(--line-color);
+}
+.platform-web .members-1998pB {
+    border-right: none;
+    border-left: solid 1px var(--line-color);
 }
 /* Servername and Banner */
 .header-2o-2hj {
@@ -3155,7 +3185,12 @@ code.inline {
 /* Settings */
 .standardSidebarView-3F1I7i {
     border: solid 1px var(--line-color);
+}
+.platform-win .standardSidebarView-3F1I7i {
     border-top: none;
+}
+.platform-web .standardSidebarView-3F1I7i {
+    border: none;
 }
 
 /*~~ 10. Blur and transparency ~~*/
@@ -3954,7 +3989,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 
 /*~~ 20. Infos ~~*/
 .info-1VyQPT:after {
-    content: var(--ogx-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl + R to reload Discord. */
+    content: var(--oggt-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl + R to reload Discord. */
     font-size: 12px !important;
     color: var(--text-muted) !important;
     display: inline !important;
