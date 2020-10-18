@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --oggt-info: "Opera GX Gaming Theme 23";
+    --oggt-info: "Opera GX Gaming Theme 24";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -1896,6 +1896,17 @@ code.inline {
     padding-top: 4px;
     background-color: rgb(var(--top-bar-color));
 }
+/* Mac buttons */
+.macButtons-2MuSAC {
+    border: solid 1px var(--line-color);
+    width: 72px;
+    height: 31px;
+}
+.unfocused-1QsMU3 .macButtonClose-MwZ2nf,
+.unfocused-1QsMU3 .macButtonMaximize-2FMHAO,
+.unfocused-1QsMU3 .macButtonMinimize-3EJ6wo {
+    background-color: rgb(var(--accent-color-2));
+}
 /* Discord watermark */
 .wordmarkWindows-1v0lYD {
     padding: 8px 9px 3px;
@@ -2781,16 +2792,15 @@ code.inline {
     margin-left: -1px !important;
     font-size: 12px !important;
     background: none !important;
-    padding: 6px !important;
+    padding: 5px !important;
     border-radius: 0 0 0 !important;
     color: var(--interactive-normal) !important;
     transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
     cursor: default !important;
-    height: 17px !important;
+    height: 18px !important;
     border: solid 1px transparent !important;
     border-bottom: none !important;
-    top: -1px;
     border-right-color: rgba(var(--fullwhite-font), 0.13) !important;
 }
 .channelTabs-tab:not(.channelTabs-selected):hover {
@@ -2801,12 +2811,17 @@ code.inline {
 .channelTabs-tab:first-child {
     margin-left: 0px !important;
 }
+.typeMacOS-3EmCyP.titleBar-AC4pGV ~ div #channelTabs-container > :first-child > :first-child {
+    margin-left: 70px !important;
+}
 .channelTabs-tabContainer {
     height: 29px !important;
     background: rgba(var(--channeltabs-background-color), var(--channeltabs-bg-transparency)) !important;
     backdrop-filter: blur(var(--channeltabs-background-blur));
     z-index: 1 !important;
     border: solid 1px var(--line-color) !important;
+}
+.platform-win .channelTabs-tabContainer {
     border-top: none !important;
 }
 .channelTabs-selected {
@@ -2817,7 +2832,7 @@ code.inline {
     z-index: 1 !important;
 }
 .channelTabs-tabIcon {
-    top: 5px !important;
+    top: 4px !important;
     height: 20px !important;
 }
 .channelTabs-close,
@@ -2857,7 +2872,7 @@ code.inline {
     border-radius: 3px !important;
     width: 16px !important;
     height: 16px !important;
-    line-height: 12px;
+    line-height: 14px;
     text-align: center !important;
     background: none !important;
     font-weight: 100 !important;
@@ -2866,7 +2881,7 @@ code.inline {
     color: rgb(var(--accent-color-1)) !important;
     transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
-    top: 4px !important;
+    top: 5px !important;
 }
 .channelTabs-newTab:hover {
     background: rgba(var(--accent-color-1), 0.3) !important;
@@ -2880,13 +2895,10 @@ code.inline {
 .channelTabs-fav {
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
-    border-radius: 0;
-    margin-left: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-.channelTabs-fav:first-child {
-    margin-left: 8px;
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
 }
 .channelTabs-fav:hover {
     background-color: rgba(111, 125, 138, 0.3) !important;
@@ -3008,7 +3020,10 @@ code.inline {
 }
 #app-mount h2.ui-form-title,
 #app-mount .ui-switch-item h3 {
-    color: var(--header-primary);
+    color: rgb(var(--normal-hover-font)) !important;
+}
+#app-mount #bd-settingspane-container .ui-switch-item .style-description {
+    color: rgb(var(--muted-font));
 }
 #app-mount .ui-switch-item .style-description {
     color: rgba(255, 255, 255, 0.6);
@@ -3186,7 +3201,8 @@ code.inline {
 .standardSidebarView-3F1I7i {
     border: solid 1px var(--line-color);
 }
-.platform-win .standardSidebarView-3F1I7i {
+.platform-win .standardSidebarView-3F1I7i,
+.platform-osx .standardSidebarView-3F1I7i {
     border-top: none;
 }
 .platform-web .standardSidebarView-3F1I7i {
@@ -3659,6 +3675,10 @@ code.inline {
 }
 #app-mount .empty-3hoe1g .noResultsHeader-pqW4H- ~ p {
     color: rgb(var(--muted-font));
+}
+#app-mount .userSettingsAccount-3wUMIP .viewBody-1l56Sd,
+#app-mount .userSettingsSecurity-2WQWqX .codeCheckbox-2VC-8N {
+    color: rgb(var(--normal-font));
 }
 
 /*~~ 12. Text selection ~~*/
