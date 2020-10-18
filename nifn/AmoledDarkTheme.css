@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 289";
-    --adto-info: "AmoledDarkThemeOptmized 190";
+    --adt-info: "AmoledDarkTheme 290";
+    --adto-info: "AmoledDarkThemeOptmized 191";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -244,7 +244,6 @@
     background-color: var(--bg-3) !important;
 }
 /* Adt-Bg4 | 4th */
-.theme-dark .xenoLib-notification-content,
 .theme-dark .scrollableContainer-2NUZem,
 .theme-dark .expandedFolderBackground-2sPsd-,
 .theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7,
@@ -260,6 +259,7 @@
     background: var(--bg-4);
     background-color: var(--bg-4);
 }
+.theme-dark .xenoLib-notification-content,
 .theme-dark .guildsDiscover-oiBX_l,
 .theme-dark .channelTextArea-rNsIhG,
 .theme-dark .scrollableContainer-2NUZem,
@@ -288,9 +288,6 @@
 }
 .theme-dark .selectorButtonSelected-1j4DmC {
     background-color: #7289da !important;
-}
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background-color: var(--background-modifier-selected);
 }
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover:not(.selected) {
     background-color: var(--background-modifier-hover);
