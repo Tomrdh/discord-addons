@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 290";
-    --adto-info: "AmoledDarkThemeOptmized 191";
+    --adt-info: "AmoledDarkTheme 291";
+    --adto-info: "AmoledDarkThemeOptmized 192";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -259,7 +259,6 @@
     background: var(--bg-4);
     background-color: var(--bg-4);
 }
-.theme-dark .xenoLib-notification-content,
 .theme-dark .guildsDiscover-oiBX_l,
 .theme-dark .channelTextArea-rNsIhG,
 .theme-dark .scrollableContainer-2NUZem,
@@ -398,11 +397,14 @@
 .theme-dark .selected-1Tbx07 {
     background-color: #36393f80;
 }
-.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+.theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
     border-color: var(--bg-4);
 }
-.regionSelectName-2-2FWh {
+.theme-dark .regionSelectName-2-2FWh {
     color: var(--text-muted);
+}
+.theme-dark .xenoLib-notification-content {
+    background: var(--xl-bg, #474747) !important;
 }
 
 /*~~ 4. Scrollbars ~~*/

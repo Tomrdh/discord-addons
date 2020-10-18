@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --ogx-info: "Opera GX Gaming Theme 20";
+    --ogx-info: "Opera GX Gaming Theme 21";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -3857,16 +3857,41 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 .widgetMember-s-bqOZ .widgetMemberName-1s0T0o {
     color: rgb(var(--normal-font));
+    line-height: 16px;
+}
+.widgetMember-s-bqOZ .widgetMemberGame-1VaBoY {
+    color: rgb(var(--muted-font));
+    line-height: 16px;
 }
 .widgetMembersOnline-314YF1 {
     color: rgb(var(--accent-color-1));
     font-weight: 700;
     text-transform: none;
 }
-.widgetFooter-1l6LHW {
+.widgetBtnConnect-2fvtGa {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+    background-color: rgb(var(--darker-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 200ms;
+    transition-property: background, border;
+}
+.widgetBtnConnect-2fvtGa:hover {
+    opacity: 1;
+    background-color: rgb(var(--dark-background-color));
+    border-color: rgb(var(--accent-color-2));
+    transition: 200ms;
+    transition-property: background, border;
+}
+.widget-szj0pM .widgetFooter-1l6LHW {
     box-shadow: none;
     -webkit-box-shadow: none;
     background-color: rgb(var(--dark-background-color));
+    color: rgb(var(--text-muted));
+}
+.widgetFooter-1l6LHW .widgetFooterInfo-3sJWsY {
+    opacity: 1;
 }
 
 /*~~ 18. Update notice ~~*/
