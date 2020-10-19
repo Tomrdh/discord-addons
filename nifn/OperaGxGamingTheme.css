@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --oggt-info: "Opera GX Gaming Theme 24";
+    --oggt-info: "Opera GX Gaming Theme 25";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -757,6 +757,14 @@ body,
 }
 #app-mount .wrapper-1-Fsb8 {
     background: none;
+}
+/* Emoji information (emoji section) */
+.popoutContainer-1MXdqN {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.emojiSection-3Fb9ix {
+    background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
 }
 /* Looks */
 .lookFilled-1Gx00P.colorBrand-3pXr91,
