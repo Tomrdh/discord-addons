@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme build number */
-    --oggt-info: "Opera GX Gaming Theme 25";
+    --oggt-info: "Opera GX Gaming Theme 26";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -63,7 +63,9 @@
     /* Shortcut variables */
     --line-color: rgba(var(--accent-color-1), var(--lines-transparency));
 }
-#app-mount {
+#app-mount,
+.theme-light,
+.theme-dark {
     /* Colors */
     --text-normal: rgb(var(--normal-font)) !important;
     --text-muted: rgb(var(--muted-font)) !important;
@@ -303,9 +305,16 @@ body,
 .content-MLh4nU {
     background: transparent;
 }
-#app-mount,
-.layer-3QrUeG {
+#app-mount {
     background: var(--background) center;
+    background-size: cover;
+}
+.theme-dark,
+.theme-light {
+    background: rgb(var(--darker-background-color));
+}
+.layer-3QrUeG {
+    /* background: var(--background) center; */
     background-size: cover;
 }
 .preview-2nSL_2 {
@@ -617,10 +626,11 @@ body,
 }
 /* Popouts */
 #app-mount .root-1gCeng {
-    background-color: rgb(var(--dark-background-color));
+    background: rgb(var(--dark-background-color));
     border-radius: 0;
-    -webkit-box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
 }
 #app-mount .footer-2gL1pp {
     background-color: rgb(var(--darker-background-color));
@@ -945,6 +955,9 @@ body,
 }
 .input-cIJ7To {
     color: rgb(var(--normal-font));
+}
+.sampleLink-2NLvZg {
+    color: var(--text-link);
 }
 /* New Nitro Tab */
 .scroller-9moviB {
@@ -1445,7 +1458,7 @@ code.inline {
 .app-focused .searchBar-6Kv8R2 .searchBarComponent-32dTOx:hover {
     animation: accent-blinking 450ms infinite;
 }
-/* Search anything */
+/* Quick Switcher */
 #app-mount .input-2VB9rf {
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-2));
