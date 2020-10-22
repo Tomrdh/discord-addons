@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 291";
-    --adto-info: "AmoledDarkThemeOptmized 192";
+    --adt-info: "AmoledDarkTheme 292";
+    --adto-info: "AmoledDarkThemeOptmized 193";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -112,7 +112,8 @@
 .theme-dark .noChannel-Z1DQK7,
 .theme-dark .modal-yWgWj-,
 .theme-dark .pageWrapper-1PgVDX,
-.theme-dark .autocomplete-1vrmpx
+.theme-dark .autocomplete-1vrmpx,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -152,7 +153,8 @@
 .theme-dark .container-PNkimc,
 .theme-dark .nowPlayingColumn-2sl4cE,
 .theme-dark #bd-pub-button,
-.theme-dark .sidebar-2K8pFh
+.theme-dark .sidebar-2K8pFh,
+.theme-dark .card-FDVird:before
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -406,6 +408,9 @@
 .theme-dark .xenoLib-notification-content {
     background: var(--xl-bg, #474747) !important;
 }
+.theme-dark .card-FDVird:before {
+    border-color: var(--bg-1);
+}
 
 /*~~ 4. Scrollbars ~~*/
 .theme-dark ::-webkit-scrollbar-track {
@@ -434,9 +439,8 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[
     padding: 0 0.275rem !important;
     margin-top: 0.075em !important;
     margin-left: 0.25rem !important;
-    margin-right: 0.25rem !important;
     position: relative !important;
-    top: 0.1rem !important;
+    top: 0.15rem !important;
     border-radius: 0.1875rem !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:after {
