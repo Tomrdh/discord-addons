@@ -61,7 +61,8 @@
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
     
     /* Shortcut variables */
-    --line-color: rgba(var(--accent-color-1), var(--lines-transparency));
+    --line-color: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
+    --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
 }
 #app-mount,
 .theme-light,
@@ -126,7 +127,12 @@
     50% {border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency)); background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));}
     100%{border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)); background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));}
 }
-@keyframes channeltabs-tabOpen {
+@keyframes notice-anim { /* animation: both-blinking-with-transparency 450ms infinite; */
+    0%  {border-color: var(--line-color); background-color: rgba(var(--darker-background-color, 8, 5, 14), var(--other-highlighted-transparency, 1));}
+    50% {border-color: var(--line-color-2); background-color: rgba(var(--dark-background-color, 20, 17, 26), var(--other-highlighted-transparency, 1));}
+    100%{border-color: var(--line-color); background-color: rgba(var(--darker-background-color, 8, 5, 14), var(--other-highlighted-transparency, 1));}
+}
+@keyframes channeltabs-tabOpen { /* Not finished */
     0%  {width: 0;}
     100%{width: var(--channelTabs-tabWidth);}
 }
@@ -4034,11 +4040,11 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 
 /*~~ 18. Update notice ~~*/
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:before {
     content: "OperaGxGamingTheme is broken and/or outdated! Please redownload the theme by clicking on Source." !important;
     display: var(--version007_oggt, block) !important;
     box-shadow: none !important;
-    background-color: rgb(var(--dark-background-color), 20, 17, 16) !important;
+    background-color: rgba(var(--dark-background-color, 20, 17, 26), var(--other-highlighted-transparency, 1)) !important;
     color: rgb(var(--fullwhite-font, 255, 255, 255)) !important;
     flex-grow: 0 !important;
     flex-shrink: 0 !important;
@@ -4065,7 +4071,10 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     z-index: 999 !important;
     pointer-events: none !important;
     border: solid 1px var(--line-color) !important;
-    animation: both-blinking-with-transparency 450ms infinite !important;
+    border-top: none !important;
+}
+.app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:before {
+    animation: notice-anim 450ms infinite !important;
 }
 
 /*~~ 19. Powercord ~~*/
