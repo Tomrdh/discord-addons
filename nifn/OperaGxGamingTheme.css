@@ -4051,6 +4051,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     z-index: 999 !important;
     border: solid 1px var(--line-color) !important;
     border-top: none !important;
+    border-left: none !important;
 }
 .app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     animation: notice-anim 450ms infinite !important;
