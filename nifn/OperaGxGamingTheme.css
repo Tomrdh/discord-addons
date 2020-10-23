@@ -34,12 +34,13 @@
     20. Infos
 */
 /*~~ 1. Imports ~~*/
-/* Currently nothing */
+@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
 
 /*~~ 2. Vars ~~*/
 :root {
-    /* Theme build number */
+    /* Theme Support */
     --oggt-info: "Opera GX Gaming Theme 29";
+    --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
@@ -4040,41 +4041,22 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 
 /*~~ 18. Update notice ~~*/
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:before {
-    content: "OperaGxGamingTheme is broken and/or outdated! Please redownload the theme by clicking on Source." !important;
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version007_oggt, block) !important;
     box-shadow: none !important;
     background-color: rgba(var(--dark-background-color, 20, 17, 26), var(--other-highlighted-transparency, 1)) !important;
     color: rgb(var(--fullwhite-font, 255, 255, 255)) !important;
-    flex-grow: 0 !important;
-    flex-shrink: 0 !important;
     font-size: 14px !important;
     font-weight: 500 !important;
-    height: 36px !important;
-    line-height: 36px !important;
-    opacity: 1 !important;
-    padding-left: 4px !important;
-    padding-right: 28px !important;
-    position: relative !important;
-    text-align: center !important;
-    visibility: visible !important;
-    white-space: pre !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: unset !important;
-    right: unset !important;
-    min-width: unset !important;
-    max-width: unset !important;
-    min-height: unset !important;
-    max-height: unset !important;
-    transform: unset !important;
     z-index: 999 !important;
-    pointer-events: none !important;
     border: solid 1px var(--line-color) !important;
     border-top: none !important;
 }
-.app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:before {
+.app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     animation: notice-anim 450ms infinite !important;
+}
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+    border-top-left-radius: 0 !important;
 }
 
 /*~~ 19. Powercord ~~*/

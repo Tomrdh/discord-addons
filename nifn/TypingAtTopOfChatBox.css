@@ -1,3 +1,7 @@
+@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
+:root {
+    --theme-name: "Typing at Top of Chat Box";
+}
 .base-gE7OpD {
     bottom: unset;
     top: -25px;
@@ -27,36 +31,7 @@
 .barBase-1c2Rfb:active {
     margin-bottom: 21px;
 }
-
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
-    content: "TypingAtTopOfChatBox is broken and/or outdated! Please download again the theme by clicking Source." !important;
+/* Update notice config */
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version001_tatocb, block) !important;
-    background-color: #3e82e5 !important;
-    box-shadow: 0 0px 30px 0 #3e82e5 !important;
-    color: #fff !important;
-    flex-grow: 0 !important;
-    flex-shrink: 0 !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    height: 36px !important;
-    line-height: 36px !important;
-    opacity: 1 !important;
-    padding-left: 4px !important;
-    padding-right: 28px !important;
-    position: relative !important;
-    text-align: center !important;
-    visibility: unset !important;
-    white-space: pre !important;
-    top: 0 !important;
-    left: 0 !important;
-    bottom: unset !important;
-    right: unset !important;
-    max-width: unset !important;
-    min-width: unset !important;
-    max-height: unset !important;
-    min-height: unset !important;
-    transform: unset !important;
-    animation: unset !important;
-    z-index: 101 !important;
-    pointer-events: none !important;
 }
