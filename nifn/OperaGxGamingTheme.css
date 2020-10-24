@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 32";
+    --oggt-info: "Opera GX Gaming Theme 33";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -3168,6 +3168,7 @@ g[class*="focusStroke"] {
     border-right: solid 1px var(--line-color);
     border-left: solid 1px var(--line-color);
     box-shadow: none;
+    
 }
 .platform-web .title-3qD0b-,
 .platform-web .container-1r6BKw {
@@ -3466,14 +3467,17 @@ g[class*="focusStroke"] {
 }
 .input-cIJ7To {
     border-radius: 0;
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
     border-color: #00000030;
+    transition: ease-in-out 200ms;
+    transition-property: background, border;
 }
 .input-cIJ7To:hover {
     border-color: rgb(var(--accent-color-2));
 }
 .input-cIJ7To:focus {
     border-color: rgb(var(--accent-color-1));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
 .input-cIJ7To.disabled-2BKQFm {
     border-color: rgb(0, 0, 0, 0.2);
@@ -3534,10 +3538,10 @@ g[class*="focusStroke"] {
 }
 .select-2TCrqx [class*="-control"]:hover {
     border-color: rgb(var(--accent-color-2));
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
 .select-2TCrqx [class*="-control"] {
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-1));
 }
@@ -3564,6 +3568,9 @@ g[class*="focusStroke"] {
 }
 #app-mount .css-19bqh2r:hover {
     fill: rgb(var(--fullwhite-font));
+}
+#app-mount .divider-3wNib3 {
+    border-color: var(--line-color);
 }
 .wrapper-3jrx9n {
     background-color: rgb(var(--darker-background-color));
@@ -3640,26 +3647,26 @@ g[class*="focusStroke"] {
 #app-mount .bd-addon-list .bd-addon-card {
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
-    background: rgb(var(--dark-background-color));
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 #app-mount .card-FDVird:before {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
 }
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--dark-background-color));
 }
 #app-mount .inputWrapper-31_8H8 {
     color: rgb(var(--fullwhite-font));
 }
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:hover {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
     border-color: rgb(var(--accent-color-2));
 }
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgb(var(--dark-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--accent-color-1));
 }
 .app-focused #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse:focus {
