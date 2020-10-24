@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 31";
+    --oggt-info: "Opera GX Gaming Theme 32";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -659,10 +659,10 @@ body,
     border: solid rgba(var(--dark-background-color), var(--other-transparency)) 1px;
     border-radius: 0;
 }
-.channelTextArea-rNsIhG.focused-PMHa7m,
-.channelTextArea-3bF57p.focused-PMHa7m,
-.channelTextAreaUpload-3t7EIx.focused-PMHa7m,
-.channelTextArea-2VhZ6z.focused-PMHa7m {
+.channelTextArea-rNsIhG:focus-within,
+.channelTextArea-3bF57p:focus-within,
+.channelTextAreaUpload-3t7EIx:focus-within,
+.channelTextArea-2VhZ6z:focus-within {
     border: solid var(--line-color) 1px;
 }
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem,
@@ -674,10 +674,10 @@ body,
     padding-bottom: 1px;
     border-radius: 0;
 }
-.channelTextArea-rNsIhG.focused-PMHa7m .scrollableContainer-2NUZem,
-.channelTextArea-3bF57p.focused-PMHa7m .scrollableContainer-2NUZem,
-.channelTextAreaUpload-3t7EIx.focused-PMHa7m .scrollableContainer-2NUZem,
-.channelTextArea-2VhZ6z.focused-PMHa7m .scrollableContainer-2NUZem {
+.channelTextArea-rNsIhG:focus-within .scrollableContainer-2NUZem,
+.channelTextArea-3bF57p:focus-within .scrollableContainer-2NUZem,
+.channelTextAreaUpload-3t7EIx:focus-within .scrollableContainer-2NUZem,
+.channelTextArea-2VhZ6z:focus-within .scrollableContainer-2NUZem {
     background-color: rgba(var(--dark-background-color), var(--chatbox-focused-transparency));
     padding-top: 1px;
     padding-bottom: 1px;
@@ -688,10 +688,10 @@ body,
 .channelTextArea-2VhZ6z { /* buttons */
     color: var(--text-muted);
 }
-.channelTextArea-rNsIhG.focused-PMHa7m .button-3AYNKb,
-.channelTextArea-3bF57p.focused-PMHa7m .button-3AYNKb,
-.channelTextAreaUpload-3t7EIx.focused-PMHa7m .button-3AYNKb,
-.channelTextArea-2VhZ6z.focused-PMHa7m .button-3AYNKb { /* buttons focused */
+.channelTextArea-rNsIhG:focus-within .button-3AYNKb,
+.channelTextArea-3bF57p:focus-within .button-3AYNKb,
+.channelTextAreaUpload-3t7EIx:focus-within .button-3AYNKb,
+.channelTextArea-2VhZ6z:focus-within .button-3AYNKb { /* buttons focused */
     color: var(--interactive-normal);
 }
 .channelTextArea-rNsIhG .attachButtonPlus-jWVFah,
@@ -700,10 +700,10 @@ body,
 .channelTextArea-2VhZ6z .attachButtonPlus-jWVFah { /* attach btn */
     fill: var(--text-muted);
 }
-.channelTextArea-rNsIhG.focused-PMHa7m .attachButtonPlus-jWVFah,
-.channelTextArea-3bF57p.focused-PMHa7m .attachButtonPlus-jWVFah,
-.channelTextAreaUpload-3t7EIx.focused-PMHa7m .attachButtonPlus-jWVFah,
-.channelTextArea-2VhZ6z.focused-PMHa7m .attachButtonPlus-jWVFah { /* attach btn focused */
+.channelTextArea-rNsIhG:focus-within .attachButtonPlus-jWVFah,
+.channelTextArea-3bF57p:focus-within .attachButtonPlus-jWVFah,
+.channelTextAreaUpload-3t7EIx:focus-within .attachButtonPlus-jWVFah,
+.channelTextArea-2VhZ6z:focus-within .attachButtonPlus-jWVFah { /* attach btn focused */
     fill: var(--interactive-normal);
 }
 .channelTextArea-rNsIhG .sprite-2iCowe,
@@ -712,10 +712,10 @@ body,
 .channelTextArea-2VhZ6z .sprite-2iCowe { /* emoji btn */
     opacity: 0.6;
 }
-.channelTextArea-rNsIhG.focused-PMHa7m .sprite-2iCowe,
-.channelTextArea-3bF57p.focused-PMHa7m .sprite-2iCowe,
-.channelTextAreaUpload-3t7EIx.focused-PMHa7m .sprite-2iCowe,
-.channelTextArea-2VhZ6z.focused-PMHa7m .sprite-2iCowe { /* emoji btn focused */
+.channelTextArea-rNsIhG:focus-within .sprite-2iCowe,
+.channelTextArea-3bF57p:focus-within .sprite-2iCowe,
+.channelTextAreaUpload-3t7EIx:focus-within .sprite-2iCowe,
+.channelTextArea-2VhZ6z:focus-within .sprite-2iCowe { /* emoji btn focused */
     filter: grayscale(0%) !important;
     opacity: 1;
 }
