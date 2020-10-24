@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 292";
-    --adto-info: "AmoledDarkThemeOptmized 193";
+    --adt-info: "AmoledDarkTheme 293";
+    --adto-info: "AmoledDarkThemeOptmized 194";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -410,6 +410,9 @@
 }
 .theme-dark .card-FDVird:before {
     border-color: var(--bg-1);
+}
+.channelTabs-noFavs {
+    background-color: transparent;
 }
 
 /*~~ 4. Scrollbars ~~*/

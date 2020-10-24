@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 30";
+    --oggt-info: "Opera GX Gaming Theme 31";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -3003,6 +3003,9 @@ g[class*="focusStroke"] {
     background-color: rgba(var(--channeltabs-fav-hover), var(--channeltabs-fav-hover-alpha)) !important;
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
+}
+.channelTabs-noFavs {
+    background-color: transparent;
 }
 /* CreationDate, JoinedAtDate, LastMessageDate */
 .date-YN6TCS div {
