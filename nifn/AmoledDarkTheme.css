@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 293";
-    --adto-info: "AmoledDarkThemeOptmized 194";
+    --adt-info: "AmoledDarkTheme 294";
+    --adto-info: "AmoledDarkThemeOptmized 195";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -154,7 +154,8 @@
 .theme-dark .nowPlayingColumn-2sl4cE,
 .theme-dark #bd-pub-button,
 .theme-dark .sidebar-2K8pFh,
-.theme-dark .card-FDVird:before
+.theme-dark .card-FDVird:before,
+.theme-dark .colorPickerCustom-2CWBn2
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -240,7 +241,8 @@
 .theme-dark .bg-h5JY_x,
 .theme-dark .container-UC8Ug1,
 .theme-dark .wrapper-3D2qGf:hover,
-.theme-dark .uploadModal-2ifh8j
+.theme-dark .uploadModal-2ifh8j,
+.theme-dark .input-cIJ7To
 {
     background: var(--bg-3) !important;
     background-color: var(--bg-3) !important;
@@ -252,7 +254,6 @@
 .theme-dark .expandedFolderBackground-2sPsd-:hover,
 .theme-dark .folder-21wGz3,
 .theme-dark .folder-21wGz3:hover,
-.theme-dark .input-cIJ7To,
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
 .theme-dark .searchBox-2_mAlO,
@@ -413,6 +414,9 @@
 }
 .channelTabs-noFavs {
     background-color: transparent;
+}
+.theme-dark .colorPickerCustom-2CWBn2 {
+    border-color: var(--bg-3);
 }
 
 /*~~ 4. Scrollbars ~~*/
