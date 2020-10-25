@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 295";
-    --adto-info: "AmoledDarkThemeOptmized 196";
+    --adt-info: "AmoledDarkTheme 296";
+    --adto-info: "AmoledDarkThemeOptmized 197";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -155,7 +155,10 @@
 .theme-dark #bd-pub-button,
 .theme-dark .sidebar-2K8pFh,
 .theme-dark .card-FDVird:before,
-.theme-dark .colorPickerCustom-2CWBn2
+.theme-dark .colorPickerCustom-2CWBn2,
+.theme-dark .channelTabs-noMention,
+.theme-dark .channelTabs-noUnread,
+.theme-dark #bd-pub-button
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -345,9 +348,6 @@
 .theme-dark .modeUnread-1zpFdA:hover .icon-1_QxNX {
     color: var(--interactive-active);
 }
-.theme-dark #bd-pub-button {
-    background-color: var(--bg-2);
-}
 .theme-dark .circleIconButton-jET_ig.selected-ugP_am {
     color: #fff;
     background-color: #43b581;
@@ -421,6 +421,10 @@
 }
 .theme-dark .colorPickerCustom-2CWBn2 {
     border-color: var(--bg-3);
+}
+.theme-dark .channelTabs-noMention,
+.theme-dark .channelTabs-noUnread {
+    color: var(--text-muted);
 }
 
 /*~~ 4. Scrollbars ~~*/
