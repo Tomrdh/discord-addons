@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 33";
+    --oggt-info: "Opera GX Gaming Theme 34";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1685,7 +1685,7 @@ code.inline {
     cursor: default;
 }
 .channelNotice-1-XFjC {
-    border-left: solid 1px rgb(var(--accent-color-1));
+    border-top: solid 1px var(--line-color);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -3174,9 +3174,6 @@ g[class*="focusStroke"] {
 .platform-web .container-1r6BKw {
     border-right: none;
 }
-.channelNotice-1-XFjC {
-    border-top: solid 1px var(--line-color);
-}
 .divider-3FBTu8 {
     background: var(--line-color);
 }
@@ -3792,6 +3789,42 @@ g[class*="focusStroke"] {
 #app-mount .userSettingsAccount-3wUMIP .viewBody-1l56Sd,
 #app-mount .userSettingsSecurity-2WQWqX .codeCheckbox-2VC-8N {
     color: rgb(var(--normal-font));
+}
+#app-mount .colorPickerCustom-2CWBn2 {
+    background: rgb(var(--dark-background-color));
+    border-color: rgb(var(--accent-color-1));
+}
+.app-focused #app-mount .colorPickerCustom-2CWBn2 {
+    animation: accent-blinking 450ms infinite;
+}
+.saturation-1FDvtn > div,
+.saturation-1FDvtn > div > div {
+    border-radius: 0;
+}
+.saturation-1FDvtn > div,
+.hue-13HAGb > div > div {
+    border: solid 1px rgb(var(--darker-background-color));
+    transition: border-color 100ms ease-in-out;
+}
+.saturation-1FDvtn > div:hover,
+.hue-13HAGb > div > div:hover {
+    border-color: rgb(var(--accent-color-2));
+}
+.saturation-1FDvtn > div:active,
+.hue-13HAGb > div > div:active {
+    border-color: rgb(var(--accent-color-1));
+}
+.hue-13HAGb > div > div > div > div {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0px !important;
+    background-color: rgb(var(--darker-background-color)) !important;
+    margin-top: -5px !important;
+    margin-left: -2px !important;
+    cursor: ew-resize;
+}
+.hue-13HAGb > div > div {
+    border-radius: 0;
+    cursor: ew-resize;
 }
 
 /*~~ 12. Text selection ~~*/
