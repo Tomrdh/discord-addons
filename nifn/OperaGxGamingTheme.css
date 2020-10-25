@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 35";
+    --oggt-info: "Opera GX Gaming Theme 36";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -973,10 +973,13 @@ body,
 .sampleLink-2NLvZg {
     color: var(--text-link);
 }
-/* New Nitro Tab */
+/* Nitro Tab */
 .scroller-9moviB {
-    border-left: var(--line-color);
-    border-right: var(--line-color);
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+    border: solid 1px var(--line-color);
+    border-top: none;
+    border-bottom: none;
 }
 /* Discord Invites */
 .wrapper-35wsBm {
@@ -1186,6 +1189,9 @@ code.inline {
     background-color: var(--line-color);
 }
 /* Friendlist */
+.username-31C1TQ {
+    line-height: 18px;
+}
 .actionButton-uPB8Fs {
     background-color: rgba(var(--dark-background-color), var(--other-transparency));
     border: solid 1px rgba(var(--darker-background-color), var(--other-transparency));
@@ -1221,6 +1227,14 @@ code.inline {
 .app-focused .peopleListItem-2nzedh:hover {
     animation: accent-blinking-with-transparency 450ms infinite;
 }
+.peopleColumn-29fq28 {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+}
+.nowPlayingColumn-2sl4cE {
+    background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
+    backdrop-filter: blur(var(--memberlist-background-blur));
+}
 /* Library and Game Download/Update */
 .gameIcon-gg34Dz[style*="background-image"] {
     border-radius: 2px;
@@ -1239,12 +1253,14 @@ code.inline {
 #app-mount .usageInfo-2WQAwr {
     color: rgb(var(--normal-font));
 }
-.theme-dark .rowTitle-1KYtY7 {
+#app-mount .rowTitle-1KYtY7 {
     color: rgb(var(--fullwhite-font));
 }
 .gameUpdates-2GPqBU {
-    background-color: transparent;
-    border-left: solid 1px rgb(var(--accent-color-1));
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+    border: solid 1px rgb(var(--accent-color-1));
+    border-top: none;
 }
 .progressBar-3zryPV,
 .small-1CUeBa,
@@ -1253,10 +1269,11 @@ code.inline {
     border-radius: 0;
 }
 .scroller-1IIF0A {
-    background: transparent;
+    background: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
 }
 .header-39GIC8 {
-    border-bottom-color: rgb(var(--accent-color-1));
+    border-bottom-color: var(--line-color);
     background: transparent;
 }
 #app-mount .rate-1Gat8e {
@@ -1264,6 +1281,14 @@ code.inline {
 }
 .diskProgress-37-Sik {
     color: #00b0f4;
+}
+/* Library Settings */
+.scroller-2XE8rp {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+    border: solid 1px var(--line-color);
+    border-top: none;
+    border-bottom: none;
 }
 /* Bot tags */
 .botTagRegular-2HEhHi {
@@ -3077,6 +3102,7 @@ g[class*="focusStroke"] {
     border: solid 1px rgb(var(--accent-color-1));
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
     color: rgb(var(--fullwhite-font));
+    line-height: 18px;
 }
 .xenoLib-notification-loadbar {
     bottom: 1px;
@@ -3343,7 +3369,7 @@ g[class*="focusStroke"] {
 #app-mount .sidebar-2K8pFh {
     backdrop-filter: blur(var(--channels-background-blur));
 }
-/* Chat (and search) */
+/* Chat window (and search) */
 .chatContent-a9vAAp,
 .searchResultsWrap-3-pOjs {
     background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
