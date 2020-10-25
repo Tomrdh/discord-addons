@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 294";
-    --adto-info: "AmoledDarkThemeOptmized 195";
+    --adt-info: "AmoledDarkTheme 295";
+    --adto-info: "AmoledDarkThemeOptmized 196";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -271,6 +271,10 @@
     background-color: var(--bg-4) !important;
 }
 /*-- 3.2. Other --*/
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+    background-color: transparent;
+}
 .theme-dark .xenoLib-notification-content {
     color: var(--text-normal);
 }
@@ -299,7 +303,7 @@
 }
 .theme-dark .focusFill-3Y4YuU,
 .theme-dark .focusStroke-1ApElc {
-    fill: var(--bg-2);
+    fill: var(--bg-3);
 }
 .theme-dark .username-1A8OIy:hover {
     color: white !important;
@@ -412,7 +416,7 @@
 .theme-dark .card-FDVird:before {
     border-color: var(--bg-1);
 }
-.channelTabs-noFavs {
+.theme-dark .channelTabs-noFavs {
     background-color: transparent;
 }
 .theme-dark .colorPickerCustom-2CWBn2 {
