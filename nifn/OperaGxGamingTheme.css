@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 34";
+    --oggt-info: "Opera GX Gaming Theme 35";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -902,16 +902,19 @@ body,
 .message-2qnXI6 .container-3npvBV:hover {
     max-width: unset;
 }
-
 /* Reactions */
 .reaction-1hd86g {
-    border: solid rgb(var(--dark-background-color)) 1px;
-    background-color: rgb(var(--darker-background-color));
+    border: solid 1px rgb(var(--dark-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
     border-radius: 0;
 }
 .reaction-1hd86g.reactionMe-wv5HKu {
-    border: solid rgb(var(--accent-color-1)) 1px;
-    background-color: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.reaction-1hd86g:not(.reactionMe-wv5HKu):hover {
+    border: solid 1px rgb(var(--accent-color-2));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
     color: rgb(var(--accent-color-1));
@@ -3006,6 +3009,9 @@ g[class*="focusStroke"] {
 }
 .channelTabs-noFavs {
     background-color: transparent;
+}
+.channelTabs-unreadBadge:not(.channelTabs-noUnread) {
+    background-color: rgb(var(--accent-color-1));
 }
 /* CreationDate, JoinedAtDate, LastMessageDate */
 .date-YN6TCS div {
