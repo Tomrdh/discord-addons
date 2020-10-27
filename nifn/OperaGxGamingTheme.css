@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 37";
+    --oggt-info: "Opera GX Gaming Theme 38";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -3115,10 +3115,11 @@ g[class*="focusStroke"] {
     bottom: 1px;
     left: 1px;
 }
-.xenoLib-notification-content-wrapper {
-    padding: 37px 10px 0 10px;
+.xenoLib-centering-topRight,
+.xenoLib-centering-topMiddle,
+.xenoLib-centering-topLeft {
+    top: 16px !important;
 }
-
 /*~~ 8. Theme light fixer ~~*/
 #app-mount .username-1A8OIy {
     font-weight: 500;
