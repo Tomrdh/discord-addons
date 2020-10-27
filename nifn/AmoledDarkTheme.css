@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 296";
-    --adto-info: "AmoledDarkThemeOptmized 197";
+    --adt-info: "AmoledDarkTheme 297";
+    --adto-info: "AmoledDarkThemeOptmized 198";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -434,7 +434,7 @@
 }
 
 /*~~ 5. DevTags ~~*/
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:after {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
     font-size: 0.625rem !important;
@@ -458,11 +458,11 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[
     top: 0.15rem !important;
     border-radius: 0.1875rem !important;
 }
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:after {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
     content: "Theme Dev" !important;
 }
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"],
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:hover {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1),
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
 }
