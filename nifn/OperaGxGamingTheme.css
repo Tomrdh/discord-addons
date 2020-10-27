@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 39";
+    --oggt-info: "Opera GX Gaming Theme 40";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -672,14 +672,14 @@ body,
 .channelTextAreaUpload-3t7EIx,
 .channelTextArea-2VhZ6z {
     background: transparent;
-    border: solid rgba(var(--dark-background-color), var(--other-transparency)) 1px;
+    border: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
     border-radius: 0;
 }
 .channelTextArea-rNsIhG:focus-within,
 .channelTextArea-3bF57p:focus-within,
 .channelTextAreaUpload-3t7EIx:focus-within,
 .channelTextArea-2VhZ6z:focus-within {
-    border: solid var(--line-color) 1px;
+    border: solid 1px var(--line-color);
 }
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem,
 .channelTextArea-3bF57p .scrollableContainer-2NUZem,
@@ -737,6 +737,32 @@ body,
 }
 #app-mount .markup-2BOw-j.slateTextArea-1Mkdgw {
     font-weight: 400 !important;
+}
+/* Inline Replies */
+.container-2fRDfG {
+    background-color: rgba(var(--darker-background-color), var(--chatbox-transparency));
+    border-radius: 0;
+    cursor: default;
+    border-bottom: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
+}
+.channelTextArea-rNsIhG:focus-within .container-2fRDfG,
+.channelTextArea-3bF57p:focus-within .container-2fRDfG,
+.channelTextAreaUpload-3t7EIx:focus-within .container-2fRDfG,
+.channelTextArea-2VhZ6z:focus-within .container-2fRDfG {
+    background-color: rgba(var(--dark-background-color), var(--chatbox-focused-transparency));
+    border-color: var(--line-color);
+}
+.replySpine-M8CUPF {
+    border-radius: 0;
+}
+/* Local bot and replying */
+.localBot-GrCgVt:before,
+.replying-1x3H0T:before {
+    background-color: rgb(var(--accent-color-1));
+}
+.localBot-GrCgVt,
+.replying-1x3H0T {
+    background-color: rgba(var(--accent-color-1), 0.05);
 }
 /* Embeds */
 .embedFull-2tM8-- {
@@ -4069,7 +4095,7 @@ g[class*="focusStroke"] {
 
 /*~~ 16. DevTags ~~*/
 /* Chat: Cozy */
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:after {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
     color: rgb(255, 255, 255) !important;
     font-size: 0.625rem !important;
@@ -4094,11 +4120,11 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     border-radius: 1px !important;
     clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem) !important;
 }
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:after {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     content: "Theme Dev" !important;
 }
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"],
-div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:hover {
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1),
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):hover {
     font-weight: bold !important;
     color: rgb(var(--accent-color-1)) !important;
 }
