@@ -21,7 +21,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 297";
+    --adt-info: "AmoledDarkTheme 298";
     --adto-info: "AmoledDarkThemeOptmized 198";
 }
 .theme-dark {
@@ -245,6 +245,7 @@
 .theme-dark .container-UC8Ug1,
 .theme-dark .wrapper-3D2qGf:hover,
 .theme-dark .uploadModal-2ifh8j,
+.theme-dark .searchBox-2_mAlO,
 .theme-dark .input-cIJ7To
 {
     background: var(--bg-3) !important;
@@ -259,7 +260,6 @@
 .theme-dark .folder-21wGz3:hover,
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
-.theme-dark .searchBox-2_mAlO,
 .theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO
 {
     background: var(--bg-4);
