@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 44";
+    --oggt-info: "Opera GX Gaming Theme 45";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -551,8 +551,9 @@ body,
 .role-2irmRk,
 .role-3paDXR,
 .roleCircle-3xAZ1j,
-.member-perms .member-perm .perm-circle {
-    border-radius: 0;
+.member-perms .member-perm .perm-circle,
+.roleCircle-3DE8xJ {
+    border-radius: 0 !important;
 }
 .role-2irmRk,
 .role-3paDXR {
@@ -565,23 +566,30 @@ body,
     /* padding-left: 4px; */
 }
 .roleCircle-3xAZ1j,
-.member-perms .member-perm .perm-circle {
-    width: 16px;
-    height: 16px;
+.member-perms .member-perm .perm-circle,
+.roleCircle-3DE8xJ {
+    width: 16px !important;
+    height: 16px !important;
 }
 /* Add role btn */
 #app-mount .userPopout-3XzG_A .actionButton-VzECiy {
-  position: absolute;
-  top: 13px;
-  right: 5px;
-  margin: 0;
-  padding: 0;
-  height: 16px;
-  width: 16px;
-  border-radius: 0;
-  color: rgb(var(--fullwhite-font));
-  border: none;
-  opacity: 1 !important;
+    position: absolute;
+    top: -30px;
+    right: 6px;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    border-radius: 0;
+    color: rgb(var(--normal-hover-font));
+    border: none;
+    opacity: 1 !important;
+}
+#app-mount .userPopout-3XzG_A .actionButton-VzECiy:after {
+    content: "+";
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
 }
 /* Add role popout */
 #app-mount .container-VSDcQc .sectionTag-pXyto9 {
