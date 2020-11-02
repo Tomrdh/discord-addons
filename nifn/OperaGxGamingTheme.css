@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 43";
+    --oggt-info: "Opera GX Gaming Theme 44";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -3105,10 +3105,13 @@ g[class*="focusStroke"] {
 .platform-win .channelTabs-tabContainer {
     border-top: none !important;
 }
-.channelTabs-selected {
+.channelTabs-tab.channelTabs-selected {
     background: rgba(var(--channeltabs-tab-bg-color), var(--channeltabs-tab-bg-transparency)) !important;
     color: var(--interactive-active) !important;
     border: solid 1px rgba(var(--accent-color-1), calc(var(--lines-transparency, 1) + 0.4)) !important;
+}
+.channelTabs-fav.channelTabs-selected {
+    color: var(--interactive-active) !important;
 }
 .channelTabs-tabIcon {
     top: 5px !important;
@@ -3351,9 +3354,10 @@ g[class*="focusStroke"] {
 .container-1r6BKw {
     border-bottom: solid 1px var(--line-color);
     border-right: solid 1px var(--line-color);
-    border-left: solid 1px var(--line-color);
     box-shadow: none;
-    
+}
+.title-3qD0b- {
+    border-left: solid 1px var(--line-color);
 }
 .platform-web .title-3qD0b-,
 .platform-web .container-1r6BKw {
@@ -3448,6 +3452,7 @@ g[class*="focusStroke"] {
 }
 .container-1giJp5 {
     border-top: solid 1px var(--line-color);
+    border-bottom: none;
 }
 .panel-24C3ux {
     border-top: solid 1px var(--line-color);
