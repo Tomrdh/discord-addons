@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 45";
+    --oggt-info: "Opera GX Gaming Theme 46";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -3638,8 +3638,30 @@ g[class*="focusStroke"] {
     border-top-color: var(--line-color);
 }
 .bd-button,
-.bd-addon-list .bd-card-footer button {
-    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+.bd-addon-list .bd-card-footer button,
+.bd-button.bd-button-danger {
+    background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-transparency)), rgba(var(--darker-background-color), var(--other-transparency)));
+    border: solid 1px var(--line-color);
+    margin-right: 1px;
+}
+.bd-button:hover,
+.bd-addon-list .bd-card-footer button:hover,
+.bd-button.bd-button-danger:hover {
+    background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-highlighted-transparency)), rgba(var(--darker-background-color), var(--other-highlighted-transparency)));
+    border-color: var(--line-color-2);
+}
+.bd-button.bd-button-danger {
+    border-color: rgba(255, 34, 34, calc(var(--other-transparency) + 0.3));
+}
+.bd-button.bd-button-danger:hover {
+    border-color: rgba(255, 56, 56, calc(var(--other-highlighted-transparency) + 0.3));
+}
+.bd-controls > .bd-addon-button:first-of-type,
+.bd-controls > .bd-addon-button:last-of-type {
+    border-radius: 0;
+}
+.bd-controls > .bd-addon-button svg {
+    fill: rgb(var(--fullwhite-font));
 }
 .bd-search-wrapper {
     background-color: rgba(var(--dark-background-color), var(--other-transparency));
@@ -3840,7 +3862,7 @@ g[class*="focusStroke"] {
 }
 #app-mount .bd-addon-list .bd-addon-card {
     border-radius: 0;
-    border-color: rgb(var(--accent-color-1));
+    border: solid 1px var(--line-color);
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 #app-mount .bd-addon-list .bd-addon-header {
@@ -3848,7 +3870,7 @@ g[class*="focusStroke"] {
     border-bottom-color: rgb(var(--accent-color-1));
 }
 #app-mount .bd-addon-list .bd-footer {
-    border-top-color: rgb(var(--accent-color-1));
+    border-top-color: var(--line-color);
 }
 .bd-addon-button svg {
     fill: rgb(var(--fullwhite-font));
