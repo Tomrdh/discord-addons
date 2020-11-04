@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 46";
+    --oggt-info: "Opera GX Gaming Theme 47";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2323,6 +2323,9 @@ g[class*="focusStroke"] {
 #app-mount .footer-3mqk7D {
     background-color: rgba(var(--darker-background-color), var(--other-transparency));
     border-radius: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-top: solid 1px rgb(var(--accent-color-1));
 }
 /* Uploading */
 .progressBar-3u8FBM {
