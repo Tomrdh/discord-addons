@@ -104,8 +104,8 @@ BIU = Bold Italic Underline
 
 /*    UT91 Align messages and nicknames in chat                          */
 :root {
-    --alignMessages:       center;                        /* Available variables: left, center, right, justify and var(--useAnyVariable) */
-    --alignNicknames:      center;                        /* Same available variables, but for nicknames */
+    --alignMessages:       left;                        /* Available variables: left, center, right, justify and var(--useAnyVariable) */
+    --alignNicknames:      left;                        /* Same available variables, but for nicknames */
     --alignCompactMode:    var(--alignMessages);        /* If you're using compact mode, change this variable. It will change nicknames AND messages. */
     --typeBox:             var(--alignMessages);        /* Text area where you type and send messages to your friends */
 }
