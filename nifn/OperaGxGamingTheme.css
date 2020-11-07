@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 49";
+    --oggt-info: "Opera GX Gaming Theme 50";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -86,12 +86,12 @@
     --textbox-markdown-syntax: rgb(var(--muted-font));
     --background-accent: rgb(var(--accent-color-1)) !important;
     --background-modifier-accent: rgb(var(--accent-color-1)) !important;
-    --background-primary: rgb(var(--dark-background-color)) !important;
-    --background-secondary: rgb(var(--dark-background-color)) !important;
-    --background-secondary-alt: rgb(var(--darker-background-color)) !important;
-    --background-tertiary: rgb(var(--darker-background-color)) !important;
-    --deprecated-card-bg: rgb(var(--dark-background-color)) !important;
-    --background-floating: rgb(var(--darker-background-color)) !important;
+    --background-primary: rgba(var(--dark-background-color), var(--other-transparency)) !important;
+    --background-secondary: rgba(var(--dark-background-color), var(--other-transparency)) !important;
+    --background-secondary-alt: rgba(var(--darker-background-color), var(--other-transparency)) !important;
+    --background-tertiary: rgba(var(--darker-background-color), var(--other-transparency)) !important;
+    --deprecated-card-bg: rgba(var(--dark-background-color), var(--other-transparency)) !important;
+    --background-floating: rgba(var(--darker-background-color), var(--other-transparency)) !important;
     --background-modifier-selected: rgba(var(--darker-background-color), 0.32);
     --bd-blue: rgb(var(--accent-color-1)) !important;
     --blurple: rgb(var(--accent-color-1)) !important;
@@ -798,8 +798,12 @@ body,
     background-color: rgba(var(--dark-background-color), var(--chatbox-focused-transparency));
     border-color: var(--line-color);
 }
-.replySpine-M8CUPF {
+.replySpine-M8CUPF,
+.repliedMessage-VokQwo:before {
     border-radius: 0;
+}
+.colorBrand-2tjs5J {
+    color: rgb(var(--accent-color-1));
 }
 /* Local bot and replying */
 .localBot-GrCgVt:before,
@@ -807,7 +811,8 @@ body,
     background-color: rgb(var(--accent-color-1));
 }
 .localBot-GrCgVt,
-.replying-1x3H0T {
+.replying-1x3H0T,
+.ephemeral-1PsL1r {
     background-color: rgba(var(--accent-color-1), 0.05);
 }
 .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,
@@ -1176,7 +1181,7 @@ body,
     background: rgb(var(--darker-background-color));
     border: solid rgb(var(--accent-color-2)) 1px;
     border-radius: 0;
-    color: var(--text-muted);
+    color: rgb(var(--accent-color-2));
     font-weight: 500;
 }
 .content-1o0f9g:hover {
@@ -2135,11 +2140,10 @@ code.inline {
 /* Close button */
 #app-mount .closeButton-1tv5uR {
     border-radius: 0;
-    border-color: rgb(var(--accent-color-1));
-    border-style: ridge;
+    border: ridge 2px rgb(var(--accent-color-1));
 }
 #app-mount .closeButton-1tv5uR:hover {
-    background-color: rgba(114, 118, 125, 0.3);
+    background-color: rgba(var(--fullwhite-font), 0.1);
 }
 #app-mount .closeButton-1tv5uR > svg > path {
     fill: rgb(var(--normal-font));
@@ -3580,8 +3584,8 @@ g[class*="focusStroke"] {
 
 /*~~ 11. Settings ~~*/
 .background-1QDuV2 {
-    border-radius: 8px;
-    background-color: rgb(var(--dark-background-color));
+    border-radius: 0;
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     padding: 0;
     clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
 }
@@ -3596,6 +3600,10 @@ g[class*="focusStroke"] {
 }
 .menu-319q29 {
     margin-right: 24px;
+}
+.menu-319q29 svg,
+.roleOverflow-1zjC9k svg {
+    transform: rotate(90deg);
 }
 .avatarUploaderInner-3UNxY3 {
     border-radius: 0;
@@ -3612,7 +3620,7 @@ g[class*="focusStroke"] {
 #app-mount .avatarUploaderIndicator-2G-aIZ:after {
     content: "+";
     font-size: 20px;
-    color: rgb(var(--fullwhite-font-font));
+    color: rgb(var(--fullwhite-font));
     width: 100%;
     height: 100%;
     opacity: 0.9;
@@ -3638,12 +3646,6 @@ g[class*="focusStroke"] {
 }
 #bd-settings-sidebar .ui-tab-bar-header .bd-icon {
     fill: var(--text-normal);
-}
-.cardPrimary-1Hv-to,
-.cardPrimaryEditable-3KtE4g {
-    background: rgba(var(--dark-background-color), var(--other-transparency));
-    border-color: rgb(var(--accent-color-1));
-    border-radius: 0;
 }
 .contentRegion-3nDuYy {
     background-color: rgba(var(--darker-background-color), var(--st-r-scroller-transparency));
@@ -3685,9 +3687,19 @@ g[class*="focusStroke"] {
     border-radius: 3px;
 }
 #app-mount .ui-tab-bar-item.selected,
-.item-PXvHYJ.selected-3s45Ha {
+.item-PXvHYJ.selected-3s45Ha,
+#app-mount .ui-tab-bar-item.selected:hover,
+.item-PXvHYJ.selected-3s45Ha:hover {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.descChecked-XkfPsU,
+.titleChecked-2wg0pd {
+    color: rgb(0, 0, 0) !important;
+}
+.selected-3s45Ha .roleOverflow-1zjC9k,
+.selected-3s45Ha .roleOverflow-1zjC9k:hover {
+    color: rgb(0, 0, 0);
 }
 #app-mount .userSettingsAccount-2eMFVR .viewBody-2Qz-jg,
 #app-mount .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy {
@@ -3699,6 +3711,33 @@ g[class*="focusStroke"] {
 }
 .divider-3573oO {
     border-top-color: var(--line-color);
+}
+.accountList-33MS45 {
+    border-radius: 0;
+    border: solid 1px var(--line-color);
+}
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    border-radius: 3px;
+    clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+    background-color: rgba(var(--dark-background-color), calc(var(--other-transparency) / 1.2));
+}
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.connection-1fbD7X {
+    border: solid 1px var(--line-color);
+}
+.connection-1fbD7X,
+.connectionHeader-2MDqhu {
+    border-radius: 0;
+}
+.connectionOptionsWrapper-3KIj1Z {
+    border-top: solid 1px var(--line-color);
+}
+.cardPrimaryOutline-29Ujqw {
+    border: solid 1px var(--line-color);
+    border-radius: 0;
+    background: var(--background-secondary-alt);
 }
 .bd-button,
 .bd-addon-list .bd-card-footer button,
@@ -3762,7 +3801,7 @@ g[class*="focusStroke"] {
     border-color: rgb(0, 0, 0, 0.2);
 }
 #app-mount .bar-2Qqk5Z {
-    background: rgb(var(--dark-background-color));
+    background: var(--background-primary);
     border-radius: 0;
 }
 .barFill-23-gu- {
@@ -3799,8 +3838,17 @@ g[class*="focusStroke"] {
     border-radius: 0 !important;
 }
 #app-mount .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
     border-color: rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+.userSettingsVoice-iwdUCU .media-engine-video {
+    background-color: transparent;
+}
+.bd-select {
+    color: var(--text-normal);
+    background-color: var(--background-primary);
+    border: solid 1px var(--line-color);
     border-radius: 0;
 }
 .select-2TCrqx [class*="-singleValue"],
@@ -4032,6 +4080,20 @@ g[class*="focusStroke"] {
 .item-3T2z1R {
     border-radius: 0 !important;
 }
+.cardPrimary-1Hv-to,
+.cardPrimaryEditable-3KtE4g {
+    background: rgba(var(--dark-background-color), var(--other-transparency));
+    border: solid 1px var(--line-color);
+    border-radius: 0;
+}
+.cardFolder-28dwxo {
+    border-top: solid 1px var(--line-color);
+    padding-bottom: 0;
+}
+.settingCard-3w2mVL {
+    border-radius: 0;
+    border: solid 1px var(--line-color);
+}
 #app-mount .denySelected-1mh2mZ {
     background: #f22;
     border-color: #f22;
@@ -4042,6 +4104,9 @@ g[class*="focusStroke"] {
 #app-mount .allowSelected-25S_i5 {
     border-color: #4a4;
     background: #4a4;
+}
+#app-mount .item-3T2z1R {
+    border-color: rgb(var(--dark-background-color));
 }
 .developerPortalCtaWrapper-2XNafh {
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
@@ -4124,6 +4189,12 @@ g[class*="focusStroke"] {
 .hue-13HAGb > div > div {
     border-radius: 0;
     cursor: ew-resize;
+}
+#app-mount .progress-1IcQ3A {
+    background-color: var(--background-primary);
+}
+#app-mount .notches-1sAcEM.gray-3_LNYR {
+    background-image: none;
 }
 
 /*~~ 12. Text selection ~~*/
