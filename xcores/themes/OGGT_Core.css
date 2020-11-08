@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 52";
+    --oggt-info: "Opera GX Gaming Theme 53";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -280,7 +280,8 @@ code,
 .inlineCode-2ngu6Y span,
 .durationTimeDisplay-jww5fr,
 .durationTimeSeparator-2_xpJ7,
-.powercord-codeblock-table td {
+.powercord-codeblock-table td,
+.prefix-24L010 {
     font-family: var(--cbcf) !important;
 }
 
@@ -2360,6 +2361,9 @@ g[class*="focusStroke"] {
     -webkit-box-shadow: none;
     border-top: solid 1px rgb(var(--accent-color-1));
 }
+#app-mount .lookLink-9FtZy-.colorPrimary-3b3xI6 {
+    color: rgb(var(--fullwhite-font));
+}
 /* Uploading */
 .progressBar-3u8FBM {
     background: rgb(var(--accent-color-1)) !important;
@@ -4069,34 +4073,42 @@ g[class*="focusStroke"] {
     animation: accent-blinking 450ms infinite;
 }
 #app-mount .auditLog-3jNbM6 {
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px var(--line-color);
     border-radius: 0;
     color: rgb(var(--muted-font));
 }
 #app-mount .headerClickable-2IVFo9,
 #app-mount .headerDefault-1wrJcN {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
 }
 #app-mount .headerExpanded-CUEwZ5 {
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--normal-font));
 }
 #app-mount .changeDetails-bk98pu {
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 #app-mount .divider-1pnAR2 {
-    background-color: rgb(var(--accent-color-1));
+    background-color: var(--line-color);
+}
+.overflowEllipsis-1PBFxQ {
+    color: rgb(var(--normal-font));
+}
+#app-mount .timestamp-1mruiI {
+    color: rgb(var(--muted-font));
 }
 #app-mount .userHook-3AdCBF,
 #app-mount .auditLog-3jNbM6 strong {
-    color: rgb(var(--normal-font));
+    color: rgb(var(--normal-hover-font));
+    font-weight: 900;
 }
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
     border-radius: 0;
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan {
     border-radius: 0;
-    background-color: rgb(var(--darker-background-color));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
     color: #f04747;
     border-color: #f04747;
 }
