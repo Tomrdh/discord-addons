@@ -1,6 +1,8 @@
-# Yes, you're in the right folder.
+# Download themes here
 
-Now, download your favorite theme(s).
+Choose the folder you want, and save the file ending with `.theme.css`. If you are using Powercord, save also the `powercord_manifest.json`.
+
+You can see theme compatibilities in each theme folder. If you are using a client mod that is not listed in the README file, try yourself if it works or not, but remember that other client mods are not supported in priority.
 
 ## About:
 

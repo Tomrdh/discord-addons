@@ -1,0 +1,8 @@
+{
+    "name": "CustomFont",
+    "description": "To change font, change the --customFont (and --codeBlocksCustomFont for code blocks) in the theme file, or if you have the ThemeSettings plugin, click on the Settings button. You can remember your fonts by adding your list at --rememberNormalFonts and --rememberCodeBlockFonts.",
+    "version": "0.0.2",
+    "author": "TomRdh#5571",
+    "theme": "CustomFont.theme.css",
+    "license": "unknown"
+}

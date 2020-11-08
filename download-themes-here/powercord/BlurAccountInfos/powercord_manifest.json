@@ -1,8 +1,0 @@
-{
-    "name": "BlurAccountInfos",
-    "description": "This mini-theme allows you to hide your email adress and other things in your Account Card when you enter in Discord's User Settings without enabling Streamer Mode. But never forget to enable Streamer Mode before streaming or recording on any platform. This theme has also some settings in the theme file.",
-    "version": "0.0.3",
-    "author": "TomRdh#5571",
-    "theme": "theme.css",
-    "license": "unknown"
-}

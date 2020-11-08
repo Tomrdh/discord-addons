@@ -8,10 +8,4 @@
  * Thanks for using my stuff!
  */
 
-#examples-content .example.blocked, #examples-content .example.blocked .text {
-    filter: none !important;
-    -webkit-filter: none !important;
-}
-#blocked-results-banner {
-    display: none !important;
-}
+@import url(https://tomrdh.github.io/discord-addons/xcores/styles/RCSBE_Core.css);

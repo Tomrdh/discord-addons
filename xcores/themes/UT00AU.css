@@ -1,0 +1,87 @@
+@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
+:root {
+    --theme-name: "UT All UTilities";
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+    display: var(--version-003_ut00au, block) !important;
+}
+/*    Padding (to fix ITC)                                    start      */
+.username-1A8OIy,
+.username-lm8y6T,
+.name-uJV0GL,
+.title-29uC1r,
+.member-3-YXUe {
+    padding-right: 3px;
+}
+/*    Padding (to fix ITC)                                    end        */
+
+/*    UT91 cfg                                                start      */
+/* EXPERIMENTAL FEATURE - DOESN'T WORK WITH QUOTES, ATTACHMENTS, ETC */
+.messageContent-2qWWxC,
+.hasDivider-20M1le,
+.invite-18yqGF,
+.wrapper-35wsBm,
+.guildDetail-1nRKNE,
+.description-1RsfgZ {
+    text-align: var(--alignMessages);
+    align-items: var(--alignMessages);
+}
+.header-23xsNx,
+.fontSize16Padding-3Wk7zP {
+    text-align: var(--alignNicknames);
+}
+.compact-T3H92H .contents-2mQqc9 {
+    text-align: var(--alignCompactMode);
+}
+.fontSize16Padding-3Wk7zP {
+    text-align: var(--typeBox);
+}
+/*    UT91 cfg                                                end        */
+
+/*    UT92 cfg                                                start      */
+.avatar-1BDn8e {
+    width: var(--chatAvatarSize) !important;
+    height: var(--chatAvatarSize) !important;
+}
+/*    UT92 cfg                                                end        */
+
+/*    UT93 cfg                                                start      */
+/* names */
+.name-3_Dsmg,
+.name-uJV0GL,
+.voiceCounter {
+    font-size: var(--textSize) !important;
+}
+/* fix voice counter plugin position */
+.voiceCounter {
+    top: var(--textSize) !important;
+}
+/* user status and bot tags */
+.activityText-yGKsKm, .activityText-OW8WYb, .botTagRegular-2HEhHi, .botTag-2WPJ74 {
+    font-size: calc(var(--textSize) / 1.3);
+}
+/* categories and servername */
+.headerText-1-AnT0, .container-2ax-kl, .name-3YKhmS {
+    font-size: var(--categorySize);
+}
+/* member count plugin */
+#MemberCount {
+    padding-bottom: var(--categorySize);
+}
+/*    UT93 cfg                                                end        */
+
+/*    UT94 cfg                                                start      */
+/* text */
+.name-3_Dsmg,
+.title-29uC1r,
+.channelTabs-name,
+.channelTabs-tabName {
+    text-transform: var(--textTransform, unset);
+}
+/* categories */
+.membersGroup-v9BXpm,
+.name-IbjUBS,
+.container-2ax-kl {
+    text-transform: var(--categoryTransform, uppercase);
+}
+/*    UT94 cfg                                                end        */

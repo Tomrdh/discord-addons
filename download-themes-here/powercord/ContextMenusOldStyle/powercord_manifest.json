@@ -1,8 +1,0 @@
-{
-    "name": "ContextMenusOldStyle",
-    "description": "ContextMenus Old Style is made for people who don't like the new style for ContextMenus. This will not break any plugin like the old version of Discord, only some colors will be modified.",
-    "version": "0.0.1",
-    "author": "TomRdh#5571",
-    "theme": "theme.css",
-    "license": "unknown"
-}

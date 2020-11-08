@@ -1,8 +1,0 @@
-{
-    "name": "CompactChannels",
-    "description": "Compact channellist and memberlist — Customizable in the theme file (or use Settings if you have the ThemeSettings plugin)",
-    "version": "0.0.4",
-    "author": "TomRdh#5571",
-    "theme": "theme.css",
-    "license": "unknown"
-}

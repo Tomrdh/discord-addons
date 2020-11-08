@@ -1,12 +1,1 @@
-/* Blur Emails on YouTube */
-
-#email, .style-scope.ytd-account-item-section-header-renderer {
-	filter: blur(5px) !important;
-	transition: 100ms !important;
-}
-
-.style-scope.ytd-account-item-section-header-renderer:hover {
-	filter: blur(0) !important;
-	transition: 400ms !important;
-	transition-delay: 500ms !important;
-}
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/YTBE_Core.css);

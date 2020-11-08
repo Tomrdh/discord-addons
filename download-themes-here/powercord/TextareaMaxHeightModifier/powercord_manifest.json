@@ -1,8 +1,0 @@
-{
-    "name": "TextareaMaxHeightModifier",
-    "description": "Allows you to modifiy the max height for the textarea. Modify the MaxHeight in the theme file.",
-    "version": "0.0.5",
-    "author": "TomRdh#5571",
-    "theme": "theme.css",
-    "license": "unknown"
-}

@@ -1,0 +1,469 @@
+/*
+    WARNING: THIS FILE MUST BE USED WITH ANOTHER ONE (AND ONLY ONE):
+    "AmoledDarkTheme_quickConfig.css" for ADT
+    OR
+    "AmoledDarkThemeOptimized_quickConfig.css" for ADTO
+    Check the "xcores/themes" folder in the repo.
+    Original idea by YTGamer. Rewritten by TomRdh.
+
+    MAP
+    1. Imports
+    2. Vars
+    3. Modifiers
+        3.1. Backgrounds
+        3.2. Other
+    4. Scrollbars
+    5. DevTags
+*/
+/*~~ 1. Imports ~~*/
+/* Currently nothing */
+
+/*~~ 2. Vars ~~*/
+:root {
+    /* Build Numbers */
+    --adt-info: "AmoledDarkTheme 299";
+    --adto-info: "AmoledDarkThemeOptmized 199";
+}
+.theme-dark {
+    /* Default Variables Modifier */
+    --background-primary: var(--bg-1) !important;
+    --background-secondary: var(--bg-3) !important;
+    --background-secondary-alt: var(--bg-2) !important;
+    --background-tertiary: var(--bg-2) !important;
+    --background-mobile-header: var(--bg-4) !important;
+    --background-modifier-hover: rgba(var(--greyaccentcolor), 0.16) !important;
+    --background-modifier-active: rgba(var(--greyaccentcolor), 0.24) !important;
+    --background-modifier-selected: rgba(var(--greyaccentcolor), 0.32) !important;
+    --background-modifier-accent: rgba(255, 255, 255, 0.06) !important;
+    --background-accent: var(--bg-4) !important;
+    --background-floating: var(--bg-3) !important;
+    --background-mobile-primary: var(--bg-4) !important;
+    --background-mobile-secondary: var(--bg-2) !important;
+    --deprecated-store-bg: var(--bg-1) !important;
+    --deprecated-quickswitcher-input-background: var(--bg-4) !important;
+}
+
+/*~~ 3. Modifiers ~~*/
+/*-- 3.1. Backgrounds --*/
+/* Adt-Bg1 | Primary */
+.theme-dark .quickMessage-1yeL4E,
+.theme-dark .premiumContainer-2Iux5m,
+.theme-dark .container-xm7Ad0,
+.theme-dark .header-ykumBX,
+.theme-dark .messagesPopout-24nkyi,
+.theme-dark .themedPopout-1TrfdI .footer-1K57q_,
+.theme-dark .searchAnswer-3Dz2-q,
+.theme-dark .searchFilter-2ESiM3,
+.theme-dark .sidebar-CFHs9e,
+.theme-dark .bottomDivider-1K9Gao,
+.theme-dark .codeRedemptionRedirect-1wVR4b,
+.theme-dark .selectorSelected-1_M1WV,
+.theme-dark .colorPickerCustom-2CWBn2,
+.theme-dark .container-2x5lvQ section,
+.theme-dark .uploadModal-2ifh8j,
+.theme-dark .regionSelectModal-12e-57,
+.theme-dark .container-VSDcQc .sectionTag-pXyto9,
+.theme-dark .css-181m2lf-menu,
+.theme-dark .section-2gLsgF,
+.theme-dark .popoutList-T9CKZQ,
+.theme-dark .expandedInfo-3kfShd,
+.theme-dark .perk-2WeBWW,
+.theme-dark .tierBody-16Chc9,
+.theme-dark .input-2VB9rf,
+.theme-dark .card-3DjzTQ:not(.theme-dark .card-3DjzTQ:hover),
+.theme-dark .cardPlaceholder-1zrbbe,
+.theme-dark .content-1EtbQh,
+.theme-dark .authBox-hW6HRx,
+.theme-dark .container-1If-HZ,
+.theme-dark .reactors-Blmlhw,
+.theme-dark .consentCard-1iSxB_,
+.theme-dark .attachPopout-36hjtN,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-:hover.collapsed-1GMuSb,
+.theme-dark .button-1YfofB.buttonColor-7qQbGO,
+.theme-dark .footer-3rDWdC,
+.theme-dark .header-2tA9Os,
+.theme-dark .modal-yWgWj-,
+.theme-dark .inner-1ilYF7,
+.theme-dark .inset-3sAvek,
+.theme-dark .contentWrapperInner-15LzPz,
+.theme-dark .videoBackground-3AY_fu,
+.theme-dark .videoBackgroundTransition-3wpOSl,
+.theme-dark .video-1FfuMD
+{
+    background: var(--bg-1);
+    background-color: var(--bg-1);
+}
+.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
+.theme-dark .searchResult-3pzFAB.expanded-v2Szsz,
+.theme-dark .members-1998pB,
+.theme-dark .members-1998pB>div,
+.theme-dark .sidebarRegion-VFTUkN,
+.theme-dark .sidebarRegionScroller-3MXcoP,
+.theme-dark .contentWrapper-3WC1ID,
+.theme-dark #MemberCount,
+.theme-dark .root-1gCeng,
+.theme-dark #dv-mount,
+.theme-dark .peopleColumn-29fq28,
+.theme-dark .footer-2gL1pp,
+.theme-dark .theme-light .input--jS-j2,
+.theme-dark .wrapper-3D2qGf,
+.theme-dark .noChannel-Z1DQK7,
+.theme-dark .modal-yWgWj-,
+.theme-dark .pageWrapper-1PgVDX,
+.theme-dark .autocomplete-1vrmpx,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse
+{
+    background: var(--bg-1) !important;
+    background-color: var(--bg-1) !important;
+}
+/* Adt-Bg2 | Tertiary and Secondary-Alt */
+.theme-dark .bodyInner-245q0L,
+.theme-dark .footer-1fjuF6,
+.theme-dark .headerNormal-T_seeN,
+.theme-dark .tiles-2aXG_k,
+.theme-dark .message-2qRu38,
+.theme-dark .wrapperAudio-1jDe0Q,
+.theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
+.theme-dark .progress-1IcQ3A,
+.theme-dark .toolbar-2bjZV7,
+.theme-dark .container-3baos1,
+.theme-dark .container-3baos1 .avatar-SmRMf2,
+.theme-dark .panels-j1Uci_,
+.theme-dark .popout-38lTFE,
+.theme-dark .infoBar-U6oBFk,
+.theme-dark .diversitySelector-tmmMv0 .popout-2nUePc,
+.theme-dark .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.theme-dark .everyonePopout-nEbJY3,
+.theme-dark .keybindShortcut-1BD6Z1 span,
+.theme-dark .dim-1l4L4y span,
+.theme-dark .searchBox-3Y2Vi7,
+.theme-dark .css-ncjuf0-control,
+.theme-dark .css-1rckt42-menu,
+.theme-dark .css-1wqqa50-container,
+.theme-dark .action-1lSjCi,
+.theme-dark .bd-modal-wrapper .header,
+.theme-dark .bd-modal-wrapper .footer,
+.theme-dark .childWrapper-anI2G9,
+.theme-dark .circleIconButton-jET_ig,
+.theme-dark .privateChannels-1nO12o,
+.theme-dark .scroller-1JbKMe,
+.theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
+.theme-dark .container-PNkimc,
+.theme-dark .nowPlayingColumn-2sl4cE,
+.theme-dark #bd-pub-button,
+.theme-dark .sidebar-2K8pFh,
+.theme-dark .card-FDVird:before,
+.theme-dark .colorPickerCustom-2CWBn2,
+.theme-dark .channelTabs-noMention,
+.theme-dark .channelTabs-noUnread,
+.theme-dark #bd-pub-button,
+.theme-dark .replyer
+{
+    background: var(--bg-2);
+    background-color: var(--bg-2);
+}
+.theme-dark .searchResultsWrap-2DKFzt,
+.theme-dark .menu-Sp6bN1,
+.theme-dark .container-1r6BKw.themed-ANHk51
+{
+    background: var(--bg-2) !important;
+    background-color: var(--bg-2) !important;
+}
+/* Adt-Bg3 | Secondary */
+.theme-dark .friendsTable-133bsv,
+.theme-dark .friendsTableHeader-32yE7d,
+.theme-dark .quickSelectPopout-X1hvgV,
+.theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC,
+.theme-dark .hasMoreButton-1MELpI,
+.theme-dark .formNotice-2_hHWR,
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r,
+.theme-dark .footer-3rDWdC,
+.theme-dark .cardPrimary-1Hv-to,
+.theme-dark .header-1TOWci,
+.theme-dark .content-ySCtCx,
+.theme-dark .noSearchResultsContainer-1dVofo,
+.theme-dark .userSettingsAccount-2eMFVR .userInfoEditing-1CEzdT,
+.theme-dark .userSettingsAccount-2eMFVR .userInfoViewing-16kqK3,
+.theme-dark .paymentPane-3bwJ6A,
+.theme-dark .summaryInfo-2QFKUg,
+.theme-dark .autocompleteInner-zh20B_,
+.theme-dark .modal-yWgWj-,
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
+.theme-dark .container-2x5lvQ .header-2C89wJ,
+.theme-dark .popout-2sKjHu,
+.theme-dark .footer-3rDWdC,
+.theme-dark .autocompleteArrow-Zxoy9H,
+.theme-dark .autocompleteHeaderBackground-30T70q,
+.theme-dark .sidebar-2K8pFh,
+.theme-dark .everyonePopout-nEbJY3,
+.theme-dark .popout-1k352f,
+.theme-dark .item-26Dhrx,
+.theme-dark .paginator-166-09,
+.theme-dark .notDetected-33MY4s,
+.theme-dark .payment-xT17Mq,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:not(.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:active, .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover),
+.theme-dark .separator-XqIyoz,
+.theme-dark .modalTitle-37O4n6,
+.theme-dark .modalSubtitle-1Pj5nv,
+.theme-dark .keyboardShortcutsModal-3piNz7,
+.theme-dark .footer-2VgWkh,
+.theme-dark .selectorButton-21mL5E,
+.theme-dark .pageWrapper-1PgVDX,
+.theme-dark .searchBar-3dMhjb,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.theme-dark .bd-modal-wrapper .bd-modal-body,
+.theme-dark .sidebar-1-SQro,
+.theme-dark .wrapper-2qzCYF.minimum-28Z35l,
+.theme-dark .typeWindows-1za-n7,
+.theme-dark .whyYouMightLikeIt-2zZIIj,
+.theme-dark .bodySection-jqkkIP,
+.theme-dark .row-1bU71H,
+.theme-dark .scrollerWrapper-2xG8VZ
+{
+    background: var(--bg-3);
+    background-color: var(--bg-3);
+}
+.theme-dark .menu-Sp6bN1,
+.theme-dark .container-3ayLPN,
+.theme-dark .searchPopout-1vUlP3,
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.theme-dark .userPopout-3XzG_A,
+.theme-dark .bda-slist li,
+.theme-dark .container-3ayLPN,
+.theme-dark .contextMenu-HLZMGh,
+.theme-dark .submenu-2-ysNh,
+.theme-dark .styleFlexible-wGDiIL,
+.theme-dark .body-3iLsc4,
+.theme-dark .footer-1fjuF6,
+.theme-dark .bf-toolbar::before,
+.theme-dark .wrapper-1Rf91z,
+.theme-dark .scroller-2TZvBN,
+.theme-dark .channelTabs-favContainer,
+.theme-dark .wrapper-2aW0bm,
+.theme-dark .bg-h5JY_x,
+.theme-dark .container-UC8Ug1,
+.theme-dark .wrapper-3D2qGf:hover,
+.theme-dark .uploadModal-2ifh8j,
+.theme-dark .searchBox-2_mAlO,
+.theme-dark .input-cIJ7To
+{
+    background: var(--bg-3) !important;
+    background-color: var(--bg-3) !important;
+}
+/* Adt-Bg4 | 4th */
+.theme-dark .scrollableContainer-2NUZem,
+.theme-dark .expandedFolderBackground-2sPsd-,
+.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7,
+.theme-dark .expandedFolderBackground-2sPsd-:hover,
+.theme-dark .folder-21wGz3,
+.theme-dark .folder-21wGz3:hover,
+.theme-dark .inset-3sAvek,
+.theme-dark .footer-3mqk7D,
+.theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO
+{
+    background: var(--bg-4);
+    background-color: var(--bg-4);
+}
+.theme-dark .guildsDiscover-oiBX_l,
+.theme-dark .channelTextArea-rNsIhG,
+.theme-dark .scrollableContainer-2NUZem,
+.theme-dark .theme-light .container-UC8Ug1:hover
+{
+    background: var(--bg-4) !important;
+    background-color: var(--bg-4) !important;
+}
+/*-- 3.2. Other --*/
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
+.theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb.hover-2ji_A7 {
+    background-color: transparent;
+}
+.theme-dark .xenoLib-notification-content {
+    color: var(--text-normal);
+}
+.theme-dark .popout-2sKjHu,
+.theme-dark .uploadModal-2ifh8j {
+    border-color: var(--bg-4);
+}
+.theme-dark .footer-3mqk7D {
+    -webkit-box-shadow: inset 0 1px 0 var(--bg-4);
+    box-shadow: inset 0 1px 0 var(--bg-4);
+}
+.uploadModal-2ifh8j .footer-3mqk7D {
+    border-radius: 0 0 10px 10px;
+}
+.theme-dark .css-1rckt42-menu { 
+    border-color: black;
+}
+.theme-dark .selectorButtonSelected-1j4DmC {
+    background-color: #7289da !important;
+}
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover:not(.selected) {
+    background-color: var(--background-modifier-hover);
+}
+.theme-dark .children-19S4PO:after {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), var(--background-tertiary));
+}
+.theme-dark .focusFill-3Y4YuU,
+.theme-dark .focusStroke-1ApElc {
+    fill: var(--bg-3);
+}
+.theme-dark .username-1A8OIy:hover {
+    color: white !important;
+    transition: 200ms !important;
+    transition-delay: 300ms !important;
+}
+.theme-dark .messageContent-2qWWxC:hover {
+    color: var(--text-normal) !important;
+    transition: 250ms !important;
+    transition-delay: 250ms !important;
+}
+.theme-dark .winButton-iRh8-Z {
+    color: #d2d2d2;
+}
+.theme-dark .winButtonClose-1HsbF-:hover,
+.theme-dark .winButtonMinMax-PBQ2gm:hover {
+    color: white;
+}
+.theme-dark .selected-aXhQR6 .layout-2DM8Md {
+    background-color: rgb(var(--greyaccentcolor));
+}
+.theme-dark .wrapper-1-Fsb8 {
+    background: none;
+}
+.theme-dark .wrapper-1Pbe6Z {
+    background: transparent;
+    border: solid var(--bg-4) 1px;
+}
+.theme-dark .modeSelected-1zApJ_ .content-3at_AU,
+.theme-dark .modeSelected-1zApJ_:hover .content-3at_AU {
+    background: rgb(var(--greyaccentcolor));
+}
+.theme-dark .content-3at_AU:hover {
+    background: var(--background-modifier-hover);
+}
+.theme-dark .modeSelected-1zApJ_ .icon-1_QxNX,
+.theme-dark .modeSelected-1zApJ_:hover .icon-1_QxNX,
+.theme-dark .modeUnread-1zpFdA .icon-1_QxNX,
+.theme-dark .modeUnread-1zpFdA:hover .icon-1_QxNX {
+    color: var(--interactive-active);
+}
+.theme-dark .circleIconButton-jET_ig.selected-ugP_am {
+    color: #fff;
+    background-color: #43b581;
+}
+.theme-dark .theme-light .titleBar-AC4pGV {
+    margin-top: 0;
+    padding-top: 4px;
+}
+.theme-dark .theme-light .colorHeaderPrimary-26Jzh- {
+    color: #fff;
+    font-weight: 600;
+}
+.theme-dark .theme-light .colorHeaderSecondary-3Sp3Ft {
+    color: #b9bbbe
+}
+.theme-dark .theme-light .colorStandard-2KCXvj {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .input-cIJ7To {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .root-1gCeng {
+    -webkit-box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 1px rgba(32, 34, 37, 0.6), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.theme-dark .theme-light .sampleLink-2NLvZg {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .footer-2gL1pp {
+    -webkit-box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6);
+    box-shadow: inset 0 1px 0 rgba(47, 49, 54, 0.6);
+}
+.theme-dark .theme-light .close-hZ94c6 {
+    color: #b9bbbe;
+}
+.theme-dark .theme-light .close-hZ94c6 {
+    color: #eee;
+}
+.theme-dark .option-96V44q:after {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), var(--bg-3));
+}
+.theme-dark .unread-1xRYoj {
+    background-color: #4f545c;
+}
+.theme-dark .search-1iTphC .searchBox-2_mAlO .searchBoxInput-K6mkng {
+    color: #ccc;
+}
+.theme-dark .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1 {
+    color: #b9bbbe;
+}
+.theme-dark .search-1iTphC .searchBox-2_mAlO .closeIcon-2WLZc1:hover {
+    color: #fff;
+}
+.theme-dark .selected-1Tbx07 {
+    background-color: #36393f80;
+}
+.theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    border-color: var(--bg-4);
+}
+.theme-dark .regionSelectName-2-2FWh {
+    color: var(--text-muted);
+}
+.theme-dark .xenoLib-notification-content {
+    background: var(--xl-bg, #474747) !important;
+}
+.theme-dark .card-FDVird:before {
+    border-color: var(--bg-1);
+}
+.theme-dark .channelTabs-noFavs {
+    background-color: transparent;
+}
+.theme-dark .colorPickerCustom-2CWBn2 {
+    border-color: var(--bg-3);
+}
+.theme-dark .channelTabs-noMention,
+.theme-dark .channelTabs-noUnread {
+    color: var(--text-muted);
+}
+
+/*~~ 4. Scrollbars ~~*/
+.theme-dark ::-webkit-scrollbar-track {
+    background: transparent !important;
+    border: none !important;
+}
+
+/*~~ 5. DevTags ~~*/
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
+    background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
+    color: #fff !important;
+    font-size: 0.625rem !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    vertical-align: top !important;
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    -ms-flex-negative: 0 !important;
+    flex-shrink: 0 !important;
+    text-indent: 0 !important;
+    height: 0.9375rem !important;
+    padding: 0 0.275rem !important;
+    margin-top: 0.075em !important;
+    margin-left: 0.25rem !important;
+    position: relative !important;
+    top: 0.15rem !important;
+    border-radius: 0.1875rem !important;
+}
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
+    content: "Theme Dev" !important;
+}
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1),
+div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):hover {
+    font-weight: bold !important;
+    color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
+}

@@ -1,0 +1,19 @@
+@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
+:root {
+    --theme-name: "Always Display Channel Buttons";
+}
+.iconItem-1-bXkn,
+.linkChannels,
+.closeButton-2GCmT5,
+.userLimit-64AFxe,
+.unpinButton-z3-UVO {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.privateChannels-1nO12o .channel-2QD9_O .closeButton-2GCmT5 {
+    opacity: 1 !important;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+    display: var(--version001_adcb, block) !important;
+}

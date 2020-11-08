@@ -1,0 +1,16 @@
+/**
+ * @name BetterDiscordLightThemeFixer
+ * @author TomRdh
+ * @version 0.0.3
+ * @description If you are using light theme with BBD v0.3.0 or later, this theme is useful to fix dark-optimized classes. (WORKS WITH BOTH BD AND BBD) Tip: You can enable it using dark theme, it will do nothing until you switch to light theme.
+ * @website https://tomrdh.github.io/da-website/main
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/BDLightThemeFixer.theme.css
+ * @invite v7ECsqT
+ * @authorId 703638166162112516
+*/
+
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/BDLTF_Core.css);
+
+:root {
+    --version003_bdltf: none; /* Do not edit this plz */
+}

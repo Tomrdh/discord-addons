@@ -1,0 +1,8 @@
+{
+    "name": "RemoveNitroTab",
+    "description": "Allows you to remove the Nitro Tab in Discord Home because it is useless (same tab in user settings…).",
+    "version": "0.0.2",
+    "author": "TomRdh#5571",
+    "theme": "RemoveNitroTab.theme.css",
+    "license": "unknown"
+}

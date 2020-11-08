@@ -1,0 +1,8 @@
+{
+    "name": "TypingAtTopOfChatBox",
+    "description": "Moves the "someone is typing…", the slowmode, the BFRedux tools and the char counter at the top of the chat box (aka: textarea) and moves the chat box at the bottom.",
+    "version": "0.0.1",
+    "author": "TomRdh#5571",
+    "theme": "TypingAtTopOfChatBox.theme.css",
+    "license": "unknown"
+}

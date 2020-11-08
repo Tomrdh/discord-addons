@@ -1,10 +1,1 @@
-@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
-:root {
-    --theme-name: "Textarea Max Height Modifier";
-}
-.scrollableContainer-2NUZem {
-    max-height: var(--maxHeight);
-}
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
-    display: var(--version001_tamhm, block) !important;
-}
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/TMHM_Core.css);

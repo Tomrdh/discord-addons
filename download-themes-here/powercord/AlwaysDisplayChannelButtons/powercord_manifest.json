@@ -1,8 +1,0 @@
-{
-    "name": "AlwaysDisplayChannelButtons",
-    "description": "Allows you to view what buttons you have without hovering on a channel.",
-    "version": "0.0.1",
-    "author": "TomRdh#5571",
-    "theme": "theme.css",
-    "license": "unknown"
-}

@@ -1,0 +1,9 @@
+/* Reverso Context - Show Blurred Examples without logging in */
+
+#examples-content .example.blocked, #examples-content .example.blocked .text {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+#blocked-results-banner {
+    display: none !important;
+}

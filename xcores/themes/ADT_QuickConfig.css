@@ -1,0 +1,40 @@
+@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
+.info-1VyQPT:after {
+    content: var(--adt-info) !important;
+    font-size: 12px !important;
+    color: var(--text-muted) !important;
+    display: inline !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+    cursor: text !important;
+    visibility: visible !important;
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: 1px !important;
+    right: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    text-transform: none !important;
+}
+.theme-dark {
+    --background-dark-primary: black;
+    --background-dark-secondary: #18191c;
+    --background-dark-tertiary: #131417;
+    --background-dark-4th: #202225;
+
+    --greyaccentcolor: 66, 71, 77;
+    --bg-1: var(--background-dark-primary); /* Black */
+    --bg-2: var(--background-dark-tertiary); /* Darker */
+    --bg-3: var(--background-dark-secondary) ; /* Dark */
+    --bg-4: var(--background-dark-4th); /* Dark-Grey */
+    --xl-bg: var(--xenolib-background-color, #202225);
+    
+    --theme-name: "AMOLED Dark Theme";
+}
+:root {
+    --betterdiscord-v3-blue-rgb: var(--accentcolor, 62, 130, 229) !important;
+}
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+    display: var(--version006_adt, block) !important;
+}

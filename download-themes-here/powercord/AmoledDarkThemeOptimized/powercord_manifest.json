@@ -1,8 +1,0 @@
-{
-    "name": "AmoledDarkThemeOptimized",
-    "description": "This version of AMOLED dark theme makes all backgrounds to black instead of matching Android colors.",
-    "version": "0.0.5",
-    "author": "TomRdh#5571",
-    "theme": "theme.css",
-    "license": "unknown"
-}

@@ -1,0 +1,31 @@
+/**
+ * @name CompactChannels
+ * @author TomRdh
+ * @version 0.0.4
+ * @description Compact channellist and memberlist — Customizable in the theme file (or use Settings if you have the ThemeSettings plugin)
+ * @website https://tomrdh.github.io/da-website/main
+ * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/CompactChannels.theme.css
+ * @invite v7ECsqT
+ * @authorId 703638166162112516
+*/
+
+@import url(https://tomrdh.github.io/discord-addons/xcores/themes/CC_Core.css);
+
+:root {
+/*  Channels                                                                                                                          */
+    --cSize         :   190px   ;   /* Channels list size (in px, em, etc…)                            Default: 190px                 */
+    --cSizeOnHover  :   240px   ;   /* Channels list size on hover (in px, em, etc…)                   Default: 240px                 */
+
+/*  Memberlist                                                                                                                        */
+    --mSize         :   240px   ;   /* Memberlist size (in px, em, etc…)                               Default: 60px  Disable: 240px  */
+    --mSizeOnHover  :   240px   ;   /* Memberlist size on hover (in px, em, etc…)                      Default: 240px Disable: 240px  */
+
+/*  Transitions                                                                                                                       */
+    --time          :   200ms   ;   /* Transition time (in s or ms)                                    Default: 200ms                 */
+    --delayIn       :   100ms   ;   /* Transition delay before resizing by --xSizeOnHover (in s or ms) Default: 100ms                 */
+    --delayOut      :   300ms   ;   /* Transition delay before resizing by --xSize (in s or ms)        Default: 300ms                 */
+
+    
+/*  Update                                                                                                                            */
+    --version004_cc :   none    ;   /* Do not change pliz                                              Default: none                  */
+}
