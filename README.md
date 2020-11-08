@@ -1,6 +1,6 @@
 # [Discord Addons](https://tomrdh.github.io/da-website/main)
 
-![Theme.png](https://cdn.discordapp.com/attachments/696044749228081285/733007180500041820/unknown.png)
+![Theme.png](https://cdn.discordapp.com/attachments/702611641530843186/774957647812100116/unknown.png)
 
 Welcome to this repository! Download my themes in the [download-themes-here](https://github.com/Tomrdh/discord-addons/tree/master/download-themes-here) folder. The [xcores](https://github.com/Tomrdh/discord-addons/tree/master/xcores) folder contains full CSS files. For more information, [read the wiki](https://github.com/Tomrdh/discord-addons/wiki).
 
