@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 53";
+    --oggt-info: "Opera GX Gaming Theme 54";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2639,6 +2639,60 @@ g[class*="focusStroke"] {
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
     border-color: rgb(var(--accent-color-2));
     background-color: rgb(var(--dark-background-color));
+}
+/* Server Boost Perks */
+#app-mount .headerLogo--hLLAk {
+    color: rgb(var(--fullwhite-font));
+}
+.ctaBar-2UsjF2 {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+#app-mount .giftIcon-ZxlWk5 {
+    color: rgb(var(--fullwhite-font));
+}
+.tierHeader---JJFb {
+    border-radius: 0;
+}
+#app-mount .barBackground-2EEiLw {
+    background-color: rgb(var(--dark-background-color));
+}
+#app-mount .barSecondary-3B1aP2 {
+    background-color: rgb(var(--accent-color-2));
+}
+#app-mount .tierMarkerBackground-3q29am {
+    background-color: rgb(var(--dark-background-color));
+}
+#app-mount .perksModal-fSYqOq {
+    background-color: rgb(var(--darker-background-color));
+}
+#app-mount .tier-12tKuZ {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+#app-mount .tierHeaderLocked-1s2JJz {
+    background-color: rgb(var(--darker-background-color));
+    color: rgb(var(--muted-font));
+}
+#app-mount .tierUnlocked-25K6Kv {
+    color: rgb(var(--accent-color-2));
+    background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .tierBody-16Chc9 {
+    background-color: rgb(var(--dark-background-color));
+    border: none;
+    border-top: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+#app-mount .perk-2WeBWW {
+    background-color: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+.header-1TKi98 {
+    border-radius: 0;
 }
 
 /*-- 6.3. Public Servers --*/
