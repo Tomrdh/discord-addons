@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 54";
+    --oggt-info: "Opera GX Gaming Theme 55";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -673,6 +673,10 @@ body,
     background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
     border: solid 1px var(--line-color);
 }
+/* Badges */
+/*.base-PmTxvP {
+    
+}*/ /* maybe later */
 /* Custom Status Setting */
 .optionNormal-12VR9V:hover,
 .optionActive-KkAdqq,
@@ -880,6 +884,11 @@ body,
 }
 #app-mount .wrapper-1-Fsb8 {
     background: none;
+}
+#app-mount .imageLoading-bpSr0M {
+    background-image: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    border-radius: 30%;
+    opacity: 0.5;
 }
 /* Emoji information (emoji section) */
 .popoutContainer-1MXdqN {
@@ -1404,10 +1413,11 @@ code.inline {
 /* Bot tags */
 .botTagRegular-2HEhHi {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .botTagRegular-2HEhHi[style*="background"] {
     background: currentColor;
+    color: rgb(255, 255, 255)
 }
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     color: rgb(var(--fullwhite-font));
@@ -4435,7 +4445,7 @@ g[class*="focusStroke"] {
 /* Chat: Cozy */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
-    color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
     font-size: 0.625rem !important;
     font-weight: normal !important;
     text-transform: uppercase !important;
