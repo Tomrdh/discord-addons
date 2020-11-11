@@ -3,12 +3,14 @@
     --theme-name: "Always Display Channel Buttons";
 }
 .children-Bmpf2Q *,
-.children-gzQq2t * {
+.children-gzQq2t *,
+.children-3rEycc * {
     display: flex !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
-.userLimit-64AFxe {
+.userLimit-64AFxe,
+.userLimit-3aerPX {
     margin-left: 3px;
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
