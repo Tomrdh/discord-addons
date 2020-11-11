@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 57";
+    --oggt-info: "Opera GX Gaming Theme 58";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2355,9 +2355,6 @@ g[class*="focusStroke"] {
 .categoryPill-34fszg.selected-1dONk0 {
     background-color: rgb(var(--accent-color-1));
     color: #fff;
-}
-.sidebar-2K8pFh .scrollerBase-289Jih {
-    background-color: rgba(var(--channels-transparency-color), var(--channels-transparency));
 }
 /* SD Search */
 .searchBox-3Y2Vi7 .searchBoxInput-uJtBcv:focus {
