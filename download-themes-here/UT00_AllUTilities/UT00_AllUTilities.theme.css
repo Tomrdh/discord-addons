@@ -1,7 +1,7 @@
 /**
  * @name UT All UTilities
  * @author TomRdh
- * @version 0.0.3
+ * @version 0.0.4
  * @description Minitheme to edit some texts in your UI. Customize the theme in the file.
  * @website https://tomrdh.github.io/da-website/main
  * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/UT00_AllUTilities.theme.css
@@ -9,7 +9,7 @@
  * @authorId 703638166162112516
 */
 
-@import url(https://tomrdh.github.io/discord-addons/xcores/themes/UT00AU_Core.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/UT00config.css);
 
 /*
 
@@ -40,7 +40,7 @@ BIU = Bold Italic Underline
 
 /*    UT01 Theme Support                                                 */
 :root {
-    --version-003_ut00au: none; /* Do not edit this or you'll see an annoying notice that tells you to update your theme. */
+    --version-004_ut00au: none; /* Do not edit this or you'll see an annoying notice that tells you to update your theme. */
 }
 
 /*    UT11 Nicknames in chat                                             */
@@ -74,7 +74,8 @@ BIU = Bold Italic Underline
 }
 
 /*    UT51 Channel names in channel list                                 */
-.name-3_Dsmg {
+.name-3_Dsmg,
+.name-23GUGE {
     font-weight: bold;
     /* font-style: italic; */
     /* text-decoration: underline; */
