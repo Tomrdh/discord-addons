@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 55";
+    --oggt-info: "Opera GX Gaming Theme 56";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1935,11 +1935,11 @@ code.inline {
     background: none;
     border-bottom: solid 1px rgb(var(--accent-color-1));
 }
-/* ChannelName */
+/* Channel Name */
 .children-19S4PO .icon-22AiRD path[fill="currentColor"] {
     fill: rgb(var(--fullwhite-font));
 }
-/* Memberlist */
+/* Member list */
 .mulitplePlaceholderUsername-pogq9I,
 .placeholderAvatar-damqh6,
 .placeholderUsername-2B_OA9,
@@ -1964,6 +1964,12 @@ code.inline {
 .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
+/* Memberlist private channels */
+.addMembersIcon-1Bz_VS {
+    border-radius: 0;
+    background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-highlighted-transparency)), rgba(var(--darker-background-color), var(--other-highlighted-transparency)));
+    border: solid 1px var(--line-color);
 }
 /* Contextmenus */
 .menu-3sdvDG {
@@ -2537,28 +2543,41 @@ g[class*="focusStroke"] {
 }
 .noticeInfo-3_iTE1 {
     background-color: rgb(var(--darker-background-color));
-    border: solid 1px rgb(var(--accent-color-2));
+    border: solid 1px var(--line-color-2);
     border-top: none;
     color: rgb(var(--fullwhite-font));
 }
 .full-motion.app-focused .noticeInfo-3_iTE1 {
-    animation: both-blinking 450ms infinite !important;
+    animation: both-blinking-with-transparency 450ms infinite !important;
 }
 .bd-addon-list .bd-footer a {
     color: var(--text-link);
 }
-/* BD Plugin Update Notice */
+/* BD Update Notice */
 .noticeWrapper-8z511t {
     /* nothing */
 }
 .colorInfo-2URYW5 {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     color: rgb(var(--fullwhite-font));
-    border: solid 1px rgb(var(--accent-color-2));
+    border: solid 1px var(--line-color-2);
     margin-top: -1px;
 }
 .full-motion.app-focused .colorInfo-2URYW5 {
     animation: both-blinking-with-transparency 450ms infinite !important;
+}
+.closeButton-3cJIM4 {
+    background-image: none;
+    opacity: 1;
+}
+.closeButton-3cJIM4:before {
+    font-size: 24px;
+    content: "×";
+    font-weight: 900;
+    color: rgb(var(--muted-font));
+}
+.closeButton-3cJIM4:hover:before {
+    color: rgb(var(--normal-hover-font));
 }
 /* Server Welcomer Options */
 .optionContainer-15srkc {
@@ -2794,6 +2813,38 @@ g[class*="focusStroke"] {
 .root-217Brm .title-3qD0b- {
     border-left: none;
 }
+.quickSelect-3BxO0K {
+    line-height: 16px;
+}
+#app-mount .quickSelectPopout-X1hvgV {
+    background: rgb(var(--dark-background-color));
+    color: rgb(var(--normal-hover-font));
+    border-radius: 0;
+    border: solid 1px var(--line-color);
+}
+.regionSelectPopout-p9-0_W {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#app-mount .quickSelectPopoutOption-opKBx9 {
+    border: solid 1px #0000;
+    border-left: none;
+    border-right: none;
+}
+#app-mount .quickSelectPopoutOption-opKBx9:hover {
+    background-color: rgb(var(--darker-background-color));
+    border-color: var(--line-color);
+}
+#app-mount .quickSelectPopoutOption-opKBx9:hover:first-child {
+    border-top-color: #0000;
+}
+#app-mount .quickSelectPopoutOption-opKBx9:hover:last-child {
+    border-bottom-color: #0000;
+}
+#app-mount .regionSelectName-c5qL8O {
+    color: rgb(var(--normal-font));
+}
+
 /*-- 6.5. HLJS Names --*/
 /* Init */
 #app-mount pre code:before {
