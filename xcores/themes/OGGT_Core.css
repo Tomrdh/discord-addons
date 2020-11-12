@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 58";
+    --oggt-info: "Opera GX Gaming Theme 59";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -3759,6 +3759,9 @@ g[class*="focusStroke"] {
 .scroller-2TZvBN {
     background: rgba(var(--serverlist-transparency-color), var(--serverlist-transparency));
     backdrop-filter: blur(var(--serverlist-background-blur));
+}
+.tree-3tCaw8:focus {
+    outline: transparent;
 }
 /* Channels and DMs */
 .scroller-2wx7Hm,
