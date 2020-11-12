@@ -24,6 +24,7 @@ code,
 .inlineCode-2ngu6Y span,
 .durationTimeDisplay-jww5fr,
 .durationTimeSeparator-2_xpJ7,
-.powercord-codeblock-table td {
+.powercord-codeblock-table td,
+.maxLength-39QFBo {
 	font-family: var(--cbcf);
 }
