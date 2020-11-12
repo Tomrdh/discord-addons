@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 299";
-    --adto-info: "AmoledDarkThemeOptmized 199";
+    --adt-info: "AmoledDarkTheme 300";
+    --adto-info: "AmoledDarkThemeOptmized 200";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -159,7 +159,8 @@
 .theme-dark .channelTabs-noMention,
 .theme-dark .channelTabs-noUnread,
 .theme-dark #bd-pub-button,
-.theme-dark .replyer
+.theme-dark .replyer,
+.theme-dark .container-3w7J-x
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
