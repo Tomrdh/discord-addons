@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 59";
+    --oggt-info: "Opera GX Gaming Theme 60";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -62,10 +62,11 @@
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
     
     /* Quick variables */
-    --line-color: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
+    --line-color: var(--line-color-1);
+    --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
     --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
 
-    /* Compatibility variables */
+    /* Theme compatibility variables */
     /* UT00_AllUTilities */
     --categorySize: 15px; /* NOTE: If the value you set for this variable in the UT00_AllUTilities theme file doesn't work with OperaGxGamingTheme, try adding !important next to your value. */
 }
@@ -94,6 +95,7 @@
     --background-floating: rgba(var(--darker-background-color), var(--other-transparency)) !important;
     --background-modifier-selected: rgba(var(--darker-background-color), 0.32);
     --background-modifier-hover: rgba(var(--fullwhite-font), 0.05);
+    --background-modifier-active: rgba(var(--fullwhite-font), 0.1);
     --bd-blue: rgb(var(--accent-color-1)) !important;
     --blurple: rgb(var(--accent-color-1)) !important;
     --deprecated-quickswitcher-input-background: rgb(var(--darker-background-color)) !important;
@@ -281,7 +283,8 @@ code,
 .durationTimeDisplay-jww5fr,
 .durationTimeSeparator-2_xpJ7,
 .powercord-codeblock-table td,
-.prefix-24L010 {
+.prefix-24L010,
+.maxLength-39QFBo {
     font-family: var(--cbcf) !important;
 }
 
@@ -797,6 +800,13 @@ body,
 }
 #app-mount .markup-2BOw-j.slateTextArea-1Mkdgw {
     font-weight: 400 !important;
+}
+/* Message editing */
+#app-mount .operations-36ENbA {
+    color: rgb(var(--muted-font));
+}
+.operations-36ENbA > a {
+    color: rgb(var(--accent-color-1));
 }
 /* Inline Replies */
 .container-2fRDfG {
@@ -2511,6 +2521,9 @@ g[class*="focusStroke"] {
 .rightSplit-2US0xy {
     opacity: 0;
 }
+.lookLink-9FtZy-.colorBrand-3pXr91 {
+    color: rgb(var(--accent-color-1));
+}
 /* Connecting screen */
 .container-16j22k {
     background: var(--background) center;
@@ -4018,6 +4031,9 @@ g[class*="focusStroke"] {
 .input-cIJ7To.disabled-2BKQFm {
     border-color: rgb(0, 0, 0, 0.2);
 }
+.maxLength-39QFBo {
+    color: rgb(var(--muted-font));
+}
 #app-mount .bar-2Qqk5Z {
     background: var(--background-primary);
     border-radius: 0;
@@ -4215,6 +4231,14 @@ g[class*="focusStroke"] {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
+}
+#app-mount .game-1ipmAa {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px var(--line-color);
+}
+#app-mount .game-1ipmAa * {
+    color: rgb(var(--muted-font));
 }
 #app-mount .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
@@ -4422,6 +4446,40 @@ g[class*="focusStroke"] {
 #app-mount .notches-1sAcEM.gray-3_LNYR {
     background-image: none;
 }
+#app-mount .notDetected-33MY4s {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+#app-mount .nowPlaying-284llR {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
+#app-mount .notDetected-33MY4s *,
+#app-mount .nowPlaying-284llR * {
+    color: rgb(var(--muted-font));
+    fill: rgb(var(--muted-font));
+}
+.gameName-1RiWHm {
+    color: rgb(var(--normal-hover-font)) !important;
+}
+#app-mount .nowPlayingAdd-1Kdmh_ {
+    color: rgb(var(--normal-font));
+}
+.lastPlayed-3bQ7Bo {
+    line-height: 16px;
+}
+.notDetected-33MY4s,
+.nowPlaying-284llR {
+    border-radius: 0;
+}
+#app-mount .button-2CgfFz {
+    background-color: rgb(var(--darker-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
+
 /*~~ 12. Text selection ~~*/
 ::selection {
     color: #000 !important;
