@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 62";
+    --oggt-info: "Opera GX Gaming Theme 63";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2551,6 +2551,7 @@ g[class*="focusStroke"] {
 #app-mount .authBox-hW6HRx {
     background: rgb(var(--dark-background-color));
     border-radius: 0;
+    color: rgb(var(--muted-font));
 }
 .rightSplit-2US0xy {
     opacity: 0;
@@ -4058,12 +4059,13 @@ g[class*="focusStroke"] {
 .input-cIJ7To:hover {
     border-color: rgb(var(--accent-color-2));
 }
-.input-cIJ7To:focus {
+.input-cIJ7To:focus,
+.input-cIJ7To.focused-1mmYsC {
     border-color: rgb(var(--accent-color-1));
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
 .input-cIJ7To.disabled-2BKQFm {
-    border-color: rgb(0, 0, 0, 0.2);
+    border-color: rgba(var(--darker-background-color), 0.3);
 }
 .maxLength-39QFBo {
     color: rgb(var(--muted-font));
