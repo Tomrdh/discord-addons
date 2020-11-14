@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 300";
-    --adto-info: "AmoledDarkThemeOptmized 200";
+    --adt-info: "AmoledDarkTheme 301";
+    --adto-info: "AmoledDarkThemeOptmized 201";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -113,7 +113,10 @@
 .theme-dark .modal-yWgWj-,
 .theme-dark .pageWrapper-1PgVDX,
 .theme-dark .autocomplete-1vrmpx,
-.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
+.theme-dark .wrapper-2qzCYF.minimum-28Z35l
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -160,7 +163,9 @@
 .theme-dark .channelTabs-noUnread,
 .theme-dark #bd-pub-button,
 .theme-dark .replyer,
-.theme-dark .container-3w7J-x
+.theme-dark .container-3w7J-x,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -248,7 +253,10 @@
 .theme-dark .wrapper-3D2qGf:hover,
 .theme-dark .uploadModal-2ifh8j,
 .theme-dark .searchBox-2_mAlO,
-.theme-dark .input-cIJ7To
+.theme-dark .input-cIJ7To,
+.theme-dark .searchBar-3dMhjb,
+.theme-dark .button-1YfofB.buttonColor-7qQbGO,
+.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl
 {
     background: var(--bg-3) !important;
     background-color: var(--bg-3) !important;
@@ -262,7 +270,8 @@
 .theme-dark .folder-21wGz3:hover,
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
-.theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO
+.theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO,
+.theme-dark .quickSelectPopout-X1hvgV
 {
     background: var(--bg-4);
     background-color: var(--bg-4);
@@ -270,7 +279,10 @@
 .theme-dark .guildsDiscover-oiBX_l,
 .theme-dark .channelTextArea-rNsIhG,
 .theme-dark .scrollableContainer-2NUZem,
-.theme-dark .theme-light .container-UC8Ug1:hover
+.theme-dark .theme-light .container-UC8Ug1:hover,
+.theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
+.colorable-1bkp8v.primaryDark-3mSFDl:hover
 {
     background: var(--bg-4) !important;
     background-color: var(--bg-4) !important;
@@ -427,6 +439,13 @@
 .theme-dark .channelTabs-noMention,
 .theme-dark .channelTabs-noUnread {
     color: var(--text-muted);
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day {
+    border-top-color: var(--bg-4);
+    border-left-color: var(--bg-4);
+}
+.theme-dark .wrapper-2qzCYF.minimum-28Z35l {
+    border-bottom: solid 1px var(--bg-3);
 }
 
 /*~~ 4. Scrollbars ~~*/
