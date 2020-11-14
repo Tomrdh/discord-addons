@@ -34,12 +34,12 @@
     20. Infos
 */
 /*~~ 1. Imports ~~*/
-@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
+@import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 60";
+    --oggt-info: "Opera GX Gaming Theme 61";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
