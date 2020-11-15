@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 63";
+    --oggt-info: "Opera GX Gaming Theme 64";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -66,6 +66,10 @@
     --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
     --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
 
+    /* Default value variables */
+    --cp-default: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+
     /* Theme compatibility variables */
     /* UT00_AllUTilities */
     --categorySize: 15px; /* NOTE: If the value you set for this variable in the UT00_AllUTilities theme file doesn't work with OperaGxGamingTheme, try adding !important next to your value. */
@@ -73,7 +77,7 @@
 #app-mount,
 .theme-light,
 .theme-dark {
-    /* Colors */
+    /* Discord colors */
     --text-normal: rgb(var(--normal-font)) !important;
     --text-muted: rgb(var(--muted-font)) !important;
     --channels-default: rgb(var(--normal-font)) !important;
@@ -1178,7 +1182,8 @@ body,
 }
 .artwork-1vrmJ_ {
     border-radius: 2px;
-    clip-path: polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+    clip-path: var(--cp-default);
+    --cp-size: 12px;
 }
 #app-mount .name-GG2Mcs,
 #app-mount .partyStatus-6AjDud {
@@ -1206,7 +1211,12 @@ body,
 .newMessagesBar-mujexs,
 .newMessagesBar-265mhP {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    border-radius: 0;
+    clip-path: var(--cp-default);
+    top: 3px;
+    --cp-size: 6px;
+}
+.barBase-1c2Rfb {
+    border-radius: 2px !important;
 }
 .newMessagesBar-mujexs *,
 .newMessagesBar-265mhP * {
@@ -1218,11 +1228,13 @@ body,
 /* UserAvatars */
 /*.avatar-1BDn8e {
     border-radius: 0;
-    clip-path: polygon(20% 0, 100% 0, 100% calc(100% - 20%), calc(100% - 20%) 100%, 0 100%, 0 20%);
+    clip-path: var(--cp-default);
+    --cp-size: 20%;
 }
 .avatar-3uk_u9 foreignObject img {
     border-radius: 0;
-    clip-path: polygon(0% 0, 100% 0, 100% calc(100% - 0%), calc(100% - 0%) 100%, 0 100%, 0 0%);
+    clip-path: var(--cp-default);
+    --cp-size: 0%;
 }
 .avatar-3uk_u9 rect {
     width: 3px !important;
@@ -1270,10 +1282,11 @@ body,
 .bar-30k2ka {
     background-color: rgba(var(--darker-background-color), 0.95);
     border-radius: 1px;
-    clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+    clip-path: var(--cp-default);
+    --cp-size: 6px;
 }
 .bar-30k2ka:hover {
-    background-color: rgba(var(--dark-background-color), 1)
+    background-color: rgba(var(--dark-background-color), 1);
 }
 .unreadBar-3YD_k9 .text-2e2ZyG,
 .unreadBar-3t3sYc .text-2e2ZyG {
@@ -1407,7 +1420,8 @@ code.inline {
 /* Library and Game Download/Update */
 .gameIcon-gg34Dz[style*="background-image"] {
     border-radius: 2px;
-    clip-path: polygon(6px 0, 100% 0, 100% calc(100% - 6px), calc(100% - 6px) 100%, 0 100%, 0 6px);
+    clip-path: var(--cp-default);
+    --cp-size: 6px;
 }
 .rowWrapperActive-2L7i9f .playButton-1fMNjH {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
@@ -1475,7 +1489,8 @@ code.inline {
 }
 #app-mount .botTag-2WPJ74 {
     border-radius: 1px;
-    clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem);
+    clip-path: var(--cp-default);
+    --cp-size: 0.275rem;
 }
 /* Tooltips */
 #app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z {
@@ -2366,7 +2381,8 @@ g[class*="focusStroke"] {
 /* Server Discovery/Discord Public Servers */
 .categoryItem-3zFJns .itemInner-3gVXMG {
     border-radius: 0;
-    clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+    clip-path: var(--cp-default);
+    --cp-size: 7px;
 }
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
@@ -2440,7 +2456,8 @@ g[class*="focusStroke"] {
 .embedThumbnail-2Y84-K img,
 .embedThumbnail-2Y84-K video {
     border-radius: 0;
-    clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+    clip-path: var(--cp-default);
+    --cp-size: 10px;
 }
 .embedImage-2W1cML img,
 .embedImage-2W1cML video,
@@ -3499,7 +3516,8 @@ g[class*="focusStroke"] {
 /* ServerDetails */
 .detailsTooltip-G9hSSa .icon-hSL42R {
     border-radius: 0;
-    clip-path: polygon(10% 0, 100% 0, 100% calc(100% - 10%), calc(100% - 10%) 100%, 0 100%, 0 10%);
+    clip-path: var(--cp-default);
+    --cp-size: 10%;
 }
 .detailsTooltip-G9hSSa div.icon-hSL42R {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
@@ -3515,10 +3533,12 @@ g[class*="focusStroke"] {
     border-radius: 0 !important;
 }
 .coverWrapper-YAplwJ {
-    clip-path: polygon(5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px);
+    clip-path: var(--cp-default);
+    --cp-size: 5px;
 }
 .maximized-vv2Wr0 .coverWrapper-YAplwJ {
     clip-path: none;
+    --cp-size: 0;
 }
 #app-mount .themedPopout-1TrfdI {
     background-color: rgb(var(--dark-background-color));
@@ -3845,7 +3865,8 @@ g[class*="focusStroke"] {
     border-radius: 0;
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     padding: 0;
-    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+    clip-path: var(--cp-default);
+    --cp-size: 16px;
 }
 .fieldList-21DyL8 {
     border-radius: 0;
@@ -3865,7 +3886,8 @@ g[class*="focusStroke"] {
 }
 .avatarUploaderInner-3UNxY3 {
     border-radius: 0;
-    clip-path: polygon(16px 0, 100% 0, 100% calc(100% - 16px), calc(100% - 16px) 100%, 0 100%, 0 16px);
+    clip-path: var(--cp-default);
+    --cp-size: 16px;
     background-color: rgb(var(--accent-color-1));
 }
 .avatarUploaderInner-3UNxY3 > * {
@@ -3945,7 +3967,8 @@ g[class*="focusStroke"] {
 }
 .side-8zPYf6 .item-PXvHYJ,
 #app-mount .ui-tab-bar-item {
-    clip-path: polygon(5px 0, 100% 0, 100% calc(100% - 5px), calc(100% - 5px) 100%, 0 100%, 0 5px);
+    clip-path: var(--cp-default);
+    --cp-size: 5px;
     border-radius: 2px;
 }
 #app-mount .ui-tab-bar-item.selected,
@@ -3984,7 +4007,8 @@ g[class*="focusStroke"] {
 }
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
     border-radius: 3px;
-    clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+    clip-path: var(--cp-default);
+    --cp-size: 8px;
     background-color: rgba(var(--dark-background-color), calc(var(--other-transparency) / 1.2));
 }
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs:hover {
@@ -4174,12 +4198,14 @@ g[class*="focusStroke"] {
 }
 .sizeSmall-2cSMqn:not(.button-38aScr, .disabledButtonWrapper-3wH6-b) {
     border-radius: 1.5px;
-    clip-path: polygon(7px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 7px) 100%, 0 100%, 0 7px);
+    clip-path: var(--cp-default);
+    --cp-size: 7px;
 }
 .option-n0icdO {
     background: rgb(var(--dark-background-color));
     border-radius: 1.5px;
-    clip-path: polygon(9px 0, 100% 0, 100% calc(100% - 9px), calc(100% - 9px) 100%, 0 100%, 0 9px);
+    clip-path: var(--cp-default);
+    --cp-size: 9px;
 }
 .option-n0icdO:hover,
 .selected-mKYnfr.option-n0icdO {
@@ -4658,7 +4684,8 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     position: relative !important;
     top: 0.15rem !important;
     border-radius: 1px !important;
-    clip-path: polygon(0.275rem 0, 100% 0, 100% calc(100% - 0.275rem), calc(100% - 0.275rem) 100%, 0 100%, 0 0.275rem) !important;
+    clip-path: var(--cp-default) !important;
+    --cp-size: 0.275rem !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     content: "Theme Dev" !important;
