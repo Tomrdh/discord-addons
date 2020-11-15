@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 68";
+    --oggt-info: "Opera GX Gaming Theme 69";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -573,6 +573,19 @@ body,
 }
 .note-3HfJZ5 .input-cIJ7To:focus {
     border-color: rgb(var(--accent-color-1));
+}
+/* New user Wumpus tooltip */
+#app-mount .wumpusTooltip-65YlMT {
+    background: rgb(var(--dark-background-color));
+    color: rgb(var(--normal-font));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.full-motion.app-focused #app-mount .wumpusTooltip-65YlMT {
+    animation: accent-blinking 450ms infinite;
+}
+#app-mount .wumpusTooltip-65YlMT:after {
+    display: none;
 }
 /* Roles */
 .role-2irmRk,
