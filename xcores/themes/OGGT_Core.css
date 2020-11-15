@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 66";
+    --oggt-info: "Opera GX Gaming Theme 67";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -65,6 +65,10 @@
     --line-color: var(--line-color-1);
     --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
     --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
+
+    /* Custom colors */
+    --gx-red: 255, 34, 34;
+    --gx-green: 68, 170, 68;
 
     /* Theme compatibility variables */
     /* UT00_AllUTilities */
@@ -1459,7 +1463,7 @@ code.inline {
     color: rgba(var(--muted-font), 0.8);
 }
 .diskProgress-37-Sik {
-    color: #00b0f4;
+    color: rgb(0, 176, 244);
 }
 /* Library Settings */
 .scroller-2XE8rp {
@@ -2123,8 +2127,29 @@ code.inline {
 }
 .label-22pbtT {
     font-weight: lighter;
-    color: rgb(var(--fullwhite-font));
     font-size: 12px;
+}
+.labelContainer-1BLJti:not(.colorBrand-ROmMP1):not(.colorDanger-2qLCe1):not(.colorPremium-p4p7qO) .label-22pbtT {
+    color: rgb(var(--fullwhite-font));
+}
+.colorDanger-2qLCe1 {
+    color: rgb(var(--gx-red));
+}
+.colorBrand-ROmMP1 {
+    color: rgb(var(--accent-color-1));
+}
+.colorPremium-p4p7qO {
+    color: #ff73fa;
+    font-weight: 900;
+}
+.colorBrand-ROmMP1.focused-3afm-j {
+    background-color: rgb(var(--accent-color-1));
+}
+.colorPremium-p4p7qO.focused-3afm-j {
+    background-color: #ff73fa;
+}
+.colorDanger-2qLCe1.focused-3afm-j {
+    background-color: rgb(var(--gx-red));
 }
 /* Contextmenus Emojis */
 .button-F9qN4n {
@@ -2238,7 +2263,7 @@ code.inline {
     color: rgb(var(--accent-color-1));
 }
 .winButtonClose-1HsbF-:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 21, 21);
     color: #fff;
 }
 .winButtonMinMax-PBQ2gm:hover {
@@ -4260,13 +4285,13 @@ g[class*="focusStroke"] {
     color: rgb(var(--muted-font));
 }
 #app-mount .defaultValue-3gC7yw .markValue-2DwdXI {
-    color: #43b581;
+    color: rgb(var(--gx-green));
 }
 #app-mount .markDash-3hAolZ {
     background: rgb(var(--dark-background-color));
 }
 #app-mount .defaultValue-3gC7yw .markDash-3hAolZ {
-    background: #43b581;
+    background: rgb(var(--gx-green));
 }
 .bd-button {
     border-radius: 0;
@@ -4358,8 +4383,8 @@ g[class*="focusStroke"] {
 .lookOutlined-3sRXeN.colorRed-1TFJan {
     border-radius: 0;
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
-    color: #f04747;
-    border-color: #f04747;
+    color: rgb(var(--gx-red));
+    border-color: rgb(var(--gx-red));
 }
 #app-mount .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
@@ -4408,15 +4433,15 @@ g[class*="focusStroke"] {
     border: solid 1px var(--line-color);
 }
 #app-mount .denySelected-1mh2mZ {
-    background: #f22;
-    border-color: #f22;
+    background: rgb(var(--gx-red));
+    border-color: rgb(var(--gx-green));
 }
 #app-mount .passthroughSelected-1Eq0Kl {
     background: rgb(var(--dark-background-color));
 }
 #app-mount .allowSelected-25S_i5 {
-    border-color: #4a4;
-    background: #4a4;
+    border-color: rgb(var(--gx-green));
+    background: rgb(var(--gx-green));
 }
 #app-mount .item-3T2z1R {
     border-color: rgb(var(--dark-background-color));
