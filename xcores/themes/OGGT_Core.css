@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 64";
+    --oggt-info: "Opera GX Gaming Theme 65";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -65,10 +65,6 @@
     --line-color: var(--line-color-1);
     --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
     --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
-
-    /* Default value variables */
-    --cp-default: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-    --cp-size: 6px;
 
     /* Theme compatibility variables */
     /* UT00_AllUTilities */
@@ -1182,7 +1178,7 @@ body,
 }
 .artwork-1vrmJ_ {
     border-radius: 2px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 12px;
 }
 #app-mount .name-GG2Mcs,
@@ -1211,7 +1207,7 @@ body,
 .newMessagesBar-mujexs,
 .newMessagesBar-265mhP {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     top: 3px;
     --cp-size: 6px;
 }
@@ -1228,12 +1224,12 @@ body,
 /* UserAvatars */
 /*.avatar-1BDn8e {
     border-radius: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 20%;
 }
 .avatar-3uk_u9 foreignObject img {
     border-radius: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 0%;
 }
 .avatar-3uk_u9 rect {
@@ -1282,7 +1278,7 @@ body,
 .bar-30k2ka {
     background-color: rgba(var(--darker-background-color), 0.95);
     border-radius: 1px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
 }
 .bar-30k2ka:hover {
@@ -1420,7 +1416,7 @@ code.inline {
 /* Library and Game Download/Update */
 .gameIcon-gg34Dz[style*="background-image"] {
     border-radius: 2px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
 }
 .rowWrapperActive-2L7i9f .playButton-1fMNjH {
@@ -1489,7 +1485,7 @@ code.inline {
 }
 #app-mount .botTag-2WPJ74 {
     border-radius: 1px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 0.275rem;
 }
 /* Tooltips */
@@ -2381,7 +2377,7 @@ g[class*="focusStroke"] {
 /* Server Discovery/Discord Public Servers */
 .categoryItem-3zFJns .itemInner-3gVXMG {
     border-radius: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 7px;
 }
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
@@ -2456,7 +2452,7 @@ g[class*="focusStroke"] {
 .embedThumbnail-2Y84-K img,
 .embedThumbnail-2Y84-K video {
     border-radius: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 10px;
 }
 .embedImage-2W1cML img,
@@ -3516,7 +3512,7 @@ g[class*="focusStroke"] {
 /* ServerDetails */
 .detailsTooltip-G9hSSa .icon-hSL42R {
     border-radius: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 10%;
 }
 .detailsTooltip-G9hSSa div.icon-hSL42R {
@@ -3533,12 +3529,11 @@ g[class*="focusStroke"] {
     border-radius: 0 !important;
 }
 .coverWrapper-YAplwJ {
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 5px;
 }
 .maximized-vv2Wr0 .coverWrapper-YAplwJ {
     clip-path: none;
-    --cp-size: 0;
 }
 #app-mount .themedPopout-1TrfdI {
     background-color: rgb(var(--dark-background-color));
@@ -3865,7 +3860,7 @@ g[class*="focusStroke"] {
     border-radius: 0;
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     padding: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 16px;
 }
 .fieldList-21DyL8 {
@@ -3886,7 +3881,7 @@ g[class*="focusStroke"] {
 }
 .avatarUploaderInner-3UNxY3 {
     border-radius: 0;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 16px;
     background-color: rgb(var(--accent-color-1));
 }
@@ -3967,7 +3962,7 @@ g[class*="focusStroke"] {
 }
 .side-8zPYf6 .item-PXvHYJ,
 #app-mount .ui-tab-bar-item {
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 5px;
     border-radius: 2px;
 }
@@ -4007,7 +4002,7 @@ g[class*="focusStroke"] {
 }
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
     border-radius: 3px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 8px;
     background-color: rgba(var(--dark-background-color), calc(var(--other-transparency) / 1.2));
 }
@@ -4198,13 +4193,13 @@ g[class*="focusStroke"] {
 }
 .sizeSmall-2cSMqn:not(.button-38aScr, .disabledButtonWrapper-3wH6-b) {
     border-radius: 1.5px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 7px;
 }
 .option-n0icdO {
     background: rgb(var(--dark-background-color));
     border-radius: 1.5px;
-    clip-path: var(--cp-default);
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 9px;
 }
 .option-n0icdO:hover,
@@ -4664,7 +4659,7 @@ g[class*="focusStroke"] {
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
     color: rgb(0, 0, 0) !important;
-    font-size: 0.625rem !important;
+    font-size: 10px !important;
     font-weight: normal !important;
     text-transform: uppercase !important;
     vertical-align: top !important;
@@ -4684,7 +4679,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     position: relative !important;
     top: 0.15rem !important;
     border-radius: 1px !important;
-    clip-path: var(--cp-default) !important;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size)) !important;
     --cp-size: 0.275rem !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
