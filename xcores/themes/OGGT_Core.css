@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 69";
+    --oggt-info: "Opera GX Gaming Theme 70";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2497,6 +2497,9 @@ g[class*="focusStroke"] {
 }
 .expandedFolderBackground-2sPsd- {
     border-radius: 17px 17px 24px 24px;
+}
+.noIcon-1a_FrS {
+    background: transparent;
 }
 /* Images */
 .imageWrapper-2p5ogY {
