@@ -21,8 +21,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 301";
-    --adto-info: "AmoledDarkThemeOptmized 201";
+    --adt-info: "AmoledDarkTheme 302";
+    --adto-info: "AmoledDarkThemeOptmized 202";
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -458,7 +458,7 @@
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
-    font-size: 0.625rem !important;
+    font-size: 10px !important;
     font-weight: 500 !important;
     text-transform: uppercase !important;
     vertical-align: top !important;
