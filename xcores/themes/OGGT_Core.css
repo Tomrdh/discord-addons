@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 65";
+    --oggt-info: "Opera GX Gaming Theme 66";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2076,6 +2076,11 @@ code.inline {
     transition: 200ms;
     transition-property: background-color, opacity;
 }
+.styleFlexible-wGDiIL,
+.submenu-2-ysNh {
+    min-width: fit-content;
+    max-width: fit-content;
+}
 .colorDefault-2K3EoJ:not(.colorBrand-ROmMP1, .colorDanger-2qLCe1, .colorDanger-2qLCe1 .checkbox-3s5GYZ, .colorDanger-2qLCe1 .radioSelection-1HmrQS) {
     color: rgb(var(--fullwhite-font));
     font-weight: 300;
@@ -2119,6 +2124,7 @@ code.inline {
 .label-22pbtT {
     font-weight: lighter;
     color: rgb(var(--fullwhite-font));
+    font-size: 12px;
 }
 /* Contextmenus Emojis */
 .button-F9qN4n {
