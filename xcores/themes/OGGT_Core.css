@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 70";
+    --oggt-info: "Opera GX Gaming Theme 71";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -259,10 +259,10 @@
 /*~~ 4. Font ~~*/
 @font-face {
     src: url(https://tomrdh.github.io/da-website/fonts/Chakra%20Petch%20Regular%20400.ttf);
-    font-family: "Chakra Petch";
+    font-family: "Chakra Petch Regular";
 }
 :root {
-    --cf: var(--customFont, --custom-font, Chakra Petch, "Chakra Petch", Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
+    --cf: var(--customFont, --custom-font, Chakra Petch, "Chakra Petch Regular", Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
     --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
 ::-webkit-input-placeholder,
