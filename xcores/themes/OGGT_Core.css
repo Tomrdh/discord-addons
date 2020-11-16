@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 72";
+    --oggt-info: "Opera GX Gaming Theme 73";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2184,12 +2184,10 @@ code.inline {
 .button-F9qN4n {
     border-radius: 0;
     border: solid 1px transparent;
-    margin: -1px;
+    margin-right: 2px;
 }
 .button-F9qN4n:hover {
-    border-radius: 0;
     border-color: rgb(var(--accent-color-2));
-    margin: -1px;
 }
 .full-motion.app-focused .button-F9qN4n:hover {
     animation: accent-blinking 450ms infinite;
