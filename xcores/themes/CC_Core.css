@@ -19,7 +19,8 @@
 .channel-2QD9_O { /* dms */
     max-width: unset !important;
 }
-.bannerImage-1jOskm { /* serverbanner */
+.bannerImage-1jOskm,
+.bannerImage-3KhIJ6 { /* serverbanner */
     width: var(--cSize);
     transition: width var(--time);
     transition-delay: var(--delayOut);
