@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 73";
+    --oggt-info: "Opera GX Gaming Theme 74";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2885,6 +2885,17 @@ g[class*="focusStroke"] {
 .header-1TKi98 {
     border-radius: 0;
 }
+/* Shadow below top bar */
+.content-yTz4x3:before {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    display: none;
+}
+.searchBar-6Kv8R2,
+.header-2V-4Sw {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
 
 /*-- 6.3. Public Servers --*/
 /* Public button */
@@ -3794,8 +3805,11 @@ g[class*="focusStroke"] {
 }
 .animatedContainer-1pJv5C,
 .animatedContainer-1NSq4T {
+    background: transparent;
     border-bottom: solid 1px var(--line-color);
     z-index: 2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 .bannerVisible-14J9lQ .name-3YKhmS,
 .bannerVisible-14J9lQ .button-1w5pas,
