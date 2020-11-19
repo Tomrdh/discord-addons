@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 76";
+    --oggt-info: "Opera GX Gaming Theme 77";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1723,7 +1723,7 @@ code.inline {
 #app-mount .datePicker--XZbmJ .datePickerHint-3Q1Udw .hint-165cR4 {
     color: rgb(var(--normal-font));
 }
-/* Search Results in Chat */
+/* Search Results */
 .searchResultsWrap-3-pOjs {
     background: transparent;
 }
@@ -1733,6 +1733,11 @@ code.inline {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
+}
+.searchHeader-2XoQg7 {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px var(--line-color);
 }
 /* Pagination buttons */
 .paginationButton-3u4jo8 {
