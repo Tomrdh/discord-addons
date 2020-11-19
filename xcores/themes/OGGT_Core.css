@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 77";
+    --oggt-info: "Opera GX Gaming Theme 78";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -966,6 +966,10 @@ body,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
     background: rgb(var(--darker-background-color));
     border: solid rgb(var(--dark-background-color)) 1px;
+}
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+    color: rgb(var(--accent-color-2));
+    border-color: rgb(var(--accent-color-1));
 }
 /* SVG buttons */
 .clickable-3rdHwn .icon-22AiRD {
@@ -3967,12 +3971,20 @@ g[class*="focusStroke"] {
     background-color: rgb(var(--accent-color-1));
 }
 .avatarUploaderInner-3UNxY3 > * {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--fullwhite-font));
+}
+.avatarUploaderInner-3UNxY3:focus-within,
+.avatarUploaderInner-3UNxY3:hover {
+    -webkit-box-shadow: inset 0 0 120px rgba(var(--dark-background-color), 0.75);
+    box-shadow: inset 0 0 120px rgba(var(--dark-background-color), 0.75);
+}
+.avatarUploader-3XDtmn {
+    margin-bottom: -2px;
 }
 #app-mount .avatarUploaderIndicator-2G-aIZ {
     border-radius: 0;
     background-image: unset;
-    background-color: rgba(var(--darker-background-color), 1);
+    background-color: rgb(var(--darker-background-color));
     opacity: 0.75;
     width: 24px;
     height: 24px;
@@ -4027,8 +4039,28 @@ g[class*="focusStroke"] {
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--accent-color-1));
 }
-.item-26Dhrx:hover {
+.item-26Dhrx:hover,
+.item-26Dhrx[aria-checked=true] {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.radioBar-bMNUI- {
+    border-radius: 0;
+    border: solid 1px rgb(var(--dark-background-color));
+}
+.radioBar-bMNUI-[style*="--radio-bar-accent-color"] {
+    border-color: var(--radio-bar-accent-color);
+}
+.item-26Dhrx[aria-checked=true] .radioBar-bMNUI- {
+    border-color: var(--line-color);
+}
+.item-26Dhrx[aria-checked=true] .radioBar-bMNUI-[style*="--radio-bar-accent-color"] {
+    border-color: var(--radio-bar-accent-color);
+}
+.radioBar-bMNUI- > svg > path {
+    fill: rgba(var(--accent-color-1), 0.75);
+}
+.radioIconForeground-XwlXQN {
+    color: rgb(var(--accent-color-2));
 }
 #app-mount .checkbox-1ix_J3 {
     border-radius: 50%;
