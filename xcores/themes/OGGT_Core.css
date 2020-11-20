@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 83";
+    --oggt-info: "Opera GX Gaming Theme 84";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1852,6 +1852,9 @@ code.inline {
 .containerDefault-3tr_sE {
     border-top: solid 1px var(--line-color);
     margin-left: 6px;
+}
+.containerDefault-3GGEv_,
+.containerDefault-3tr_sE {
     padding-top: 8px;
     margin-top: 8px;
 }
