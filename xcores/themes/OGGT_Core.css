@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 84";
+    --oggt-info: "Opera GX Gaming Theme 85";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1552,8 +1552,7 @@ code.inline {
     border-color: rgb(var(--accent-color-2));
 }
 .full-motion.app-focused .searchBar-3dMhjb:hover,
-.full-motion.app-focused .focused-31_ccS .searchBar-3dMhjb,
-.full-motion.app-focused .open-6_Y_aH .searchBar-3dMhjb {
+.full-motion.app-focused .focused-31_ccS .searchBar-3dMhjb {
     animation: accent-blinking 450ms infinite;
 }
 #app-mount .container-3ayLPN {
