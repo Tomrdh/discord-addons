@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 81";
+    --oggt-info: "Opera GX Gaming Theme 82";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -290,7 +290,8 @@ code,
 .prefix-24L010,
 .maxLength-39QFBo,
 .wrapper-pZmgj4 *,
-.wrapper-2tAnRe * {
+.wrapper-2tAnRe *,
+.inviteCode-202N0U {
     font-family: var(--cbcf) !important;
 }
 
