@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 80";
+    --oggt-info: "Opera GX Gaming Theme 81";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1228,12 +1228,12 @@ body,
 .newMessagesBar-mujexs,
 .newMessagesBar-265mhP {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     top: 3px;
-    --cp-size: 6px;
 }
 .barBase-1c2Rfb {
     border-radius: 2px !important;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
 }
 .newMessagesBar-mujexs *,
 .newMessagesBar-265mhP * {
