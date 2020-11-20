@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 79";
+    --oggt-info: "Opera GX Gaming Theme 80";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2812,8 +2812,9 @@ g[class*="focusStroke"] {
     background-color: rgb(var(--dark-background-color));
     color: rgb(var(--normal-hover-font));
     border-radius: 0;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px var(--line-color);
     border-top: none;
+    border-left: none;
 }
 .noticeText-28B2fH {
     font-weight: 500;
