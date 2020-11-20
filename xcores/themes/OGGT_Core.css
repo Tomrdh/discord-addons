@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 78";
+    --oggt-info: "Opera GX Gaming Theme 79";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -4205,6 +4205,7 @@ g[class*="focusStroke"] {
 #app-mount .bar-2Qqk5Z {
     background: var(--background-primary);
     border-radius: 0;
+    min-width: 200px;
 }
 .barFill-23-gu- {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
