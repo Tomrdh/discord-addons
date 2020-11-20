@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 86";
+    --oggt-info: "Opera GX Gaming Theme 87";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -2168,7 +2168,6 @@ code.inline {
     border-radius: 0;
 }
 .label-22pbtT {
-    font-weight: lighter;
     font-size: 12px;
 }
 .labelContainer-1BLJti:not(.colorBrand-ROmMP1):not(.colorDanger-2qLCe1):not(.colorPremium-p4p7qO) .label-22pbtT {
