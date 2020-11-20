@@ -39,7 +39,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 82";
+    --oggt-info: "Opera GX Gaming Theme 83";
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -1852,6 +1852,8 @@ code.inline {
 .containerDefault-3tr_sE {
     border-top: solid 1px var(--line-color);
     margin-left: 6px;
+    padding-top: 8px;
+    margin-top: 8px;
 }
 .membersGroup-v9BXpm {
     margin: 12px 4px 0 8px;
@@ -1912,13 +1914,14 @@ code.inline {
 /* Channels */
 .wrapper-1ucjTd,
 .wrapper-2jXpOf {
-    height: 34px;
+    padding: 0;
 }
 .content-3at_AU,
 .content-1x5b-n {
     border-radius: 0;
     margin-left: 3px;
     border-left: solid 2px transparent;
+    height: 34px;
 }
 .addButton-1BORro,
 .addButtonIcon-2CbG1X {
