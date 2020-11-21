@@ -1,5 +1,8 @@
+/* Compact Channels and Memberlist */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --cc-build: "10";
     --theme-name: "Compact Channels";
 }
 /* Channels */
@@ -96,4 +99,8 @@
 
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version004_cc, block) !important;
+}
+
+[id*="CompactChannels"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--cc-build) " ";
 }
