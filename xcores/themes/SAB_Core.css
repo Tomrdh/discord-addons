@@ -1,5 +1,8 @@
+/* Serverlist at bottom */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --sab-build: "10";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -129,4 +132,8 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)
 
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version002_slab, block) !important;
+}
+
+[id*="ServerlistAtBottom"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--sab-build) " ";
 }
