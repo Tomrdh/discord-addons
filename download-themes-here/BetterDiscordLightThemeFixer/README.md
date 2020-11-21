@@ -2,6 +2,6 @@
 
 ## Compatible with:
 
-✅ BetterDiscord
-❌ Powercord
-❌ Stylus
+- ✅ BetterDiscord
+- ❌ Powercord
+- ❌ Stylus
