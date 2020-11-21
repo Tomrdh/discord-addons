@@ -1,4 +1,7 @@
+/* Custom Font for Discord */
+
 :root {
+    --cffd-build: "8";
 	--cf: var(--customFont, Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
 	--cbcf: var(--codeBlocksCustomFont, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
@@ -27,4 +30,8 @@ code,
 .powercord-codeblock-table td,
 .maxLength-39QFBo {
 	font-family: var(--cbcf);
+}
+
+[id*="CustomFont"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--cffd-build) " ";
 }
