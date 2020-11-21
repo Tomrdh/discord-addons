@@ -12,6 +12,6 @@
     display: var(--version001_tamhm, block) !important;
 }
 
-[id*="Textarea Max Height Modifier"] .bd-addon-header .bd-meta:before {
+[id*="TextareaMaxHeightModifier"] .bd-addon-header .bd-meta:before {
     content:"build " var(--tmhm-build) " ";
 }
