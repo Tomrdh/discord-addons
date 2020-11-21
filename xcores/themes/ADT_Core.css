@@ -1,4 +1,5 @@
-/*
+/*  AMOLED Dark Theme and AMOLED Dark Theme Optimized
+
     WARNING: THIS FILE MUST BE USED WITH ANOTHER ONE (AND ONLY ONE):
     "AmoledDarkTheme_quickConfig.css" for ADT
     OR
@@ -14,15 +15,18 @@
         3.2. Other
     4. Scrollbars
     5. DevTags
+    6. BD Addon Card Infos
 */
 /*~~ 1. Imports ~~*/
 /* Currently nothing */
 
 /*~~ 2. Vars ~~*/
 :root {
-    /* Build Numbers */
-    --adt-info: "AmoledDarkTheme 302";
-    --adto-info: "AmoledDarkThemeOptmized 202";
+    /* Infos */
+    --adt-build: "302";
+    --adto-build: "203";
+    --adt-info: "AmoledDarkTheme " var(--adt-build);
+    --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
 .theme-dark {
     /* Default Variables Modifier */
@@ -486,4 +490,11 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):hover {
     font-weight: bold !important;
     color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
+}
+/*~~ 6. BD Addon Card Infos ~~*/
+[id*="AmoledDarkTheme-"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--adt-build) " ";
+}
+[id*="AmoledDarkThemeOptimized-"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--adto-build) " ";
 }
