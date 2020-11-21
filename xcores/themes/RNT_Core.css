@@ -1,5 +1,13 @@
-/* Yes, the code is only 3 lines, nothing impressive lol */
+/* Remove Nitro Tab */
+
+:root {
+    --rnt-build: "2";
+}
 
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"] {
     display: none;
+}
+
+[id*="AlwaysDisplayChannelButtons"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--rnt-build) " ";
 }
