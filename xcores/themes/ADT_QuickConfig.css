@@ -40,3 +40,6 @@
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version006_adt, block) !important;
 }
+[id*="AmoledDarkTheme-"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--adt-build) " ";
+}
