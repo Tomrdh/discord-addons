@@ -1,5 +1,8 @@
+/* BetterDiscord Light Theme Fixer */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --bdltf-build: "5";
     --theme-name: "BetterDiscord Light Theme Fixer";
 }
 .theme-light #bd-settings-sidebar .ui-tab-bar-header {
@@ -86,6 +89,11 @@
 .theme-light .bd-changelog-button > svg:hover {
     fill: #000;
 }
+
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version003_bdltf, block) !important;
+}
+
+[id*="BetterDiscordLightThemeFixer"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--bdltf-build) " ";
 }
