@@ -1,0 +1,8 @@
+{
+    "name": "ShowFullOriginalMessageInReplies",
+    "description": "Allows you to directly show the full original message in long inline replies.",
+    "version": "0.0.1",
+    "author": "TomRdh#5571",
+    "theme": "ShowFullOriginalMessageInReplies.theme.css",
+    "license": "unknown"
+}
