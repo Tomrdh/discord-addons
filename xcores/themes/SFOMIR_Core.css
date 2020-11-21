@@ -1,4 +1,13 @@
 /* Show Full Original Message In Replies */
+
+:root {
+    --sfomir-build: "1";
+}
+
 .repliedMessage-VokQwo .repliedTextPreview-2NBljf .repliedTextContent-1R3vnK {
     white-space: pre-line;
+}
+
+[id*="ShowFullOriginalMessageInReplies"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--sfomir-build) " ";
 }
