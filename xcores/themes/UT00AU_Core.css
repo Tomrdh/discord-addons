@@ -1,5 +1,8 @@
+/* UT All UTilities */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --ut00at-build: "8";
     --theme-name: "UT All UTilities";
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
@@ -86,3 +89,8 @@
     text-transform: var(--categoryTransform, uppercase);
 }
 /*    UT94 cfg                                                end        */
+
+/*    Others                                                             */
+[id*="UT00_AllUTilities"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--ut00au-build) " ";
+}
