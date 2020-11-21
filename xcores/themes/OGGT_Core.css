@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "88";
+    --oggt-build: "89";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -295,7 +295,8 @@ code,
 .maxLength-39QFBo,
 .wrapper-pZmgj4 *,
 .wrapper-2tAnRe *,
-.inviteCode-202N0U {
+.inviteCode-202N0U,
+#bd-customcss-editor * {
     font-family: var(--cbcf) !important;
 }
 
@@ -4665,6 +4666,19 @@ g[class*="focusStroke"] {
     box-shadow: none;
     border-radius: 0;
     border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
+/* Custom CSS Editor */
+#bd-editor-panel {
+    border: solid 1px var(--line-color);
+}
+#bd-editor-controls {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px var(--line-color);
+}
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+    background-color: rgb(var(--accent-color-1));
+    border-color: rgb(var(--accent-color-1));
 }
 
 /*~~ 12. Text selection ~~*/
