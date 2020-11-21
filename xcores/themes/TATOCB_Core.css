@@ -1,5 +1,8 @@
+/* Typing at top of chat box */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --tatocb-build: "8";
     --theme-name: "Typing at Top of Chat Box";
 }
 .base-gE7OpD {
@@ -34,4 +37,8 @@
 /* Update notice config */
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version001_tatocb, block) !important;
+}
+
+[id*="TypingAtTopOfChatBox"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--tatocb-build) " ";
 }
