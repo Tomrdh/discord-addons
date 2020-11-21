@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "87";
+    --oggt-build: "88";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1513,6 +1513,9 @@ code.inline {
     border-radius: 1px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 0.275rem;
+}
+.botText-1526X_ {
+    font-size: 10px;
 }
 /* Tooltips */
 #app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z {
