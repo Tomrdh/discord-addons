@@ -1,5 +1,8 @@
+/* Always Display Channel Buttons */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --adcb-build: "8";
     --theme-name: "Always Display Channel Buttons";
 }
 .children-Bmpf2Q *,
@@ -15,4 +18,8 @@
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version001_adcb, block) !important;
+}
+
+[id*="AlwaysDisplayChannelButtons"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--adcb-build) " ";
 }
