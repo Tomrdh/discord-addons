@@ -6,7 +6,6 @@
     --server-size: var(--serverSize, 48px);
     --server-spacing: var(--serverSpacing, 10px);
     --server-container: calc(var(--server-size) + 20px);
-    --serverlist-radius: 0; /* suspended, waiting for an update (maybe) */
 }
 
 #app-mount .base-3dtUhz {
@@ -40,10 +39,10 @@
     width: var(--server-size);
     max-height: var(--server-size);
 }
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [role=group] {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [role="group"] {
     height: auto !important;
 }
-#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*=pill] {
+#app-mount .wrapper-1Rf91z.guilds-1SWlCJ [class*="pill"] {
     transform: rotate(-90deg) translateY(calc(var(--server-size) / 2.6));
     top: calc(var(--server-size) / 2 + 6px);
 }
@@ -69,30 +68,11 @@
 #app-mount .wrapper-1Rf91z.guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
     width: var(--server-size);
     left: 50%;
-    border-radius: 13px;
     transform: translateX(-50%);
-}
-#app-mount .listItemTooltip-CDcY8J {
-    position: absolute;
-    max-width: unset;
-    white-space: nowrap;
-    margin-left: calc(var(--server-size) / -1 - 20px);
-    top: calc(var(--server-size) - 10px);
-}
-#app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
-    transform: rotate(180deg);
-    top: -5px;
-    right: unset;
-    left: 13px;
-    z-index: 1;
 }
 #app-mount .label-2wRs_g {
     transform: rotate(-90deg);
     white-space: pre-line;
-}
-#app-mount .guilds-1SWlCJ.content-Pph8t6 {
-    position: absolute !important;
-    top: calc(var(--server-container) * 2) !important;
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
     top: calc(var(--server-container) * 2) !important;
@@ -112,18 +92,9 @@
     box-sizing: border-box;
     text-align: center;
 }
-
-html.platform-osx #app-mount .typeMacOS-3EmCyP {
-    width: 100%;
-}
-html.platform-osx #app-mount .base-3dtUhz {
-    top: calc(var(--server-container) + 30px) !important;
-}
-
 body.foldercontentopened .base-3dtUhz {
     transition: 0.2s ease !important;
 }
-
 body #app-mount .base-3dtUhz {
     top: 0 !important;
     bottom: var(--server-container) !important;
@@ -144,20 +115,6 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)
     top: 0 !important;
     bottom: calc(var(--server-container) * 2) !important;
 }
-body #app-mount .listItemTooltip-CDcY8J {
-    position: absolute;
-    white-space: nowrap;
-    top: calc(var(--server-size) / -1 - 30px) !important;
-    margin-left: calc(var(--server-size) / -1 - 20px);
-}
-body #app-mount .listItemTooltip-CDcY8J .tooltipPointer-3ZfirK {
-    transform: rotate(0) !important;
-    top: unset !important;
-    bottom: -10px !important;
-}
-html.platform-osx #app-mount .base-3dtUhz {
-    top: 32px !important;
-}
 .unreadMentionsIndicatorTop-gA6RCh, .unreadMentionsIndicatorBottom-BXS58x {
     width: calc(var(--server-size) + 21px);
 }
@@ -166,7 +123,6 @@ html.platform-osx #app-mount .base-3dtUhz {
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
 }
-
 .channel-2QD9_O {
     margin-left: 0 !important;
 }
