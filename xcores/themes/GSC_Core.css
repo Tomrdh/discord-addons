@@ -1,5 +1,8 @@
+/* Green SpotifyControls */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --gsc-build: "6";
     --theme-name: "Green SpotifyControls";
 }
 
@@ -120,4 +123,9 @@
     display: var(--version002_gsc, block) !important;
     background-color: var(--dark-controls-background-color, #1c9a48) !important;
     color: var(--dark-white-color-1, #fff) !important;
+}
+
+/* BD Addon Card */
+[id*="GreenSpotifyControls"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--gsc-build) " ";
 }
