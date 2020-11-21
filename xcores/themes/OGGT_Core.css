@@ -1,4 +1,5 @@
-/*
+/*  Opera GX Gaming Theme
+
     NOTES
     A "line" should almost always use var(--line-color).
     The animation default values are in keyframes.
@@ -32,6 +33,8 @@
     18. Update notice
     19. Powercord
     20. Infos
+        20.1. Settings Sidebar Footer
+        20.2. BD Addon Card
 */
 /*~~ 1. Imports ~~*/
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
@@ -39,7 +42,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-info: "Opera GX Gaming Theme 87";
+    --oggt-build: "87";
+    --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
@@ -4960,6 +4964,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 
 /*~~ 20. Infos ~~*/
+/*-- 20.1. Settings Sidebar footer --*/
 .info-1VyQPT:after {
     content: var(--oggt-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl + R to reload Discord. */
     font-size: 12px !important;
@@ -4977,4 +4982,9 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     transform: unset !important;
     animation: unset !important;
     text-transform: none !important;
+}
+/*-- 20.2. BD Addon Card --*/
+[id*="OperaGxGamingTheme"] .bd-addon-header .bd-meta:before,
+[id*="OGGT"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--oggt-build) " ";
 }
