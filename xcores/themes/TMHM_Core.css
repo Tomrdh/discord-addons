@@ -1,5 +1,8 @@
+/* Textarea Max Height Modifier */
+
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
+    --tmhm-build: "2";
     --theme-name: "Textarea Max Height Modifier";
 }
 .scrollableContainer-2NUZem {
@@ -7,4 +10,8 @@
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
     display: var(--version001_tamhm, block) !important;
+}
+
+[id*="Textarea Max Height Modifier"] .bd-addon-header .bd-meta:before {
+    content:"build " var(--tmhm-build) " ";
 }
