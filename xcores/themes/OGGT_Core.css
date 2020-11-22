@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "95";
+    --oggt-build: "96";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4744,6 +4744,40 @@ g[class*="focusStroke"] {
 }
 #app-mount .elevationHigh-1PneE4 .button-1x2ahC.lookLink-9FtZy- .contents-18-Yxp span {
     color: rgb(var(--normal-hover-font)) !important;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    color: #fff;
+    background-color: rgb(var(--gx-green));
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+/* Permissions (new) */
+.group-1WdBVp {
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+.allow-1PzSY3 {
+    border-radius: 0;
+    color: rgb(var(--gx-green));
+}
+.allow-1PzSY3.selected-2YhbGh {
+    background-color: rgb(var(--gx-green));
+}
+.passthrough-1c2ewQ {
+    color: rgb(var(--muted-font));
+}
+.passthrough-1c2ewQ.selected-2YhbGh {
+    background-color: rgb(var(--muted-font));
+    color: #fff;
+}
+.deny-3nAuT6 {
+    border-radius: 0;
+    color: rgb(var(--gx-red));
+}
+.deny-3nAuT6.selected-2YhbGh {
+    background-color: rgb(var(--gx-red));
 }
 
 /*~~ 12. Text selection ~~*/
