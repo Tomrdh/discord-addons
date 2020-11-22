@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "89";
+    --oggt-build: "90";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1031,10 +1031,6 @@ body,
 .mouse-mode.full-motion .mentioned-xhSam7:hover {
     background-color: rgba(var(--accent-color-1), 0.3);
 }
-/* Inbox */
-.messageContainer-gbhlwo {
-    background: rgb(var(--darker-background-color));
-}
 /* Message buttons */
 .wrapper-2aW0bm {
     border-radius: 0;
@@ -1124,12 +1120,33 @@ body,
     border-color: rgb(var(--accent-color-1));
     background-color: rgb(var(--darker-background-color)) !important;
 }
-/* Cooldown */
+/* Slowmode cooldown */
 #app-mount .base-gE7OpD .cooldownWrapper-3joyFc {
     color: rgb(var(--normal-font)) !important;
     font-weight: 400 !important;
 }
-/* Join First Server */
+/* Inbox */
+.messageContainer-gbhlwo {
+    background: rgb(var(--darker-background-color));
+}
+/* Pinned messages */
+.messagesPopoutWrap-1MQ1bW {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.header-ykumBX {
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.messageGroupWrapper-o-Zw7G {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+    background-color: rgb(var(--darker-background-color))
+}
+.jumpButton-3DTcS_ {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 0;
+}
+/* Join Server */
 .container-UC8Ug1 {
     border-radius: 0;
     background: rgb(var(--darker-background-color));
