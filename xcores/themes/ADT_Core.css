@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "303";
-    --adto-build: "204";
+    --adt-build: "304";
+    --adto-build: "205";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -468,7 +468,7 @@
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
     background-color: rgb(var(--betterdiscord-v3-blue-rgb)) !important;
     color: #fff !important;
-    font-size: 10px !important;
+    font-size: 0.625rem !important; /* 0.625rem or 10px */
     font-weight: 500 !important;
     text-transform: uppercase !important;
     vertical-align: top !important;
