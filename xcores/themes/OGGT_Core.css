@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "92";
+    --oggt-build: "93";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -341,6 +341,10 @@ body,
 .theme-dark,
 .theme-light {
     background: var(--background-behind-appmount);
+}
+.layer-2KE1M9 .theme-dark,
+.layer-2KE1M9 .theme-light {
+    background: none;
 }
 .preview-2nSL_2 {
     background: var(--background) center;
