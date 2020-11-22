@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "93";
+    --oggt-build: "94";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -878,7 +878,8 @@ body,
 }
 /* Local bot and replying */
 .localBot-GrCgVt:before,
-.replying-1x3H0T:before {
+.replying-1x3H0T:before,
+.ephemeral-1PsL1r:before {
     background-color: rgb(var(--accent-color-1));
 }
 .localBot-GrCgVt,
@@ -889,8 +890,13 @@ body,
 .message-2qnXI6.localBot-GrCgVt.selected-2P5D_Z,
 .message-2qnXI6.replying-1x3H0T.selected-2P5D_Z,
 .mouse-mode.full-motion .localBot-GrCgVt:hover,
-.mouse-mode.full-motion .replying-1x3H0T:hover {
+.mouse-mode.full-motion .replying-1x3H0T:hover,
+.message-2qnXI6.ephemeral-1PsL1r.selected-2P5D_Z,
+.mouse-mode.full-motion .ephemeral-1PsL1r:hover {
     background-color: rgba(var(--accent-color-1), 0.075);
+}
+.ephemeralMessage-1fEWtQ a {
+    color: rgb(var(--accent-color-1));
 }
 /* Embeds */
 .embedFull-2tM8-- {
