@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "94";
+    --oggt-build: "95";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4737,6 +4737,13 @@ g[class*="focusStroke"] {
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
     background-color: rgb(var(--accent-color-1));
     border-color: rgb(var(--accent-color-1));
+}
+/* Save warning */
+#app-mount .message-c9-HCF {
+    color: var(--text-normal) !important;
+}
+#app-mount .elevationHigh-1PneE4 .button-1x2ahC.lookLink-9FtZy- .contents-18-Yxp span {
+    color: rgb(var(--normal-hover-font)) !important;
 }
 
 /*~~ 12. Text selection ~~*/
