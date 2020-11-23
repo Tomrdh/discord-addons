@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "97";
+    --oggt-build: "98";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1917,6 +1917,14 @@ code.inline {
 .containerDefault-3tr_sE {
     padding-top: 8px;
     margin-top: 8px;
+}
+.privateChannelsHeaderContainer-3NB1K1 {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+.pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
+    height: 17px;
 }
 .membersGroup-v9BXpm {
     margin: 12px 4px 0 8px;
