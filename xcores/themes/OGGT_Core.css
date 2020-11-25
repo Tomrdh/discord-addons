@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "101";
+    --oggt-build: "102";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4219,6 +4219,54 @@ g[class*="focusStroke"] {
 }
 #app-mount #EditUploadsEditButton span {
     color: rgb(var(--accent-color-1)) !important;
+}
+/* PermissionsViewer */
+#permissions-modal-wrapper #permissions-modal {
+    border: solid 1px rgb(var(--accent-color-1)) !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+#permissions-modal-wrapper .header {
+    background-color: rgb(var(--darker-background-color)) !important;
+    box-shadow: none !important;
+    color: rgb(var(--fullwhite-font)) !important;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+#permissions-modal-wrapper .role-side {
+    background-color: rgb(var(--darker-background-color)) !important;
+    border-right: solid 1px rgb(var(--accent-color-1));
+}
+#permissions-modal-wrapper .perm-side {
+    background-color: rgb(var(--dark-background-color)) !important;
+}
+#permissions-modal-wrapper .perm-item.denied svg {
+    fill: rgb(var(--gx-red)) !important;
+}
+#permissions-modal-wrapper .perm-item.allowed svg {
+    fill: rgb(var(--gx-green)) !important;
+}
+#permissions-modal-wrapper .role-item {
+    border-radius: 0 !important;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 5px;
+}
+#permissions-modal-wrapper .role-item:hover {
+    background: var(--background-modifier-hover) !important;
+}
+#permissions-modal-wrapper .role-item:active {
+    background: var(--background-modifier-active) !important;
+}
+#permissions-modal-wrapper .role-item.selected {
+    background: rgb(var(--accent-color-1)) !important;
+}
+#permissions-modal-wrapper .role-item:not([style*="color"]) {
+    color: rgb(var(--normal-font)) !important;
+}
+#permissions-modal-wrapper .role-item.selected:not([style*="color"]) {
+    color: rgb(0, 0, 0) !important;
+}
+#permissions-modal-wrapper .perm-name {
+    color: rgb(var(--normal-font)) !important;
 }
 /* ServerDetails */
 .detailsTooltip-G9hSSa .icon-hSL42R {
