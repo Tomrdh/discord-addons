@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "100";
+    --oggt-build: "101";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -72,8 +72,11 @@
 
     /* Custom colors */
     --gx-red: 255, 34, 34;
+    --gx-red-2: 255, 66, 66;
     --gx-yellow: 234, 234, 34;
+    --gx-yellow-2: 255, 255, 68;
     --gx-green: 68, 170, 68;
+    --gx-green-2: 90, 212, 90;
 
     /* Theme compatibility variables */
     /* UT00_AllUTilities */
@@ -2747,6 +2750,19 @@ code.inline {
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorBrand-ROmMP1):not(.colorDanger-2qLCe1):not(.colorPremium-p4p7qO) path:not(.checkbox-3s5GYZ):not(.check-1JyqgN) {
     fill: rgb(var(--fullwhite-font));
 }
+/* Status picker */
+.item-1tOPte.focused-3afm-j#status-picker-online foreignObject {
+    color: rgb(var(--gx-green-2));
+}
+.item-1tOPte.focused-3afm-j#status-picker-idle foreignObject {
+    color: rgb(var(--gx-yellow-2));
+}
+.item-1tOPte.focused-3afm-j#status-picker-dnd foreignObject {
+    color: rgb(var(--gx-red-2));
+}
+.item-1tOPte.focused-3afm-j#status-picker-invisible foreignObject {
+    color: rgb(141, 162, 176);
+}
 /* Contextmenus Search */
 .container-1S6Mlq {
     border-radius: 0;
@@ -2870,7 +2886,7 @@ code.inline {
 }
 .winButtonClose-1HsbF-:hover {
     background-color: rgb(255, 21, 21);
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .winButtonMinMax-PBQ2gm:hover {
     background-color: rgba(180, 180, 180, 0.4);
@@ -3047,7 +3063,7 @@ g[class*="focusStroke"] {
 }
 .categoryPill-34fszg.selected-1dONk0 {
     background-color: rgb(var(--accent-color-1));
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .loading-17PYl_ {
     background: transparent;
@@ -5288,20 +5304,25 @@ g[class*="focusStroke"] {
 }
 /* Red buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: rgb(var(--gx-red)) !important;
     border-radius: 2px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
 }
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgb(var(--gx-red-2)) !important;
+}
 /* Green buttons */
-.lookFilled-1Gx00P.colorGreen-29iAKY,
-.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-    color: #fff;
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    color: rgb(255, 255, 255);
     background-color: rgb(var(--gx-green)) !important;
     border-radius: 2px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: rgb(var(--gx-green-2)) !important;
 }
 /* Streamer Mode Enabled */
 .streamerModeEnabledBtn-2ZJ2eq {
@@ -5322,11 +5343,11 @@ g[class*="focusStroke"] {
     background-color: rgb(var(--gx-green));
 }
 .passthrough-1c2ewQ {
-    color: rgb(var(--muted-font));
+    color: rgb(var(--gx-yellow));
 }
 .passthrough-1c2ewQ.selected-2YhbGh {
-    background-color: rgb(var(--muted-font));
-    color: #fff;
+    background-color: rgb(var(--gx-yellow));
+    color: rgb(0, 0, 0);
 }
 .deny-3nAuT6 {
     border-radius: 0;
