@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "99";
+    --oggt-build: "100";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3300,6 +3300,32 @@ g[class*="focusStroke"] {
 }
 .bd-addon-list .bd-footer a {
     color: var(--text-link);
+}
+/* BD Addon Errors */
+.bd-modal-wrapper .bd-modal-body {
+    background-color: rgb(var(--dark-background-color));
+}
+.bd-modal-wrapper .header {
+    background-color: rgb(var(--darker-background-color));
+}
+.bd-modal-wrapper .tab-bar-container {
+    background: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.bd-modal-wrapper .bd-modal-inner {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.bd-modal-wrapper .error-link {
+    color: rgb(var(--link-text));
+}
+.bd-modal-wrapper .table-header {
+    border-color: rgb(var(--accent-color-2));
+}
+.bd-modal-wrapper .error {
+    border-color: rgba(var(--accent-color-1), 0.7);
 }
 /* BD Update Notice */
 .noticeWrapper-8z511t {
