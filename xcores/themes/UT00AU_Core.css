@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --ut00at-build: "8";
+    --ut00at-build: "9";
     --theme-name: "UT All UTilities";
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
@@ -53,11 +53,14 @@
 .name-3_Dsmg,
 .name-23GUGE,
 .name-uJV0GL,
-.voiceCounter {
+.voiceCounter,
+.usernameContainer-1fp4nu .title-eS5yk3 {
     font-size: var(--textSize) !important;
 }
-/* user status and bot tags */
-.activityText-yGKsKm, .activityText-OW8WYb, .botTagRegular-2HEhHi, .botTag-2WPJ74 {
+/* user status */
+.activityText-yGKsKm,
+.activityText-OW8WYb,
+.subtext-3CDbHg {
     font-size: calc(var(--textSize) / 1.3);
 }
 /* categories and servername */
