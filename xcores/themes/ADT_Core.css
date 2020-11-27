@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "305";
-    --adto-build: "206";
+    --adt-build: "306";
+    --adto-build: "207";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -169,14 +169,17 @@
 .theme-dark .replyer,
 .theme-dark .container-3w7J-x,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header,
+.theme-dark .bd-modal-wrapper .bd-modal-body
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
 }
 .theme-dark .searchResultsWrap-2DKFzt,
 .theme-dark .menu-Sp6bN1,
-.theme-dark .container-1r6BKw.themed-ANHk51
+.theme-dark .container-1r6BKw.themed-ANHk51,
+.theme-dark #permissions-modal-wrapper .header,
+.theme-dark #permissions-modal-wrapper .modal-body
 {
     background: var(--bg-2) !important;
     background-color: var(--bg-2) !important;
@@ -260,7 +263,8 @@
 .theme-dark .input-cIJ7To,
 .theme-dark .searchBar-3dMhjb,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO,
-.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl
+.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl,
+.theme-dark #permissions-modal-wrapper .role-side
 {
     background: var(--bg-3) !important;
     background-color: var(--bg-3) !important;
@@ -275,7 +279,8 @@
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
 .theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO,
-.theme-dark .quickSelectPopout-X1hvgV
+.theme-dark .quickSelectPopout-X1hvgV,
+.theme-dark #permissions-modal-wrapper .perm-side
 {
     background: var(--bg-4);
     background-color: var(--bg-4);
