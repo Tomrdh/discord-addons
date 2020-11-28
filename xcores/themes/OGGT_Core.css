@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "105";
+    --oggt-build: "106";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3234,6 +3234,9 @@ g[class*="focusStroke"] {
 }
 .lookLink-9FtZy-.colorBrand-3pXr91 {
     color: rgb(var(--accent-color-1));
+}
+.lookLink-9FtZy-.colorBrand-3pXr91:hover .contents-18-Yxp {
+    background-image: linear-gradient(0deg, transparent, transparent 1px, rgb(var(--accent-color-1)) 0, rgb(var(--accent-color-1)) 2px,transparent 0);
 }
 .fallbackImage-31Sk4m {
     opacity: 0;
