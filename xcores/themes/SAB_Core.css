@@ -132,7 +132,7 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)
     margin-left: 0 !important;
 }
 
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version002_slab, block) !important;
 }
 

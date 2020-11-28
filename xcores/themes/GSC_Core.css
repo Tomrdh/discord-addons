@@ -119,7 +119,7 @@
 }
 
 /* Updates */
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version002_gsc, block) !important;
     background-color: var(--dark-controls-background-color, #1c9a48) !important;
     color: var(--dark-white-color-1, #fff) !important;

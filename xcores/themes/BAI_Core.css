@@ -22,7 +22,7 @@
     transition-delay: var(--fade-in-delay) !important;
 }
 
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version-003_bai, block) !important;
 }
 

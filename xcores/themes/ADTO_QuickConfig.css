@@ -37,7 +37,7 @@
 :root {
     --betterdiscord-v3-blue-rgb: var(--accentcolor, 62, 130, 229) !important;
 }
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version006_adto, block) !important;
 }
 [id*="AmoledDarkThemeOptimized-"] .bd-addon-header .bd-meta:before {

@@ -5,7 +5,7 @@
     --ut00at-build: "9";
     --theme-name: "UT All UTilities";
 }
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version-004_ut00au, block) !important;
 }
 /*    Padding (to fix ITC)                                    start      */
