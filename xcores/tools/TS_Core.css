@@ -1,13 +1,16 @@
-/* DISCORD ADDONS THEME SUPPORT
+/* Theme Support for Discord Addons
+ *
  * Theme Support is used to make sure that your theme files are correct and updated, and not to have to paste the same code in each theme.
- * Should work with every TomRdh's Discord themes in the "Tomrdh/discord-addons" GitHub repository.
+ * This file is automatically imported if you are using one of Discord Addons themes.
+ * It should work with every themes in the "Tomrdh/discord-addons" GitHub repository.
+ * Please do not use that in your own theme unless you change the link redirecting to it, and not my website.
  */
 
 :root {
     --theme-name: "The theme name is Unknown, please report. - Something"; /* Default value if the theme name is not set. */
 }
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
-    content: var(--theme-name)" is broken or outdated! Please redownload the theme on \"https://tomrdh.github.io/da-website/themes\"." !important;
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    content: var(--theme-name)" is broken or outdated! Please redownload the theme on \"tomrdh.github.io/da-website/themes\"." !important;
     display: block; /* Default value if the theme does not have this display property. */
     background-color: #3e82e5;
     color: #fff;
@@ -16,7 +19,7 @@
     font-size: 16px;
     font-weight: 500;
     height: auto;
-    line-height: 20px;
+    line-height: 16px;
     opacity: 1;
     padding: 10px;
     padding-left: 20px;
