@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "104";
+    --oggt-build: "105";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1221,7 +1221,7 @@ body,
 /* Ping badges */
 .numberBadge-2s8kKX[style*="background-color: rgb(114, 137, 218)"],
 .numberBadge-2s8kKX[style*="background: rgb(114, 137, 218)"] {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(var(--font-in-accent)) !important;
     font-weight: 700;
 }
 /* Follow Announcement Channel */
@@ -1515,7 +1515,7 @@ body,
 }
 #app-mount .wrapper-3WhCwL:hover {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
     transition: none;
 }
 /* Mentioned */
@@ -1768,7 +1768,7 @@ body,
 }
 .newMessagesBar-mujexs *,
 .newMessagesBar-265mhP * {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 .hasDivider-20M1le {
     border: none;
@@ -1821,7 +1821,7 @@ body,
 /* Unreads */
 .unreadPill-2HyYtt {
     background: linear-gradient(270deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 .unreadPillCap-3_K2q2 > path {
     fill: rgb(var(--accent-color-2));
@@ -1859,7 +1859,7 @@ body,
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
 .mention-1f5kbO .text-2e2ZyG {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 /* Quotes */
 .blockquoteDivider-2hH8H6 {
@@ -2036,14 +2036,14 @@ code.inline {
 /* Bot tags */
 .botTagRegular-2HEhHi {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 .botTagRegular-2HEhHi[style*="background"] {
     background: currentColor;
     color: rgb(255, 255, 255)
 }
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     border-radius: 0;
 }
@@ -2692,7 +2692,7 @@ code.inline {
     color: rgb(var(--fullwhite-font));
 }
 .colorDefault-2K3EoJ.focused-3afm-j .arrow-gKvcEx {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 .item-1tOPte,
 .item-1tOPte:hover {
@@ -2898,7 +2898,6 @@ code.inline {
     height: 27px;
     margin-top: 0;
     padding-top: 4px;
-    background-color: rgb(var(--top-bar-color));
 }
 /* Mac buttons */
 .macButtons-2MuSAC {
@@ -3051,7 +3050,7 @@ g[class*="focusStroke"] {
 }
 #app-mount .activeButton-rvKcqq,
 #app-mount .activeButton-rvKcqq:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
 #app-mount .card-3DjzTQ {
@@ -4188,7 +4187,7 @@ g[class*="focusStroke"] {
 }
 .channelTabs-unreadBadge:not(.channelTabs-noUnread) {
     background-color: rgb(var(--accent-color-1));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
     font-weight: 700;
 }
 .channelTabs-mentionBadge:not(.channelTabs-noMention) {
@@ -4268,7 +4267,7 @@ g[class*="focusStroke"] {
     color: rgb(var(--normal-font)) !important;
 }
 #permissions-modal-wrapper .role-item.selected:not([style*="color"]) {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(var(--font-in-accent)) !important;
 }
 #permissions-modal-wrapper .perm-name {
     color: rgb(var(--normal-font)) !important;
@@ -4281,7 +4280,7 @@ g[class*="focusStroke"] {
 }
 .detailsTooltip-G9hSSa div.icon-hSL42R {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 /* SpotifyControls */
 .bar-g2ZMIm,
@@ -4576,8 +4575,11 @@ g[class*="focusStroke"] {
 /*~~ 10. Blur and transparency ~~*/
 /* Top bar */
 .withFrame-haYltI {
-    background-color: rgba(var(--top-bar-transparency-color), var(--top-bar-transparency));
-    backdrop-filter: blur(var(--top-bar-background-blur));
+    background-color: rgba(var(--wintitlebar-transparency-color), var(--wintitlebar-transparency));
+    backdrop-filter: blur(var(--wintitlebar-background-blur));
+}
+.app-focused .withFrame-haYltI {
+    background-color: rgba(var(--wintb-focused-color), var(--wintb-focused-alpha));
 }
 /* Header */
 .container-2Rl01u,
@@ -4703,10 +4705,12 @@ g[class*="focusStroke"] {
     fill: var(--text-normal);
 }
 .contentRegion-3nDuYy {
-    background-color: rgba(var(--darker-background-color), var(--st-r-scroller-transparency));
+    background-color: rgba(var(--st-r-scroller-color), var(--st-r-scroller-transparency));
+    backdrop-filter: blur(var(--st-r-scroller-bg-blur));
 }
 .sidebarRegionScroller-3MXcoP {
-    background-color: rgba(var(--dark-background-color), var(--st-l-scroller-transparency));
+    background-color: rgba(var(--st-l-scroller-color), var(--st-l-scroller-transparency));
+    backdrop-filter: blur(var(--st-l-scroller-bg-blur));
 }
 .scroller-305q3I {
     background: none;
@@ -4767,7 +4771,7 @@ g[class*="focusStroke"] {
 #app-mount .ui-tab-bar-item.selected:hover,
 .item-PXvHYJ.selected-3s45Ha:hover {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 .top-28JiJ- .item-PXvHYJ.selected-3s45Ha {
     color: rgb(var(--fullwhite-font));
@@ -4775,11 +4779,11 @@ g[class*="focusStroke"] {
 }
 .descChecked-XkfPsU,
 .titleChecked-2wg0pd {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(var(--font-in-accent)) !important;
 }
 .selected-3s45Ha .roleOverflow-1zjC9k,
 .selected-3s45Ha .roleOverflow-1zjC9k:hover {
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 #app-mount .userSettingsAccount-2eMFVR .viewBody-2Qz-jg,
 #app-mount .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy {
@@ -5400,7 +5404,7 @@ g[class*="focusStroke"] {
 }
 .passthrough-1c2ewQ.selected-2YhbGh {
     background-color: rgb(var(--gx-yellow));
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
 }
 .deny-3nAuT6 {
     border-radius: 0;
@@ -5543,7 +5547,7 @@ g[class*="focusStroke"] {
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     background-color: transparent;
-    color: rgb(0, 0, 0);
+    color: rgb(var(--font-in-accent));
     font-weight: 900;
     transition: 0ms;
 }
@@ -5574,7 +5578,7 @@ g[class*="focusStroke"] {
 /* Chat: Cozy */
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(var(--font-in-accent)) !important;
     font-size: 10px !important;
     font-weight: normal !important;
     text-transform: uppercase !important;
@@ -5711,10 +5715,10 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 
 /*~~ 18. Update notice ~~*/
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
-    display: var(--version007_oggt, block) !important;
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    display: var(--version008_oggt, block) !important;
     box-shadow: none !important;
-    background-color: rgba(var(--dark-background-color, 20, 17, 26), var(--other-highlighted-transparency, 1)) !important;
+    background-color: rgba(var(--darker-background-color, 8, 5, 14), var(--other-highlighted-transparency, 1)) !important;
     color: rgb(var(--fullwhite-font, 255, 255, 255)) !important;
     font-size: 14px !important;
     font-weight: 500 !important;
@@ -5723,10 +5727,10 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     border-top: none !important;
     border-left: none !important;
 }
-.full-motion.app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+.full-motion.app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     animation: notice-anim 450ms infinite !important;
 }
-.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     border-top-left-radius: 0 !important;
 }
 
