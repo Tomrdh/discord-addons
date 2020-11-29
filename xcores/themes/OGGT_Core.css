@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "107";
+    --oggt-build: "108";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1088,7 +1088,7 @@ body,
 /* Add role btn */
 #app-mount .userPopout-3XzG_A .actionButton-VzECiy {
     position: absolute;
-    top: -30px;
+    top: -21px;
     right: 6px;
     margin: 0;
     padding: 0;
