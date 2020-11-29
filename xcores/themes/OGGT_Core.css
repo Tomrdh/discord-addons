@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "106";
+    --oggt-build: "107";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1149,6 +1149,44 @@ body,
     border-radius: 0;
     border: solid 1px transparent;
     padding: 10px;
+}
+/* Add role NEW popout */
+.container-3XJ8ns {
+    border-radius: 0;
+    padding: 0;
+    width: 232px;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.full-motion.app-focused .container-3XJ8ns {
+    animation: accent-blinking 450ms infinite;
+}
+.container-cMG81i {
+    margin: 3px;
+    border-radius: 0;
+    border: solid 1px rgb(var(--dark-background-color));
+    transition: border-color 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.container-cMG81i:hover {
+    border-color: rgb(var(--accent-color-2));
+    transition: border-color 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.container-cMG81i:focus-within {
+    border-color: rgb(var(--accent-color-1));
+    transition: border-color 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.list-1MFD7e {
+    padding: 0;
+    margin: 0;
+}
+.item-2J2GlB {
+    border-radius: 0;
+    border: solid 1px #0000;
+    border-left: none;
+}
+.focused-dKLoQt,
+.item-2J2GlB:hover {
+    background-color: rgb(var(--darker-background-color));
+    border-color: rgb(var(--accent-color-1));
 }
 /* Popouts */
 #app-mount .root-1gCeng {
