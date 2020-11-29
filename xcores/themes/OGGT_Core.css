@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "109";
+    --oggt-build: "110";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1810,8 +1810,7 @@ body,
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
 }
-.newMessagesBar-mujexs *,
-.newMessagesBar-265mhP * {
+.barBase-1c2Rfb * {
     color: rgb(var(--font-in-accent));
 }
 .hasDivider-20M1le {
@@ -3083,6 +3082,7 @@ g[class*="focusStroke"] {
 }
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    color: rgb(var(--font-in-accent));
 }
 #app-mount .pageWrapper-1PgVDX {
     background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
@@ -3111,7 +3111,10 @@ g[class*="focusStroke"] {
 }
 .categoryPill-34fszg.selected-1dONk0 {
     background-color: rgb(var(--accent-color-1));
-    color: rgb(255, 255, 255);
+    color: rgb(var(--font-in-accent));
+}
+.categoryPill-34fszg.selected-1dONk0 .categoryLabel-2G3r2V {
+    color: rgb(var(--font-in-accent));
 }
 .loading-17PYl_ {
     background: transparent;
