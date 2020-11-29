@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "111";
+    --oggt-build: "112";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1836,6 +1836,13 @@ body,
     x: 26;
     y: 26;
     mask: none;
+}
+.avatar-3uk_u9 rect[mask*="mobile"],
+.avatar-SmRMf2 rect[mask*="mobile"] {
+    width: 9px !important;
+    height: 18px !important;
+    x: 23;
+    y: 14;
 }
 .avatar-3uk_u9 rect[mask*="typing"],
 .avatar-SmRMf2 rect[mask*="typing"] {
