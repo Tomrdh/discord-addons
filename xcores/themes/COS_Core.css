@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cos-build: "6";
+    --cos-build: "7";
     --theme-name: "ContextMenus Old Style";
 }
 .theme-dark .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
@@ -41,6 +41,26 @@
 }
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version001_cmos, block) !important;
+}
+.item-1tOPte.focused-3afm-j#status-picker-online foreignObject {
+    color: rgb(67, 181, 129);
+}
+.item-1tOPte.focused-3afm-j#status-picker-idle foreignObject {
+    color: rgb(250, 166, 26);
+}
+.item-1tOPte.focused-3afm-j#status-picker-dnd foreignObject {
+    color: rgb(240, 71, 71);
+}
+.item-1tOPte.focused-3afm-j#status-picker-invisible foreignObject {
+    color: rgb(116, 127, 141);
+}
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS,
+.colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+    color: rgb(var(--accentcolor, 92, 111, 177)) !important;
+}
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+    color: #fff !important;
 }
 
 [id*="ContextMenusOldStyle"] .bd-addon-header .bd-meta:before {
