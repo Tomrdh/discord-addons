@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "110";
+    --oggt-build: "111";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1816,23 +1816,38 @@ body,
 .hasDivider-20M1le {
     border: none;
 }
-/* UserAvatars */
+/* UserAvatars (remove comments to test - this is a in-dev thing) */
 /*.avatar-1BDn8e {
-    border-radius: 0;
+    border-radius: 2px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-    --cp-size: 20%;
+    --cp-size: 15%;
 }
-.avatar-3uk_u9 foreignObject img {
-    border-radius: 0;
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-    --cp-size: 0%;
+.avatar-3uk_u9 foreignObject img,
+.avatar-SmRMf2 foreignObject img {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size-2)), calc(100% - var(--cp-size-2)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+    --cp-size-2: 12px;
 }
-.avatar-3uk_u9 rect {
-    width: 3px !important;
-    height: 40px !important;
-    x: 32;
-    y: 0;
+.avatar-3uk_u9 rect,
+.avatar-SmRMf2 rect {
+    width: 6px !important;
+    height: 6px !important;
+    x: 26;
+    y: 26;
     mask: none;
+}
+.avatar-3uk_u9 rect[mask*="typing"],
+.avatar-SmRMf2 rect[mask*="typing"] {
+    width: 24px !important;
+    height: 11px !important;
+    x: 14;
+    y: 21;
+}
+.avatar-3uk_u9 foreignObject[mask*="default"] img,
+.avatar-SmRMf2 foreignObject[mask*="default"] img {
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
 }*/
 /* Messages */
 .groupStart-23k01U {
@@ -1840,10 +1855,10 @@ body,
 }
 /* New date/New day */
 .content-1o0f9g {
-    background: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-highlighted-transparency)), rgba(var(--darker-background-color), var(--other-highlighted-transparency)));
     border: solid rgba(var(--accent-color-2), calc(var(--lines-transparency) + 0.3)) 1px;
     border-radius: 0;
-    color: rgb(var(--accent-color-2));
+    color: rgb(var(--normal-font));
     font-weight: 500;
     display: block;
     width: 100%;
