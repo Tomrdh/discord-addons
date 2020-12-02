@@ -1,8 +1,9 @@
 /* ContextMenus Old Style */
+/* Fully compatible with BlurpleRecolor! */
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cos-build: "7";
+    --cos-build: "8";
     --theme-name: "ContextMenus Old Style";
 }
 .theme-dark .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
@@ -27,20 +28,17 @@
     background-color: #f0474730;
 }
 #app-mount .item-1tOPte.colorBrand-ROmMP1.focused-3afm-j {
-    color: #7289da;
-    background: #7289da30;
-    background-color: #7289da30;
+    color: rgb(var(--accentcolor, 114, 137, 218));
+    background: rgba(var(--accentcolor, 114, 137, 218), 0.19);
+    background-color: rgba(var(--accentcolor, 114, 137, 218), 0.19);
 }
 #app-mount .item-1tOPte.colorPremium-p4p7qO.focused-3afm-j {
-    color: #ff73fa;
-    background: #ff73fa30;
-    background-color: #ff73fa30;
+    color: rgb(var(--accentcolor, 255, 115, 250));
+    background: rgba(var(--accentcolor, 255, 115, 250), 0.19);
+    background-color: rgba(var(--accentcolor, 255, 115, 250), 0.19);
 }
 #app-mount .colorPremium-p4p7qO.focused-3afm-j .icon-LYJorE {
-    color: #ff73fa;
-}
-#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
-    display: var(--version001_cmos, block) !important;
+    color: rgb(var(--accentcolor, 255, 115, 250));
 }
 .item-1tOPte.focused-3afm-j#status-picker-online foreignObject {
     color: rgb(67, 181, 129);
@@ -61,6 +59,10 @@
 }
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
     color: #fff !important;
+}
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    display: var(--version001_cmos, block) !important;
 }
 
 [id*="ContextMenusOldStyle"] .bd-addon-header .bd-meta:before {
