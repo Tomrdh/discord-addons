@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "112";
+    --oggt-build: "113";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2345,13 +2345,39 @@ code.inline {
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px var(--line-color);
     border-radius: 0;
 }
 .searchHeader-2XoQg7 {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: solid 1px var(--line-color);
+}
+.searchResult-9tQ1uo.expanded-w_LCGl {
+    border: solid 1px var(--line-color-2);
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-radius: 0;
+}
+.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
+    border-radius: 0;
+    border-color: var(--line-color-2);
+}
+.channelSeparator-1DOiGt {
+    margin-bottom: 2px;
+}
+.channelSeparator-1DOiGt:before {
+    border-bottom: solid 1px var(--line-color);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.highlight {
+    background: rgba(var(--accent-color-1), 0.3);
+    color: rgb(var(--normal-hover-font));
 }
 /* Pagination buttons */
 .paginationButton-3u4jo8 {
