@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "307";
-    --adto-build: "208";
+    --adt-build: "308";
+    --adto-build: "209";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -120,7 +120,8 @@
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
-.theme-dark .wrapper-2qzCYF.minimum-28Z35l
+.theme-dark .wrapper-2qzCYF.minimum-28Z35l,
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -264,7 +265,9 @@
 .theme-dark .searchBar-3dMhjb,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO,
 .theme-dark .colorable-1bkp8v.primaryDark-3mSFDl,
-.theme-dark #permissions-modal-wrapper .role-side
+.theme-dark #permissions-modal-wrapper .role-side,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month
 {
     background: var(--bg-3) !important;
     background-color: var(--bg-3) !important;
@@ -470,6 +473,10 @@
 }
 .theme-dark .perksModal-fSYqOq {
     background-color: var(--bg-1);
+}
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl,
+.theme-dark .searchResultMessage-1fxgXh.hit-1fVM9e {
+    border-color: var(--bg-3);
 }
 
 /*~~ 4. Scrollbars ~~*/
