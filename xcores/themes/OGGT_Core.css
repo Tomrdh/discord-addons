@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "114";
+    --oggt-build: "115";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -75,8 +75,8 @@
     --gx-red-2: 255, 66, 66;
     --gx-yellow: 234, 234, 34;
     --gx-yellow-2: 255, 255, 68;
-    --gx-green: 68, 170, 68;
-    --gx-green-2: 90, 212, 90;
+    --gx-green: 0, 212, 81;
+    --gx-green-2: 90, 255, 90;
 
     /* Theme compatibility variables */
     /* UT00_AllUTilities */
@@ -5171,7 +5171,10 @@ g[class*="focusStroke"] {
     color: rgb(var(--fullwhite-font));
 }
 .bd-addon-views .bd-view-button.selected {
-    background: var(--line-color);
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
+.bd-addon-views .bd-view-button.selected svg {
+    fill: rgb(var(--font-in-accent));
 }
 #app-mount .bd-addon-list .bd-addon-card {
     border-radius: 0;
