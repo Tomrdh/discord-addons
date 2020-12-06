@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "116";
+    --oggt-build: "117";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2954,6 +2954,9 @@ code.inline {
     color: rgb(var(--fullwhite-font));
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+.platform-web .notice-3bPHh- {
+    border-right: none;
 }
 .full-motion.app-focused .notice-3bPHh- {
     animation: notice-anim 450ms infinite;
