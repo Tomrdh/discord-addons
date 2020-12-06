@@ -1,7 +1,7 @@
 /**
  * @name OperaGxGamingTheme
  * @author TomRdh
- * @version 0.0.8
+ * @version 0.0.9
  * @description Opera GX Gaming Theme! A (transparent) gaming theme inspired by Opera GX. Very customizable in the theme file.
  * @website https://tomrdh.github.io/da-website/main
  * @source https://github.com/Tomrdh/discord-addons/blob/master/download-themes-here/OperaGxGamingTheme.theme.css
@@ -24,6 +24,14 @@
     --accent-color-2:                 255, 55, 109                          ;/* Default: 255, 55, 109                                          - This 2nd one should be a bit lighter or darker than the first one. But anyways you can use the color you want, some gradients can be very awesome.                                                             */
     --dark-background-color:          20, 17, 26                            ;/* Default: 20, 17, 26                                            - Background color used in some elements, like the chatbox.                                                                                                                                                      */
     --darker-background-color:        8, 5, 14                              ;/* Default: 8, 5, 14                                              - Another background color, this is darker than --dark-background-color.                                                                                                                                         */
+    
+/*  More-Color-Settings                                                                                                                                                                                                                                                                                                                                         */
+    --gx-red:                         255, 34, 34                           ;/* Theme Default: 255, 34, 34   - Discord Default: 240, 71, 71    - Main red color when using the theme. The second one should be brighter than the first one, just like the secondary accent color.                                                                               */
+    --gx-red-2:                       255, 66, 66                           ;/* Default: 255, 66, 66                                           - Secondary red color when using the theme.                                                                                                                                                                      */
+    --gx-yellow:                      234, 234, 34                          ;/* Theme Default: 234, 234, 34  - Discord Default: 250, 166, 26   - Main yellow color when using the theme.                                                                                                                                                                        */
+    --gx-yellow-2:                    255, 255, 68                          ;/* Default: 255, 255, 68                                          - Secondary yellow color when using the theme.                                                                                                                                                                   */
+    --gx-green:                       0, 212, 81                            ;/* Theme Default: 0, 212, 81    - Discord Default: 67, 181, 129   - Main green color when using the theme.                                                                                                                                                                         */
+    --gx-green-2:                     0, 255, 129                           ;/* Default: 0, 255, 129                                           - Secondary green color when using the theme.                                                                                                                                                                    */
 
 /*  Font-Color-Settings                                                                                                                                                                                                                                                                                                                                         */
     --fullwhite-font:                 250, 253, 255                         ;/* Default: 250, 253, 255                                         - Color used for texts with the full white color. Note that these vars also modify some icons.                                                                                                                   */
