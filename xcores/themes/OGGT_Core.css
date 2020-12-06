@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "113";
+    --oggt-build: "114";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1420,7 +1420,7 @@ body,
 .full-motion.app-focused .embedFull-2tM8--:hover {
     animation: accent-blinking 450ms infinite;
 }
-/* Emoji picker, GIF picker */
+/* Emoji picker, GIF picker, Stickers */
 .contentWrapper-SvZHNd,
 .categoryList-2Kzf65 {
     border-radius: 0;
@@ -1482,6 +1482,9 @@ body,
 #app-mount .categoryItemDefaultCategorySelected-_HCKoz .categoryIcon-1SvUHG,
 #app-mount .categoryItemDefaultCategorySelected-_HCKoz:hover .categoryIcon-1SvUHG {
     color: rgb(var(--fullwhite-font));
+}
+.feature-3kpTdS {
+    color: rgb(var(--font-in-accent));
 }
 /* Emoji information (emoji section) */
 .popoutContainer-1MXdqN {
@@ -1708,7 +1711,7 @@ body,
 .colorHeaderSecondary-3Sp3Ft {
     color: rgb(var(--normal-font));
 }
-.colorStandard-2KCXvj {
+.colorStandard-2KCXvj:not(.updateBadgeText-f1PbSt, .dateText-DM8xBj, .headerText-ZVZ4bX) {
     color: rgb(var(--normal-font));
 }
 .colorHeaderPrimary-26Jzh- {
