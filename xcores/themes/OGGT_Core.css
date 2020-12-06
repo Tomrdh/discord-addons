@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "115";
+    --oggt-build: "116";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2051,10 +2051,6 @@ code.inline {
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
 }
-.rowWrapperActive-2L7i9f .playButton-1fMNjH {
-    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    border-radius: 0;
-}
 .foreground-2aE44H {
     stroke: rgb(var(--accent-color-1));
 }
@@ -2101,6 +2097,16 @@ code.inline {
     border-top: none;
     border-bottom: none;
 }
+#app-mount .description-3_Ncsb {
+    font-weight: 400;
+}
+#app-mount .rowBody-3dJTTZ {
+    color: rgb(var(--muted-font));
+}
+#app-mount .installationPath-3cStrB {
+    -webkit-box-shadow: 0 1px 0 0 var(--line-color);
+    box-shadow: 0 1px 0 0 var(--line-color);
+}
 /* Bot tags */
 .botTagRegular-2HEhHi {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
@@ -2113,7 +2119,9 @@ code.inline {
 #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     color: rgb(var(--font-in-accent));
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
-    border-radius: 0;
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
 }
 #app-mount .botTag-2WPJ74 {
     border-radius: 1px;
