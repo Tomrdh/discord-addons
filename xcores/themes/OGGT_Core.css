@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "117";
+    --oggt-build: "118";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1224,6 +1224,10 @@ body,
     background-color: none !important;
     background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
     border: solid 1px var(--line-color);
+}
+.platform-web .backdrop-1wrmKB,
+.platform-web .backdropWithLayer-3_uhz4 {
+    border: none;
 }
 /* Badges */
 /*.base-PmTxvP {
