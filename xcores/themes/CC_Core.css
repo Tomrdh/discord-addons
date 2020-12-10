@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cc-build: "11";
+    --cc-build: "12";
     --theme-name: "Compact Channels";
 }
 /* Channels */
@@ -85,16 +85,6 @@
     max-width: unset;
     min-width: unset;
     width: calc(var(--mSizeOnHover) - 18px);
-}
-.membersGroup-v9BXpm {
-    width: var(--mSize);
-    transition: width var(--time) ease;
-    transition-delay: var(--delayOut);
-}
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
-    width: var(--mSizeOnHover);
-    transition: width var(--time) ease;
-    transition-delay: var(--delayIn);
 }
 
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
