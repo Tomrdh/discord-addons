@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "118";
+    --oggt-build: "119";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -300,7 +300,8 @@ code,
 .wrapper-pZmgj4 *,
 .wrapper-2tAnRe *,
 .inviteCode-202N0U,
-#bd-customcss-editor * {
+#bd-customcss-editor *,
+.timestamp-3ZCmNB span {
     font-family: var(--cbcf) !important;
 }
 
@@ -1824,7 +1825,7 @@ body,
     border: none;
 }
 /* UserAvatars (remove comments to test - this is a in-dev thing) */
-/*.avatar-1BDn8e {
+.avatar-1BDn8e {
     border-radius: 2px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 15%;
@@ -1862,10 +1863,19 @@ body,
 .avatar-SmRMf2 foreignObject[mask*="default"] img {
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
-}*/
+}
 /* Messages */
 .groupStart-23k01U {
     border-top: solid var(--line-color) 1px;
+}
+.markup-2BOw-j,
+.username-1A8OIy {
+    font-size: 0.85rem;
+    line-height: 1.125rem;
+}
+.cozy-3raOZG .timestamp-3ZCmNB {
+    font-size: 0.75rem;
+    vertical-align: top;
 }
 /* New date/New day */
 .content-1o0f9g {
@@ -2134,6 +2144,7 @@ code.inline {
 }
 .botText-1526X_ {
     font-size: 10px;
+    font-weight: 600;
 }
 /* Tooltips */
 #app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z {
@@ -2464,6 +2475,14 @@ code.inline {
     line-height: 0;
 }
 /* DMs - Private Channels */
+.name-uJV0GL {
+    font-size: var(--textSize, 14px) !important;
+}
+.activityText-yGKsKm,
+.activityText-OW8WYb,
+.subtext-3CDbHg {
+    font-size: calc(var(--textSize, 14px) / 1.3);
+}
 .channel-2QD9_O {
     margin-left: 2px;
     max-width: unset;
@@ -2868,6 +2887,9 @@ code.inline {
 }
 .item-1tOPte.focused-3afm-j#status-picker-invisible foreignObject {
     color: rgb(141, 162, 176);
+}
+.statusItem-33LqPf foreignObject {
+    mask: unset !important;
 }
 /* Contextmenus Search */
 .container-1S6Mlq {
@@ -5699,7 +5721,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
     color: rgb(var(--font-in-accent)) !important;
     font-size: 10px !important;
-    font-weight: normal !important;
+    font-weight: 600 !important;
     text-transform: uppercase !important;
     vertical-align: top !important;
     display: -webkit-inline-box !important;
