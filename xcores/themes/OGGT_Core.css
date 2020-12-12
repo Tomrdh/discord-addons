@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "119";
+    --oggt-build: "120";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1389,6 +1389,11 @@ body,
 .colorBrand-2tjs5J {
     color: rgb(var(--accent-color-1));
 }
+.repliedMessage-VokQwo,
+.repliedMessage-VokQwo .inline {
+    font-size: 0.67rem;
+    line-height: 0.867rem;
+}
 /* Local bot and replying */
 .localBot-GrCgVt:before,
 .replying-1x3H0T:before,
@@ -1825,7 +1830,7 @@ body,
     border: none;
 }
 /* UserAvatars (remove comments to test - this is a in-dev thing) */
-.avatar-1BDn8e {
+/*.avatar-1BDn8e {
     border-radius: 2px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 15%;
@@ -1863,7 +1868,7 @@ body,
 .avatar-SmRMf2 foreignObject[mask*="default"] img {
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 6px;
-}
+}*/
 /* Messages */
 .groupStart-23k01U {
     border-top: solid var(--line-color) 1px;
@@ -1874,8 +1879,12 @@ body,
     line-height: 1.125rem;
 }
 .cozy-3raOZG .timestamp-3ZCmNB {
-    font-size: 0.75rem;
-    vertical-align: top;
+    font-size: 0.7rem;
+}
+.compact-T3H92H.wrapper-2a6GCs,
+.cozy-3raOZG.wrapper-2a6GCs {
+    padding-top: 0.075rem;
+    padding-bottom: 0;
 }
 /* New date/New day */
 .content-1o0f9g {
