@@ -2,9 +2,10 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cc-build: "13";
+    --cc-build: "14";
     --theme-name: "Compact Channels";
 }
+
 /* Channels */
 #app-mount .sidebar-2K8pFh {
     width: var(--cSize);
@@ -35,6 +36,7 @@
     transition-delay: var(--delayIn);
 }
 /* Make access to buttons easier */
+/* UserPanel */
 .horizontal-2EEEnY.flex-1xMQg5 {
     margin-right: calc(var(--cSize) - var(--cSizeOnHover)) !important;
     transition: margin-right var(--time) ease;
@@ -43,6 +45,22 @@
 .sidebar-2K8pFh:hover .horizontal-2EEEnY.flex-1xMQg5 {
     margin-right: 0 !important;
     transition: margin-right var(--time) ease;
+    transition-delay: var(--delayIn);
+}
+/* ChannelButtons */
+.children-3rEycc,
+.children-L002ao,
+.children-gzQq2t {
+    position: absolute !important;
+    right: calc((var(--cSizeOnHover) - var(--cSize)) * -1 + 8px) !important;
+    transition: right var(--time) ease;
+    transition-delay: var(--delayOut);
+}
+.sidebar-2K8pFh:hover .children-3rEycc,
+.sidebar-2K8pFh:hover .children-L002ao,
+.sidebar-2K8pFh:hover .children-gzQq2t {
+    right: 8px !important;
+    transition: right var(--time) ease;
     transition-delay: var(--delayIn);
 }
 
