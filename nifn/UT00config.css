@@ -1,1 +1,5 @@
 @import url(https://tomrdh.github.io/discord-addons/xcores/themes/UT00AU_Core.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
+:root {
+    --theme-name: "UT All UTilities";
+}
