@@ -1,1 +1,5 @@
 @import url(https://tomrdh.github.io/discord-addons/xcores/themes/ADT_QuickConfig.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
+:root {
+    --theme-name: "AMOLED Dark Theme";
+}
