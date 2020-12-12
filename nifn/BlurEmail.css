@@ -1,22 +1,22 @@
-html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp:before {
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     content: "BlurEmail is no longer supported and was killed. Instead, you can download BlurAccountInfos which has latest updates, download it in the Discord Addons by TomRdh website." !important;
     display: block !important;
     background-color: #3e82e5 !important;
-    box-shadow: 0 0px 30px 0 #3e82e5 !important;
     color: #fff !important;
     flex-grow: 0 !important;
     flex-shrink: 0 !important;
     font-size: 16px !important;
     font-weight: 500 !important;
-    height: 36px !important;
-    line-height: 36px !important;
+    height: auto !important;
+    line-height: 16px !important;
     opacity: 1 !important;
-    padding-left: 4px !important;
-    padding-right: 28px !important;
+    padding: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     position: relative !important;
     text-align: center !important;
     visibility: unset !important;
-    white-space: pre !important;
+    white-space: pre-wrap !important;
     top: 0 !important;
     left: 0 !important;
     bottom: unset !important;
@@ -29,4 +29,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
     animation: unset !important;
     z-index: 101 !important;
     pointer-events: none !important;
+}
+.platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div:before {
+    border-top-left-radius: 6px !important;
 }
