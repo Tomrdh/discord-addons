@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cc-build: "14";
+    --cc-build: "15";
     --theme-name: "Compact Channels";
 }
 
@@ -43,6 +43,17 @@
     transition-delay: var(--delayOut);
 }
 .sidebar-2K8pFh:hover .horizontal-2EEEnY.flex-1xMQg5 {
+    margin-right: 0 !important;
+    transition: margin-right var(--time) ease;
+    transition-delay: var(--delayIn);
+}
+/* UserPlayingPanel */
+.actions-aUdUfC {
+    margin-right: calc(var(--cSize) - var(--cSizeOnHover)) !important;
+    transition: margin-right var(--time) ease;
+    transition-delay: var(--delayOut);
+}
+.sidebar-2K8pFh:hover .actions-aUdUfC {
     margin-right: 0 !important;
     transition: margin-right var(--time) ease;
     transition-delay: var(--delayIn);
