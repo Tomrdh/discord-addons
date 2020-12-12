@@ -155,6 +155,12 @@ q {
 legend {
     font-family: var(--cf) !important;
 }
+b {
+    font-family: var(--cf) !important;
+}
+paper-toast {
+    font-family: var(--cf) !important;
+}
 
 /* MONOSPACE CUSTOM FONT */
 .highlight pre {
