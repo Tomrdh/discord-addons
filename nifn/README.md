@@ -2,6 +2,11 @@
 
 Now the files are in the `xcores` folder. You should update your theme in case it still use this folder. Why? It will be deleted soon and your files will no longer be supported after the deletion of this folder.
 
+**If you are redirected here from the notice in Discord, here's what you can do:**
+
+- Redownload your themes in the repo or in the website.
+- Change the import link, to avoid losing any customization. See a step-by-step tutorial just below.
+
 ## How to update the import link without redownloading the file and losing my config?
 
 If you are using a customized theme from this repo, you'll just have to update a line that you normally don't have to change. This is an exception this time.
