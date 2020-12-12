@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "120";
+    --oggt-build: "121";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2847,11 +2847,15 @@ code.inline {
     padding-right: 4px;
 }
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
-.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+.colorDefault-2K3EoJ .radioSelection-1HmrQS,
+.colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS,
+.colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
     color: rgb(var(--accent-color-2));
 }
+.colorDefault-2K3EoJ .check-1JyqgN,
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
-    color: rgb(var(--accent-color-2));
+    color: rgb(var(--font-in-accent));
     border-radius: 0;
 }
 .label-22pbtT {
