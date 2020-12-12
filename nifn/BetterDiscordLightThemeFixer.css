@@ -1,1 +1,5 @@
 @import url(https://tomrdh.github.io/discord-addons/xcores/themes/BDLTF_Core.css);
+@import url(https://tomrdh.github.io/discord-addons/nifn/ThemeSupport.css);
+:root {
+    --theme-name: "BetterDiscord Light Theme Fixer";
+}
