@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cc-build: "12";
+    --cc-build: "13";
     --theme-name: "Compact Channels";
 }
 /* Channels */
@@ -32,6 +32,17 @@
 .sidebar-2K8pFh:hover .bannerImage-3KhIJ6 { /* serverbanner */
     width: var(--cSizeOnHover);
     transition: width var(--time);
+    transition-delay: var(--delayIn);
+}
+/* Make access to buttons easier */
+.horizontal-2EEEnY.flex-1xMQg5 {
+    margin-right: calc(var(--cSize) - var(--cSizeOnHover)) !important;
+    transition: margin-right var(--time) ease;
+    transition-delay: var(--delayOut);
+}
+.sidebar-2K8pFh:hover .horizontal-2EEEnY.flex-1xMQg5 {
+    margin-right: 0 !important;
+    transition: margin-right var(--time) ease;
     transition-delay: var(--delayIn);
 }
 
