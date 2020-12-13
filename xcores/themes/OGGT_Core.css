@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "122";
+    --oggt-build: "123";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3709,6 +3709,14 @@ g[class*="focusStroke"] {
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+/* Keyboard Navigation */
+.ring-13rgEW {
+    --__adaptive-focus-color: rgb(var(--accent-color-1)) !important;
+    --__adaptive-radius: 0 !important;
+}
+.focusRing-2NImfT {
+    border-radius: 0 !important;
+}
 
 /*-- 6.3. Public Servers --*/
 /* Public button */
@@ -4392,6 +4400,10 @@ g[class*="focusStroke"] {
 }
 .full-motion.app-focused #app-mount .select-2TCrqx [class*="-menu"] {
     animation: accent-blinking 450ms infinite;
+}
+/* ImageUtilities */
+.zoomLens-uOK8xV {
+	border-color: rgb(var(--accent-color-1)) !important;
 }
 /* MemberCount */
 #app-mount #MemberCount {
