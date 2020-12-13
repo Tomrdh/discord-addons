@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "123";
+    --oggt-build: "124";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1847,6 +1847,15 @@ body,
 .barBase-1c2Rfb * {
     color: rgb(var(--font-in-accent));
 }
+.messagesErrorBar-nyJGU7 {
+    background-color: rgb(var(--gx-red));
+}
+.messagesErrorBar-nyJGU7.barBase-1c2Rfb * {
+    color: rgb(var(--fullwhite-font));
+}
+.jumpToPresentBar-G1R9s6 .spinnerItem-2swXFm {
+    background-color: rgb(var(--font-in-accent));
+}
 .hasDivider-20M1le {
     border: none;
 }
@@ -1891,8 +1900,25 @@ body,
     --cp-size: 6px;
 }*/
 /* Messages */
+#app-mount .messageContent-2qWWxC {
+    font-weight: 400;
+    color: rgb(var(--normal-font));
+}
+#app-mount .isFailed-2MPmD6,
+#app-mount .isFailed-2MPmD6 .hljs,
+#app-mount .isFailed-2MPmD6 a,
+#app-mount .isFailed-2MPmD6 code.inline,
+#app-mount .isFailed-2MPmD6 {
+    color: rgb(var(--gx-red));
+}
 .groupStart-23k01U {
-    border-top: solid var(--line-color) 1px;
+    border-top: solid 1px var(--line-color);
+}
+.groupStart-23k01U.backgroundFlash-24qWLN {
+    border-top: none;
+}
+.backgroundFlash-24qWLN {
+    background: rgba(var(--accent-color-1), 0.2) !important;
 }
 .messageContent-2qWWxC,
 .username-1A8OIy {
@@ -4518,10 +4544,6 @@ g[class*="focusStroke"] {
 /*~~ 8. Theme light fixer ~~*/
 #app-mount .username-1A8OIy {
     font-weight: 500;
-}
-#app-mount .messageContent-2qWWxC {
-    font-weight: 400;
-    color: rgb(var(--normal-font));
 }
 #app-mount .text-GwUZgS {
     font-weight: 400;
