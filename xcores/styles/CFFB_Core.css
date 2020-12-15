@@ -161,6 +161,9 @@ b {
 paper-toast {
     font-family: var(--cf) !important;
 }
+label {
+    font-family: var(--cf) !important;
+}
 
 /* MONOSPACE CUSTOM FONT */
 .highlight pre {
