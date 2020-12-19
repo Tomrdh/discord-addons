@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "308";
-    --adto-build: "209";
+    --adt-build: "309";
+    --adto-build: "210";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -509,6 +509,7 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[
     position: relative !important;
     top: 0.15rem !important;
     border-radius: 0.1875rem !important;
+    white-space: nowrap !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
     content: "Theme Dev" !important;
