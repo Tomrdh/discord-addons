@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "124";
+    --oggt-build: "125";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -64,7 +64,7 @@
     --opera-gx-bg-15: url(https://cdn.discordapp.com/attachments/702611641530843186/759782008204689428/15.jpg);
 
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
-    
+
     /* Quick variables */
     --line-color: var(--line-color-1);
     --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
@@ -123,9 +123,9 @@
     100% {border-color: rgb(var(--accent-color-1));}
 }
 @keyframes accent-blinking-with-transparency { /* animation: accent-blinking-with-transparency 450ms infinite; */
-    0%   {border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));}
-    50%  {border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));}
-    100% {border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));}
+    0%   {border-color: var(--line-color-1);}
+    50%  {border-color: var(--line-color-2);}
+    100% {border-color: var(--line-color-1);}
 }
 @keyframes background-blinking { /* animation: background-blinking 450ms infinite; */
     0%   {background-color: rgb(var(--darker-background-color));}
@@ -326,7 +326,7 @@ body,
 .scroller-9moviB,
 .app-2rEoOp,
 .members-1998pB,
-.members-1998pB>div,
+.members-1998pB > div,
 .chat-3bRxxu,
 .wrapper-1Rf91z,
 .sidebar-2K8pFh,
@@ -2094,12 +2094,13 @@ code.inline {
 .peopleListItem-2nzedh {
     border-radius: 0 !important;
     border-top: none;
+    margin-top: -1px;
 }
 .peopleListItem-2nzedh.active-rhSpJJ,
 .peopleListItem-2nzedh:hover {
     background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.3), rgba(var(--accent-color-2), 0.3));
-    border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
-    margin: 0 9px 0 19px;
+    border: solid 1px var(--line-color-1);
+    margin: -1px 9px 0 19px;
 }
 .peopleListItem-2nzedh.active-rhSpJJ {
     border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
@@ -2278,6 +2279,7 @@ code.inline {
 }
 #app-mount .option-96V44q {
     border: solid 1px transparent;
+    margin-top: -1px;
 }
 #app-mount .resultsGroup-r_nuzN .header-2N-gMV,
 #app-mount .resultsGroup-r_nuzN .plusIcon-v0BTrL,
@@ -3289,12 +3291,12 @@ g[class*="focusStroke"] {
     background: transparent;
 }
 .folder-21wGz3 {
-    background: rgba(var(--darker-background-color), 0.67);
+    background: rgba(var(--darker-background-color), var(--other-transparency));
     transition: background 100ms cubic-bezier(0, 0, 0.35, 1);
     opacity: 1 !important;
 }
 .folder-21wGz3:hover {
-    background: rgba(var(--dark-background-color), 1) !important;
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency)) !important;
 }
 .expandedFolderBackground-2sPsd- {
     border-radius: 17px 17px 24px 24px;
@@ -4382,7 +4384,7 @@ g[class*="focusStroke"] {
 .channelTabs-fav {
     transition: 300ms cubic-bezier(0, 0, 0.35, 1) !important;
     transition-property: background-color !important;
-    border-radius: 0 !important;
+    border-radius: 2px !important;
     margin-left: 0 !important;
     margin-top: 3px !important;
     margin-bottom: 3px !important;
