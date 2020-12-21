@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "128";
+    --oggt-build: "129";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -302,7 +302,8 @@ code,
 .wrapper-2tAnRe *,
 .inviteCode-202N0U,
 #bd-customcss-editor *,
-.timestamp-3ZCmNB span {
+.timestamp-3ZCmNB span,
+.timestamp-1E3uAL {
     font-family: var(--cbcf) !important;
 }
 
@@ -1928,13 +1929,17 @@ body,
     font-size: 0.85rem;
     line-height: 1.125rem;
 }
-.cozy-3raOZG .timestamp-3ZCmNB {
+.cozy-3raOZG .timestamp-3ZCmNB,
+.timestamp-1E3uAL {
     font-size: 0.7rem;
 }
 .compact-T3H92H.wrapper-2a6GCs,
 .cozy-3raOZG.wrapper-2a6GCs {
     padding-top: 0;
     padding-bottom: 0;
+}
+.content-2M3n_H {
+    font-size: 0.85rem;
 }
 /* New date/New day */
 .content-1o0f9g {
