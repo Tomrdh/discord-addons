@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "126";
+    --oggt-build: "127";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -114,6 +114,7 @@
     --toast-border: rgb(var(--accent-color-1));
     --toast-background: rgb(var(--dark-background-color));
     --activity-card-background: rgb(var(--darker-background-color));
+    --bdfdb-blurple: rgb(var(--accent-color-1));
 }
 
 /*~~ 3. Keyframes (animations) ~~*/
@@ -4236,6 +4237,10 @@ g[class*="focusStroke"] {
 }
 
 /*~~ 7. Plugin Compatibility ~~*/
+/* BDFDB */
+.base-PmTxvP {
+    color: rgb(var(--font-in-accent));
+}
 /* BetterFormattingRedux */
 #app-mount .bf-toolbar::before {
     border: solid 1px rgb(var(--accent-color-1));
