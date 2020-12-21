@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "127";
+    --oggt-build: "128";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4238,7 +4238,7 @@ g[class*="focusStroke"] {
 
 /*~~ 7. Plugin Compatibility ~~*/
 /* BDFDB */
-.base-PmTxvP {
+.base-PmTxvP[style*="--bdfdb-blurple"] {
     color: rgb(var(--font-in-accent));
 }
 /* BetterFormattingRedux */
