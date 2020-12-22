@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "130";
+    --oggt-build: "131";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2950,7 +2950,7 @@ code.inline {
 .full-motion.app-focused .bumpBox-1r5p3c {
     animation: accent-blinking-with-transparency 450ms infinite;
 }
-/* Voice channels counters */
+/* VC counters */
 .wrapper-pZmgj4,
 .wrapper-2tAnRe {
     border-radius: 2px;
@@ -4027,6 +4027,63 @@ g[class*="focusStroke"] {
 }
 #app-mount .regionSelectName-c5qL8O {
     color: rgb(var(--normal-font));
+}
+.colorable-1bkp8v.primaryDark-3mSFDl,
+.colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T,
+.colorable-1bkp8v.white-3GPOIp,
+.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+    color: rgb(var(--fullwhite-font));
+}
+.colorable-1bkp8v.primaryDark-3mSFDl,
+.colorable-1bkp8v.white-3GPOIp {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+}
+.colorable-1bkp8v.primaryDark-3mSFDl:hover,
+.colorable-1bkp8v.white-3GPOIp:hover,
+.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS, .colorable-1bkp8v.primaryDark-3mSFDl:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.status-1WEaea {
+    background-color: rgb(var(--gx-red));
+}
+.colorable-1bkp8v.red-33-Lnk {
+    background: rgb(var(--gx-red));
+}
+.colorable-1bkp8v.red-33-Lnk:hover {
+    background: rgb(var(--gx-red-2));
+}
+.iconBadge-2wi9r4.participating-NBGDkr {
+    background-color: rgb(var(--gx-green));
+}
+.colorable-1bkp8v.green-plH-Mj,
+.colorable-1bkp8v.green-plH-Mj.active-1QRrIS {
+    background: rgb(var(--gx-green));
+}
+.colorable-1bkp8v.green-plH-Mj:hover {
+    background: rgb(var(--gx-green-2));
+}
+.border-Jn5IOt.speaking-B2MXPi {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px var(--background-floating);
+    box-shadow: inset 0 0 0 2px rgb(var(--gx-green)) ,inset 0 0 0 3px var(--background-floating);
+}
+.tile-2w4k5N:hover .sourceThumbnail-27dolk {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--accent-color-1));
+    box-shadow: inset 0 0 0 2px rgb(var(--accent-color-1));
+}
+/* About to start a stream/screen share */
+.selectorButtonSelected-t5V9On {
+    background-color: rgb(var(--accent-color-1));
+}
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+    background-color: rgb(var(--accent-color-2));
+}
+.selectorTextSelected-1ymya_,
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover .selectorText-2I7fQU {
+    color: rgb(var(--font-in-accent));
+}
+.card-2Mz_4z {
+    border-radius: 0;
+    border-color: rgb(var(--accent-color-1));
 }
 
 /*-- 6.5. HLJS Names --*/
