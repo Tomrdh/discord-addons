@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "129";
+    --oggt-build: "130";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -70,13 +70,91 @@
     --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
     --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
 
-    /* Custom colors */
-    --gx-red: 255, 34, 34;
-    --gx-red-2: 255, 66, 66;
-    --gx-yellow: 234, 234, 34;
-    --gx-yellow-2: 255, 255, 68;
-    --gx-green: 0, 212, 81;
-    --gx-green-2: 90, 255, 90;
+    /* Theme default variables */
+    --background:                     var(--opera-gx-bg-1)                  ;
+    --background-behind-appmount:     rgb(var(--darker-background-color))   ;
+
+
+    --accent-color-1:                 250, 30, 70                           ;
+    --accent-color-2:                 255, 55, 109                          ;
+    --dark-background-color:          18, 16, 25                            ;
+    --darker-background-color:        8, 5, 14                              ;
+
+
+    --gx-red:                         255, 34, 34                           ;
+    --gx-red-2:                       255, 66, 66                           ;
+    --gx-yellow:                      234, 234, 34                          ;
+    --gx-yellow-2:                    255, 255, 68                          ;
+    --gx-green:                       0, 212, 81                            ;
+    --gx-green-2:                     0, 255, 129                           ;
+
+
+    --fullwhite-font:                 250, 253, 255                         ;
+    --normal-font:                    201, 203, 206                         ;
+    --normal-hover-font:              238, 239, 240                         ;
+    --muted-font:                     114, 118, 125                         ;
+    --link-text:                      0, 176, 244                           ;
+    --font-in-accent:                 0, 0, 0                               ;
+
+
+    --channel-name-transform:         capitalize                            ;
+    --category-name-transform:        unset                                 ;
+
+
+    --wintitlebar-background-blur:    none                                  ;
+    --wintitlebar-transparency:       0.7                                   ;
+    --wintitlebar-transparency-color: var(--dark-background-color)          ;
+    --wintb-focused-alpha:            1                                     ;
+    --wintb-focused-color:            var(--darker-background-color)        ;
+
+    --header-background-blur:         none                                  ;
+    --header-transparency:            0.3                                   ;
+    --header-transparency-color:      var(--dark-background-color)          ;
+
+    --serverlist-background-blur:     none                                  ;
+    --serverlist-transparency:        0                                     ;
+    --serverlist-transparency-color:  var(--dark-background-color)          ;
+
+    --channels-background-blur:       none                                  ;
+    --channels-transparency:          0                                     ;
+    --channels-transparency-color:    var(--dark-background-color)          ;
+
+    --chat-background-blur:           none                                  ;
+    --chat-transparency:              0                                     ;
+    --chat-transparency-color:        var(--dark-background-color)          ;
+
+    --memberlist-background-blur:     none                                  ;
+    --memberlist-transparency:        0                                     ;
+    --memberlist-transparency-color:  var(--dark-background-color)          ;
+
+
+    --st-l-scroller-bg-blur:          none                                  ;
+    --st-l-scroller-transparency:     1                                     ;
+    --st-l-scroller-color:            var(--dark-background-color)          ;
+    --st-r-scroller-bg-blur:          none                                  ;
+    --st-r-scroller-transparency:     1                                     ;
+    --st-r-scroller-color:            var(--darker-background-color)        ;
+
+
+    --chatbox-transparency:           1                                     ;
+    --chatbox-focused-transparency:   1                                     ;
+    --other-transparency:             1                                     ;
+    --other-highlighted-transparency: 1                                     ;
+    --lines-transparency:             1                                     ;
+
+
+    --channeltabs-background-color:   var(--darker-background-color)        ;
+    --channeltabs-background-blur:    none                                  ;
+    --channeltabs-bg-transparency:    1                                     ;
+    --channeltabs-tab-bg-color:       var(--dark-background-color)          ;
+    --channeltabs-tab-bg-transparency:1                                     ;
+
+    --channeltabs-fav-bg-color:       var(--dark-background-color)          ;
+    --channeltabs-fav-bg-blur:        none                                  ;
+    --channeltabs-fav-bg-transparency:1                                     ;
+    --channeltabs-fav-hover:          111, 125, 138                         ;
+    --channeltabs-fav-hover-alpha:    0.3                                   ;
+
 
     /* Theme compatibility variables */
     /* UT00_AllUTilities */
@@ -1293,7 +1371,7 @@ body,
 .colorStandard-2KCXvj.channelName-2HcGlq {
     color: rgb(var(--normal-hover-font));
 }
-/* TextArea (chatbox) */
+/* Text Area (chatbox) */
 .channelTextArea-rNsIhG,
 .channelTextArea-3bF57p,
 .channelTextAreaUpload-3t7EIx,
@@ -1301,11 +1379,19 @@ body,
     background: transparent;
     border: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
     border-radius: 0;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color, border-color, color;
 }
-.channelTextArea-rNsIhG:focus-within,
-.channelTextArea-3bF57p:focus-within,
-.channelTextAreaUpload-3t7EIx:focus-within,
-.channelTextArea-2VhZ6z:focus-within {
+.app-focused .channelTextArea-rNsIhG:hover,
+.app-focused .channelTextArea-3bF57p:hover,
+.app-focused .channelTextAreaUpload-3t7EIx:hover,
+.app-focused .channelTextArea-2VhZ6z:hover {
+    border-color: rgba(var(--accent-color-2, 255, 55, 109), calc(var(--lines-transparency, 1) + 0.3))
+}
+.app-focused .channelTextArea-rNsIhG:focus-within,
+.app-focused .channelTextArea-3bF57p:focus-within,
+.app-focused .channelTextAreaUpload-3t7EIx:focus-within,
+.app-focused .channelTextArea-2VhZ6z:focus-within {
     border: solid 1px rgba(var(--accent-color-1, 250, 30, 70), calc(var(--lines-transparency, 1) + 0.3));
 }
 .channelTextArea-rNsIhG .scrollableContainer-2NUZem,
@@ -1316,11 +1402,13 @@ body,
     padding-top: 1px;
     padding-bottom: 1px;
     border-radius: 0;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color, border-color, color;
 }
-.channelTextArea-rNsIhG:focus-within .scrollableContainer-2NUZem,
-.channelTextArea-3bF57p:focus-within .scrollableContainer-2NUZem,
-.channelTextAreaUpload-3t7EIx:focus-within .scrollableContainer-2NUZem,
-.channelTextArea-2VhZ6z:focus-within .scrollableContainer-2NUZem {
+.app-focused .channelTextArea-rNsIhG:focus-within .scrollableContainer-2NUZem,
+.app-focused .channelTextArea-3bF57p:focus-within .scrollableContainer-2NUZem,
+.app-focused .channelTextAreaUpload-3t7EIx:focus-within .scrollableContainer-2NUZem,
+.app-focused .channelTextArea-2VhZ6z:focus-within .scrollableContainer-2NUZem {
     background-color: rgba(var(--dark-background-color), var(--chatbox-focused-transparency));
     padding-top: 1px;
     padding-bottom: 1px;
@@ -1331,10 +1419,10 @@ body,
 .channelTextArea-2VhZ6z { /* buttons */
     color: var(--text-muted);
 }
-.channelTextArea-rNsIhG:focus-within .button-3AYNKb,
-.channelTextArea-3bF57p:focus-within .button-3AYNKb,
-.channelTextAreaUpload-3t7EIx:focus-within .button-3AYNKb,
-.channelTextArea-2VhZ6z:focus-within .button-3AYNKb { /* buttons focused */
+.app-focused .channelTextArea-rNsIhG:focus-within .button-3AYNKb,
+.app-focused .channelTextArea-3bF57p:focus-within .button-3AYNKb,
+.app-focused .channelTextAreaUpload-3t7EIx:focus-within .button-3AYNKb,
+.app-focused .channelTextArea-2VhZ6z:focus-within .button-3AYNKb { /* buttons focused */
     color: var(--interactive-normal);
 }
 .channelTextArea-rNsIhG .attachButtonPlus-jWVFah,
@@ -1342,11 +1430,12 @@ body,
 .channelTextAreaUpload-3t7EIx .attachButtonPlus-jWVFah,
 .channelTextArea-2VhZ6z .attachButtonPlus-jWVFah { /* attach btn */
     fill: var(--text-muted);
+    transition: fill 200ms cubic-bezier(0, 0, 0.35, 1) !important;
 }
-.channelTextArea-rNsIhG:focus-within .attachButtonPlus-jWVFah,
-.channelTextArea-3bF57p:focus-within .attachButtonPlus-jWVFah,
-.channelTextAreaUpload-3t7EIx:focus-within .attachButtonPlus-jWVFah,
-.channelTextArea-2VhZ6z:focus-within .attachButtonPlus-jWVFah { /* attach btn focused */
+.app-focused .channelTextArea-rNsIhG:focus-within .attachButtonPlus-jWVFah,
+.app-focused .channelTextArea-3bF57p:focus-within .attachButtonPlus-jWVFah,
+.app-focused .channelTextAreaUpload-3t7EIx:focus-within .attachButtonPlus-jWVFah,
+.app-focused .channelTextArea-2VhZ6z:focus-within .attachButtonPlus-jWVFah { /* attach btn focused */
     fill: var(--interactive-normal);
 }
 .channelTextArea-rNsIhG .sprite-2iCowe,
@@ -1354,11 +1443,12 @@ body,
 .channelTextAreaUpload-3t7EIx .sprite-2iCowe,
 .channelTextArea-2VhZ6z .sprite-2iCowe { /* emoji btn */
     opacity: 0.6;
+    transition: opacity 200ms cubic-bezier(0, 0, 0.35, 1) !important;
 }
-.channelTextArea-rNsIhG:focus-within .sprite-2iCowe,
-.channelTextArea-3bF57p:focus-within .sprite-2iCowe,
-.channelTextAreaUpload-3t7EIx:focus-within .sprite-2iCowe,
-.channelTextArea-2VhZ6z:focus-within .sprite-2iCowe { /* emoji btn focused */
+.app-focused .channelTextArea-rNsIhG:focus-within .sprite-2iCowe,
+.app-focused .channelTextArea-3bF57p:focus-within .sprite-2iCowe,
+.app-focused .channelTextAreaUpload-3t7EIx:focus-within .sprite-2iCowe,
+.app-focused .channelTextArea-2VhZ6z:focus-within .sprite-2iCowe { /* emoji btn focused */
     filter: grayscale(0%) !important;
     opacity: 1;
 }
@@ -1381,11 +1471,19 @@ body,
     border-radius: 0;
     cursor: default;
     border-bottom: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
+    transition-property: background-color, border-color, color;
 }
-.channelTextArea-rNsIhG:focus-within .container-2fRDfG,
-.channelTextArea-3bF57p:focus-within .container-2fRDfG,
-.channelTextAreaUpload-3t7EIx:focus-within .container-2fRDfG,
-.channelTextArea-2VhZ6z:focus-within .container-2fRDfG {
+.app-focused .channelTextArea-rNsIhG:hover .container-2fRDfG,
+.app-focused .channelTextArea-3bF57p:hover .container-2fRDfG,
+.app-focused .channelTextAreaUpload-3t7EIx:hover .container-2fRDfG,
+.app-focused .channelTextArea-2VhZ6z:hover .container-2fRDfG {
+    border-bottom: solid 1px rgba(var(--accent-color-2, 255, 55, 109), calc(var(--lines-transparency, 1) + 0.3));
+}
+.app-focused .channelTextArea-rNsIhG:focus-within .container-2fRDfG,
+.app-focused .channelTextArea-3bF57p:focus-within .container-2fRDfG,
+.app-focused .channelTextAreaUpload-3t7EIx:focus-within .container-2fRDfG,
+.app-focused .channelTextArea-2VhZ6z:focus-within .container-2fRDfG {
     background-color: rgba(var(--dark-background-color), var(--chatbox-focused-transparency));
     border-bottom: solid 1px rgba(var(--accent-color-1, 250, 30, 70), calc(var(--lines-transparency, 1) + 0.3));
 }
@@ -1713,8 +1811,61 @@ body,
     font-weight: 400 !important;
 }
 /* Inbox */
+.container-enaOkj {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.tutorial-3w5I9h {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.full-motion.app-focused .tutorial-3w5I9h {
+    animation: both-blinking 450ms infinite;
+}
+.tutorialIcon-3f1miQ {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    background-color: rgb(var(--darker-background-color));
+}
+.button-1-5Aqk {
+    border-radius: 0;
+    background-color: rgb(var(--darker-background-color)) !important;
+    border: solid 1px rgb(var(--accent-color-1));
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+    transition-property: color, background-color, border-color;
+    margin-left: 0;
+    margin-right: -1px;
+    z-index: 0;
+}
+.button-1-5Aqk:hover {
+    background-color: rgb(var(--dark-background-color)) !important;
+    border-color: rgb(var(--accent-color-2));
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+    transition-property: color, background-color, border-color;
+    z-index: 1;
+}
+.recentMentionsPopout-3rCiI6 .groupStart-23k01U {
+    border-top: none;
+}
+.channelHeader-3Gd2xq {
+    background-color: rgb(var(--darker-background-color));
+    padding-right: 12px;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.channel-3pEHab,
+.container-3iAQ-0 {
+    padding-bottom: 0;
+    padding-top: 16px;
+}
+.messages-3G3erD,
 .messageContainer-gbhlwo {
-    background: rgb(var(--darker-background-color));
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 0;
+    padding: 16px 16px 16px 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    border-top: none;
 }
 /* Pinned messages */
 .messagesPopoutWrap-1MQ1bW {
@@ -2230,17 +2381,20 @@ code.inline {
     margin-bottom: 32px;
 }
 /* Jump button */
-.jumpButton-JkYoYK {
+.jumpButton-JkYoYK,
+.jumpButton-2dvRSC {
     background: rgb(var(--darker-background-color));
     border-radius: 0;
     border: solid 1px transparent;
 }
-.jumpButton-JkYoYK:hover {
+.jumpButton-JkYoYK:hover,
+.jumpButton-2dvRSC:hover {
     background: rgb(var(--dark-background-color));
     border-radius: 0;
     border: solid 1px rgb(var(--accent-color-2));
 }
-.full-motion.app-focused .jumpButton-JkYoYK:hover {
+.full-motion.app-focused .jumpButton-JkYoYK:hover,
+.full-motion.app-focused .jumpButton-2dvRSC:hover {
     animation: accent-blinking 450ms infinite;
 }
 /* Search in Chat */
@@ -3094,7 +3248,7 @@ code.inline {
     color: rgb(255, 255, 255);
 }
 .winButtonMinMax-PBQ2gm:hover {
-    background-color: rgba(180, 180, 180, 0.4);
+    background-color: rgba(169, 192, 207, 0.4);
     color: rgb(var(--accent-color-1));
 }
 /* Windows top bar/titlebar */
