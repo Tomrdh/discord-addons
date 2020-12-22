@@ -3,24 +3,20 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cos-build: "8";
+    --cos-build: "9";
     --theme-name: "ContextMenus Old Style";
 }
-.theme-dark .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
-.theme-dark .colorDefault-2K3EoJ.focused-3afm-j,
-.theme-dark .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
-.theme-dark .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j {
-    background: #36393f40;
-    background-color: #36393f40;
-    color: #b9bbbe;
+.item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j {
+    background: var(--background-modifier-hover);
+    background-color: var(--background-modifier-hover);
+    color: var(--interactive-normal);
 }
-.theme-light .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
-.theme-light .colorDefault-2K3EoJ.focused-3afm-j,
-.theme-light .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
-.theme-light .item-1tOPte.colorDefault-2K3EoJ.focused-3afm-j {
-    background: #36393f20;
-    background-color: #36393f20;
-    color: #4f5660;
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: var(--background-modifier-active);
+    color: var(--interactive-normal);
 }
 #app-mount .item-1tOPte.colorDanger-2qLCe1.focused-3afm-j {
     color: #f44b4b;
