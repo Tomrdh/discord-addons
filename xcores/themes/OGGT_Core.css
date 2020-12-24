@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "132";
+    --oggt-build: "133";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1386,7 +1386,7 @@ body,
 .app-focused .channelTextArea-3bF57p:hover,
 .app-focused .channelTextAreaUpload-3t7EIx:hover,
 .app-focused .channelTextArea-2VhZ6z:hover {
-    border-color: rgba(var(--accent-color-2, 255, 55, 109), calc(var(--lines-transparency, 1) + 0.3))
+    border-color: rgba(var(--accent-color-2, 255, 55, 109), calc(var(--lines-transparency, 1) + 0.3));
 }
 .app-focused .channelTextAreaDisabled-8rmlrp:hover {
     border-color: rgba(var(--gx-red), calc(var(--lines-transparency) + 0.3));
@@ -1481,7 +1481,10 @@ body,
 .app-focused .channelTextArea-3bF57p:hover .container-2fRDfG,
 .app-focused .channelTextAreaUpload-3t7EIx:hover .container-2fRDfG,
 .app-focused .channelTextArea-2VhZ6z:hover .container-2fRDfG {
-    border-bottom: solid 1px rgba(var(--accent-color-2, 255, 55, 109), calc(var(--lines-transparency, 1) + 0.3));
+    border-bottom-color: rgba(var(--accent-color-2, 255, 55, 109), calc(var(--lines-transparency, 1) + 0.3));
+}
+.app-focused .channelTextAreaDisabled-8rmlrp:hover .container-2fRDfG {
+    border-bottom-color: rgb(var(--gx-red));
 }
 .app-focused .channelTextArea-rNsIhG:focus-within .container-2fRDfG,
 .app-focused .channelTextArea-3bF57p:focus-within .container-2fRDfG,
