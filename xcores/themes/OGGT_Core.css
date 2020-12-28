@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "133";
+    --oggt-build: "134";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1560,6 +1560,10 @@ body,
     line-height: 0.9rem;
 }
 /* Emoji picker, GIF picker, Stickers */
+.navButtonActive-1MkytQ,
+.navButtonActive-1MkytQ:hover {
+    color: rgb(var(--font-in-accent));
+}
 .contentWrapper-SvZHNd,
 .categoryList-2Kzf65 {
     border-radius: 0;
