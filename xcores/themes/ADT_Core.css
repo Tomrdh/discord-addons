@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "309";
-    --adto-build: "210";
+    --adt-build: "310";
+    --adto-build: "211";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -171,7 +171,8 @@
 .theme-dark .container-3w7J-x,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header,
-.theme-dark .bd-modal-wrapper .bd-modal-body
+.theme-dark .bd-modal-wrapper .bd-modal-body,
+.theme-dark .embedFull-2tM8--
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
@@ -477,6 +478,12 @@
 .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl,
 .theme-dark .searchResultMessage-1fxgXh.hit-1fVM9e {
     border-color: var(--bg-3);
+}
+.theme-dark .repliedMessage-VokQwo:before {
+    border-color: rgb(var(--greyaccentcolor));
+}
+.theme-dark .embedFull-2tM8-- {
+    border-left-color: var(--bg-4);
 }
 
 /*~~ 4. Scrollbars ~~*/
