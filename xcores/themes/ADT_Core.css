@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "310";
-    --adto-build: "211";
+    --adt-build: "311";
+    --adto-build: "212";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -121,7 +121,8 @@
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
 .theme-dark .wrapper-2qzCYF.minimum-28Z35l,
-.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl,
+.theme-dark .container-VSDcQc .sectionTag-pXyto9
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -172,7 +173,9 @@
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header,
 .theme-dark .bd-modal-wrapper .bd-modal-body,
-.theme-dark .embedFull-2tM8--
+.theme-dark .embedFull-2tM8--,
+.theme-dark .autocompleteArrow-Zxoy9H,
+.theme-dark .header-2bNvm4
 {
     background: var(--bg-2);
     background-color: var(--bg-2);
