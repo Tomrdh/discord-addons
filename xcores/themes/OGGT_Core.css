@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "136";
+    --oggt-build: "137";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1319,6 +1319,13 @@ body,
 /*.base-PmTxvP {
     
 }*/ /* maybe later */
+.badge-_BgAUQ {
+    background-color: rgb(var(--gx-red));
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
 /* Custom Status Setting */
 .optionNormal-12VR9V:hover,
 .optionActive-KkAdqq,
