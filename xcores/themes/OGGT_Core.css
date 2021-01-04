@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "138";
+    --oggt-build: "139";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4196,6 +4196,18 @@ g[class*="focusStroke"] {
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 3px;
 }
+/* NSFW Channel Warning */
+.actionRed-gYn8D3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(var(--gx-red));
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+.actionRed-gYn8D3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(var(--gx-red-2));
+}
 
 /*-- 6.5. HLJS Names --*/
 /* Init */
@@ -4981,8 +4993,14 @@ g[class*="focusStroke"] {
     opacity: 1;
 }
 /* Center */
-.chatContent-a9vAAp {
+.chatContent-a9vAAp,
+.scroller-11cdZM {
     border-left: solid 1px var(--line-color);
+    border-right: solid 1px var(--line-color);
+}
+.platform-web .chatContent-a9vAAp,
+.platform-web .scroller-11cdZM {
+    border-right: none;
 }
 .searchResultsWrap-3-pOjs {
     border-right: solid 1px var(--line-color);
@@ -4990,12 +5008,6 @@ g[class*="focusStroke"] {
 .platform-web .searchResultsWrap-3-pOjs {
     border-right: none;
     border-left: solid 1px var(--line-color);
-}
-.chatContent-a9vAAp {
-    border-right: solid 1px var(--line-color);
-}
-.platform-web .chatContent-a9vAAp {
-    border-right: none;
 }
 .content-98HsJk {
     border-bottom: solid 1px var(--line-color);
@@ -5161,7 +5173,7 @@ g[class*="focusStroke"] {
 #app-mount .title-2BxgL2 {
     color: rgb(var(--muted-font));
 }
-/* No channel */
+/* No channel/Empty server */
 .noChannel-Z1DQK7 {
     background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
     backdrop-filter: blur(var(--chat-background-blur)) !important;
