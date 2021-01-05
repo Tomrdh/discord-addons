@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "141";
+    --oggt-build: "142";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -5546,7 +5546,7 @@ g[class*="focusStroke"] {
     box-shadow: none;
     border-radius: 0;
 }
-.select-2TCrqx [class*="-menu"] {
+.full-motion.app-focused .select-2TCrqx [class*="-menu"] {
     animation: accent-blinking 450ms infinite;
 }
 .select-2TCrqx [class*="-option"] {
