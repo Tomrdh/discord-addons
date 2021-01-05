@@ -42,7 +42,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "140";
+    --oggt-build: "141";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2710,6 +2710,10 @@ code.inline {
 .highlight {
     background: rgba(var(--accent-color-1), 0.3);
     color: rgb(var(--normal-hover-font));
+}
+.before-2RL1Gz .timestamp-3ZCmNB,
+.after-20SH8W .timestamp-3ZCmNB {
+    cursor: pointer;
 }
 /* Pagination buttons */
 .paginationButton-3u4jo8 {
