@@ -2715,6 +2715,9 @@ code.inline {
 .after-20SH8W .timestamp-3ZCmNB {
     cursor: pointer;
 }
+.expanded-w_LCGl .timestamp-3ZCmNB {
+    cursor: default;
+}
 /* Pagination buttons */
 .paginationButton-3u4jo8 {
     border-radius: 0;
