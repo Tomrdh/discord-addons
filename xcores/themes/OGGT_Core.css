@@ -30,6 +30,7 @@
     17. Discord Developers and Others
         17.1. Discord Developers
         17.2. Widgets
+        17.3. Authorize access to your account (Bot Login)
     18. Update notice
     19. Powercord
     20. Infos
@@ -42,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "142";
+    --oggt-build: "143";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -87,6 +88,8 @@
     --gx-yellow-2:                    255, 255, 68                          ;
     --gx-green:                       0, 212, 81                            ;
     --gx-green-2:                     0, 255, 129                           ;
+    --gx-grey:                        47, 44, 59                            ;
+    --gx-grey-2:                      25, 58, 67                            ;
 
 
     --fullwhite-font:                 250, 253, 255                         ;
@@ -6415,7 +6418,38 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 .widgetFooter-1l6LHW .widgetFooterInfo-3sJWsY {
     opacity: 1;
 }
-
+/*-- 17.3. Authorize access to your account (Bot Login) --*/
+.oauth2Wrapper-mHbF5q {
+    border-radius: 0;
+    background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.footer-3ZalXG {
+    background-image: linear-gradient(270deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
+.logoutLink-2hi5Sf {
+    color: rgb(var(--accent-color-1));
+}
+.scopeTimes-7s84Xf {
+    background-color: rgb(var(--gx-grey));
+}
+.scopeCheck-rUiN1D {
+    background-color: rgb(var(--gx-green));
+}
+.scopeTimes-7s84Xf,
+.scopeCheck-rUiN1D {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
+.sectionLabel-1pA-5F {
+    color: rgb(var(--accent-color-1));
+    text-transform: unset;
+}
+.sectionLabel-1pA-5F.size12-3cLvbJ {
+    font-size: 18px;
+}
 /*~~ 18. Update notice ~~*/
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version008_oggt, block) !important;
