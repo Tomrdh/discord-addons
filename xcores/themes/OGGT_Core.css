@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "144";
+    --oggt-build: "145";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1707,7 +1707,7 @@ body,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookOutlined-3sRXeN,
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
-    color: rgb(var(--fullwhite-font));
+    color: rgb(var(--normal-hover-font));
     background: rgba(var(--darker-background-color), var(--other-transparency));
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
@@ -1719,6 +1719,7 @@ body,
 .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .lookOutlined-3sRXeN:hover,
 .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+    color: rgb(var(--fullwhite-font));
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--accent-color-2));
 }
@@ -1735,6 +1736,10 @@ body,
 .clickable-3rdHwn .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--normal-font));
+}
+.updateIconForeground-3tnNZn {
+    fill: transparent;
+    stroke: rgb(var(--gx-green));
 }
 .clickable-3rdHwn .icon-22AiRD:hover {
     color: transparent;
@@ -3129,7 +3134,8 @@ code.inline {
     background-color: rgba(var(--accent-color-1), 0.6);
     border-radius: 0;
 }
-.arrow-gKvcEx {
+.arrow-gKvcEx,
+.iconContainer-3DcDKa > svg {
     color: rgb(var(--fullwhite-font));
 }
 .colorDefault-2K3EoJ.focused-3afm-j .arrow-gKvcEx {
@@ -4126,7 +4132,9 @@ g[class*="focusStroke"] {
 .colorable-1bkp8v.primaryDark-3mSFDl,
 .colorable-1bkp8v.primaryDark-3mSFDl .centerIcon-2G6o-T,
 .colorable-1bkp8v.white-3GPOIp,
-.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T {
+.colorable-1bkp8v.white-3GPOIp .centerIcon-2G6o-T,
+.controlIcon-35oS15,
+.controlIcon-35oS15:hover {
     color: rgb(var(--fullwhite-font));
 }
 .colorable-1bkp8v.primaryDark-3mSFDl,
@@ -4178,15 +4186,15 @@ g[class*="focusStroke"] {
 /* Voice controls */
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp,
 .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp {
-    background-color: rgb(var(--gx-green));
-    color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    color: rgb(var(--gx-green));
+    border-color: rgb(var(--gx-green));
 }
 .button-1YfofB.buttonColor-7qQbGO.buttonActive-3FrkXp:hover,
 .button-1YfofB .buttonColor-7qQbGO.buttonActive-3FrkXp:hover {
-    background-color: rgb(var(--gx-green-2));
-    color: rgb(255, 255, 255);
-    border-color: rgb(255, 255, 255);
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--gx-green-2));
+    border-color: rgb(var(--gx-green-2));
 }
 /* About to start a stream/screen share */
 .selectorButtonSelected-t5V9On {
@@ -4214,6 +4222,42 @@ g[class*="focusStroke"] {
     border-radius: 1px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 3px;
+}
+.pictureInPictureVideo-2iKsGg {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .elevationHigh-3A9Xbf {
+    -webkit-box-shadow: 0 0 0 3px rgb(var(--accent-color-1));
+    box-shadow: 0 0 0 3px rgb(var(--accent-color-1));
+}
+.videoWrapper-2v09vt {
+    background-color: rgb(var(--dark-background-color));
+}
+.border-3dQmSY.speaking-WDn8Wm {
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px rgb(var(--darker-background-color));
+    box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px rgb(var(--darker-background-color));
+}
+.tile-2naSqK {
+    border-radius: 0;
+}
+.live-vBWnV6 {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
+.participantsButton-KYW-IW {
+    border-radius: 0;
+    background: rgb(var(--darker-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+    transition: 200ms cubic-bezier(0, 0, 0, 1) !important;
+    transition-property: background, color, border !important;
+}
+.participantsButton-KYW-IW:hover {
+    border-radius: 0;
+    background: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-2));
 }
 /* NSFW Channel Warning */
 .actionRed-gYn8D3 {
@@ -5051,7 +5095,11 @@ g[class*="focusStroke"] {
 }
 .root-217Brm {
     border-left: solid 1px var(--line-color);
+}
+.root-217Brm .videoGridWrapper-2BDlMX {
+    border-left: solid 1px var(--line-color);
     border-bottom: solid 1px var(--line-color);
+    border-right: solid 1px var(--line-color);
 }
 .noChannel-Z1DQK7 {
     border-left: solid 1px var(--line-color);
@@ -5059,6 +5107,9 @@ g[class*="focusStroke"] {
 }
 .platform-web .noChannel-Z1DQK7 {
     border-right: none;
+}
+.warningIcon-3rQ5yJ {
+    color: rgb(var(--gx-yellow));
 }
 /* Memberlist */
 .members-1998pB {
