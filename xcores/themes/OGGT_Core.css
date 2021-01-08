@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "145";
+    --oggt-build: "146";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -242,6 +242,11 @@
 @keyframes channeltabs-tabClose {
     0%   {width: var(--channelTabs-tabWidth);}
     100% {width: 0;}
+}
+@keyframes shadowPulse-2kjgqQ {
+    0%   {box-shadow: 0 0 3px rgba(var(--gx-red), 0.3)}
+    50%  {box-shadow: 0 0 3px rgba(var(--gx-red), 0.6)}
+    100% {box-shadow: 0 0 3px rgba(var(--gx-red), 0.3)}
 }
 @keyframes animated-background { /* animation: animated-background 14.7s infinite; */
     0%   {background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
@@ -2726,6 +2731,19 @@ code.inline {
 .expanded-w_LCGl .timestamp-3ZCmNB {
     cursor: default;
 }
+.searchResult-9tQ1uo {
+    border-radius: 0;
+    border: solid 1px var(--line-color-1);
+    background-color: rgba(var(--darker-background-color), var(--other-transparency))
+}
+#app-mount .tab-2j5AEF {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 5px;
+}
+#app-mount .tab-2j5AEF.selected-2LAck8 {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
 /* Pagination buttons */
 .paginationButton-3u4jo8 {
     border-radius: 0;
@@ -3404,6 +3422,23 @@ code.inline {
 }
 .keybindShortcut-1BD6Z1 g {
     fill: rgb(var(--fullwhite-font)) !important;
+}
+.container-1nZlH6 {
+    border-radius: 0;
+}
+.container-CpszHS:not(.disabled-29eJ21):focus-within,
+.container-CpszHS:not(.disabled-29eJ21):hover {
+    border-color: rgba(var(--gx-red), 0.3);
+}
+#app-mount .container-1nZlH6 {
+    background-color: rgb(var(--darker-background-color));
+    border-color: rgb(var(--darker-background-color));
+}
+#app-mount .container-CpszHS.reording-1H2dS7 {
+    color: rgb(var(--gx-red));
+    border-color: rgb(var(--gx-red), 0.6);
+    -webkit-box-shadow: 0 0 6px rgba(var(--gx-red), 0.3);
+    box-shadow: 0 0 6px rgba(var(--gx-red), 0.3);
 }
 /* Keyboard Combos Ctrl + / */
 #app-mount .keyboardShortcutsModal-3piNz7 {
@@ -4234,8 +4269,10 @@ g[class*="focusStroke"] {
 .videoWrapper-2v09vt {
     background-color: rgb(var(--dark-background-color));
 }
-.border-3dQmSY.speaking-WDn8Wm {
+.border-3dQmSY {
     border-radius: 0;
+}
+.border-3dQmSY.speaking-WDn8Wm {
     -webkit-box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px rgb(var(--darker-background-color));
     box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px rgb(var(--darker-background-color));
 }
@@ -5585,6 +5622,7 @@ g[class*="focusStroke"] {
 .select-2TCrqx [class*="-singleValue"],
 .select-2TCrqx [class*="-option"] {
     color: rgb(var(--fullwhite-font));
+    line-height: 24px;
 }
 .select-2TCrqx [class*="-option"]:hover {
     background-color: rgb(var(--dark-background-color));
