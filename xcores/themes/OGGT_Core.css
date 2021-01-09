@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "146";
+    --oggt-build: "147";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -127,7 +127,7 @@
     --chat-transparency-color:        var(--dark-background-color)          ;
 
     --memberlist-background-blur:     none                                  ;
-    --memberlist-transparency:        0                                     ;
+    --memberlist-transparency:        0.5                                   ;
     --memberlist-transparency-color:  var(--dark-background-color)          ;
 
 
@@ -1174,8 +1174,9 @@ body,
 .roleCircle-3xAZ1j,
 .member-perms .member-perm .perm-circle,
 .roleCircle-3DE8xJ {
-    width: 16px !important;
-    height: 16px !important;
+    margin-left: 3px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 20%;
 }
 /* Add role btn */
 #app-mount .userPopout-3XzG_A .actionButton-VzECiy {
@@ -2492,6 +2493,11 @@ code.inline {
 .full-motion.app-focused .jumpButton-2dvRSC:hover {
     animation: accent-blinking 450ms infinite;
 }
+.button-11zvza {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+    height: 26px;
+}
 /* Search in Chat */
 .searchBar-3dMhjb {
     border-radius: 0;
@@ -2743,6 +2749,12 @@ code.inline {
 }
 #app-mount .tab-2j5AEF.selected-2LAck8 {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    color: rgb(var(--font-in-accent));
+    font-weight: 900;
+}
+.searchHeader-2XoQg7,
+.scroller-3GIiMh {
+    background-color: rgb(var(--memberlist-transparency-color), var(--memberlist-transparency))
 }
 /* Pagination buttons */
 .paginationButton-3u4jo8 {
