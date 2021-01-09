@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "148";
+    --oggt-build: "149";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1104,6 +1104,10 @@ body,
 .full-motion.app-focused .headerPlaying-j0WQBV,
 .full-motion.app-focused .topSectionPlaying-1J5E4n {
     animation: animated-background 14.7s infinite;
+}
+.headerPlaying-j0WQBV *,
+.topSectionPlaying-1J5E4n * {
+    color: rgb(var(--font-in-accent)) !important;
 }
 .badges-XRnWAp .topSectionPlaying-1J5E4n {
     background: none !important;
@@ -3695,7 +3699,7 @@ g[class*="focusStroke"] {
 }
 .audioControls-2HsaU6 {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border: solid 1px rgb(var(--accent-color-2));
+    border: solid 1px var(--line-color-2);
     border-radius: 0;
 }
 .mediaBarWrapper-3D7r67 {
@@ -3730,6 +3734,26 @@ g[class*="focusStroke"] {
 .mediaBarInteractionVolume-3QZqYd {
     border-radius: 0;
     background-color: rgb(var(--darker-background-color));
+}
+.mediaBarPreview-1jfyFs,
+.mediaBarPreview-1jfyFs:after,
+.mediaBarPreview-1jfyFs:before,
+.buffer-26XPkd, .buffer-26XPkd:after,
+.buffer-26XPkd:before {
+    background-color: rgb(var(--fullwhite-font));
+}
+.buffer-26XPkd {
+    opacity: 0.15;
+}
+.durationTimeWrapper-OugPFt {
+    color: rgb(var(--fullwhite-font));
+}
+.controlIcon-3cRbti {
+    opacity: 1;
+    color: rgb(var(--normal-font));
+}
+.controlIcon-3cRbti:hover {
+    color: rgb(var(--normal-hover-font));
 }
 /* Auth screen */
 #app-mount .authBox-hW6HRx {
