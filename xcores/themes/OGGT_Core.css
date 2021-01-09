@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "147";
+    --oggt-build: "148";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2475,6 +2475,9 @@ code.inline {
 .tooltipRight-2JM5PQ {
     margin-top: 32px;
     margin-bottom: 32px;
+}
+.guildNameText-74xXQn {
+    color: rgb(var(--fullwhite-font));
 }
 /* Jump button */
 .jumpButton-JkYoYK,
