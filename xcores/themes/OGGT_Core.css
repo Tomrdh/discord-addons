@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "150";
+    --oggt-build: "151";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1316,6 +1316,13 @@ body,
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
 }
+.content-s2SEQO h1 {
+    text-transform: capitalize;
+    font-size: 18px !important;
+}
+.content-1LAB8Z {
+    padding-top: 20px;
+}
 /* Popout background */
 .backdropWithLayer-3_uhz4 {
     background-color: transparent !important;
@@ -1746,6 +1753,10 @@ body,
     color: transparent;
     stroke: rgb(var(--normal-font));
 }
+.clickable-3rdHwn:hover .icon-22AiRD {
+    color: transparent;
+    stroke: rgb(var(--normal-hover-font));
+}
 .updateIconForeground-3tnNZn {
     fill: transparent;
     stroke: rgb(var(--gx-green));
@@ -1788,6 +1799,9 @@ body,
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     color: rgb(var(--font-in-accent));
     transition: none;
+}
+.iconBadge-qZ4Ksk {
+    background-color: rgb(var(--gx-red));
 }
 /* Mentioned */
 .mentioned-xhSam7:before {
@@ -2084,8 +2098,23 @@ body,
 .attachment-2p5mHK,
 .avatar-2daVqv,
 .blob-2w7iIK {
-    opacity: 0.3 !important;
+    opacity: 0.5 !important;
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
+/* Channel Start (Welcome to #…) */
+.emptyChannelIcon-cc932w {
+    background-image: none;
+}
+.emptyChannelIcon-cc932w:before {
+    font-size: 64px;
+    content: "#";
+    color: rgb(var(--font-in-accent));
+    position: absolute;
+    left: 26px;
+    top: 34px;
 }
 /* New messages */
 .newMessagesBar-mujexs,
@@ -2161,8 +2190,7 @@ body,
 #app-mount .isFailed-2MPmD6,
 #app-mount .isFailed-2MPmD6 .hljs,
 #app-mount .isFailed-2MPmD6 a,
-#app-mount .isFailed-2MPmD6 code.inline,
-#app-mount .isFailed-2MPmD6 {
+#app-mount .isFailed-2MPmD6 code.inline {
     color: rgb(var(--gx-red));
 }
 .groupStart-23k01U {
@@ -3120,6 +3148,9 @@ code.inline {
 .placeholderUsername-2B_OA9,
 .memberGroupsPlaceholder-3mwPub {
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
 }
 .members-1998pB .layout-2DM8Md {
     border-radius: 0;
@@ -3913,6 +3944,19 @@ g[class*="focusStroke"] {
 .closeButton-3cJIM4:hover:before {
     color: rgb(var(--normal-hover-font));
 }
+/* Changelogs */
+.improved-1NJK-y {
+    color: rgb(var(--accent-color-1));
+}
+.improved-1NJK-y:after {
+    background-color: rgb(var(--accent-color-1));
+}
+.fixed-3zCC84 {
+    color: rgb(var(--gx-red));
+}
+.fixed-3zCC84:after {
+    background-color: rgb(var(--gx-red));
+}
 /* Server Welcomer Options */
 .optionContainer-15srkc {
     border-radius: 0;
@@ -4060,7 +4104,9 @@ g[class*="focusStroke"] {
     border-radius: 0;
 }
 .header-1TKi98 {
+    background-color: rgb(var(--darker-background-color));
     border-radius: 0;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
 }
 /* Shadow below top bar */
 .content-yTz4x3:before {
@@ -4085,22 +4131,23 @@ g[class*="focusStroke"] {
 /*-- 6.3. Public Servers --*/
 /* Public button */
 #bd-pub-button {
-    border-radius: 0;
-    background-color: rgb(var(--darker-background-color));
+    border-radius: 2px;
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
     color: rgb(var(--normal-font));
-    border: solid 1px rgb(var(--accent-color-1));
-    text-transform: capitalize;
-    height: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+    height: 20px;
+    line-height: 22px;
+    font-size: 11px;
     transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+    transition-property: color, background-color, font-weight;
 }
 #bd-pub-button:hover {
-    color: rgb(var(--normal-hover-font));
-    background-color: rgb(var(--dark-background-color));
-    border-color: rgb(var(--accent-color-2));
-}
-#bd-pub-li {
-    height: 22px;
-    margin-bottom: 8px;
+    background-color: rgb(var(--accent-color-2));
+    color: rgb(var(--font-in-accent));
+    font-weight: 900;
 }
 /* Public list */
 .bd-server-card.bd-server-card-pinned:after {
@@ -5737,36 +5784,66 @@ g[class*="focusStroke"] {
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
 }
-.valueUnchecked-2lU_20:after,
-.bd-switch:after {
-    -webkit-transform: translate3d(0, -1px, 0);
-    transform: translate3d(0, -1px, 0);
-}
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
-.bd-switch-checked.bd-switch:after {
-    -webkit-transform: translate3d(16px, -1.5px, 0);
-    transform: translate3d(16px, -1.5px, 0);
-}
-.valueUnchecked-2lU_20:after,
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after,
-.bd-switch:after {
-    background-color: rgb(217, 215, 218);
-}
-.valueUnchecked-2lU_20,
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr,
+.container-3auIfb,
 .bd-switch {
-    transition: 500ms;
-    transition-property: background-color, border-color;
+	background-color: rgba(var(--dark-background-color), var(--other-transparency)) !important;
+	transition: 400ms ease;
+	transition-property: background-color, box-shadow;
+	box-shadow: 0 0 0 rgb(0, 0, 0);
 }
-.valueUnchecked-2lU_20,
-.bd-switch {
-    background-color: rgb(var(--darker-background-color));
-    border: solid 1px rgb(var(--dark-background-color));
+.container-3auIfb:hover,
+.bd-switch:hover {
+	background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency)) !important;
+	box-shadow: 0 0 8px rgba(var(--accent-color-2), 0.5);
 }
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
-.bd-switch-checked {
-    background-color: rgba(var(--accent-color-1), 0.4);
-    border: solid 2px rgb(var(--accent-color-1));
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"],
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"],
+.bd-switch.bd-switch-checked {
+	background-color: rgb(var(--accent-color-1)) !important;
+	box-shadow: 0 0 4px rgb(var(--accent-color-1));
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"]:hover,
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:hover,
+.bd-switch.bd-switch-checked:hover,
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"]:active,
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:active,
+.bd-switch.bd-switch-checked:active {
+	background-color: rgb(var(--accent-color-2)) !important;
+	box-shadow: 0 0 8px rgb(var(--accent-color-2));
+}
+.container-3auIfb path[fill] {
+	fill: rgb(var(--dark-background-color)) !important;
+	transition: fill 400ms ease;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"] path[fill],
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"] path[fill] {
+	fill: rgb(var(--accent-color-1)) !important;
+}
+.bd-switch::after {
+    background-color: rgb(var(--fullwhite-font));
+    transition: transform 150ms ease-in-out, width 100ms ease-in-out, left 100ms ease-in-out, background-color 400ms ease;
+}
+.bd-switch.bd-switch-checked::after {
+    background-color: rgb(var(--font-in-accent));
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"]:hover path[fill],
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:hover path[fill],
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"]:active path[fill],
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:active path[fill] {
+	fill: rgb(var(--accent-color-2)) !important;
+}
+.plugin-inputs .control-2BBjec {
+    padding-top: 8px;
+    padding-right: 8px;
+    margin-bottom: -8px;
+}
+.container-3auIfb rect[fill] {
+    fill: rgb(var(--fullwhite-font));
+    transition: fill 400ms ease;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129)"] rect[fill],
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"] rect[fill] {
+    fill: rgb(var(--font-in-accent));
 }
 #app-mount .markValue-2DwdXI {
     color: rgb(var(--muted-font));
