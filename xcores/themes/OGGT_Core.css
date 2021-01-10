@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "151";
+    --oggt-build: "152";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3929,7 +3929,7 @@ g[class*="focusStroke"] {
     margin-top: -1px;
 }
 .full-motion.app-focused .colorInfo-2URYW5 {
-    animation: both-blinking 450ms infinite !important;
+    animation: background-blinking 450ms infinite !important;
 }
 .closeButton-3cJIM4 {
     background-image: none;
@@ -3943,6 +3943,10 @@ g[class*="focusStroke"] {
 }
 .closeButton-3cJIM4:hover:before {
     color: rgb(var(--normal-hover-font));
+}
+#outdatedPlugins > span,
+#pluginNotice #outdatedPlugins span {
+    color: rgb(var(--fullwhite-font));
 }
 /* Changelogs */
 .improved-1NJK-y {
