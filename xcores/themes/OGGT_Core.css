@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "149";
+    --oggt-build: "150";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1317,12 +1317,11 @@ body,
     border-radius: 0;
 }
 /* Popout background */
-.backdrop-1wrmKB,
 .backdropWithLayer-3_uhz4 {
-    opacity: 0.67 !important;
-    background-color: none !important;
-    background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+    background-color: transparent !important;
+    background-image: linear-gradient(135deg, rgba(var(--dark-background-color), var(--backdrop-opacity)), rgba(var(--darker-background-color), var(--backdrop-opacity)));
     border: solid 1px var(--line-color);
+    --backdrop-opacity: 0.8;
 }
 .platform-web .backdrop-1wrmKB,
 .platform-web .backdropWithLayer-3_uhz4 {
