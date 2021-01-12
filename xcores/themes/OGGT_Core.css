@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "153";
+    --oggt-build: "154";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2051,6 +2051,12 @@ body,
 }
 #app-mount .resolvingBackground-351jK_ {
     background-image: linear-gradient(90deg, rgba(var(--accent-color-1), 0.4), rgba(var(--accent-color-2), 0.4));
+}
+.statusOnline-8PnF5L {
+    background-color: rgb(var(--gx-green));
+}
+.statusOffline-37RKt7 {
+    background-color: rgb(var(--gx-grey));
 }
 /* Spotify Invites */
 #app-mount .invite-18yqGF {
