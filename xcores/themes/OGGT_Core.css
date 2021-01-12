@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "152";
+    --oggt-build: "153";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2568,15 +2568,20 @@ code.inline {
 #app-mount .option-96V44q:after {
     background: linear-gradient(90deg, rgba(var(--dark-background-color), 0), rgba(var(--dark-background-color), 1));
 }
-#app-mount .searchOption-zQ-1l6 .filter-3Y_im- {
+#app-mount .filter-3Y_im- {
+    color: rgb(var(--muted-font));
+}
+#app-mount .answer-1n6g43,
+#app-mount .nonText-3CRkO0 {
     color: rgb(var(--normal-font));
 }
-#app-mount .searchOption-zQ-1l6 .answer-1n6g43 {
-    color: rgb(var(--muted-font));
+#app-mount .queryContainer-RKFJW- strong {
+    color: rgb(var(--fullwhite-font));
 }
 #app-mount .option-96V44q {
     border: solid 1px transparent;
     margin-top: -1px;
+    line-height: 24px;
 }
 #app-mount .resultsGroup-r_nuzN .header-2N-gMV,
 #app-mount .resultsGroup-r_nuzN .plusIcon-v0BTrL,
