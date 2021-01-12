@@ -189,6 +189,7 @@
     --background-modifier-selected: rgba(var(--darker-background-color), 0.32);
     --background-modifier-hover: rgba(var(--fullwhite-font), 0.05);
     --background-modifier-active: rgba(var(--fullwhite-font), 0.1);
+    --background-message-hover: rgba(var(--accent-color-1), 0.1);
     --bd-blue: rgb(var(--accent-color-1)) !important;
     --blurple: rgb(var(--accent-color-1)) !important;
     --deprecated-quickswitcher-input-background: rgb(var(--darker-background-color)) !important;
@@ -2115,12 +2116,13 @@ body,
     background-image: none;
 }
 .emptyChannelIcon-cc932w:before {
-    font-size: 64px;
+    font-size: 60px;
     content: "#";
     color: rgb(var(--font-in-accent));
     position: absolute;
-    left: 26px;
-    top: 34px;
+    left: 33px;
+    line-height: 70px;
+    font-family: var(--cbcf);
 }
 /* New messages */
 .newMessagesBar-mujexs,
@@ -2220,7 +2222,8 @@ body,
 .compact-T3H92H.wrapper-2a6GCs,
 .cozy-3raOZG.wrapper-2a6GCs {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 1px;
+    min-height: unset;
 }
 .content-2M3n_H {
     font-size: 0.85rem;
@@ -4032,6 +4035,9 @@ g[class*="focusStroke"] {
 }
 #app-mount .tagline-2nvxi0 {
     color: rgb(var(--normal-font));
+}
+#app-mount .invalidPoop-pnUbq7 {
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
 }
 /* View As Roles Notice */
 .notice-1tZwqv {
