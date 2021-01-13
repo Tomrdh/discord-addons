@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "155";
+    --oggt-build: "156";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4225,8 +4225,8 @@ g[class*="focusStroke"] {
     background-color: transparent;
 }
 .root-217Brm {
-    background: rgba(var(--chat-transparency-color), var(--chat-transparency));
-    backdrop-filter: blur(var(--chat-background-blur));
+    background: rgba(var(--header-transparency-color), var(--header-transparency));
+    backdrop-filter: blur(var(--header-background-blur));
     -webkit-box-shadow: none;
     box-shadow: none;
 }
