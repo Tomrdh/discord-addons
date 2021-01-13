@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "156";
+    --oggt-build: "157";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2900,8 +2900,8 @@ code.inline {
 .full-motion.app-focused .privateChannels-1nO12o .clickable-1JJAn8:hover .layout-2DM8Md {
     animation: both-blinking-with-transparency 450ms infinite;
 }
-.privateChannels-1nO12o .highlighted-1gWxXa.container-2Pjhx- .layout-2DM8Md {
-    background: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+.privateChannels-1nO12o .highlighted-1gWxXa .layout-2DM8Md {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
     border-left-color: rgb(var(--fullwhite-font));
     border-radius: 0;
     font-style: italic;
@@ -3055,7 +3055,7 @@ code.inline {
 .modeUnread-1zpFdA .content-3at_AU,
 .modeUnread-1qO3K1 .content-1x5b-n {
     border-left: solid rgb(var(--fullwhite-font)) 2px;
-    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
 }
 .modeUnread-1zpFdA .name-3_Dsmg,
 .modeUnread-1qO3K1 .name-23GUGE {
