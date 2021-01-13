@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "157";
+    --oggt-build: "158";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3272,6 +3272,7 @@ code.inline {
 }
 .colorBrand-ROmMP1.focused-3afm-j {
     background-color: rgb(var(--accent-color-1));
+    color: rgb(var(--font-in-accent));
 }
 .colorPremium-p4p7qO.focused-3afm-j {
     background-color: #ff73fa;
