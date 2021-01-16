@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "159";
+    --oggt-build: "160";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3907,6 +3907,9 @@ g[class*="focusStroke"] {
 .bd-addon-list .bd-footer a {
     color: var(--text-link);
 }
+.bd-toast.icon {
+    padding-left: 10px;
+}
 .toast.toast-danger,
 .toast.toast-error,
 .toast[style*="240, 71, 71"] {
@@ -3924,6 +3927,7 @@ g[class*="focusStroke"] {
     color: rgb(var(--normal-font)) !important;
     border-color: rgb(var(--gx-grey-2));
 }
+.bd-toast.toast-success,
 .toast[style*="67, 181, 129"] {
     background-color: rgb(var(--dark-background-color)) !important;
     color: rgb(var(--gx-green-2)) !important;
