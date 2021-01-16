@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "158";
+    --oggt-build: "159";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -89,7 +89,7 @@
     --gx-green:                       0, 212, 81                            ;
     --gx-green-2:                     0, 255, 129                           ;
     --gx-grey:                        47, 44, 59                            ;
-    --gx-grey-2:                      25, 58, 67                            ;
+    --gx-grey-2:                      62, 58, 67                            ;
 
 
     --fullwhite-font:                 250, 253, 255                         ;
@@ -3876,19 +3876,25 @@ g[class*="focusStroke"] {
     stroke: rgb(var(--gx-red));
 }
 /* BD Toasts */
-.bd-toast {
-    background: rgb(var(--dark-background-color));
+/*.bd-toasts,
+.toasts {
+    align-items: flex-end !important;
+}*/
+.bd-toast,
+.toast {
+    background: rgb(var(--dark-background-color)) !important;
     border-radius: 0 !important;
     border: solid 1px rgb(var(--accent-color-1));
     box-shadow: none;
     font-weight: 500;
-    color: rgb(var(--fullwhite-font));
+    color: rgb(var(--fullwhite-font)) !important;
+    /* margin-right: 10px; */
 }
 #app-mount .bd-addon-list .bda-header,
 #app-mount .bd-addon-list .bda-description,
 #app-mount .bd-addon-list .bd-description,
 #app-mount .bd-addon-list .bd-card-footer {
-    color: rgb(var(--normal-font));
+    color: rgb(var(--normal-font)) !important;
 }
 #app-mount .bd-addon-list .bd-card-footer
 #app-mount .bd-addon-button > svg {
@@ -3898,17 +3904,30 @@ g[class*="focusStroke"] {
 #app-mount .bd-addon-list .bda-header {
     border-color: rgb(var(--accent-color-1));
 }
-.noticeInfo-3_iTE1 {
-    background-color: rgb(var(--darker-background-color));
-    border: solid 1px var(--line-color-2);
-    border-top: none;
-    color: rgb(var(--fullwhite-font));
-}
-.full-motion.app-focused .noticeInfo-3_iTE1 {
-    animation: both-blinking-with-transparency 450ms infinite !important;
-}
 .bd-addon-list .bd-footer a {
     color: var(--text-link);
+}
+.toast.toast-danger,
+.toast.toast-error,
+.toast[style*="240, 71, 71"] {
+    background-color: rgb(var(--dark-background-color)) !important;
+    color: rgb(var(--gx-red-2)) !important;
+    border-color: rgb(var(--gx-red));
+}
+.toast[style*="250, 166, 26"] {
+    background-color: rgb(var(--dark-background-color)) !important;
+    color: rgb(var(--gx-yellow-2)) !important;
+    border-color: rgb(var(--gx-yellow));
+}
+.toast[style*="116, 127, 141"] {
+    background-color: rgb(var(--dark-background-color)) !important;
+    color: rgb(var(--normal-font)) !important;
+    border-color: rgb(var(--gx-grey-2));
+}
+.toast[style*="67, 181, 129"] {
+    background-color: rgb(var(--dark-background-color)) !important;
+    color: rgb(var(--gx-green-2)) !important;
+    border-color: rgb(var(--gx-green));
 }
 /* BD Addon Errors */
 .bd-modal-wrapper .bd-modal-body {
@@ -3963,12 +3982,27 @@ g[class*="focusStroke"] {
 #pluginNotice #outdatedPlugins span {
     color: rgb(var(--fullwhite-font));
 }
+.noticeInfo-3_iTE1 {
+    background-color: rgb(var(--darker-background-color));
+    border: solid 1px var(--line-color-2);
+    border-top: none;
+    color: rgb(var(--fullwhite-font));
+}
+.full-motion.app-focused .noticeInfo-3_iTE1 {
+    animation: both-blinking-with-transparency 450ms infinite !important;
+}
 /* Changelogs */
 .improved-1NJK-y {
     color: rgb(var(--accent-color-1));
 }
 .improved-1NJK-y:after {
     background-color: rgb(var(--accent-color-1));
+}
+.added-2hLRj3 {
+    color: rgb(var(--gx-green));
+}
+.added-2hLRj3:after {
+    background-color: rgb(var(--gx-green));
 }
 .fixed-3zCC84 {
     color: rgb(var(--gx-red));
@@ -4972,6 +5006,17 @@ g[class*="focusStroke"] {
 .scroller-2TZvBN .label-2wRs_g {
     font-size: 9px;
 }
+.label-9FgsSa {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
+.label-9FgsSa[style*="background-color"] {
+    color: rgb(255, 255, 255)
+}
+.label-9FgsSa[style*="background-color: var(--bdfdb-blurple)"] {
+    color: rgb(var(--font-in-accent));
+}
 /* GoogleTranslateOption */
 #app-mount .select-2TCrqx [class*="-menu"] {
     -webkit-box-shadow: none;
@@ -5527,12 +5572,18 @@ g[class*="focusStroke"] {
     color: rgb(var(--accent-color-2));
 }
 #app-mount .checkbox-1ix_J3 {
-    border-radius: 50%;
+    border-radius: 0;
     border-color: rgb(var(--accent-color-1));
 }
 #app-mount .item-26Dhrx[style*="background"] .checkbox-1ix_J3 {
     border-color: rgb(var(--fullwhite-font)) !important;
     color: rgb(var(--accent-color-1)) !important;
+}
+#app-mount .checked-3_4uQ9[style*="bdfdb-blurple"] {
+    background-color: #0000 !important;
+}
+#app-mount .checked-3_4uQ9[style*="bdfdb-blurple"] path {
+    fill: rgb(var(--accent-color-1)) !important;
 }
 #app-mount .ui-tab-bar-item {
     color: rgb(var(--normal-font));
