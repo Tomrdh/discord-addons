@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "160";
+    --oggt-build: "161";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -351,6 +351,10 @@
     98%  {background: linear-gradient(112deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
     99%  {background: linear-gradient(116deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
     100% {background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));}
+}
+@keyframes cm-pop-in {
+    0%  {opacity: 0;}
+    100%{opacity: 1;}
 }
 
 /*~~ 4. Font ~~*/
@@ -3199,8 +3203,9 @@ code.inline {
     -webkit-box-shadow: none;
     max-height: calc(100vh - 51px);
     border-radius: 0;
-    transition: 200ms;
-    transition-property: background-color, opacity;
+}
+.full-motion .menu-3sdvDG {
+    animation: cm-pop-in 250ms;
 }
 .styleFlexible-wGDiIL,
 .submenu-2-ysNh {
@@ -3211,9 +3216,9 @@ code.inline {
     color: rgb(var(--fullwhite-font));
     font-weight: 300;
 }
-.colorDefault-2K3EoJ.focused-3afm-j { /* selection/hover */
+.colorDefault-2K3EoJ.focused-3afm-j,
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { /* selection/hover/active */
     background-color: rgba(var(--accent-color-1), 0.6);
-    border-radius: 0;
 }
 .arrow-gKvcEx,
 .iconContainer-3DcDKa > svg {
@@ -3222,23 +3227,28 @@ code.inline {
 .colorDefault-2K3EoJ.focused-3afm-j .arrow-gKvcEx {
     color: rgb(var(--font-in-accent));
 }
+.item-1tOPte {
+    border-radius: 0;
+}
 .item-1tOPte,
 .item-1tOPte:hover {
     cursor: default;
 }
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { /* selecting */
-    background-color: rgba(var(--accent-color-1), 0.6);
-}
-.labelContainer-1BLJti, .scroller-3BxosC {
+.labelContainer-1BLJti,
+.scroller-3BxosC {
     padding: 0;
 }
 .scroller-3BxosC {
     background-color: rgb(var(--dark-background-color));
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .labelContainer-1BLJti {
-    min-height: 16px;
+    min-height: 21px;
     padding-left: 4px;
     padding-right: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 .colorDefault-2K3EoJ .checkbox-3s5GYZ,
 .colorDefault-2K3EoJ .radioSelection-1HmrQS,
@@ -3270,14 +3280,17 @@ code.inline {
     color: #ff73fa;
     font-weight: 900;
 }
-.colorBrand-ROmMP1.focused-3afm-j {
+.colorBrand-ROmMP1.focused-3afm-j,
+.colorBrand-ROmMP1:active:not(.hideInteraction-1iHO1O) {
     background-color: rgb(var(--accent-color-1));
     color: rgb(var(--font-in-accent));
 }
-.colorPremium-p4p7qO.focused-3afm-j {
+.colorPremium-p4p7qO.focused-3afm-j,
+.colorPremium-p4p7qO:active:not(.hideInteraction-1iHO1O) {
     background-color: #ff73fa;
 }
-.colorDanger-2qLCe1.focused-3afm-j {
+.colorDanger-2qLCe1.focused-3afm-j,
+.colorDanger-2qLCe1:active:not(.hideInteraction-1iHO1O) {
     background-color: rgb(var(--gx-red));
 }
 .colorDefault-2K3EoJ.focused-3afm-j:not(.colorBrand-ROmMP1):not(.colorDanger-2qLCe1):not(.colorPremium-p4p7qO) path:not(.checkbox-3s5GYZ):not(.check-1JyqgN) {
