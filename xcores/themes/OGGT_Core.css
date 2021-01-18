@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "161";
+    --oggt-build: "162";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1328,6 +1328,10 @@ body,
 .content-1LAB8Z {
     padding-top: 20px;
 }
+.tips-2V51be {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
 /* Popout background */
 .backdropWithLayer-3_uhz4 {
     background-color: transparent !important;
@@ -2117,7 +2121,7 @@ body,
 }
 /* Channel Start (Welcome to #…) */
 .emptyChannelIcon-cc932w {
-    background-image: none;
+    background-image: none !important;
 }
 .emptyChannelIcon-cc932w:before {
     font-size: 60px;
