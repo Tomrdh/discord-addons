@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "162";
+    --oggt-build: "163";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2511,7 +2511,8 @@ code.inline {
     font-weight: 600;
 }
 /* Tooltips */
-#app-mount .tooltip-2QfLtc, #app-mount .tooltipBlack-PPG47z {
+#app-mount .tooltip-2QfLtc,
+#app-mount .tooltipBlack-PPG47z {
     border: solid 1px rgb(var(--accent-color-1));
     background: linear-gradient(135deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
     border-radius: 0;
