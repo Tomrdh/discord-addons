@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "163";
+    --oggt-build: "164";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -5053,6 +5053,13 @@ g[class*="focusStroke"] {
 /* ImageUtilities */
 .zoomLens-uOK8xV {
 	border-color: rgb(var(--accent-color-1)) !important;
+}
+.flexChild-faoVW3 {
+    font-size: 0.85rem !important;
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
+    line-height: 1.125rem;
+    vertical-align: center;
+    margin-right: 3px !important;
 }
 /* MemberCount */
 #app-mount #MemberCount {
