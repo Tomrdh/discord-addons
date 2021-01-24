@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "165";
+    --oggt-build: "166";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -5064,6 +5064,9 @@ g[class*="focusStroke"] {
     padding: 2px 4px !important;
     margin-left: 0 !important;
     flex: unset !important;
+}
+.message-2qnXI6 a.flexChild-faoVW3 {
+    border-color: rgba(var(--link-text), var(--other-highlighted-transparency)) !important;
 }
 /* MemberCount */
 #app-mount #MemberCount {
