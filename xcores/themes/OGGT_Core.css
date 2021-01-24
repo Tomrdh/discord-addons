@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "164";
+    --oggt-build: "165";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3930,23 +3930,23 @@ g[class*="focusStroke"] {
 }
 .toast.toast-danger,
 .toast.toast-error,
-.toast[style*="240, 71, 71"] {
+.bd-toast[style*="240, 71, 71"] {
     background-color: rgb(var(--dark-background-color)) !important;
     color: rgb(var(--gx-red-2)) !important;
     border-color: rgb(var(--gx-red));
 }
-.toast[style*="250, 166, 26"] {
+.bd-toast[style*="250, 166, 26"] {
     background-color: rgb(var(--dark-background-color)) !important;
     color: rgb(var(--gx-yellow-2)) !important;
     border-color: rgb(var(--gx-yellow));
 }
-.toast[style*="116, 127, 141"] {
+.bd-toast[style*="116, 127, 141"] {
     background-color: rgb(var(--dark-background-color)) !important;
     color: rgb(var(--normal-font)) !important;
     border-color: rgb(var(--gx-grey-2));
 }
 .bd-toast.toast-success,
-.toast[style*="67, 181, 129"] {
+.bd-toast[style*="67, 181, 129"] {
     background-color: rgb(var(--dark-background-color)) !important;
     color: rgb(var(--gx-green-2)) !important;
     border-color: rgb(var(--gx-green));
@@ -5054,12 +5054,16 @@ g[class*="focusStroke"] {
 .zoomLens-uOK8xV {
 	border-color: rgb(var(--accent-color-1)) !important;
 }
-.flexChild-faoVW3 {
+.message-2qnXI6 .flexChild-faoVW3 {
     font-size: 0.85rem !important;
-    background-color: rgba(var(--dark-background-color), var(--other-transparency));
-    line-height: 1.125rem;
-    vertical-align: center;
+    background-color: rgba(var(--dark-background-color), var(--other-transparency)) !important;
+    line-height: 1.125rem !important;
+    vertical-align: middle !important;
     margin-right: 3px !important;
+    border: solid 1px var(--line-color) !important;
+    padding: 2px 4px !important;
+    margin-left: 0 !important;
+    flex: unset !important;
 }
 /* MemberCount */
 #app-mount #MemberCount {
