@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "168";
+    --oggt-build: "169";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -188,7 +188,7 @@
     --background-floating: rgba(var(--darker-background-color), var(--other-transparency)) !important;
     --background-modifier-selected: rgba(var(--darker-background-color), 0.32);
     --background-modifier-hover: var(--background-message-hover);
-    --background-modifier-active: rgba(var(--fullwhite-font), 0.1);
+    --background-modifier-active: rgba(var(--accent-color-2), 0.25);
     --background-message-hover: rgba(var(--accent-color-1), 0.15);
     --bd-blue: rgb(var(--accent-color-1)) !important;
     --blurple: rgb(var(--accent-color-1)) !important;
