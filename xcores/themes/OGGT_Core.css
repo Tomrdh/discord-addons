@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "167";
+    --oggt-build: "168";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -373,7 +373,7 @@ input,
 select,
 textarea,
 * {
-    font-family: var(--cf) !important;
+    font-family: var(--cf);
 }
 span[class*="hljs"],
 span[class*="hljs"] span,
@@ -396,7 +396,7 @@ code,
 #bd-customcss-editor *,
 .timestamp-3ZCmNB span,
 .timestamp-1E3uAL {
-    font-family: var(--cbcf) !important;
+    font-family: var(--cbcf);
 }
 
 /*~~ 5. Background ~~*/
@@ -1607,23 +1607,43 @@ body,
     border-radius: 0;
 }
 .contentWrapper-SvZHNd {
-    border: solid 1px rgb(var(--accent-color-1));
     background-color: rgb(var(--dark-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-7UD0KD {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-bottom: none;
+    padding-top: 4px;
+    padding-bottom: 28px;
+}
+.emojiPicker-3PwZFl {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 0;
 }
 .categoryList-2Kzf65 {
     background-color: rgb(var(--darker-background-color));
 }
+.emojiPicker-3PwZFl .header-8ilj5e {
+    border: solid 1px rgb(var(--accent-color-1));
+    background-color: rgb(var(--dark-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 5px;
+}
 .inspector-sdLnLS,
 .inspector-S2gM3e {
-    border-top: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-1));
+    border-left: none;
     background-color: rgb(var(--darker-background-color));
 }
 .list-6NCENv {
-    border-top: solid 1px rgb(var(--accent-color-1));
+    border-right: solid 1px rgb(var(--accent-color-1));
 }
 .list-donH_Z {
-    border-right: solid 1px rgb(var(--accent-color-1));
-    border-top: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px rgb(var(--accent-color-1));
 }
 .autocomplete-1vrmpx .list-donH_Z {
     border-top: none;
@@ -1639,6 +1659,17 @@ body,
 }
 .full-motion.app-focused .emojiItem-14v6tW.emojiItemSelected-1aLkfV {
     animation: both-blinking 450ms infinite;
+}
+.searchBar-5di9mG {
+    border-radius: 0;
+    border: solid 1px #0000;
+    transition: border 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.app-focused .searchBar-5di9mG:hover {
+    border-color: rgb(var(--accent-color-2));
+}
+.app-focused .searchBar-5di9mG:focus-within {
+    border-color: rgb(var(--accent-color-1));
 }
 #app-mount .wrapper-1-Fsb8 {
     background: none;
