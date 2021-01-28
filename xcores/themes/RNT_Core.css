@@ -1,13 +1,13 @@
 /* Remove Nitro Tab */
 
 :root {
-    --rnt-build: "2";
+    --rnt-build: "3";
 }
 
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"] {
     display: none;
 }
 
-[id*="AlwaysDisplayChannelButtons"] .bd-addon-header .bd-meta:before {
+[id*="RemoveNitroTab"] .bd-addon-header .bd-meta:before {
     content:"build " var(--rnt-build) " ";
 }
