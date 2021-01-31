@@ -88,7 +88,6 @@ code.inline,
 [class*="code"] span,
 [class*="code"] div,
 [class*="mono"],
-pre,
-span b {
+pre {
     font-family: var(--cbcf) !important;
 }
