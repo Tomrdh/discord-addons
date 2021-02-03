@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "169";
+    --oggt-build: "170";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2230,6 +2230,9 @@ body,
     --cp-size: 6px;
 }*/
 /* Messages */
+strong {
+    font-weight: 700;
+}
 #app-mount .messageContent-2qWWxC {
     font-weight: 400;
     color: rgb(var(--normal-font));
@@ -4879,6 +4882,18 @@ g[class*="focusStroke"] {
 .base-PmTxvP[style*="--bdfdb-blurple"] {
     color: rgb(var(--font-in-accent));
 }
+.toast-g4bfgI {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.bar-95Sdw1 {
+    height: 5px;
+    background: linear-gradient(90deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    opacity: 1;
+}
+.text-28VADE {
+    font-weight: 400;
+}
 /* BetterFormattingRedux */
 #app-mount .bf-toolbar::before {
     border: solid 1px rgb(var(--accent-color-1));
@@ -5073,6 +5088,49 @@ g[class*="focusStroke"] {
 }
 .label-9FgsSa[style*="background-color: var(--bdfdb-blurple)"] {
     color: rgb(var(--font-in-accent));
+}
+.bg-8df5St {
+    background-color: rgba(var(--darker-background-color), 0.75) !important;
+    border-color: rgb(var(--accent-color-1));
+}
+.inner-6Fsw34 {
+    color: rgb(var(--normal-font)) !important;
+}
+.friendnotifications-online-toast {
+    border-color: rgb(var(--gx-green));
+}
+.friendnotifications-online-toast .inner-6Fsw34 {
+    color: rgb(var(--gx-green-2)) !important;
+}
+.friendnotifications-online-toast .bar-95Sdw1 {
+    background: linear-gradient(90deg, rgb(var(--gx-green)), rgb(var(--gx-green-2)));
+}
+.friendnotifications-idle-toast {
+    border-color: rgb(var(--gx-yellow));
+}
+.friendnotifications-idle-toast .inner-6Fsw34 {
+    color: rgb(var(--gx-yellow-2)) !important;
+}
+.friendnotifications-idle-toast .bar-95Sdw1 {
+    background: linear-gradient(90deg, rgb(var(--gx-yellow)), rgb(var(--gx-yellow-2)));
+}
+.friendnotifications-dnd-toast {
+    border-color: rgb(var(--gx-red));
+}
+.friendnotifications-dnd-toast .inner-6Fsw34 {
+    color: rgb(var(--gx-red-2)) !important;
+}
+.friendnotifications-dnd-toast .bar-95Sdw1 {
+    background: linear-gradient(90deg, rgb(var(--gx-red)), rgb(var(--gx-red-2)));
+}
+.friendnotifications-offline-toast {
+    border-color: rgb(var(--gx-grey));
+}
+.friendnotifications-offline-toast .inner-6Fsw34 {
+    color: rgb(var(--muted-font)) !important;
+}
+.friendnotifications-offline-toast .bar-95Sdw1 {
+    background: linear-gradient(90deg, rgb(var(--gx-grey)), rgb(var(--gx-grey-2)));
 }
 /* GoogleTranslateOption */
 #app-mount .select-2TCrqx [class*="-menu"] {
