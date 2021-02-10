@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "172";
+    --oggt-build: "173";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -6597,6 +6597,9 @@ g[class*="focusStroke"] {
     /*border-bottom: solid 1px var(--line-color) !important;*/
 }
 .scroller-2TZvBN::-webkit-scrollbar {
+    width: 0 !important;
+}
+.scroller-2TZvBN:hover::-webkit-scrollbar {
     width: 6px !important;
 }
 .scroller-2TZvBN::-webkit-scrollbar-thumb {
