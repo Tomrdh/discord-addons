@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --sab-build: "12";
+    --sab-build: "13";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -72,10 +72,11 @@
     width: var(--server-size);
     left: 50%;
     transform: translateX(-50%);
+    z-index: -1;
 }
 #app-mount .label-2wRs_g {
     transform: rotate(-90deg);
-    white-space: pre-line;
+    font-size: calc(var(--server-size) / 5);
 }
 #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz {
     top: calc(var(--server-container) * 2) !important;
@@ -132,12 +133,12 @@ body #app-mount .wrapper-1Rf91z.guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-)
     margin-left: 0 !important;
     max-width: unset !important;
 }
+.content-98HsJk {
+    margin-bottom: -1px;
+}
 
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     display: var(--version002_slab, block) !important;
-}
-.content-98HsJk {
-    margin-bottom: -1px;
 }
 
 [id*="ServerlistAtBottom"] .bd-addon-header .bd-meta:before {
