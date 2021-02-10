@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "173";
+    --oggt-build: "174";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3106,11 +3106,15 @@ code.inline {
 .full-motion.app-focused .modeSelected-346R90:hover .content-1x5b-n {
     animation: none;
 }
+.name-3_Dsmg,
+.name-23GUGE,
+.title-29uC1r {
+    text-transform: var(--channel-name-transform);
+}
 .modeSelected-1zApJ_ .name-3_Dsmg,
 .modeSelected-346R90 .name-23GUGE,
 .title-29uC1r {
     font-weight: 700;
-    text-transform: var(--channel-name-transform);
 }
 .containerDefault-1ZnADq:hover .name-3_Dsmg,
 .containerDefault--pIXnN:hover .name-23GUGE,
