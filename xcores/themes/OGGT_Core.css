@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "174";
+    --oggt-build: "175";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3205,23 +3205,26 @@ code.inline {
 /* VC counters */
 .wrapper-pZmgj4,
 .wrapper-2tAnRe {
-    border-radius: 2px;
+    border-radius: 0;
     height: 18px;
     margin-right: -3px;
-    clip-path: polygon(4px 0, 100% 0, 100% calc(100% - 7px), calc(100% - 4px) 100%, 0 100%, 0 7px);
+    border: solid 1px rgb(var(--accent-color-1));
 }
 .users-i_3-kL,
 .users-3kndPl {
+    width: 24px;
     padding: 2px 8px 0 5px;
-    background-color: rgb(var(--dark-background-color));
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 .total-3tKGEB,
 .total-i6us2n {
-    background-color: rgb(var(--darker-background-color));
+    width: 24px;
+    padding-left: 4px;
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
 .total-3tKGEB:after,
 .total-i6us2n:after {
-    border-right-color: rgb(var(--darker-background-color));
+    border-right-color: transparent;
 }
 .wrapper-2qzCYF.minimum-28Z35l,
 .wrapper-2tAnRe.minimum-28Z35l {
