@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "176";
+    --oggt-build: "177";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1816,28 +1816,28 @@ body,
     border-color: rgb(var(--accent-color-1));
 }
 /* SVG buttons */
-.icon-22AiRD {
+.toolbar-1t6TWx .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--muted-font));
 }
-.clickable-3rdHwn .icon-22AiRD {
+.toolbar-1t6TWx.clickable-3rdHwn .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--normal-font));
 }
-.clickable-3rdHwn:hover .icon-22AiRD {
+.toolbar-1t6TWx .clickable-3rdHwn:hover .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--normal-hover-font));
 }
-.updateIconForeground-3tnNZn {
+.toolbar-1t6TWx .updateIconForeground-3tnNZn {
     fill: transparent;
     stroke: rgb(var(--gx-green));
 }
-.clickable-3rdHwn .icon-22AiRD:hover {
+.toolbar-1t6TWx .clickable-3rdHwn .icon-22AiRD:hover {
     color: transparent;
     stroke: rgb(var(--normal-hover-font));
 }
-.selected-1GqIat .icon-22AiRD,
-.selected-1GqIat .icon-22AiRD:hover {
+.toolbar-1t6TWx .selected-1GqIat .icon-22AiRD,
+.toolbar-1t6TWx .selected-1GqIat .icon-22AiRD:hover {
     color: transparent;
     stroke: rgb(var(--accent-color-1));
 }
@@ -5410,15 +5410,6 @@ g[class*="focusStroke"] {
 #app-mount .expanded-13sWhZ {
     background: none;
 }
-#app-mount .image-1GzsFd {
-    background-image: url(https://discord.com/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg) !important;
-}
-#app-mount .userSettingsSecurityImage-21pI_Q {
-    background-image: url(https://discord.com/assets/cdea41ede63f61153e4a3c0531fa3873.svg) !important;
-}
-#app-mount .emptyStateImage-2MrSNs {
-    background: url(https://discord.com/assets/131dcaaa628405e6d0ebee7708111c7a.svg) !important;
-}
 .themeDefault-24hCdX.sizeDefault-2YlOZr:after {
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -5517,7 +5508,7 @@ g[class*="focusStroke"] {
 .platform-web .content-98HsJk {
     border-bottom: none;
 }
-.tabBody-3YRQ8W,
+.peopleColumn-29fq28,
 .nowPlayingColumn-2sl4cE,
 .scroller-1IIF0A {
     border-left: solid 1px var(--line-color);
@@ -6308,9 +6299,6 @@ g[class*="focusStroke"] {
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
     background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
-}
-#app-mount .lock-2Nag5p {
-    background-image: url(https://discord.com/assets/959a1978f7be567071a1354a98b46ecd.svg) !important;
 }
 .upsellContent-1JlpHe {
     border-radius: 0;
