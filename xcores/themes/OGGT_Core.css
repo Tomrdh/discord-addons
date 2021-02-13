@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "175";
+    --oggt-build: "176";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1816,6 +1816,10 @@ body,
     border-color: rgb(var(--accent-color-1));
 }
 /* SVG buttons */
+.icon-22AiRD {
+    color: transparent;
+    stroke: rgb(var(--muted-font));
+}
 .clickable-3rdHwn .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--normal-font));
@@ -3208,7 +3212,7 @@ code.inline {
     border-radius: 0;
     height: 18px;
     margin-right: -3px;
-    border: solid 1px rgb(var(--accent-color-1));
+    border: solid 1px var(--line-color);
 }
 .users-i_3-kL,
 .users-3kndPl {
@@ -4448,7 +4452,8 @@ g[class*="focusStroke"] {
 .colorable-1bkp8v.green-plH-Mj:hover {
     background: rgb(var(--gx-green-2));
 }
-.border-Jn5IOt.speaking-B2MXPi {
+.border-Jn5IOt.speaking-B2MXPi,
+.avatarSpeaking-2IGMRN {
     -webkit-box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px var(--background-floating);
     box-shadow: inset 0 0 0 2px rgb(var(--gx-green)) ,inset 0 0 0 3px var(--background-floating);
 }
@@ -4555,6 +4560,11 @@ g[class*="focusStroke"] {
 .actionRed-gYn8D3:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(var(--gx-red-2));
+}
+.chatContent-a9vAAp,
+.scroller-11cdZM {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
 }
 
 /*-- 6.5. HLJS Names --*/
@@ -5213,6 +5223,19 @@ g[class*="focusStroke"] {
 }
 .message-2qnXI6 a.flexChild-faoVW3 {
     border-color: rgba(var(--link-text), var(--other-highlighted-transparency)) !important;
+}
+/* LineNumbersRedux */
+#app-mount .hljs ol li::before {
+    color: rgb(var(--muted-font));
+}
+.hljs ol li {
+    border-left-color: rgba(var(--dark-background-color), var(--other-transparency));
+}
+.hljs:hover ol li {
+    border-left-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused .hljs:hover ol li {
+    animation: accent-blinking 450ms infinite;
 }
 /* MemberCount */
 #app-mount #MemberCount {
