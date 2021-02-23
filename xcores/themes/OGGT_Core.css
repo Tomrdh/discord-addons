@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "178";
+    --oggt-build: "179";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4499,7 +4499,7 @@ g[class*="focusStroke"] {
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
 }
-/* Video/Screen sharing */
+/* Video/Screen sharing/Streaming */
 .badge-1JXQev {
     background-color: rgb(var(--darker-background-color));
     border-radius: 1px;
@@ -4548,6 +4548,20 @@ g[class*="focusStroke"] {
     border-radius: 0;
     background: rgb(var(--dark-background-color));
     border: solid 1px rgb(var(--accent-color-2));
+}
+#app-mount .streamPreview-2-WUWT {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .previewContainer-12UlHl {
+    background-color: transparent;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.container-2dqNWc {
+    border-radius: 0;
+    background-color: rgb(var(--darker-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
 }
 /* NSFW Channel Warning */
 .actionRed-gYn8D3 {
@@ -5240,6 +5254,10 @@ g[class*="focusStroke"] {
 /* MemberCount */
 #app-mount #MemberCount {
     background: transparent;
+}
+.membersWrap-2h-GB4 .members-1998pB {
+    padding-top: 30px;
+    margin-top: 0 !important;
 }
 #app-mount #EditUploadsEditButton span {
     color: rgb(var(--accent-color-1)) !important;
