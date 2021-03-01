@@ -1,10 +1,39 @@
 /* Remove Nitro Tab */
 
 :root {
-    --rnt-build: "3";
+    --rnt-build: "4";
 }
 
 .privateChannels-1nO12o .channel-2QD9_O[href="/store"] {
+    display: none;
+}
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Send a gift"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Send en gave"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Ein Geschenk senden"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Enviar un regalo"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Envoyer un cadeau"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Pošalji poklon"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Invia un regalo"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Siųsti dovaną"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Ajándék küldése"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Verstuur een cadeau"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Wyślij prezent"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Enviar um presente"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Trimite un cadou"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Lähetä lahja"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Skicka en gåva"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Tặng một món quà"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Bir hediye gönder"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Odeslat dárek"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Στείλτε ένα δώρο"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Изпрати подарък"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Отправить подарок"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="Надіслати подарунок"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="ส่งของขวัญ"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="发送礼物"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="ギフトを贈る"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="發送禮物"],
+.channelTextArea-2VhZ6z .button-38aScr[aria-label="선물 보내기"] {
     display: none;
 }
 
