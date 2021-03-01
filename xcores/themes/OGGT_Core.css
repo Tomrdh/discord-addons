@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "179";
+    --oggt-build: "180";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4184,6 +4184,50 @@ g[class*="focusStroke"] {
 }
 #app-mount .invalidPoop-pnUbq7 {
     background-color: rgba(var(--dark-background-color), var(--other-transparency));
+}
+/* New Roles Settings */
+.titleContainer-2CXtJo {
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.titleContainer-2CXtJo .title-3GS0Tf .titleText-1lbERP {
+    display: none;
+}
+.titleContainer-2CXtJo .title-3GS0Tf {
+    position: absolute;
+    left: -24px;
+    top: 8px;
+    border: solid 1px var(--line-color-1);
+}
+.titleContainer-2CXtJo .title-3GS0Tf:hover {
+    border-color: var(--line-color-2);
+}
+.header-2mZ9Ov {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px var(--line-color);
+}
+.stickyHeader-hH_ZLl {
+    position: relative;
+}
+.scroller-3ZpLaI .previewContainer-1KQDJS {
+    border-radius: 0;
+}
+.scroller-3ZpLaI .previewContainer-1KQDJS .theme-light {
+    display: none;
+}
+.scroller-3ZpLaI .previewContainer-1KQDJS .theme-dark {
+    background: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    filter: blur(var(--chat-background-blur));
+}
+.scroller-3ZpLaI .previewContainer-1KQDJS .messageContainer-1DiFnQ {
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
+.scroller-3ZpLaI .previewContainer-1KQDJS .groupStart-23k01U {
+    border-top: none;
 }
 /* View As Roles Notice */
 .notice-1tZwqv {
