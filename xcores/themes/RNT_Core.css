@@ -11,3 +11,7 @@
 [id*="RemoveNitroTab"] .bd-addon-header .bd-meta:before {
     content:"build " var(--rnt-build) " ";
 }
+
+div.buttons-3JBrkn > button {
+    display: none;
+}
