@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "313";
-    --adto-build: "214";
+    --adt-build: "314";
+    --adto-build: "215";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -94,7 +94,8 @@
 .theme-dark .contentWrapperInner-15LzPz,
 .theme-dark .videoBackground-3AY_fu,
 .theme-dark .videoBackgroundTransition-3wpOSl,
-.theme-dark .video-1FfuMD
+.theme-dark .video-1FfuMD,
+.theme-dark .message-2qRu38
 {
     background: var(--bg-1);
     background-color: var(--bg-1);
@@ -133,7 +134,6 @@
 .theme-dark .footer-1fjuF6,
 .theme-dark .headerNormal-T_seeN,
 .theme-dark .tiles-2aXG_k,
-.theme-dark .message-2qRu38,
 .theme-dark .wrapperAudio-1jDe0Q,
 .theme-dark .regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3,
 .theme-dark .progress-1IcQ3A,
@@ -305,6 +305,10 @@
 {
     background: var(--bg-4) !important;
     background-color: var(--bg-4) !important;
+}
+/* FIX FOR BOTH ADT AND ADTO THEMES */
+.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9 {
+    background-color: #202225;
 }
 /*-- 3.2. Other --*/
 .theme-dark .expandedFolderBackground-2sPsd-.collapsed-1GMuSb,
