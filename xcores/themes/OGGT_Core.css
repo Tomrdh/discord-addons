@@ -43,7 +43,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "180";
+    --oggt-build: "181";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -5631,16 +5631,18 @@ g[class*="focusStroke"] {
 .bannerVisible-2ZE_qG .button-1w5pas {
     color: rgb(var(--fullwhite-font));
 }
-/* Verified server icon */
+/* Verified Server and Server Boost icons */
 .verified-1eC5dy {
     color: rgb(var(--gx-green));
 }
 .disableColor-2z9rkr,
-.iconBackgroundTierNone-3ZkOsa,
 .iconBackgroundTierOne-2OQMBY,
 .iconBackgroundTierThree-FWlUL9,
 .iconBackgroundTierTwo-Eab9L6 {
     color: var(--background-accent);
+}
+.iconBackgroundTierNone-3ZkOsa {
+    color: rgb(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 .icon-1ihkOt {
     transition: color 150ms;
