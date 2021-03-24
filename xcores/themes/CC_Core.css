@@ -2,8 +2,9 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cc-build: "18";
-    --theme-name: "Compact Channels";
+    --cc-build: "19";
+    --theme-name: "Compact Channels" var(--ccbpf-status);
+    --ccbpf-status: "";
 }
 
 /* Channels */
@@ -45,18 +46,6 @@
     transition: width var(--time);
     transition-delay: var(--delayIn);
 }
-/* Make access to buttons easier */
-/* UserPanel */
-.sidebar-2K8pFh .alignStretch-DpGPf3.horizontal-2EEEnY.flex-1xMQg5 {
-    margin-right: calc(var(--cSize) - var(--cSizeOnHover)) !important;
-    transition: margin-right var(--time) ease;
-    transition-delay: var(--delayOut);
-}
-.sidebar-2K8pFh:hover .alignStretch-DpGPf3.horizontal-2EEEnY.flex-1xMQg5 {
-    margin-right: 0 !important;
-    transition: margin-right var(--time) ease;
-    transition-delay: var(--delayIn);
-}
 /* UserPlayingPanel */
 .sidebar-2K8pFh .actions-aUdUfC {
     margin-right: calc(var(--cSize) - var(--cSizeOnHover)) !important;
@@ -66,22 +55,6 @@
 .sidebar-2K8pFh:hover .actions-aUdUfC {
     margin-right: 0 !important;
     transition: margin-right var(--time) ease;
-    transition-delay: var(--delayIn);
-}
-/* ChannelButtons */
-.sidebar-2K8pFh .children-3rEycc,
-.sidebar-2K8pFh .children-L002ao,
-.sidebar-2K8pFh .children-gzQq2t {
-    position: absolute !important;
-    right: calc((var(--cSizeOnHover) - var(--cSize)) * -1 + 8px) !important;
-    transition: right var(--time) ease;
-    transition-delay: var(--delayOut);
-}
-.sidebar-2K8pFh:hover .children-3rEycc,
-.sidebar-2K8pFh:hover .children-L002ao,
-.sidebar-2K8pFh:hover .children-gzQq2t {
-    right: 8px !important;
-    transition: right var(--time) ease;
     transition-delay: var(--delayIn);
 }
 
@@ -135,6 +108,17 @@
     max-width: unset;
     min-width: unset;
     width: calc(var(--mSizeOnHover) - 18px);
+}
+/* Plugin Compatibility */
+/* MemberCount */
+#MemberCount {
+    width: var(--mSize) !important;
+    transition: width var(--time);
+    transition-delay: var(--delayOut);
+}
+.membersWrap-2h-GB4:hover #MemberCount {
+    width: var(--mSizeOnHover) !important;
+    transition-delay: var(--delayIn);
 }
 
 #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
