@@ -32,7 +32,9 @@
         17.2. Widgets
         17.3. Authorize access to your account (Bot Login)
     18. Update notice
-    19. Powercord
+    19. Other Client Mods Support
+        19.1. Powercord
+        19.2. Goosemod
     20. Infos
         20.1. Settings Sidebar Footer
         20.2. BD Addon Card
@@ -43,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "183";
+    --oggt-build: "184";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -7136,7 +7138,8 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     border-top-left-radius: 0 !important;
 }
 
-/*~~ 19. Powercord ~~*/
+/*~~ 19. Other Client Mods Support ~~*/
+/*-- 19.1 Powercord --*/
 /* Powercord Toast */
 #app-mount .powercord-toast,
 #app-mount .powercord-toast .header {
@@ -7175,6 +7178,17 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 .button-38aScr {
     border-radius: 0;
+}
+/*-- 19.2 Goosemod --*/
+body > div[style*="position: absolute; transform: translateX(-25%);"] {
+    background-color: rgb(var(--darker-background-color)) !important;
+    border-radius: 0 !important;
+    border: solid 1px rgb(var(--accent-color-1));
+    opacity: 1 !important;
+    z-index: 1000 !important;
+}
+.full-motion.app-focused body > div[style*="position: absolute; transform: translateX(-25%);"] {
+    animation: accent-blinking 450ms infinite !important;
 }
 
 /*~~ 20. Infos ~~*/
