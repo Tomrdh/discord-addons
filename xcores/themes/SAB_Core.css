@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --sab-build: "15";
+    --sab-build: "16";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -138,9 +138,6 @@ body #app-mount .guilds-1SWlCJ.content-Pph8t6:not(.closed-j55_T-) + .base-3dtUhz
 .channel-2QD9_O {
     margin-left: 0 !important;
     max-width: unset !important;
-}
-.content-98HsJk {
-    margin-bottom: -1px;
 }
 .typingindicator-guild,
 .typingindicator-dms,
