@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "185";
+    --oggt-build: "186";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -5647,9 +5647,11 @@ g[class*="focusStroke"] {
 .tabBody-3YRQ8W,
 .scroller-1IIF0A {
     border-right: solid 1px var(--line-color);
+    border-bottom: solid 1px var(--line-color);
 }
 .platform-web .tabBody-3YRQ8W {
     border-right: none;
+    border-bottom: none;
 }
 .content-MLh4nU {
     border-left: solid 1px var(--line-color);
