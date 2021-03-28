@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "186";
+    --oggt-build: "187";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1108,22 +1108,22 @@ body,
 }
 .headerPlaying-j0WQBV,
 .topSectionPlaying-1J5E4n {
-    background: linear-gradient(120deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    background: linear-gradient(120deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
 }
-.full-motion.app-focused .headerPlaying-j0WQBV,
+/*.full-motion.app-focused .headerPlaying-j0WQBV,
 .full-motion.app-focused .topSectionPlaying-1J5E4n {
     animation: animated-background 3s infinite;
-}
-.headerPlaying-j0WQBV *,
+}*/
+/*.headerPlaying-j0WQBV *,
 .topSectionPlaying-1J5E4n * {
     color: rgb(var(--font-in-accent)) !important;
-}
+}*/
 .badges-XRnWAp .topSectionPlaying-1J5E4n {
     background: none !important;
 }
-.full-motion.app-focused .badges-XRnWAp .topSectionPlaying-1J5E4n {
+/*.full-motion.app-focused .badges-XRnWAp .topSectionPlaying-1J5E4n {
     animation: none !important;
-}
+}*/
 .discriminator[style*="114, 137, 218"] {
     color: rgb(114, 137, 218) !important;
 }
@@ -1134,6 +1134,7 @@ body,
 #app-mount .footer-1fjuF6 {
     background-color: rgb(var(--darker-background-color));
     color: rgba(var(--fullwhite-font), 0.8);
+    border-top: solid 1px rgb(var(--accent-color-1));
 }
 #app-mount .headerNormal-T_seeN .headerName-fajvi9,
 #app-mount .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881 {
@@ -3490,7 +3491,8 @@ code.inline {
     border-radius: 0;
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
     border-right: solid 1px var(--line-color-1);
-    border-bottom: solid 1px var(--line-color-1);
+    border-left: solid 1px var(--line-color-1);
+    border-top: solid 1px var(--line-color-1);
     color: rgb(var(--fullwhite-font));
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -3500,6 +3502,9 @@ code.inline {
 }
 .platform-web .notice-3bPHh- {
     border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: solid 1px var(--line-color);
 }
 .full-motion.app-focused .notice-3bPHh- {
     animation: notice-anim 450ms infinite;
@@ -4080,7 +4085,6 @@ g[class*="focusStroke"] {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     color: rgb(var(--fullwhite-font));
     border: solid 1px var(--line-color-2);
-    margin-top: -1px;
 }
 .full-motion.app-focused .colorInfo-2URYW5 {
     animation: background-blinking 450ms infinite !important;
@@ -7159,14 +7163,16 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     font-weight: 500 !important;
     z-index: 999 !important;
     border: solid 1px var(--line-color) !important;
-    border-top: none !important;
-    border-left: none !important;
+    border-bottom: none !important;
 }
 .full-motion.app-focused #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     animation: notice-anim 450ms infinite !important;
 }
 .platform-win #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
     border-top-left-radius: 0 !important;
+}
+.platform-web #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div.base-3dtUhz:before {
+    border-top: none !important;
 }
 
 /*~~ 19. Other Client Mods Support ~~*/
