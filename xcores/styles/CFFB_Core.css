@@ -1,9 +1,10 @@
 /* Custom Font for Browser */
 :root {
-    --cf: var(--customFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, sans-serif, serif !important;
-    --cbcf: var(--codeCustomFont), Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free, monospace !important;
+    --cf: var(--customFont), var(--icon-fonts), sans-serif, serif !important;
+    --cbcf: var(--codeCustomFont), var(--icon-fonts), monospace !important;
+    --icon-fonts: 'Glyphicons Halflings', Glyphicons Halflings, Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free;
 }
-/* I'm using copy/paste to force changing the font on some elements using !important and prevents CF to modify the font. */
+
 /* NORMAL CUSTOM FONT */
 article,
 footer,
