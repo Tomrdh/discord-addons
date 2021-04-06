@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "315";
-    --adto-build: "216";
+    --adt-build: "316";
+    --adto-build: "217";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -157,6 +157,7 @@
 .theme-dark .bd-modal-wrapper .footer,
 .theme-dark .childWrapper-anI2G9,
 .theme-dark .circleIconButton-jET_ig,
+.theme-dark .circleIconButton-1QV--U,
 .theme-dark .privateChannels-1nO12o,
 .theme-dark .scroller-1JbKMe,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
@@ -392,7 +393,8 @@
 .theme-dark .modeUnread-1zpFdA:hover .icon-1_QxNX {
     color: var(--interactive-active);
 }
-.theme-dark .circleIconButton-jET_ig.selected-ugP_am {
+.theme-dark .circleIconButton-jET_ig.selected-ugP_am,
+.theme-dark .circleIconButton-1QV--U.selected-1JjBPm {
     color: #fff;
     background-color: #43b581;
 }
