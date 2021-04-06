@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "187";
+    --oggt-build: "188";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -7213,8 +7213,37 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 .lookGhost-2Fn_0-.colorBrand-3pXr91:hover {
     background-color: rgba(var(--accent-color-2), 0.15);
 }
+.lookGhost-2Fn_0-.colorGreen-29iAKY {
+    color: rgb(var(--gx-green));
+    background-color: rgba(var(--gx-green), 0.1);
+    border: solid 1px rgb(var(--gx-green));
+    transition-property: color, background-color, border-color;
+}
+.lookGhost-2Fn_0-.colorGreen-29iAKY:hover {
+    color: rgb(var(--gx-green-2));
+    background-color: rgba(var(--gx-green-2), 0.15);
+    border: solid 1px rgb(var(--gx-green-2));
+}
+.lookOutlined-3sRXeN.colorGrey-2DXtkV {
+    color: rgb(var(--gx-grey));
+    border-color: rgb(var(--gx-grey));
+    background-color: rgba(var(--gx-grey), 0.1);
+    transition-property: color, background-color, border-color;
+}
+.lookOutlined-3sRXeN.colorGrey-2DXtkV:hover {
+    color: rgb(var(--gx-grey-2));
+    border-color: rgb(var(--gx-grey-2));
+    background-color: rgba(var(--gx-grey-2), 0.15);
+}
 .button-38aScr {
     border-radius: 0;
+}
+.powercord-toast .contents .inner {
+    border: solid 1px rgb(var(--accent-color-1)) !important;
+    border-radius: 0 !important;
+}
+.powercord-toast[data-toast-type=success] .icon {
+    color: rgb(var(--gx-green)) !important;
 }
 /*-- 19.2 Goosemod --*/
 body > div[style*="position: absolute; transform: translateX(-25%);"] {
@@ -7230,7 +7259,7 @@ body > div[style*="position: absolute; transform: translateX(-25%);"] {
 
 /*~~ 20. Infos ~~*/
 /*-- 20.1. Settings Sidebar footer --*/
-.info-1VyQPT:after {
+.side-8zPYf6 .info-1VyQPT:last-of-type:after {
     content: var(--oggt-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl + R to reload Discord. */
     font-size: 12px !important;
     color: var(--text-muted) !important;
