@@ -2,7 +2,7 @@
 :root {
     --cf: var(--customFont), var(--icon-fonts), sans-serif, serif !important;
     --cbcf: var(--codeCustomFont), var(--icon-fonts), monospace !important;
-    --icon-fonts: 'Glyphicons Halflings', Glyphicons Halflings, Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free;
+    --icon-fonts: 'Glyphicons Halflings', Glyphicons Halflings, "Font Awesome 5 Duotone", Material Icons Extended, Material Icons, FontAwesome, Font Awesome, Font Awesome\ 5 Free;
 }
 
 /* NORMAL CUSTOM FONT */
@@ -92,4 +92,9 @@ code.inline,
 [class*="mono"],
 pre {
     font-family: var(--cbcf) !important;
+}
+/* ICON FONTS */
+[class*="icon"],
+[class*="Icon"] {
+    font-family: var(--icon-fonts) !important;
 }
