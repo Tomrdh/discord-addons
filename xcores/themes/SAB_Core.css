@@ -2,7 +2,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --sab-build: "17";
+    --sab-build: "18";
     --theme-name: "Serverlist at Bottom";
 }
 :root {
@@ -72,10 +72,9 @@
 #app-mount .guilds-1SWlCJ .wrapper-21YSNc {
     width: var(--server-container);
 }
-#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd- {
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-2sPsd-,
+#app-mount .guilds-1SWlCJ .expandedFolderBackground-1cujaW {
     width: var(--server-size);
-    left: 50%;
-    transform: translateX(-50%);
     z-index: -1;
 }
 #app-mount .label-2wRs_g {
@@ -92,11 +91,13 @@
 #app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .wrapper-1BJsBx,
 #app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-GuPuDH .wrapper-1BJsBx {
     height: 100% !important;
+    max-height: 100% !important;
 }
 #app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-2P_4kh .button-Jt-tIg,
 #app-mount .guilds-1SWlCJ .frame-oXWS21.listItem-GuPuDH .button-Jt-tIg {
     width: 100%;
     height: 100% !important;
+    max-height: 100% !important;
     border-radius: 50%;
     padding: 2px;
     font-size: 10px;
