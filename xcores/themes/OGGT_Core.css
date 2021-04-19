@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "189";
+    --oggt-build: "190";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1800,32 +1800,32 @@ body,
     box-shadow: 0 0 3px #000;
 }
 /* Looks */
-.lookFilled-1Gx00P.colorBrand-3pXr91,
-.lookFilled-1Gx00P.colorGrey-2DXtkV,
-.lookOutlined-3sRXeN,
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ {
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV,
+#app-mount .lookOutlined-3sRXeN,
+#app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
     color: rgb(var(--normal-hover-font));
     background: rgba(var(--darker-background-color), var(--other-transparency));
     border: solid 1px rgb(var(--accent-color-1));
     border-radius: 0;
 }
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled {
+#app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ:disabled {
     background: rgba(var(--darker-background-color), var(--other-transparency));
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-.lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
-.lookOutlined-3sRXeN:hover,
-.lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
+#app-mount .lookOutlined-3sRXeN:hover,
+#app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ:hover {
     color: rgb(var(--fullwhite-font));
     background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     border-color: rgb(var(--accent-color-2));
 }
-.lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
-.lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+#app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
     background: rgb(var(--darker-background-color));
     border: solid rgb(var(--dark-background-color)) 1px;
 }
-.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+#app-mount .lookOutlined-3sRXeN.colorBrand-3pXr91 {
     color: rgb(var(--accent-color-2));
     border-color: rgb(var(--accent-color-1));
 }
@@ -1833,6 +1833,14 @@ body,
 .toolbar-1t6TWx .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--muted-font));
+}
+.toolbar-1t6TWx .icon-22AiRD path[fill="#43b581"] {
+    fill: transparent !important;
+    stroke: rgb(var(--gx-green));
+}
+.toolbar-1t6TWx .icon-22AiRD:hover path[fill="#43b581"] {
+    fill: transparent !important;
+    stroke: rgb(var(--gx-green-2));
 }
 .toolbar-1t6TWx.clickable-3rdHwn .icon-22AiRD {
     color: transparent;
@@ -1850,10 +1858,13 @@ body,
     color: transparent;
     stroke: rgb(var(--normal-hover-font));
 }
-.toolbar-1t6TWx .selected-1GqIat .icon-22AiRD,
-.toolbar-1t6TWx .selected-1GqIat .icon-22AiRD:hover {
+.toolbar-1t6TWx .selected-1GqIat .icon-22AiRD {
     color: transparent;
     stroke: rgb(var(--accent-color-1));
+}
+.toolbar-1t6TWx .selected-1GqIat .icon-22AiRD:hover {
+    color: transparent;
+    stroke: rgb(var(--accent-color-2));
 }
 .actionIcon-3Pm3FL,
 .actionIcon-PgcMM2 {
@@ -3727,7 +3738,8 @@ g[class*="focusStroke"] {
     border-bottom: none;
 }
 #app-mount .activeButton-rvKcqq,
-#app-mount .activeButton-rvKcqq:hover {
+#app-mount .activeButton-rvKcqq:hover,
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
     color: rgb(var(--font-in-accent));
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
@@ -4671,7 +4683,7 @@ g[class*="focusStroke"] {
 #app-mount pre code:before {
     --cb-accent-color: rgb(var(--accent-color-2));
     content: "<!> Unknown Language";
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     white-space: pre-line;
     overflow: hidden;
@@ -4682,6 +4694,7 @@ g[class*="focusStroke"] {
     border-bottom: solid 1px var(--cb-accent-color);
     padding-bottom: 0.3rem;
     width: 100%;
+    margin-bottom: 0.5rem;
 }
 /* Languages */
 #app-mount pre code[class~=hljs]:before {
@@ -5031,6 +5044,47 @@ g[class*="focusStroke"] {
 }
 .powercord-codeblock-lang {
     display: none;
+}
+/*-- 6.6. Download Apps (Browser) --*/
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ {
+    border-color: rgb(var(--accent-color-1));
+}
+
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 {
+    border: 2px solid #99aab5;
+    border-radius: 0;
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ .downloadButton-1bWXpg {
+    background-color: rgb(var(--accent-color-1));
+    color: rgb(var(--font-in-accent));
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 .downloadButton-1bWXpg {
+    transition: 0.3s ease-in-out;
+    transition-property: background-color, color;
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(var(--fullwhite-font));
+}
+.downloadApps-wbBFdZ .footer-1nkeBm a {
+    color: rgb(var(--accent-color-1));
+}
+.downloadApps-wbBFdZ .footer-1nkeBm:after {
+    content: " This part of the theme is not finished.";
+    text-transform: uppercase;
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236.active-iLSdWQ p {
+    color: rgb(var(--accent-color-1));
+}
+.downloadApps-wbBFdZ .platforms-28Rb-3 .platform-iik236 p {
+    text-transform: unset;
+    font-size: 16px;
+    color: rgb(var(--muted-font));
+}
+.backdrop-1wrmKB[style*="rgb(255, 255, 255)"] {
+    background-color: rgb(var(--darker-background-color)) !important;
+    background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
 }
 
 /*~~ 7. Plugin Compatibility ~~*/
@@ -5716,6 +5770,10 @@ g[class*="focusStroke"] {
 .header-2V-4Sw {
     margin-bottom: -1px;
     height: 47px;
+}
+.platform-web .header-2o-2hj,
+.platform-web .header-2V-4Sw {
+    height: 48px;
 }
 .animatedContainer-1pJv5C,
 .animatedContainer-1NSq4T {
