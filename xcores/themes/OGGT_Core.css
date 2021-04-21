@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "190";
+    --oggt-build: "191";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -7072,6 +7072,13 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 16px;
 }
+.cardWarning-2yPNAa {
+    background-color: rgba(var(--gx-yellow), 0.1);
+    border-color: rgb(var(--gx-yellow));
+}
+.card-3Qj_Yx {
+    border-radius: 0;
+}
 .wrapper-3aJbIC {
     background-color: rgb(var(--darker-background-color));
     border-radius: 0;
@@ -7349,5 +7356,5 @@ body > div[style*="position: absolute; transform: translateX(-25%);"] {
 /*-- 20.2. BD Addon Card --*/
 [id*="OperaGxGamingTheme"] .bd-addon-header .bd-meta:before,
 [id*="OGGT"] .bd-addon-header .bd-meta:before {
-    content:"build " var(--oggt-build) " ";
+    content: "build " var(--oggt-build) " ";
 }

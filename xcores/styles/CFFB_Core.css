@@ -18,7 +18,6 @@ h5 span,
 h6 span,
 li span,
 p span,
-div span,
 font span,
 text,
 font,
@@ -73,9 +72,7 @@ pre span,
 .CodeMirror-linenumber,
 code,
 code p,
-span,
 td,
-td span,
 monospace,
 .markup-2BOw-j,
 code.inline,
@@ -92,9 +89,4 @@ code.inline,
 [class*="mono"],
 pre {
     font-family: var(--cbcf) !important;
-}
-/* ICON FONTS */
-[class*="icon"],
-[class*="Icon"] {
-    font-family: var(--icon-fonts) !important;
 }
