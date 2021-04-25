@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "316";
-    --adto-build: "217";
+    --adt-build: "317";
+    --adto-build: "218";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -124,7 +124,8 @@
 .theme-dark .wrapper-2qzCYF.minimum-28Z35l,
 .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl,
 .theme-dark .container-VSDcQc .sectionTag-pXyto9,
-.theme-dark .tooltipPrimary-1d1ph4
+.theme-dark .tooltipPrimary-1d1ph4,
+.theme-dark .noChannel-3LgMRp
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -282,11 +283,11 @@
 }
 /* Adt-Bg4 | 4th */
 .theme-dark .scrollableContainer-2NUZem,
-.theme-dark .expandedFolderBackground-2sPsd-,
-.theme-dark .expandedFolderBackground-2sPsd-.hover-2ji_A7,
-.theme-dark .expandedFolderBackground-2sPsd-:hover,
-.theme-dark .folder-21wGz3,
-.theme-dark .folder-21wGz3:hover,
+.theme-dark .expandedFolderBackground-1cujaW,
+.theme-dark .expandedFolderBackground-1cujaW.hover-2ji_A7,
+.theme-dark .expandedFolderBackground-1cujaW:hover,
+.theme-dark .folder-1hbNCn,
+.theme-dark .folder-1hbNCn:hover,
 .theme-dark .inset-3sAvek,
 .theme-dark .footer-3mqk7D,
 .theme-dark .searchPage-3GKAdT .search-1iTphC .searchBox-2_mAlO,
