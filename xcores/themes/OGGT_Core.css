@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "191";
+    --oggt-build: "192";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4010,6 +4010,12 @@ g[class*="focusStroke"] {
     border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
     color: transparent;
 }
+.container-6sXIoE .button-14-BFJ .contents-18-Yxp {
+    color: rgb(var(--normal-font));
+}
+.container-6sXIoE .button-14-BFJ.active-6TsW-_ .contents-18-Yxp {
+    color: rgb(var(--gx-green));
+}
 .container-3baos1 .redIcon-2uP7Ej {
     color: transparent;
     stroke: rgb(var(--gx-red));
@@ -6091,6 +6097,12 @@ g[class*="focusStroke"] {
 #app-mount .userSettingsSecurity-3IYeMF .codeCheckbox-1T0TTy {
     color: rgb(var(--normal-font));
 }
+.userSettingsSecurity-3IYeMF .isEnabled-24g9qA {
+    color: rgb(var(--gx-green));
+}
+.lockIcon-2Hj8Tq {
+    display: none;
+}
 .separator-gCa7yv,
 #app-mount .ui-tab-bar-separator {
     background-color: var(--line-color) !important;
@@ -6325,30 +6337,45 @@ g[class*="focusStroke"] {
     border-color: rgb(var(--accent-color-1));
     border-radius: 0;
 }
-.container-3auIfb,
-.bd-switch {
+.container-3auIfb {
 	background-color: rgba(var(--dark-background-color), var(--other-transparency)) !important;
 	transition: 400ms ease;
 	transition-property: background-color, box-shadow;
 	box-shadow: 0 0 0 rgb(0, 0, 0);
 }
-.container-3auIfb:hover,
-.bd-switch:hover {
+.container-3auIfb:hover {
 	background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency)) !important;
 	box-shadow: 0 0 8px rgba(var(--accent-color-2), 0.5);
 }
 .container-3auIfb[style*="background-color: rgb(67, 181, 129)"],
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"],
-.bd-switch.bd-switch-checked {
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"] {
 	background-color: rgb(var(--accent-color-1)) !important;
 	box-shadow: 0 0 4px rgb(var(--accent-color-1));
 }
+.bd-switch-body {
+    --switch-color: rgb(var(--dark-background-color));
+    box-shadow: 0 0 0 rgba(var(--dark-background-color), 0);
+    transition: 400ms ease;
+	transition-property: background-color, box-shadow;
+}
+.bd-switch:hover .bd-switch-body {
+    box-shadow: 0 0 8px rgba(var(--accent-color-2), 0.5);
+}
+.bd-switch input:checked + .bd-switch-body {
+    --switch-color: rgb(var(--accent-color-1));
+    box-shadow: 0 0 4px rgb(var(--accent-color-2));
+}
+.bd-switch input:checked:hover + .bd-switch-body {
+    --switch-color: rgb(var(--accent-color-2));
+    box-shadow: 0 0 8px rgb(var(--accent-color-2));
+}
+.bd-switch input:checked + .bd-switch-body .bd-switch-handle {
+    fill: rgb(var(--font-in-accent));
+}
 .container-3auIfb[style*="background-color: rgb(67, 181, 129)"]:hover,
 .container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:hover,
-.bd-switch.bd-switch-checked:hover,
 .container-3auIfb[style*="background-color: rgb(67, 181, 129)"]:active,
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:active,
-.bd-switch.bd-switch-checked:active {
+.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:active {
 	background-color: rgb(var(--accent-color-2)) !important;
 	box-shadow: 0 0 8px rgb(var(--accent-color-2));
 }
