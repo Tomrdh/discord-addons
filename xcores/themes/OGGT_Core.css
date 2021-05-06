@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "192";
+    --oggt-build: "193";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1091,6 +1091,9 @@ body,
     border-radius: 0;
     border-color: rgb(var(--accent-color-1));
 }
+.connectedAccountName-f8AEe2 {
+    line-height: 25px;
+}
 .assetsLargeImage-eYwpTX {
     border-radius: 0;
 }
@@ -1182,7 +1185,7 @@ body,
 }
 .roleName-32vpEy,
 .roleName-1JcOmP {
-    line-height: 13px;
+    line-height: 16px;
     /* padding-left: 4px; */
 }
 .roleCircle-3xAZ1j,
