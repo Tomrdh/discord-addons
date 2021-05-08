@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "317";
-    --adto-build: "218";
+    --adt-build: "318";
+    --adto-build: "219";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -536,6 +536,9 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):after {
     content: "Theme Dev" !important;
+}
+#app-mount .username-added .author-username:after {
+    display: none !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1),
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class^="header"] span[class*="name"]:nth-child(1):hover {
