@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "194";
+    --oggt-build: "195";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4377,6 +4377,14 @@ g[class*="focusStroke"] {
     border-radius: 0;
     border-bottom: solid 1px rgb(var(--accent-color-1));
 }
+/* Server Boost billing */
+.guildSubscriptionSlots-JPXXvN {
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
+.guild-Hq0WWA {
+    border-radius: 0;
+    border: solid 1px rgb(var(--accent-color-1));
+}
 /* Shadow below top bar */
 .content-yTz4x3:before {
     box-shadow: none;
@@ -5715,10 +5723,12 @@ g[class*="focusStroke"] {
 .scroller-11cdZM {
     border-left: solid 1px var(--line-color);
     border-right: solid 1px var(--line-color);
+    border-bottom: solid 1px var(--line-color);
 }
 .platform-web .chatContent-a9vAAp,
 .platform-web .scroller-11cdZM {
     border-right: none;
+    border-bottom: none;
 }
 .searchResultsWrap-3-pOjs {
     border-right: solid 1px var(--line-color);
@@ -5754,9 +5764,7 @@ g[class*="focusStroke"] {
 }
 .noChannel-Z1DQK7,
 .noChannel-3LgMRp {
-    border-left: solid 1px var(--line-color);
-    border-right: solid 1px var(--line-color);
-    border-bottom: solid 1px var(--line-color);
+    border: solid 1px var(--line-color);
 }
 .platform-web .noChannel-Z1DQK7,
 .platform-web .noChannel-3LgMRp {
@@ -7009,6 +7017,9 @@ div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):after {
     content: "Theme Dev" !important;
+}
+#app-mount .username-added .author-username:after {
+    display: none !important;
 }
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1),
 div[class*="message"] img[src*="703638166162112516"] ~ h2[class*="header"] span[class*="name"]:nth-child(1):hover {
