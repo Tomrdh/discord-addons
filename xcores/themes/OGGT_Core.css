@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "195";
+    --oggt-build: "196";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1985,7 +1985,9 @@ body,
     border: solid 1px rgb(var(--accent-color-2));
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
-.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+.reactionMe-wv5HKu .reactionCount-2mvXRV,
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV,
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
     color: rgb(var(--accent-color-1));
 }
 /* Reactionlist */

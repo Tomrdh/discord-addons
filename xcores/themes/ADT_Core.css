@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "318";
-    --adto-build: "219";
+    --adt-build: "319";
+    --adto-build: "220";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -125,7 +125,8 @@
 .theme-dark .searchResult-9tQ1uo.expanded-w_LCGl,
 .theme-dark .container-VSDcQc .sectionTag-pXyto9,
 .theme-dark .tooltipPrimary-1d1ph4,
-.theme-dark .noChannel-3LgMRp
+.theme-dark .noChannel-3LgMRp,
+.theme-dark .reaction-1hd86g
 {
     background: var(--bg-1) !important;
     background-color: var(--bg-1) !important;
@@ -276,7 +277,8 @@
 .theme-dark .colorable-1bkp8v.primaryDark-3mSFDl,
 .theme-dark #permissions-modal-wrapper .role-side,
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--disabled,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--outside-month,
+.theme-dark .reaction-1hd86g:hover
 {
     background: var(--bg-3) !important;
     background-color: var(--bg-3) !important;
@@ -303,8 +305,10 @@
 .theme-dark .scrollableContainer-2NUZem,
 .theme-dark .theme-light .container-UC8Ug1:hover,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
-.colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
-.colorable-1bkp8v.primaryDark-3mSFDl:hover
+.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
+.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl:hover,
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu,
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu:hover
 {
     background: var(--bg-4) !important;
     background-color: var(--bg-4) !important;
@@ -500,6 +504,15 @@
 }
 .theme-dark .tooltipPrimary-1d1ph4 .tooltipPointer-3ZfirK {
     border-top-color: var(--bg-1);
+}
+.theme-dark .reaction-1hd86g {
+    border-color: #131417;
+}
+.theme-dark .reaction-1hd86g:hover {
+    border-color: #202225;
+}
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu {
+    border-color: #a5b3e7;
 }
 
 /*~~ 4. Scrollbars ~~*/
