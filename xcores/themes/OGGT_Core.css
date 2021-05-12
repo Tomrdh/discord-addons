@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "197";
+    --oggt-build: "198";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1592,7 +1592,8 @@ body,
 .mouse-mode.full-motion .ephemeral-1PsL1r:hover {
     background-color: rgba(var(--accent-color-1), 0.075);
 }
-.ephemeralMessage-1fEWtQ a {
+.ephemeralMessage-1fEWtQ a,
+.colorLink-2vG20E.mentionButton-3710-W {
     color: rgb(var(--accent-color-1));
 }
 /* Embeds */
