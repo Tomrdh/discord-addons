@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "196";
+    --oggt-build: "197";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -201,6 +201,7 @@
     --activity-card-background: rgb(var(--darker-background-color));
     --bdfdb-blurple: rgb(var(--accent-color-1));
     --background-help-warning: rgba(var(--gx-yellow), 0.1);
+    --font-display: var(--cf) !important;
 }
 
 /*~~ 3. Keyframes (animations) ~~*/

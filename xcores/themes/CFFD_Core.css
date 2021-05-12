@@ -1,9 +1,11 @@
 /* Custom Font for Discord */
 
 :root {
-    --cffd-build: "8";
+    --cffd-build: "9";
 	--cf: var(--customFont, Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
 	--cbcf: var(--codeBlocksCustomFont, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
+
+	--font-display: var(--cf) !important;
 }
 
 ::-webkit-input-placeholder,
