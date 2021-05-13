@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "199";
+    --oggt-build: "200";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1614,7 +1614,7 @@ body,
     animation: accent-blinking 450ms infinite;
 }
 .embedAuthorName-3mnTWj {
-    font-size: 0.7rem;
+    font-size: 0.875rem;
     line-height: 0.9rem;
 }
 .embedTitle-3OXDkz,
