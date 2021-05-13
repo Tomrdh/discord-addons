@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "320";
-    --adto-build: "221";
+    --adt-build: "321";
+    --adto-build: "222";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -401,7 +401,7 @@
 .theme-dark .circleIconButton-jET_ig.selected-ugP_am,
 .theme-dark .circleIconButton-1QV--U.selected-1JjBPm {
     color: #fff;
-    background-color: #43b581;
+    background-color: #4fdc7b;
 }
 .theme-dark .theme-light .titleBar-AC4pGV {
     margin-top: 0;
