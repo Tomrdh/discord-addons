@@ -23,8 +23,8 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Infos */
-    --adt-build: "321";
-    --adto-build: "222";
+    --adt-build: "322";
+    --adto-build: "223";
     --adt-info: "AmoledDarkTheme " var(--adt-build);
     --adto-info: "AmoledDarkThemeOptimized " var(--adto-build);
 }
@@ -306,9 +306,7 @@
 .theme-dark .theme-light .container-UC8Ug1:hover,
 .theme-dark .button-1YfofB.buttonColor-7qQbGO:hover,
 .theme-dark .colorable-1bkp8v.primaryDark-3mSFDl.active-1QRrIS,
-.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl:hover,
-.theme-dark .reaction-1hd86g.reactionMe-wv5HKu,
-.theme-dark .reaction-1hd86g.reactionMe-wv5HKu:hover
+.theme-dark .colorable-1bkp8v.primaryDark-3mSFDl:hover
 {
     background: var(--bg-4) !important;
     background-color: var(--bg-4) !important;
@@ -511,8 +509,12 @@
 .theme-dark .reaction-1hd86g:hover {
     border-color: #202225;
 }
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu,
+.theme-dark .reaction-1hd86g.reactionMe-wv5HKu:hover {
+    background-color: var(--brand-experiment-15a) !important;
+}
 .theme-dark .reaction-1hd86g.reactionMe-wv5HKu {
-    border-color: #a5b3e7;
+    border-color: var(--brand-experiment);
 }
 
 /*~~ 4. Scrollbars ~~*/
