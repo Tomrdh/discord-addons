@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "200";
+    --oggt-build: "201";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -467,155 +467,155 @@ body,
 /*~~ 6. AccentColors and Modifiers ~~*/
 /*-- 6.1. General recolor --*/
 /* Blurple/Accent color */
-[style^="color: rgba(114, 137, 218, 1)"], /* Blurple */
-[style*=" color: rgba(114, 137, 218, 1)"],
-[style^="color: rgb(114, 137, 218)"],
-[style*=" color: rgb(114, 137, 218)"],
-[style^="color: #7289da"],
-[style*=" color: #7289da"],
-[style^="color: #7289DA"],
-[style*=" color: #7289DA"],
-[color="rgba(114, 137, 218, 1)"],
-[color="rgb(114, 137, 218)"],
-[color="#7289da"],
-[color="#7289DA"] {
+[style^="color: rgba(88, 101, 242, 1)"], /* Blurple */
+[style*=" color: rgba(88, 101, 242, 1)"],
+[style^="color: rgb(88, 101, 242)"],
+[style*=" color: rgb(88, 101, 242)"],
+[style^="color: #5865f2"],
+[style*=" color: #5865f2"],
+[style^="color: #5865F2"],
+[style*=" color: #5865F2"],
+[color="rgba(88, 101, 242, 1)"],
+[color="rgb(88, 101, 242)"],
+[color="#5865f2"],
+[color="#5865F2"] {
     color: rgb(var(--accent-color-1)) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.9"],
-[style*=" color: rgba(114, 137, 218, 0.9"] {
+[style^="color: rgba(88, 101, 242, 0.9"],
+[style*=" color: rgba(88, 101, 242, 0.9"] {
     color: rgba(var(--accent-color-1), 0.9) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.8"],
-[style*=" color: rgba(114, 137, 218, 0.8"] {
+[style^="color: rgba(88, 101, 242, 0.8"],
+[style*=" color: rgba(88, 101, 242, 0.8"] {
     color: rgba(var(--accent-color-1), 0.8) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.7"],
-[style*=" color: rgba(114, 137, 218, 0.7"] {
+[style^="color: rgba(88, 101, 242, 0.7"],
+[style*=" color: rgba(88, 101, 242, 0.7"] {
     color: rgba(var(--accent-color-1), 0.7) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.6"],
-[style*=" color: rgba(114, 137, 218, 0.6"] {
+[style^="color: rgba(88, 101, 242, 0.6"],
+[style*=" color: rgba(88, 101, 242, 0.6"] {
     color: rgba(var(--accent-color-1), 0.6) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.5"],
-[style*=" color: rgba(114, 137, 218, 0.5"] {
+[style^="color: rgba(88, 101, 242, 0.5"],
+[style*=" color: rgba(88, 101, 242, 0.5"] {
     color: rgba(var(--accent-color-1), 0.5) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.4"],
-[style*=" color: rgba(114, 137, 218, 0.4"] {
+[style^="color: rgba(88, 101, 242, 0.4"],
+[style*=" color: rgba(88, 101, 242, 0.4"] {
     color: rgba(var(--accent-color-1), 0.4) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.3"],
-[style*=" color: rgba(114, 137, 218, 0.3"] {
+[style^="color: rgba(88, 101, 242, 0.3"],
+[style*=" color: rgba(88, 101, 242, 0.3"] {
     color: rgba(var(--accent-color-1), 0.3) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.2"],
-[style*=" color: rgba(114, 137, 218, 0.2"] {
+[style^="color: rgba(88, 101, 242, 0.2"],
+[style*=" color: rgba(88, 101, 242, 0.2"] {
     color: rgba(var(--accent-color-1), 0.2) !important;
 }
-[style^="color: rgba(114, 137, 218, 0.1"],
-[style*=" color: rgba(114, 137, 218, 0.1"] {
+[style^="color: rgba(88, 101, 242, 0.1"],
+[style*=" color: rgba(88, 101, 242, 0.1"] {
     color: rgba(var(--accent-color-1), 0.1) !important;
 }
-[style*="background-color: rgb(114, 137, 218)"],
-[style*="background: rgb(114, 137, 218)"],
-[style*="background-color: #7289da"],
-[style*="background: #7289da"],
-[style*="background-color: #7289DA"],
-[style*="background: #7289DA"],
-[background-color="rgb(114, 137, 218)"],
-[background="rgb(114, 137, 218)"],
-[background-color="#7289da"],
-[background="#7289da"],
-[background-color="#7289DA"],
-[background="#7289DA"] {
+[style*="background-color: rgb(88, 101, 242)"],
+[style*="background: rgb(88, 101, 242)"],
+[style*="background-color: #5865f2"],
+[style*="background: #5865f2"],
+[style*="background-color: #5865F2"],
+[style*="background: #5865F2"],
+[background-color="rgb(88, 101, 242)"],
+[background="rgb(88, 101, 242)"],
+[background-color="#5865f2"],
+[background="#5865f2"],
+[background-color="#5865F2"],
+[background="#5865F2"] {
     background-color: rgb(var(--accent-color-1)) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.9"],
-[style*="background: rgba(114, 137, 218, 0.9"] {
+[style*="background-color: rgba(88, 101, 242, 0.9"],
+[style*="background: rgba(88, 101, 242, 0.9"] {
     background-color: rgba(var(--accent-color-1), 0.9) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.8"],
-[style*="background: rgba(114, 137, 218, 0.8"] {
+[style*="background-color: rgba(88, 101, 242, 0.8"],
+[style*="background: rgba(88, 101, 242, 0.8"] {
     background-color: rgba(var(--accent-color-1), 0.8) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.7"],
-[style*="background: rgba(114, 137, 218, 0.7"] {
+[style*="background-color: rgba(88, 101, 242, 0.7"],
+[style*="background: rgba(88, 101, 242, 0.7"] {
     background-color: rgba(var(--accent-color-1), 0.7) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.6"],
-[style*="background: rgba(114, 137, 218, 0.6"] {
+[style*="background-color: rgba(88, 101, 242, 0.6"],
+[style*="background: rgba(88, 101, 242, 0.6"] {
     background-color: rgba(var(--accent-color-1), 0.6) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.5"],
-[style*="background: rgba(114, 137, 218, 0.5"] {
+[style*="background-color: rgba(88, 101, 242, 0.5"],
+[style*="background: rgba(88, 101, 242, 0.5"] {
     background-color: rgba(var(--accent-color-1), 0.5) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.4"],
-[style*="background: rgba(114, 137, 218, 0.4"] {
+[style*="background-color: rgba(88, 101, 242, 0.4"],
+[style*="background: rgba(88, 101, 242, 0.4"] {
     background-color: rgba(var(--accent-color-1), 0.4) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.3"],
-[style*="background: rgba(114, 137, 218, 0.3"] {
+[style*="background-color: rgba(88, 101, 242, 0.3"],
+[style*="background: rgba(88, 101, 242, 0.3"] {
     background-color: rgba(var(--accent-color-1), 0.3) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.2"],
-[style*="background: rgba(114, 137, 218, 0.2"] {
+[style*="background-color: rgba(88, 101, 242, 0.2"],
+[style*="background: rgba(88, 101, 242, 0.2"] {
     background-color: rgba(var(--accent-color-1), 0.2) !important;
 }
-[style*="background-color: rgba(114, 137, 218, 0.1"],
-[style*="background: rgba(114, 137, 218, 0.1"] {
+[style*="background-color: rgba(88, 101, 242, 0.1"],
+[style*="background: rgba(88, 101, 242, 0.1"] {
     background-color: rgba(var(--accent-color-1), 0.1) !important;
 }
-[style*="border-color: rgb(114, 137, 218)"],
-[style*="border-color: #7289da"],
-[style*="border-color: #7289DA"],
-[border-color="rgb(114, 137, 218)"],
-[border-color="#7289da"],
-[border-color="#7289DA"] {
+[style*="border-color: rgb(88, 101, 242)"],
+[style*="border-color: #5865f2"],
+[style*="border-color: #5865F2"],
+[border-color="rgb(88, 101, 242)"],
+[border-color="#5865f2"],
+[border-color="#5865F2"] {
     border-color: rgb(var(--accent-color-1)) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.9"] {
+[style*="border-color: rgba(88, 101, 242, 0.9"] {
     border-color: rgba(var(--accent-color-1), 0.9) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.8"] {
+[style*="border-color: rgba(88, 101, 242, 0.8"] {
     border-color: rgba(var(--accent-color-1), 0.8) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.7"] {
+[style*="border-color: rgba(88, 101, 242, 0.7"] {
     border-color: rgba(var(--accent-color-1), 0.7) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.6"] {
+[style*="border-color: rgba(88, 101, 242, 0.6"] {
     border-color: rgba(var(--accent-color-1), 0.6) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.5"] {
+[style*="border-color: rgba(88, 101, 242, 0.5"] {
     border-color: rgba(var(--accent-color-1), 0.5) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.4"] {
+[style*="border-color: rgba(88, 101, 242, 0.4"] {
     border-color: rgba(var(--accent-color-1), 0.4) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.3"] {
+[style*="border-color: rgba(88, 101, 242, 0.3"] {
     border-color: rgba(var(--accent-color-1), 0.3) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.2"] {
+[style*="border-color: rgba(88, 101, 242, 0.2"] {
     border-color: rgba(var(--accent-color-1), 0.2) !important;
 }
-[style*="border-color: rgba(114, 137, 218, 0.1"] {
+[style*="border-color: rgba(88, 101, 242, 0.1"] {
     border-color: rgba(var(--accent-color-1), 0.1) !important;
 }
-[style*="stroke: rgb(114, 137, 218)"],
-[style*="stroke: #7289da"],
-[style*="stroke: #7289DA"],
-[stroke="rgb(114, 137, 218)"],
-[stroke="#7289da"],
-[stroke="#7289DA"] {
+[style*="stroke: rgb(88, 101, 242)"],
+[style*="stroke: #5865f2"],
+[style*="stroke: #5865F2"],
+[stroke="rgb(88, 101, 242)"],
+[stroke="#5865f2"],
+[stroke="#5865F2"] {
     stroke: rgb(var(--accent-color-1)) !important;
 }
-[style*="fill: rgb(114, 137, 218)"],
-[style*="fill: #7289da"],
-[style*="fill: #7289DA"],
-[fill="rgb(114, 137, 218)"],
-[fill="#7289da"],
-[fill="#7289DA"] {
+[style*="fill: rgb(88, 101, 242)"],
+[style*="fill: #5865f2"],
+[style*="fill: #5865F2"],
+[fill="rgb(88, 101, 242)"],
+[fill="#5865f2"],
+[fill="#5865F2"] {
     fill: rgb(var(--accent-color-1)) !important;
 }
 /* GX-Red */
@@ -1128,8 +1128,8 @@ body,
 /*.full-motion.app-focused .badges-XRnWAp .topSectionPlaying-1J5E4n {
     animation: none !important;
 }*/
-.discriminator[style*="114, 137, 218"] {
-    color: rgb(114, 137, 218) !important;
+.discriminator[style*="88, 101, 242"] {
+    color: rgb(88, 101, 242) !important;
 }
 #app-mount .headerNormal-T_seeN {
     background-color: rgb(var(--dark-background-color));
@@ -1418,8 +1418,8 @@ body,
     background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
 }
 /* Ping badges */
-.numberBadge-2s8kKX[style*="background-color: rgb(114, 137, 218)"],
-.numberBadge-2s8kKX[style*="background: rgb(114, 137, 218)"] {
+.numberBadge-2s8kKX[style*="background-color: rgb(88, 101, 242)"],
+.numberBadge-2s8kKX[style*="background: rgb(88, 101, 242)"] {
     color: rgb(var(--font-in-accent)) !important;
     font-weight: 700;
 }
@@ -6409,9 +6409,9 @@ g[class*="focusStroke"] {
     fill: rgb(var(--font-in-accent));
 }
 .container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:hover,
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:hover,
+.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:hover,
 .container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:active,
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:active {
+.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:active {
 	background-color: rgb(var(--accent-color-2)) !important;
 	box-shadow: 0 0 8px rgb(var(--accent-color-2));
 }
@@ -6420,7 +6420,7 @@ g[class*="focusStroke"] {
 	transition: fill 400ms ease;
 }
 .container-3auIfb[style*="background-color: rgb(59, 165, 92)"] path[fill],
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"] path[fill] {
+.container-3auIfb[style*="background-color: rgb(88, 101, 242)"] path[fill] {
 	fill: rgb(var(--accent-color-1)) !important;
 }
 .bd-switch::after {
@@ -6431,9 +6431,9 @@ g[class*="focusStroke"] {
     background-color: rgb(var(--font-in-accent));
 }
 .container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:hover path[fill],
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:hover path[fill],
+.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:hover path[fill],
 .container-3auIfb[style*="background-color: rgb(59, 165, 92)"]:active path[fill],
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"]:active path[fill] {
+.container-3auIfb[style*="background-color: rgb(88, 101, 242)"]:active path[fill] {
 	fill: rgb(var(--accent-color-2)) !important;
 }
 .plugin-inputs .control-2BBjec {
@@ -6446,7 +6446,7 @@ g[class*="focusStroke"] {
     transition: fill 400ms ease;
 }
 .container-3auIfb[style*="background-color: rgb(59, 165, 92)"] rect[fill],
-.container-3auIfb[style*="background-color: rgb(114, 137, 218)"] rect[fill] {
+.container-3auIfb[style*="background-color: rgb(88, 101, 242)"] rect[fill] {
     fill: rgb(var(--font-in-accent));
 }
 #app-mount .markValue-2DwdXI {
