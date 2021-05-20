@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "202";
+    --oggt-build: "203";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -6129,6 +6129,13 @@ g[class*="focusStroke"] {
     background-color: rgb(var(--accent-color-1)) !important;
     color: rgb(var(--font-in-accent));
     font-weight: 900;
+}
+.tabBarItem-1b8RUP.item-PXvHYJ {
+    font-weight: 500;
+}
+.tabBarItem-1b8RUP.item-PXvHYJ.selected-3s45Ha {
+    background: none !important;
+    font-weight: 500;
 }
 .full-motion.app-focused .side-8zPYf6 .item-PXvHYJ,
 .full-motion.app-focused #app-mount .ui-tab-bar-item {
