@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "203";
+    --oggt-build: "204";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -202,6 +202,7 @@
     --bdfdb-blurple: rgb(var(--accent-color-1));
     --background-help-warning: rgba(var(--gx-yellow), 0.1);
     --font-display: var(--cf) !important;
+    --brand-experiment: rgb(var(--accent-color-1)) !important;
 }
 
 /*~~ 3. Keyframes (animations) ~~*/
@@ -1122,6 +1123,12 @@ body,
 .topSectionPlaying-1J5E4n * {
     color: rgb(var(--font-in-accent)) !important;
 }*/
+.activity-fViXj7 {
+    border-bottom: none;
+    margin: 0;
+    padding: 16px;
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
 .badges-XRnWAp .topSectionPlaying-1J5E4n {
     background: none !important;
 }
@@ -1143,6 +1150,10 @@ body,
 #app-mount .headerNormal-T_seeN .headerName-fajvi9,
 #app-mount .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881 {
     color: rgb(var(--fullwhite-font));
+}
+/* UserProfileBanner */
+.profileBanner-j34RzR[style*="background-color"] {
+    background-image: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)))
 }
 /* Usernotes */
 .note-3HfJZ5 .input-cIJ7To,
@@ -4147,7 +4158,8 @@ g[class*="focusStroke"] {
 .colorInfo-2URYW5 {
     background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
     color: rgb(var(--fullwhite-font));
-    border: solid 1px var(--line-color-2);
+    border: solid 1px var(--line-color);
+    border-bottom: none;
 }
 .full-motion.app-focused .colorInfo-2URYW5 {
     animation: background-blinking 450ms infinite !important;
@@ -5995,28 +6007,28 @@ g[class*="focusStroke"] {
 .roleOverflow-1zjC9k svg {
     transform: rotate(90deg);
 }
-.avatarUploaderInner-3UNxY3 {
+.profile-1eT9hT .avatarUploaderInner-3UNxY3 {
     border-radius: 0;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 16px;
     background-color: rgb(var(--accent-color-1));
 }
-.avatarUploaderInner-3UNxY3 > * {
+.profile-1eT9hT .avatarUploaderInner-3UNxY3 > * {
     color: rgb(var(--fullwhite-font));
 }
-.avatarUploaderInner-3UNxY3:focus-within,
-.avatarUploaderInner-3UNxY3:hover {
+.profile-1eT9hT .avatarUploaderInner-3UNxY3:focus-within,
+.profile-1eT9hT .avatarUploaderInner-3UNxY3:hover {
     -webkit-box-shadow: inset 0 0 120px rgba(var(--dark-background-color), 0.75);
     box-shadow: inset 0 0 120px rgba(var(--dark-background-color), 0.75);
 }
-.avatarUploader-3XDtmn {
+.profile-1eT9hT .avatarUploader-3XDtmn {
     margin-bottom: -2px;
 }
-#app-mount .avatarUploaderIndicator-2G-aIZ {
+#app-mount .profile-1eT9hT .avatarUploaderIndicator-2G-aIZ {
     border-radius: 0;
-    background-image: unset;
-    background-color: rgb(var(--darker-background-color));
-    opacity: 0.75;
+    background-image: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color)));
+    background-color: unset;
+    opacity: 0.67;
     width: 24px;
     height: 24px;
 }
@@ -6242,6 +6254,9 @@ g[class*="focusStroke"] {
 }
 .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
     background: rgb(var(--darker-background-color));
+}
+.footer-1fjuF6 {
+    padding-top: 12px;
 }
 .input-cIJ7To {
     border-radius: 0 !important;
