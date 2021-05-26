@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "204";
+    --oggt-build: "205";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -431,7 +431,6 @@ body,
 .wrapper-1Rf91z,
 .container-PNkimc,
 #app-mount .container-1D34oG,
-.nowPlayingColumn-2sl4cE,
 .applicationStore-1pNvnv,
 .emptyCard-1RJw8n,
 .scroller-2XE8rp,
@@ -2537,13 +2536,18 @@ code.inline {
 .full-motion.app-focused .peopleListItem-2nzedh:hover {
     animation: accent-blinking-with-transparency 450ms infinite;
 }
-.peopleColumn-29fq28 {
+.peopleColumn-29fq28,
+.stageSection-3mAD8V {
     background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
     backdrop-filter: blur(var(--chat-background-blur));
 }
-.nowPlayingColumn-2sl4cE {
+.nowPlayingColumn-2sl4cE,
+.nowPlayingSidebar-2OFn0o {
     background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
     backdrop-filter: blur(var(--memberlist-background-blur));
+}
+.peopleList-3c4jOR {
+    margin-top: 0;
 }
 /* Library and Game Download/Update */
 .gameIcon-gg34Dz[style*="background-image"] {
@@ -5784,15 +5788,25 @@ g[class*="focusStroke"] {
 }
 .peopleColumn-29fq28,
 .nowPlayingColumn-2sl4cE,
-.scroller-1IIF0A {
+.nowPlayingSidebar-2OFn0o,
+.scroller-1IIF0A,
+.stageSection-3mAD8V {
     border-left: solid 1px var(--line-color);
 }
+.nowPlayingSidebar-2OFn0o {
+    border-right: solid 1px var(--line-color);
+}
+.platform-web .nowPlayingSidebar-2OFn0o {
+    border-right: none;
+}
 .tabBody-3YRQ8W,
-.scroller-1IIF0A {
+.scroller-1IIF0A,
+.pageContent-1xgXch {
     border-right: solid 1px var(--line-color);
     border-bottom: solid 1px var(--line-color);
 }
-.platform-web .tabBody-3YRQ8W {
+.platform-web .tabBody-3YRQ8W,
+.platform-web .pageContent-1xgXch {
     border-right: none;
     border-bottom: none;
 }
