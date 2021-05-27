@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "205";
+    --oggt-build: "206";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2496,7 +2496,7 @@ code.inline {
 #app-mount .separator-XqIyoz {
     background-color: var(--line-color);
 }
-/* Friendlist */
+/* Friendlist and Stage Discovery */
 .username-31C1TQ {
     line-height: 18px;
 }
@@ -2548,6 +2548,35 @@ code.inline {
 }
 .peopleList-3c4jOR {
     margin-top: 0;
+}
+#app-mount .container-S9SaVf {
+    background-color: var(--background-secondary-alt);
+    border-radius: 0;
+    border: solid 1px var(--line-color);
+}
+#app-mount .container-S9SaVf:hover {
+    background-color: var(--background-secondary);
+    border-radius: 0;
+    border-color: var(--line-color-2);
+}
+.full-motion.app-focused #app-mount .container-S9SaVf:hover {
+     animation: accent-blinking 450ms infinite;
+}
+.container-S9SaVf.loading-2PktB_ {
+    -webkit-animation: placeholderPulse-3MG86Y 2s ease-in-out infinite !important;
+    animation: placeholderPulse-3MG86Y 2s ease-in-out infinite !important;
+    border-color: var(--background-secondary) !important;
+}
+.container-7Unqij {
+    border-radius: 0;
+    background-color: transparent;
+    border: solid 1px var(--line-color);
+}
+#app-mount .container-S9SaVf:hover .container-7Unqij {
+    border-color: var(--line-color-2);
+}
+.full-motion.app-focused #app-mount .container-S9SaVf:hover .container-7Unqij {
+    animation: accent-blinking 450ms infinite;
 }
 /* Library and Game Download/Update */
 .gameIcon-gg34Dz[style*="background-image"] {
