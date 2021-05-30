@@ -1,10 +1,12 @@
 /* Theme Support for Discord Addons
  *
- * Theme Support is used to make sure that your theme files are correct and updated, and not to have to paste the same code in each theme.
+ * Theme Support is used to make sure that your theme files are correct and updated, and also not to have to paste the same code in each theme.
  * This file is automatically imported if you are using one of Discord Addons themes.
  * It should work with every themes in the "Tomrdh/discord-addons" GitHub repository.
- * Please do not use that in your own theme unless you change the link redirecting to it, and not my website.
+ * You shouldn't import this file in your themes, unless you know exactly what it's doing and you make a copy of this file which you can edit on your own.
  */
+
+@import url(https://discord-custom-covers.github.io/usrbg/snippets/userPopouts.css); /* All my themes support USRBG popouts */
 
 :root {
     --theme-name: "The theme name is Unknown, please report. - Something"; /* Default value if the theme name is not set. */
