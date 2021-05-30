@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "207";
+    --oggt-build: "208";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2479,7 +2479,10 @@ code.inline {
 .itemCard-v9viV7 {
     border-radius: 0;
     background: rgba(var(--darker-background-color), var(--other-transparency));
-    border: solid 1px rgba(var(--accent-color-1), var(--other-transparency));
+    border: solid 1px var(--line-color);
+}
+.itemCard-v9viV7:hover {
+    border-color: var(--line-color-2);
 }
 #app-mount .outer-1AjyKL.active-1xchHY,
 #app-mount .outer-1AjyKL.interactive-3B9GmY:hover {
@@ -2491,7 +2494,7 @@ code.inline {
 }
 #app-mount .inset-3sAvek {
     background: rgba(var(--darker-background-color), var(--other-transparency));
-    border: solid 1px rgba(var(--accent-color-1), var(--other-transparency));
+    border: solid 1px var(--line-color);
     border-radius: 0;
 }
 #app-mount .inset-3sAvek:hover {
@@ -5411,6 +5414,10 @@ g[class*="focusStroke"] {
     width: 100% !important;
     border-top-color: var(--line-color) !important;
 }
+/* EditUploads (?) */
+#app-mount #EditUploadsEditButton span {
+    color: rgb(var(--accent-color-1)) !important;
+}
 /* FriendNotifications and ServerCounter */
 .scroller-2TZvBN .label-2wRs_g,
 .scroller-1Bvpku .label-2wRs_g {
@@ -5514,14 +5521,19 @@ g[class*="focusStroke"] {
 }
 /* MemberCount */
 #app-mount #MemberCount {
-    background: transparent;
+    background-color: transparent !important;
+    width: calc(100% - 1px) !important;
+    border-right: solid 1px var(--line-color) !important;
+    padding: 0 !important;
+    margin-top: 0px !important;
+    height: 29px !important;
+    border-bottom: solid 1px var(--line-color)
 }
-.membersWrap-2h-GB4 .members-1998pB {
-    padding-top: 30px;
-    margin-top: 0 !important;
+.platform-web #app-mount #MemberCount {
+    border-right: none !important;
 }
-#app-mount #EditUploadsEditButton span {
-    color: rgb(var(--accent-color-1)) !important;
+#app-mount #MemberCount .membersGroup-v9BXpm {
+    padding-top: 5px !important;
 }
 /* OldTitleBar */
 .toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS .icon-22AiRD path {
