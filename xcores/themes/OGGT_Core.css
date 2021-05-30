@@ -45,7 +45,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "208";
+    --oggt-build: "209";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3349,22 +3349,36 @@ code.inline {
 }
 .members-1998pB .layout-2DM8Md {
     border-radius: 0;
-    border: solid 1px transparent;
-    height: 43px;
+    height: 45px;
     padding: 0 6px;
-    margin-top: -1px;
+    margin-top: 1px;
 }
 .members-1998pB .clickable-1JJAn8:hover .layout-2DM8Md {
     background-color: rgba(var(--dark-background-color), var(--other-transparency));
-    border-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
     cursor: default;
+}
+.members-1998pB .clickable-1JJAn8:hover span.roleColor-rz2vM0::after {
+    border-color: currentColor;
 }
 .container-2Pjhx- {
     padding: 0;
 }
 .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
-    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-    border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+}
+.member-3-YXUe.selected-aXhQR6 span.roleColor-rz2vM0::after {
+    border-color: currentColor;
+}
+span.roleColor-rz2vM0::after {
+    content: "";
+    background: transparent;
+    border: solid 1px transparent;
+    width: calc(100% - 1px);
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    left: 0;
+    top: 0;
 }
 /* Memberlist private channels */
 .addMembersIcon-1Bz_VS {
