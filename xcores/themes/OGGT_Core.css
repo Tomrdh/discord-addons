@@ -13,6 +13,8 @@
     5.  Background
     6.  AccentColors and modifiers
         6.1.  General Recolor
+            6.1.1. New colors
+            6.1.2. Old colors
         6.2.  General
         6.3.  Public Servers
         6.4.  Voice Channels
@@ -466,6 +468,7 @@ body,
 
 /*~~ 6. AccentColors and Modifiers ~~*/
 /*-- 6.1. General recolor --*/
+/*== 6.1.1. NEW COLORS ==*/
 /* Blurple/Accent color */
 [style^="color: rgba(88, 101, 242, 1)"], /* Blurple */
 [style*=" color: rgba(88, 101, 242, 1)"],
@@ -1073,6 +1076,462 @@ body,
 [fill="#faa61a"],
 [fill="#FAA61A"] {
     fill: rgb(var(--gx-yellow)) !important;
+}
+/*== 6.1.2. Old colors ==*/
+[style^="color: rgba(114, 137, 218, 1)"], /* Blurple */
+[style*=" color: rgba(114, 137, 218, 1)"],
+[style^="color: rgb(114, 137, 218)"],
+[style*=" color: rgb(114, 137, 218)"],
+[style^="color: #7289da"],
+[style*=" color: #7289da"],
+[style^="color: #7289DA"],
+[style*=" color: #7289DA"],
+[color="rgba(114, 137, 218, 1)"],
+[color="rgb(114, 137, 218)"],
+[color="#7289da"],
+[color="#7289DA"] {
+    color: rgb(var(--accent-color-1)) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.9"],
+[style*=" color: rgba(114, 137, 218, 0.9"] {
+    color: rgba(var(--accent-color-1), 0.9) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.8"],
+[style*=" color: rgba(114, 137, 218, 0.8"] {
+    color: rgba(var(--accent-color-1), 0.8) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.7"],
+[style*=" color: rgba(114, 137, 218, 0.7"] {
+    color: rgba(var(--accent-color-1), 0.7) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.6"],
+[style*=" color: rgba(114, 137, 218, 0.6"] {
+    color: rgba(var(--accent-color-1), 0.6) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.5"],
+[style*=" color: rgba(114, 137, 218, 0.5"] {
+    color: rgba(var(--accent-color-1), 0.5) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.4"],
+[style*=" color: rgba(114, 137, 218, 0.4"] {
+    color: rgba(var(--accent-color-1), 0.4) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.3"],
+[style*=" color: rgba(114, 137, 218, 0.3"] {
+    color: rgba(var(--accent-color-1), 0.3) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.2"],
+[style*=" color: rgba(114, 137, 218, 0.2"] {
+    color: rgba(var(--accent-color-1), 0.2) !important;
+}
+[style^="color: rgba(114, 137, 218, 0.1"],
+[style*=" color: rgba(114, 137, 218, 0.1"] {
+    color: rgba(var(--accent-color-1), 0.1) !important;
+}
+[style*="background-color: rgb(114, 137, 218)"],
+[style*="background: rgb(114, 137, 218)"],
+[style*="background-color: #7289da"],
+[style*="background: #7289da"],
+[style*="background-color: #7289DA"],
+[style*="background: #7289DA"],
+[background-color="rgb(114, 137, 218)"],
+[background="rgb(114, 137, 218)"],
+[background-color="#7289da"],
+[background="#7289da"],
+[background-color="#7289DA"],
+[background="#7289DA"] {
+    background-color: rgb(var(--accent-color-1)) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.9"],
+[style*="background: rgba(114, 137, 218, 0.9"] {
+    background-color: rgba(var(--accent-color-1), 0.9) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.8"],
+[style*="background: rgba(114, 137, 218, 0.8"] {
+    background-color: rgba(var(--accent-color-1), 0.8) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.7"],
+[style*="background: rgba(114, 137, 218, 0.7"] {
+    background-color: rgba(var(--accent-color-1), 0.7) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.6"],
+[style*="background: rgba(114, 137, 218, 0.6"] {
+    background-color: rgba(var(--accent-color-1), 0.6) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.5"],
+[style*="background: rgba(114, 137, 218, 0.5"] {
+    background-color: rgba(var(--accent-color-1), 0.5) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.4"],
+[style*="background: rgba(114, 137, 218, 0.4"] {
+    background-color: rgba(var(--accent-color-1), 0.4) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.3"],
+[style*="background: rgba(114, 137, 218, 0.3"] {
+    background-color: rgba(var(--accent-color-1), 0.3) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.2"],
+[style*="background: rgba(114, 137, 218, 0.2"] {
+    background-color: rgba(var(--accent-color-1), 0.2) !important;
+}
+[style*="background-color: rgba(114, 137, 218, 0.1"],
+[style*="background: rgba(114, 137, 218, 0.1"] {
+    background-color: rgba(var(--accent-color-1), 0.1) !important;
+}
+[style*="border-color: rgb(114, 137, 218)"],
+[style*="border-color: #7289da"],
+[style*="border-color: #7289DA"],
+[border-color="rgb(114, 137, 218)"],
+[border-color="#7289da"],
+[border-color="#7289DA"] {
+    border-color: rgb(var(--accent-color-1)) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.9"] {
+    border-color: rgba(var(--accent-color-1), 0.9) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.8"] {
+    border-color: rgba(var(--accent-color-1), 0.8) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.7"] {
+    border-color: rgba(var(--accent-color-1), 0.7) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.6"] {
+    border-color: rgba(var(--accent-color-1), 0.6) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.5"] {
+    border-color: rgba(var(--accent-color-1), 0.5) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.4"] {
+    border-color: rgba(var(--accent-color-1), 0.4) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.3"] {
+    border-color: rgba(var(--accent-color-1), 0.3) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.2"] {
+    border-color: rgba(var(--accent-color-1), 0.2) !important;
+}
+[style*="border-color: rgba(114, 137, 218, 0.1"] {
+    border-color: rgba(var(--accent-color-1), 0.1) !important;
+}
+[style*="stroke: rgb(114, 137, 218)"],
+[style*="stroke: #7289da"],
+[style*="stroke: #7289DA"],
+[stroke="rgb(114, 137, 218)"],
+[stroke="#7289da"],
+[stroke="#7289DA"] {
+    stroke: rgb(var(--accent-color-1)) !important;
+}
+[style*="fill: rgb(114, 137, 218)"],
+[style*="fill: #7289da"],
+[style*="fill: #7289DA"],
+[fill="rgb(114, 137, 218)"],
+[fill="#7289da"],
+[fill="#7289DA"] {
+    fill: rgb(var(--accent-color-1)) !important;
+}
+/* GX-Red */
+[style^="color: rgba(240, 71, 71, 1)"],
+[style*=" color: rgba(240, 71, 71, 1)"],
+[style^="color: rgb(240, 71, 71)"],
+[style*=" color: rgb(240, 71, 71)"],
+[style^="color: #f04747"],
+[style*=" color: #f04747"],
+[style^="color: #F04747"],
+[style*=" color: #F04747"],
+[color="rgba(240, 71, 71, 1)"],
+[color="rgb(240, 71, 71)"],
+[color="#f04747"],
+[color="#F04747"] {
+    color: rgb(var(--gx-red)) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.9"],
+[style*=" color: rgba(240, 71, 71, 0.9"] {
+    color: rgba(var(--gx-red), 0.9) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.8"],
+[style*=" color: rgba(240, 71, 71, 0.8"] {
+    color: rgba(var(--gx-red), 0.8) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.7"],
+[style*=" color: rgba(240, 71, 71, 0.7"] {
+    color: rgba(var(--gx-red), 0.7) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.6"],
+[style*=" color: rgba(240, 71, 71, 0.6"] {
+    color: rgba(var(--gx-red), 0.6) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.5"],
+[style*=" color: rgba(240, 71, 71, 0.5"] {
+    color: rgba(var(--gx-red), 0.5) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.4"],
+[style*=" color: rgba(240, 71, 71, 0.4"] {
+    color: rgba(var(--gx-red), 0.4) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.3"],
+[style*=" color: rgba(240, 71, 71, 0.3"] {
+    color: rgba(var(--gx-red), 0.3) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.2"],
+[style*=" color: rgba(240, 71, 71, 0.2"] {
+    color: rgba(var(--gx-red), 0.2) !important;
+}
+[style^="color: rgba(240, 71, 71, 0.1"],
+[style*=" color: rgba(240, 71, 71, 0.1"] {
+    color: rgba(var(--gx-red), 0.1) !important;
+}
+[style*="background-color: rgb(240, 71, 71)"],
+[style*="background: rgb(240, 71, 71)"],
+[style*="background-color: #f04747"],
+[style*="background: #f04747"],
+[style*="background-color: #F04747"],
+[style*="background: #F04747"],
+[background-color="rgb(240, 71, 71)"],
+[background="rgb(240, 71, 71)"],
+[background-color="#f04747"],
+[background="#f04747"],
+[background-color="#F04747"],
+[background="#F04747"] {
+    background-color: rgb(var(--gx-red)) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.9"],
+[style*="background: rgba(240, 71, 71, 0.9"] {
+    background-color: rgba(var(--gx-red), 0.9) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.8"],
+[style*="background: rgba(240, 71, 71, 0.8"] {
+    background-color: rgba(var(--gx-red), 0.8) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.7"],
+[style*="background: rgba(240, 71, 71, 0.7"] {
+    background-color: rgba(var(--gx-red), 0.7) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.6"],
+[style*="background: rgba(240, 71, 71, 0.6"] {
+    background-color: rgba(var(--gx-red), 0.6) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.5"],
+[style*="background: rgba(240, 71, 71, 0.5"] {
+    background-color: rgba(var(--gx-red), 0.5) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.4"],
+[style*="background: rgba(240, 71, 71, 0.4"] {
+    background-color: rgba(var(--gx-red), 0.4) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.3"],
+[style*="background: rgba(240, 71, 71, 0.3"] {
+    background-color: rgba(var(--gx-red), 0.3) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.2"],
+[style*="background: rgba(240, 71, 71, 0.2"] {
+    background-color: rgba(var(--gx-red), 0.2) !important;
+}
+[style*="background-color: rgba(240, 71, 71, 0.1"],
+[style*="background: rgba(240, 71, 71, 0.1"] {
+    background-color: rgba(var(--gx-red), 0.1) !important;
+}
+[style*="border-color: rgb(240, 71, 71)"],
+[style*="border-color: #f04747"],
+[style*="border-color: #F04747"],
+[border-color="rgb(240, 71, 71)"],
+[border-color="#f04747"],
+[border-color="#F04747"] {
+    border-color: rgb(var(--gx-red)) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.9"] {
+    border-color: rgba(var(--gx-red), 0.9) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.8"] {
+    border-color: rgba(var(--gx-red), 0.8) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.7"] {
+    border-color: rgba(var(--gx-red), 0.7) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.6"] {
+    border-color: rgba(var(--gx-red), 0.6) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.5"] {
+    border-color: rgba(var(--gx-red), 0.5) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.4"] {
+    border-color: rgba(var(--gx-red), 0.4) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.3"] {
+    border-color: rgba(var(--gx-red), 0.3) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.2"] {
+    border-color: rgba(var(--gx-red), 0.2) !important;
+}
+[style*="border-color: rgba(240, 71, 71, 0.1"] {
+    border-color: rgba(var(--gx-red), 0.1) !important;
+}
+[style*="stroke: rgb(240, 71, 71)"],
+[style*="stroke: #f04747"],
+[style*="stroke: #F04747"],
+[stroke="rgb(240, 71, 71)"],
+[stroke="#f04747"],
+[stroke="#F04747"] {
+    stroke: rgb(var(--gx-red)) !important;
+}
+[style*="fill: rgb(240, 71, 71)"],
+[style*="fill: #f04747"],
+[style*="fill: #F04747"],
+[fill="rgb(67, 181, 129)"],
+[fill="#f04747"],
+[fill="#F04747"] {
+    fill: rgb(var(--gx-red)) !important;
+}
+/* GX-Green */
+[style^="color: rgba(67, 181, 129, 1)"],
+[style*=" color: rgba(67, 181, 129, 1)"],
+[style^="color: rgb(67, 181, 129)"],
+[style*=" color: rgb(67, 181, 129)"],
+[style^="color: #43b581"],
+[style*=" color: #43b581"],
+[style^="color: #43B581"],
+[style*=" color: #43B581"],
+[color="rgba(67, 181, 129, 1)"],
+[color="rgb(67, 181, 129)"],
+[color="#43b581"],
+[color="#43B581"] {
+    color: rgb(var(--gx-green)) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.9"],
+[style*=" color: rgba(67, 181, 129, 0.9"] {
+    color: rgba(var(--gx-green), 0.9) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.8"],
+[style*=" color: rgba(67, 181, 129, 0.8"] {
+    color: rgba(var(--gx-green), 0.8) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.7"],
+[style*=" color: rgba(67, 181, 129, 0.7"] {
+    color: rgba(var(--gx-green), 0.7) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.6"],
+[style*=" color: rgba(67, 181, 129, 0.6"] {
+    color: rgba(var(--gx-green), 0.6) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.5"],
+[style*=" color: rgba(67, 181, 129, 0.5"] {
+    color: rgba(var(--gx-green), 0.5) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.4"],
+[style*=" color: rgba(67, 181, 129, 0.4"] {
+    color: rgba(var(--gx-green), 0.4) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.3"],
+[style*=" color: rgba(67, 181, 129, 0.3"] {
+    color: rgba(var(--gx-green), 0.3) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.2"],
+[style*=" color: rgba(67, 181, 129, 0.2"] {
+    color: rgba(var(--gx-green), 0.2) !important;
+}
+[style^="color: rgba(67, 181, 129, 0.1"],
+[style*=" color: rgba(67, 181, 129, 0.1"] {
+    color: rgba(var(--gx-green), 0.1) !important;
+}
+[style*="background-color: rgb(67, 181, 129)"],
+[style*="background: rgb(67, 181, 129)"],
+[style*="background-color: #43b581"],
+[style*="background: #43b581"],
+[style*="background-color: #43B581"],
+[style*="background: #43B581"],
+[background-color="rgb(67, 181, 129)"],
+[background="rgb(67, 181, 129)"],
+[background-color="#43b581"],
+[background="#43b581"],
+[background-color="#43B581"],
+[background="#43B581"] {
+    background-color: rgb(var(--gx-green)) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.9"],
+[style*="background: rgba(67, 181, 129, 0.9"] {
+    background-color: rgba(var(--gx-green), 0.9) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.8"],
+[style*="background: rgba(67, 181, 129, 0.8"] {
+    background-color: rgba(var(--gx-green), 0.8) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.7"],
+[style*="background: rgba(67, 181, 129, 0.7"] {
+    background-color: rgba(var(--gx-green), 0.7) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.6"],
+[style*="background: rgba(67, 181, 129, 0.6"] {
+    background-color: rgba(var(--gx-green), 0.6) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.5"],
+[style*="background: rgba(67, 181, 129, 0.5"] {
+    background-color: rgba(var(--gx-green), 0.5) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.4"],
+[style*="background: rgba(67, 181, 129, 0.4"] {
+    background-color: rgba(var(--gx-green), 0.4) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.3"],
+[style*="background: rgba(67, 181, 129, 0.3"] {
+    background-color: rgba(var(--gx-green), 0.3) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.2"],
+[style*="background: rgba(67, 181, 129, 0.2"] {
+    background-color: rgba(var(--gx-green), 0.2) !important;
+}
+[style*="background-color: rgba(67, 181, 129, 0.1"],
+[style*="background: rgba(67, 181, 129, 0.1"] {
+    background-color: rgba(var(--gx-green), 0.1) !important;
+}
+[style*="border-color: rgb(67, 181, 129)"],
+[style*="border-color: #43b581"],
+[style*="border-color: #43B581"],
+[border-color="rgb(67, 181, 129)"],
+[border-color="#43b581"],
+[border-color="#43B581"] {
+    border-color: rgb(var(--gx-green)) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.9"] {
+    border-color: rgba(var(--gx-green), 0.9) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.8"] {
+    border-color: rgba(var(--gx-green), 0.8) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.7"] {
+    border-color: rgba(var(--gx-green), 0.7) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.6"] {
+    border-color: rgba(var(--gx-green), 0.6) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.5"] {
+    border-color: rgba(var(--gx-green), 0.5) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.4"] {
+    border-color: rgba(var(--gx-green), 0.4) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.3"] {
+    border-color: rgba(var(--gx-green), 0.3) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.2"] {
+    border-color: rgba(var(--gx-green), 0.2) !important;
+}
+[style*="border-color: rgba(67, 181, 129, 0.1"] {
+    border-color: rgba(var(--gx-green), 0.1) !important;
+}
+[style*="stroke: rgb(67, 181, 129)"],
+[style*="stroke: #43b581"],
+[style*="stroke: #43B581"],
+[stroke="rgb(67, 181, 129)"],
+[stroke="#43b581"],
+[stroke="#43B581"] {
+    stroke: rgb(var(--gx-green)) !important;
+}
+[style*="fill: rgb(67, 181, 129)"],
+[style*="fill: #43b581"],
+[style*="fill: #43B581"],
+[fill="rgb(67, 181, 129)"],
+[fill="#43b581"],
+[fill="#43B581"] {
+    fill: rgb(var(--gx-green)) !important;
 }
 /*-- 6.2. General --*/
 /* UserProfile */
@@ -4505,6 +4964,24 @@ g[class*="focusStroke"] {
     border-radius: 0;
     background-color: var(--line-color);
 }
+/* GooseMod themes and plugins */
+#gm-settings-inject {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+    backdrop-filter: blur(var(--chat-background-blur)) !important;
+    border-left: solid 1px var(--line-color);
+    border-right: solid 1px var(--line-color);
+}
+.platform-web #gm-settings-inject {
+    border-right: none;
+}
+div[style*="background-color: var(--background-secondary); border-radius: 8px; box-sizing: border-box; padding: 12px; margin: 10px; width: 330px; height: 380px; position: relative; order:"] {
+    border-radius: 0 !important;
+    border: solid 1px var(--line-color);
+}
+div[style*="background-color: var(--background-secondary); border-radius: 8px; box-sizing: border-box; padding: 12px; margin: 10px; width: 330px; height: 380px; position: relative; order:"] > div[style*="border-radius: 8px 8px 0px 0px;"] {
+    border-radius: 0 !important;
+    border-bottom: solid 1px var(--line-color);
+}
 
 /*-- 6.3. Public Servers --*/
 /* Public button */
@@ -5782,6 +6259,10 @@ g[class*="focusStroke"] {
 .title-3qD0b-,
 .container-1r6BKw {
     border: solid 1px var(--line-color);
+}
+.headerBarContainer-31FKNA > .headerBarContainer-31FKNA {
+    border: none;
+    background-color: transparent !important;
 }
 .platform-web .title-3qD0b-,
 .platform-web .container-1r6BKw {
