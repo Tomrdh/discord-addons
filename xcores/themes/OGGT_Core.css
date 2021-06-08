@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "210";
+    --oggt-build: "211";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -4117,7 +4117,7 @@ span.roleColor-rz2vM0::after {
 }
 /* Discord watermark */
 .wordmarkWindows-1v0lYD {
-    padding: 8px 9px 3px;
+    padding: 5px 9px 6px;
 }
 .wordmarkWindows-1v0lYD > svg > path {
     fill: rgb(var(--accent-color-2));
