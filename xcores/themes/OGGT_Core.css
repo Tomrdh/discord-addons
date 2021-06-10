@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "211";
+    --oggt-build: "212";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1545,7 +1545,7 @@ body,
 }
 .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ,
 .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
-    background: none;
+    background: none !important;
 }
 .connectedAccount-36nQx7 {
     border-radius: 0;
@@ -1561,7 +1561,8 @@ body,
     border-top-color: rgb(var(--accent-color-1));
 }
 /* UserPopouts */
-#app-mount .userPopout-3XzG_A {
+#app-mount .userPopout-3XzG_A,
+#app-mount .userPopout-xaxa6l {
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1572,6 +1573,10 @@ body,
 .headerPlaying-j0WQBV,
 .topSectionPlaying-1J5E4n {
     background: linear-gradient(120deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
+}
+.activity-3v9l4T {
+    padding: 8px 16px;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
 }
 /* Header */
 /*.full-motion.app-focused .headerPlaying-j0WQBV,
@@ -1604,10 +1609,15 @@ body,
     background-color: rgb(var(--dark-background-color));
 }
 #app-mount .body-3iLsc4,
-#app-mount .footer-1fjuF6 {
+#app-mount .footer-1fjuF6,
+#app-mount .footer-1N3bR3 {
     background-color: rgb(var(--darker-background-color));
     color: rgba(var(--fullwhite-font), 0.8);
     border-top: solid 1px rgb(var(--accent-color-1));
+}
+.footer-1fjuF6,
+.footer-1N3bR3 {
+    padding-top: 12px;
 }
 #app-mount .headerNormal-T_seeN .headerName-fajvi9,
 #app-mount .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881 {
@@ -1617,18 +1627,24 @@ body,
 .profileBanner-j34RzR[style*="background-color"] {
     background-image: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)))
 }
-/* Usernotes */
+/* UserNotes */
 .note-3HfJZ5 .input-cIJ7To,
-.note-QfFU8y .input-cIJ7To {
+.note-QfFU8y .input-cIJ7To,
+.note-1MiCN7 .input-cIJ7To,
+.note-367eZJ .input-cIJ7To {
     color: rgb(var(--normal-hover-font));
     border: solid 1px rgb(var(--dark-background-color));
 }
 .note-3HfJZ5 .input-cIJ7To:hover,
-.note-QfFU8y .input-cIJ7To:hover {
+.note-QfFU8y .input-cIJ7To:hover,
+.note-1MiCN7 .input-cIJ7To:hover,
+.note-367eZJ .input-cIJ7To:hover {
     border-color: rgb(var(--accent-color-2));
 }
 .note-3HfJZ5 .input-cIJ7To:focus,
-.note-QfFU8y .input-cIJ7To:focus {
+.note-QfFU8y .input-cIJ7To:focus,
+.note-1MiCN7 .input-cIJ7To:focus,
+.note-367eZJ .input-cIJ7To:focus {
     border-color: rgb(var(--accent-color-1));
 }
 /* New user Wumpus tooltip */
@@ -6808,9 +6824,6 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 }
 .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected {
     background: rgb(var(--darker-background-color));
-}
-.footer-1fjuF6 {
-    padding-top: 12px;
 }
 .input-cIJ7To {
     border-radius: 0 !important;
