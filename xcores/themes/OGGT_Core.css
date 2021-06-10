@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "212";
+    --oggt-build: "213";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1686,7 +1686,8 @@ body,
     --cp-size: 20%;
 }
 /* Add role btn */
-#app-mount .userPopout-3XzG_A .actionButton-VzECiy {
+#app-mount .userPopout-3XzG_A .actionButton-VzECiy,
+#app-mount .userPopout-xaxa6l .actionButton-VzECiy {
     position: absolute;
     top: -21px;
     right: 6px;
@@ -1699,7 +1700,8 @@ body,
     border: none;
     opacity: 1 !important;
 }
-#app-mount .userPopout-3XzG_A .actionButton-VzECiy:after {
+#app-mount .userPopout-3XzG_A .actionButton-VzECiy:after,
+#app-mount .userPopout-xaxa6l .actionButton-VzECiy:after {
     content: "+";
     font-size: 20px;
     font-weight: 100;
@@ -6828,7 +6830,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .input-cIJ7To {
     border-radius: 0 !important;
     background-color: rgba(var(--darker-background-color), var(--other-transparency));
-    border-color: #00000030;
+    border-color: rgba(var(--dark-background-color), var(--other-transparency));
     transition: ease-in-out 200ms;
     transition-property: background, border;
 }
