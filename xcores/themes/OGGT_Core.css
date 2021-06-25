@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "213";
+    --oggt-build: "214";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2063,6 +2063,11 @@ body,
 .repliedMessage-VokQwo .inline {
     font-size: 0.67rem;
     line-height: 0.867rem;
+}
+.replyBar-1YLQ2F,
+.threadSuggestionBar-2ufK2Z,
+.attachedBars-tZDmyV {
+    background: transparent;
 }
 /* Local bot and replying */
 .localBot-GrCgVt:before,
@@ -4135,7 +4140,7 @@ span.roleColor-rz2vM0::after {
 }
 /* Discord watermark */
 .wordmarkWindows-1v0lYD {
-    padding: 5px 9px 6px;
+    padding: 8px 9px 6px;
 }
 .wordmarkWindows-1v0lYD > svg > path {
     fill: rgb(var(--accent-color-2));
@@ -4519,11 +4524,12 @@ g[class*="focusStroke"] {
 .controlIcon-3cRbti:hover {
     color: rgb(var(--normal-hover-font));
 }
-/* Auth screen */
+/* Old Auth screen */
 #app-mount .authBox-hW6HRx {
     background: rgb(var(--dark-background-color));
     border-radius: 0;
     color: rgb(var(--muted-font));
+    border: solid 1px var(--line-color);
 }
 .rightSplit-2US0xy {
     opacity: 0;
@@ -4537,6 +4543,20 @@ g[class*="focusStroke"] {
 .fallbackImage-31Sk4m {
     opacity: 0;
     display: none;
+}
+/* New Auth screen */
+.characterBackground-2itjYF {
+    overflow: hidden;
+}
+.characterBackground-2itjYF .artwork-1adZW0,
+.characterBackground-2itjYF .logo-1-AbdC {
+    display: none;
+}
+.wrapper-6URcxg {
+    border-top: solid 1px var(--line-color);
+}
+.verticalSeparator-3huAjp {
+    border-color: transparent;
 }
 /* Connecting screen */
 .container-16j22k {
