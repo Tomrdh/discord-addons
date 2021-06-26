@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "214";
+    --oggt-build: "215";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -3753,6 +3753,9 @@ code.inline {
 .icon-1DeIlz path {
     fill: rgb(var(--normal-font));
 }
+.iconLive-AtZKgD path {
+    fill: rgb(var(--gx-green));
+}
 .modeMuted-3osy7j .icon-1_QxNX path,
 .modeMuted-onO3r- .icon-1DeIlz path {
     fill: rgb(var(--muted-font));
@@ -3771,10 +3774,22 @@ code.inline {
 .mainContent-u_9PKf {
     cursor: default;
 }
-.channelNotice-1-XFjC {
+.channelNotice-1-XFjC,
+.channelNotice-2bJINM {
     border-top: solid 1px var(--line-color);
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+.channelNotice-2bJINM {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    margin-bottom: 16px;
+    border-bottom: none;
 }
 /* Announcement channels */
 .bumpBox-1r5p3c {
