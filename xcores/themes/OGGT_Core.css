@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "215";
+    --oggt-build: "216";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -2333,7 +2333,7 @@ body,
 /* SVG buttons */
 .toolbar-1t6TWx .icon-22AiRD {
     color: transparent;
-    stroke: rgb(var(--muted-font));
+    stroke: rgb(var(--normal-font));
 }
 .toolbar-1t6TWx .icon-22AiRD path[fill="#3ba55c"] {
     fill: transparent !important;
@@ -3866,6 +3866,9 @@ code.inline {
 .member-3-YXUe.selected-aXhQR6 span.roleColor-rz2vM0::after {
     border-color: currentColor;
 }
+.layout-2DM8Md .content-3QAtGj * {
+    z-index: 1;
+}
 span.roleColor-rz2vM0::after {
     content: "";
     background: transparent;
@@ -3876,6 +3879,7 @@ span.roleColor-rz2vM0::after {
     opacity: 1;
     left: 0;
     top: 0;
+    z-index: 0;
 }
 /* Memberlist private channels */
 .addMembersIcon-1Bz_VS {
@@ -5035,7 +5039,10 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     border-radius: 0 !important;
     border-bottom: solid 1px var(--line-color);
 }
-
+/* GM profile badges */
+.profileBadge-2niAfJ:before {
+    background-color: transparent;
+}
 /*-- 6.3. Public Servers --*/
 /* Public button */
 #bd-pub-button {
@@ -6079,17 +6086,37 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 #app-mount #MemberCount .membersGroup-v9BXpm {
     padding-top: 5px !important;
 }
-/* OldTitleBar */
+/* OldTitleBar and PersonalPins */
 .toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS .icon-22AiRD path {
-    stroke-width: 1.5 !important;
+    stroke-width: 1 !important;
 }
 .toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS .icon-22AiRD {
-    color: rgb(var(--normal-font)) !important;
-    stroke: transparent !important;
+    color: transparent !important;
+    stroke: rgb(var(--normal-font)) !important;
 }
 .toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS:hover .icon-22AiRD {
-    color: rgb(var(--normal-hover-font)) !important;
-    stroke: transparent !important;
+    color: transparent !important;
+    stroke: rgb(var(--normal-hover-font)) !important;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS.selected-1GqIat .icon-22AiRD {
+    color: transparent !important;
+    stroke: rgb(var(--accent-color-1)) !important;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS.selected-1GqIat:hover .icon-22AiRD {
+    color: transparent !important;
+    stroke: rgb(var(--accent-color-2)) !important;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS .icon-22AiRD path {
+    stroke: rgb(var(--normal-font)) !important;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS:hover .icon-22AiRD path {
+    stroke: rgb(var(--normal-hover-font)) !important;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS.selected-1GqIat .icon-22AiRD path {
+    stroke: rgb(var(--accent-color-1)) !important;
+}
+.toolbar-1t6TWx .iconWrapper-2OrFZ1.clickable-3rdHwn.cursorPointer-1tw4YS.selected-1GqIat:hover .icon-22AiRD path {
+    stroke: rgb(var(--accent-color-2)) !important;
 }
 /* PermissionsViewer */
 #permissions-modal-wrapper #permissions-modal {
