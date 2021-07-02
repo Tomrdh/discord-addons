@@ -3,7 +3,7 @@
 
 @import url(https://tomrdh.github.io/discord-addons/xcores/tools/TS_Core.css);
 :root {
-    --cos-build: "9";
+    --cos-build: "10";
     --theme-name: "ContextMenus Old Style";
 }
 .item-1tOPte.labelContainer-1BLJti.colorDefault-2K3EoJ.focused-3afm-j,
@@ -50,7 +50,9 @@
 }
 .colorDefault-2K3EoJ.focused-3afm-j .checkbox-3s5GYZ,
 .colorDefault-2K3EoJ.focused-3afm-j .radioSelection-1HmrQS,
-.colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj {
+.colorDefault-2K3EoJ.focused-3afm-j .subtext-13Lvrj,
+.colorDefault-2K3EoJ .checkbox-3s5GYZ,
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
     color: rgb(var(--accentcolor, 92, 111, 177)) !important;
 }
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
