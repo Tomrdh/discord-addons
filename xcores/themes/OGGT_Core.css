@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "216";
+    --oggt-build: "217";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -6620,7 +6620,7 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 /*~~ 11. Settings ~~*/
 .background-1QDuV2 {
     border-radius: 0;
-    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    background-color: rgb(var(--dark-background-color));
     padding: 0;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
     --cp-size: 16px;
@@ -6674,8 +6674,28 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
     height: 100%;
     opacity: 0.9;
 }
+.accountProfileCard-1XCH88 {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 0;
+    border: solid 1px var(--line-color);
+}
 .layer-3QrUeG {
     background: transparent;
+}
+.avatar-1uQSZT,
+.avatarUploaderInner-Oiob_P {
+    border: 7px solid rgb(var(--darker-background-color));
+    background-color: rgb(var(--darker-background-color));
+}
+.profileBannerPreview-3_l0Wd {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.banner-hcPdsd {
+    border-radius: 0;
 }
 #app-mount #bd-settings-sidebar .ui-tab-bar-item {
     color: rgb(var(--normal-font)) !important;
