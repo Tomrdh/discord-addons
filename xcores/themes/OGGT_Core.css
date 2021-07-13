@@ -47,11 +47,12 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "218";
+    --oggt-build: "219";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
     /* Background variables */
+    /* Common Backgrounds */
     --opera-gx-bg-1: url(https://cdn.discordapp.com/attachments/702611641530843186/759781662706892800/01.jpg);
     --opera-gx-bg-2: url(https://cdn.discordapp.com/attachments/702611641530843186/759781824011436062/02.jpg);
     --opera-gx-bg-3: url(https://cdn.discordapp.com/attachments/702611641530843186/759781832610152488/03.jpg);
@@ -68,6 +69,20 @@
     --opera-gx-bg-14: url(https://cdn.discordapp.com/attachments/702611641530843186/759781993486876682/14.jpg);
     --opera-gx-bg-15: url(https://cdn.discordapp.com/attachments/702611641530843186/759782008204689428/15.jpg);
     --opera-gx-bg-16: url(https://cdn.discordapp.com/attachments/702611641530843186/864585443777839124/16.jpg);
+    /* Default Dark Backgrounds */
+    --opera-gx-bg-17: url(https://cdn.discordapp.com/attachments/702611641530843186/864590128612376586/17.png); /* GX Classic */
+    --opera-gx-bg-18: url(https://cdn.discordapp.com/attachments/702611641530843186/864590132586086440/18.png); /* Ultraviolet */
+    --opera-gx-bg-19: url(https://cdn.discordapp.com/attachments/702611641530843186/864590137370083378/19.png); /* Frutti Di Mare */
+    --opera-gx-bg-20: url(https://cdn.discordapp.com/attachments/702611641530843186/864590150687260672/20.png); /* Purple Haze */
+    --opera-gx-bg-21: url(https://cdn.discordapp.com/attachments/702611641530843186/864590159236431942/21.png); /* Vaporwave */
+    --opera-gx-bg-22: url(https://cdn.discordapp.com/attachments/702611641530843186/864590165686485022/22.png); /* Rose Quartz */
+    --opera-gx-bg-23: url(https://cdn.discordapp.com/attachments/702611641530843186/864590172141387786/23.png); /* Coming Soon */
+    --opera-gx-bg-24: url(https://cdn.discordapp.com/attachments/702611641530843186/864590183264813106/24.png); /* Hackerman */
+    --opera-gx-bg-25: url(https://cdn.discordapp.com/attachments/702611641530843186/864590192257925130/25.png); /* Lambda */
+    --opera-gx-bg-26: url(https://cdn.discordapp.com/attachments/702611641530843186/864590199137107968/26.png); /* After Eight */
+    --opera-gx-bg-27: url(https://cdn.discordapp.com/attachments/702611641530843186/864590209161101362/27.png); /* Pay-To-Win */
+    --opera-gx-bg-28: url(https://cdn.discordapp.com/attachments/702611641530843186/864590216975089694/28.png); /* White Wolf */
+    /* Default Light Backgrounds (coming soon) */
 
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
 
