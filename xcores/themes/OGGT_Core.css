@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "217";
+    --oggt-build: "218";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -67,6 +67,7 @@
     --opera-gx-bg-13: url(https://cdn.discordapp.com/attachments/702611641530843186/759781973543092234/13.jpg);
     --opera-gx-bg-14: url(https://cdn.discordapp.com/attachments/702611641530843186/759781993486876682/14.jpg);
     --opera-gx-bg-15: url(https://cdn.discordapp.com/attachments/702611641530843186/759782008204689428/15.jpg);
+    --opera-gx-bg-16: url(https://cdn.discordapp.com/attachments/702611641530843186/864585443777839124/16.jpg);
 
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
 
