@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "219";
+    --oggt-build: "220";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -82,7 +82,19 @@
     --opera-gx-bg-26: url(https://cdn.discordapp.com/attachments/702611641530843186/864590199137107968/26.png); /* After Eight */
     --opera-gx-bg-27: url(https://cdn.discordapp.com/attachments/702611641530843186/864590209161101362/27.png); /* Pay-To-Win */
     --opera-gx-bg-28: url(https://cdn.discordapp.com/attachments/702611641530843186/864590216975089694/28.png); /* White Wolf */
-    /* Default Light Backgrounds (coming soon) */
+    /* Default Light Backgrounds */
+    --opera-gx-bg-29: url(https://cdn.discordapp.com/attachments/702611641530843186/864596062534238228/29.png); /* GX Classic */
+    --opera-gx-bg-30: url(https://cdn.discordapp.com/attachments/702611641530843186/864596066426028082/30.png); /* Ultraviolet */
+    --opera-gx-bg-31: url(https://cdn.discordapp.com/attachments/702611641530843186/864596070504071209/31.png); /* Frutti Di Mare */
+    --opera-gx-bg-32: url(https://cdn.discordapp.com/attachments/702611641530843186/864596074806902784/32.png); /* Purple Haze */
+    --opera-gx-bg-33: url(https://cdn.discordapp.com/attachments/702611641530843186/864596076857786388/33.png); /* Vaporwave */
+    --opera-gx-bg-34: url(https://cdn.discordapp.com/attachments/702611641530843186/864596079420768266/34.png); /* Rose Quartz */
+    --opera-gx-bg-35: url(https://cdn.discordapp.com/attachments/702611641530843186/864596083937378324/35.png); /* Coming Soon */
+    --opera-gx-bg-36: url(https://cdn.discordapp.com/attachments/702611641530843186/864596088638930944/36.png); /* Hackerman */
+    --opera-gx-bg-37: url(https://cdn.discordapp.com/attachments/702611641530843186/864596104641249301/37.png); /* Lambda */
+    --opera-gx-bg-38: url(https://cdn.discordapp.com/attachments/702611641530843186/864596108721389588/38.png); /* After Eight */
+    --opera-gx-bg-39: url(https://cdn.discordapp.com/attachments/702611641530843186/864596112823812157/39.png); /* Pay-To-Win */
+    --opera-gx-bg-40: url(https://cdn.discordapp.com/attachments/702611641530843186/864596119773642783/40.png); /* White Wolf */
 
     --gc-bg-1: url(https://cdn.discordapp.com/attachments/696044749228081285/729121097143812196/Screenshot_20200704-151116.jpeg);
 
