@@ -47,7 +47,7 @@
 /*~~ 2. Vars ~~*/
 :root {
     /* Theme Support */
-    --oggt-build: "220";
+    --oggt-build: "221";
     --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
     --theme-name: "Opera GX Gaming Theme";
 
@@ -1654,6 +1654,12 @@ body,
 /* UserProfileBanner */
 .profileBanner-j34RzR[style*="background-color"] {
     background-image: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)))
+}
+/* About Me Timestamps */
+.timestamp-1Dd_pn {
+    background-color: rgba(var(--accent-color-1), 0.3);
+    border-radius: 0;
+    padding: 0;
 }
 /* UserNotes */
 .note-3HfJZ5 .input-cIJ7To,
