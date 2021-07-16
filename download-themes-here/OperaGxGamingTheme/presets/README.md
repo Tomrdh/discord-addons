@@ -4,7 +4,7 @@ All the presets available with all the backgrounds and matching colors.
 
 ### [Click here to see more presets](https://github.com/Tomrdh/discord-addons/tree/master/custom-presets)
 
-Submitted by users
+Submitted by users!
 
 ## Previews:
 
