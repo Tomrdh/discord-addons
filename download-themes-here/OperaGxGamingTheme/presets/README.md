@@ -2,6 +2,10 @@
 
 All the presets available with all the backgrounds and matching colors.
 
+### [Click here to see more presets](https://github.com/Tomrdh/discord-addons/tree/master/custom-presets)
+
+Submitted by users
+
 ## Previews:
 
 ![01Classic.png](https://tomrdh.github.io/da-website/screenshots/oggt-previews/01Classic.png)
